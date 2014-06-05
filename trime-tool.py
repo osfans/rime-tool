@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
-import os, sqlite3, logging, collections, itertools
+import os, sqlite3, logging, collections, itertools, sys
 import yaml 
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
+
+schemas = sys.argv[1:]
+if len(schemas) == 0:
+    schemas = ["thaerv", "thaerv_ipa", "soutseu", "pinyin", "zhuyin"]
+    logging.info("使用默認方案集:%s", schemas)
+else:
+    logging.info("使用指定方案集:%s", schemas)
 
 DB = 'trime.db'
 if os.path.exists(DB): os.remove(DB)
@@ -49,7 +56,8 @@ cursor.execute(sql)
 
 dicts=set()
 count = 0
-for fn in ("thaerv", "thaerv_ipa", "soutseu", "pinyin", "zhuyin"):
+
+for fn in schemas:
     yy = yaml.load(open("data/%s.schema.yaml" % fn))
     l = [count]
     dicts.add(yy["schema"]["dictionary"])
