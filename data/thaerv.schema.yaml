@@ -1,0 +1,75 @@
+# TRIME schema
+# encoding: utf-8
+
+schema:
+  name: "泰如拼音"
+  version: "2014.6"
+  author:
+    - hisahara
+  description: "http://thaerv.8048.my5m.com/"
+  dictionary: thaerv
+  alphabet: "[a-z0-8]+"
+  syllable: "([pmftnlkhcsr]?[shrg]*)?([zviuy]|e[ur]?)?([aeou]|ae?|ei?)?((?<=[aeuoi])[nh])?([0-8])?"
+  keyboard:
+    - p|t|k|tr|ts|c|i|a|1|3|ph|th|kh|thr|tsh|ch|u|e|2|[57]|m|n|ng|sr|s|sh|y|o|ae|[68]|f|l|h|r|z|v|n|h|eu|er|泰如|全拼
+    - ""
+  pyspell:
+    - /\d+(\d)\b/$1/
+    - /h5/h7/
+    - /h6/h8/
+    - /(ch?|sh)([aeou])/$1i$2/
+  py2ipa:
+    - /\bh/x/
+    - /\bts?hr/ʈʂʰ/
+    - /\bts?r/ʈʂ/
+    - /\bsr/ʂ/
+    - /\br/ɻ/
+    - /\bts/ʦ/
+    - /\bsh/ɕ/
+    - /\bc/ʨ/
+    - /\bng/ŋ/
+    - /(ɻ|ʂ|ʂʰ)(?=\d)/$1ʅ/
+    - /(?<=[aeiouy])h/ʔ/
+    - xlit/h|v|z|ae|er|eu|e|o/ʰ|ʋ|ɿ|ɛ|ɚ|ɤɯ|ə|ɔ/
+    - /(?<=[iuɛ])n/̃/
+    - /(?<=[aəɔ])n/ŋ/
+    - /a(?![ŋʔ])/ɑ/
+    - /i(?=[ʔ̃])/ɪ/
+    - /u(?=\b|[\dʔ̃])/ʊ/
+    - /iəŋ/iŋ/
+  ipa2py:
+    - /\bŋ/ng/
+    - /iŋ/ien/
+    - /[ŋ̃]/n/
+    - /[ʔʰx]/h/
+    - /ʂ/sr/
+    - /ʈ/t/
+    - /ʦ/ts/
+    - /tsrh/thr/
+    - /tsr/tr/
+    - /ʨ/c/
+    - /ɕ/sh/
+    - /[ʊɯ]/u/
+    - /ʋ/v/
+    - /ɔ/o/
+    - /ɑ/a/
+    - /ɛ/ae/
+    - /[əɤ]/e/
+    - /ɚ/er/
+    - /i([ʔ̃])/ɪ$1/
+    - /ɪ/i/
+    - /ɻ/r/
+    - /ʅ//
+    - /ɿ/z/
+  ipafuzzy:
+    - 陽去歸陰平 (6⇒1)/1/6/
+    - 訓瞬不分 (sru-⇒xy-)/ɕy/ʂu/
+    - 訓瞬不分 (sru-⇒xy-)/ʨ(ʰ?)y/ʈʂ$1u/
+    - 翹舌歸平舌 (sr⇒s)/ʦ/ʈʂ/
+    - 翹舌歸平舌 (sr⇒s)/s/ʂ/
+    - 年連不分 (n⇔l) /\bn/l/
+    - 年連不分 (n⇔l) /\bl/n/
+    - 力列不分 (ieh⇔ih) /iəʔ/ɪʔ/
+    - 力列不分 (ieh⇔ih) /ɪʔ/iəʔ/
+    - 零連不分 (ien⇔in) /iŋ/ɪ̃/
+    - 零連不分 (ien⇔in) /ɪ̃/iŋ/

@@ -1,0 +1,116 @@
+#!/usr/bin/env python3
+import os, sqlite3, logging, collections, itertools
+import yaml 
+
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
+
+DB = 'trime.db'
+if os.path.exists(DB): os.remove(DB)
+conn = sqlite3.connect(DB)
+cursor = conn.cursor()
+
+logging.info("essay詞庫")
+cursor.execute("CREATE VIRTUAL TABLE phrase USING fts3(hz)")
+d=collections.defaultdict(int)
+for i in open("data/essay.txt"):
+    i=i.strip()
+    if i:
+        hz,weight=i.split()
+        d[hz]=int(weight)
+for i in sorted(filter(lambda x: len(x) > 1 and d[x] > 600, d.keys()), key=lambda x: d[x], reverse = True):
+    cursor.execute('insert into phrase values (?)', (i,))
+
+logging.info("opencc簡化")
+cursor.execute("CREATE VIRTUAL TABLE opencc USING fts3(t,s)")
+for fn in ("opencc/TSCharacters.txt", "opencc/TSPhrases.txt"):
+    for i in open(fn):
+        i=i.strip()
+        if i: cursor.execute('insert into opencc values (?,?)', i.split('\t'))
+
+logging.info("方案")
+sql = """
+CREATE TABLE schema (
+    "_id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT NOT NULL,
+    "version" TEXT,
+    "author" TEXT,
+    "description" TEXT,
+    "dictionary" TEXT NOT NULL,
+    "phrase" TEXT,
+    "alphabet" TEXT,
+    "syllable" TEXT,
+    "keyboard" TEXT,
+    "pyspell" TEXT,
+    "py2ipa" TEXT,
+    "ipa2py" TEXT,
+    "ipafuzzy" TEXT
+)"""
+cursor.execute(sql)
+
+dicts=set()
+count = 0
+for fn in ("thaerv", "thaerv_ipa", "soutseu", "pinyin", "zhuyin"):
+    yy = yaml.load(open("data/%s.schema.yaml" % fn))
+    l = [count]
+    dicts.add(yy["schema"]["dictionary"])
+    for i in "name,version,author,description,dictionary,phrase,alphabet,syllable,keyboard,pyspell,py2ipa,ipa2py,ipafuzzy".split(","):
+        s = yy["schema"].get(i,"")
+        if type(s) == list: s = "\n".join(map(lambda x: x if type(x)==str else "",s))
+        l.append(s)
+    cursor.execute('insert into schema values (?,?,?,?,?,?,?,?,?,?,?,?,?,?)', l)
+    count += 1
+    logging.info("\t%s", yy["schema"]["name"])
+
+logging.info("碼表")
+
+for fn in map(lambda x: "data/%s.dict.yaml" % x, dicts):
+    hz = []
+    ps = []
+    zd = collections.defaultdict(list)
+    mbStart = "..."
+    isMB = False
+    y = ""
+    phrase = set()
+
+    for line in open(fn):
+        if not isMB:
+            y+=line
+        line = line.strip()
+        if line.startswith(mbStart):
+            isMB = True
+            yy=yaml.load(y)
+            if yy["use_preset_vocabulary"]:
+                phrase = set(filter(lambda x:1<len(x)<=yy.get("max_phrase_length", 6) and d[x]>=yy.get("min_phrase_weight", 1000), d.keys()))
+            continue
+        if isMB and line and not line.startswith("#"):
+            fs = line.split("\t")
+            l = len(fs)
+            if l == 1:
+                phrase.add(fs[0])
+            elif l > 1:
+                hz.append(fs[0:2])
+                zd[fs[0]].append(fs[1])
+                if l == 3:
+                    if not fs[2].startswith("0"):
+                        zd[fs[0]].append(fs[1])
+                        if "%" not in fs[2]:
+                            d[fs[0]] = int(fs[2])
+
+    for p in phrase:
+        pp = list(map(lambda x: zd.get(x, False), p))
+        if all(pp):        
+            for i in itertools.product(*pp):
+                hz.append([p," ".join(i)])
+
+    if yy.get("sort", "by_weight") == "by_weight":
+        hz.sort(key=lambda x: d[x[0]] if d[x[0]] > 0 else 1000, reverse = True)
+
+    table = yy.get("name", os.path.basename(fn).split(".")[0])
+    cursor.execute("CREATE VIRTUAL TABLE %s USING fts3(hz,py)" % table)
+    for i in hz:
+        sql = 'insert into %s values (?, ?)' % table
+        cursor.execute(sql, i)
+    logging.info("\t%s 詞條数 %d", table, len(hz))
+
+conn.commit()
+conn.close()

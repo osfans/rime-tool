@@ -1,0 +1,63 @@
+# TRIME schema
+# encoding: utf-8
+
+schema:
+  name: 蘇州吳拼
+  version: "2013.02.23"
+  author: 
+    - 寒寒豆
+  description: |
+    http://www.suzhouhua.org/home/yx.html
+  dictionary: suzhou
+  syllable: "([bcdfghjklmnprstvwz]|tsh?|ng|[ptkcsg]h)?([aoeiuy]*)?((?<=[aeio])[nh])?"
+  keyboard:
+    - ts|gh|ng|aeh|aon|au|eu|oe|yu|iu
+    - p|ph|b|m|f|v|u|r|aon|aeh|t|th|d|n|l|w|a|au|an|ah|k|kh|g|ng|h|gh|e|eu|en|eh|c|ch|j|sh|y|iu|i|ie|in|ih|ts|tsh|s|z|'|yu|o|oe|on|oh|蘇州|三拼
+  pyspell:
+    - /\b(ch?|j|sh|ny)([aeou])/$1i$2/
+    - /\bni/nyi/
+    - /\bq/ch/
+    - /\bx/sh/
+    - /([^bpmfviayeoh]|[^p]h|\bh?)u\b/$1ou/
+    - /ou\B/u/
+  py2ipa:
+    - /\bts/ʦ/
+    - /\bsh/ɕ/
+    - /\bzh/ʑ/
+    - /\bj/ʥ/
+    - /\bny/ȵ/
+    - /\bc/ʨ/
+    - /\bng/ŋ/
+    - /\bgh/ɦ/
+    - /\bwu?/ɦu/
+    - /\byi?/ɦi/
+    - /y\b/ɿ/
+    - /([ptkʨʦ])h/$1ʰ/
+    - /ah/ɑʔ/
+    - /aeh/aʔ/
+    - /h\b/ʔ/
+    - /yu\b/ʮ/
+    - /au\b/æ/
+    - /ao/ɑ/
+    - /r/ɚ/
+    - /eu/øʏ/
+    - /e([nʔ])/ə$1/
+    - /oe/ø/
+    - /ou/əu/
+    - /on/oŋ/
+    - /([ɑa])n/$1̃/
+    - /iu/y/
+    - /yən/yn/
+    - /ie/iɪ/
+    - /e\b/E/
+    - /(\b[ɕʥȵʨɦ]?ʰ?i)([nʔ])/$1ə$2/
+  ipafuzzy:
+    - 打黨不分 (aon⇒an)/ã/ɑ̃/
+    - 襪麥不分 (aeh⇒ah)/ɑʔ/aʔ/
+    - 官幹不分 (uoe⇒oe)/([^ui])ø/$1uø/
+    - 丘圈不分 (ioe⇔ieu)/iøʏ/iø/
+    - 丘圈不分 (ioe⇔ieu)/iø([^ʏ]?)/iøʏ$1/
+    - 資豬不分 (yu⇒y)/ɿ/ʮ/
+    - 尖團合併 (tsi,tshi,si⇒ci,chi,shi)/ɕi/si/
+    - 尖團合併 (tsi,tshi,si⇒ci,chi,shi)/ʑi/zi/
+    - 尖團合併 (tsi,tshi,si⇒ci,chi,shi)/ʨ(ʰ?)i/ʦ$1i/

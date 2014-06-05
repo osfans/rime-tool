@@ -1,0 +1,41 @@
+# TRIME schema
+# encoding: utf-8
+
+schema:
+  name: 臺灣拼音
+  description: |
+    帶調拼音
+    輸入pin1 yin1 或 pīn yīn 都可以
+  dictionary: taiwan
+  phrase: phrase
+  alphabet: "[a-z1-5üāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüê]+"
+  syllable: "([bpmfdtnlgkhjqxryw]|[zcs]h?)?([iuü])?([āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüê])?([aoeiu])*(ng?|r)?([0-5])?"
+  keyboard:
+    - 1|2|3|4|5|zh|ch|sh|ng|er|q|w|[eēéěèê]|r|t|y|[uūúǔù]|[iīíǐì]|[oōóǒò]|p|[aāáǎà]|s|d|f|g|h|j|k|l|z|x|c|[üǖǘǚǜ]|b|n|m|'|臺灣|拼音
+  pyspell:
+    - /\d+(\d)\b/$1/
+  py2ipa:
+    - /[āēīōūǖ].*\b/$01/
+    - /[áéíóúǘ].*\b/$02/
+    - /[ǎěǐǒǔǚ].*\b/$03/
+    - /[àèìòùǜ].*\b/$04/
+    - /[āáǎà]/a/
+    - /[ēéěè]/e/
+    - /[īíǐì]/i/
+    - /[ōóǒò]/o/
+    - /[ūúǔù]/u/
+    - /[ǖǘǚǜ]/ü/
+    - /iu/iou/
+    - /ui/uei/
+    - /([jqx])u/$1ü/
+    - /([zcsr]h?)i/$1/
+    - /yu/ü/
+    - /yi?/i/
+    - /wu?/u/
+    - /io(?=ng)/ü/
+    - /o(?=ng)/u/
+    - /([iuü])n/$1en/
+    - /([iü])e(\d)?\b/$1ê$2/
+    - /\d+(\d)\b/$1/
+    - xlit/ang|eng|ai|ei|ao|ou|an|en|er|zh|ch|sh|b|p|m|f|d|t|n|l|g|k|h|j|q|x|r|z|c|s|a|o|e|ê|i|u|ü|0|5|1|2|3|4/ㄤ|ㄥ|ㄞ|ㄟ|ㄠ|ㄡ|ㄢ|ㄣ|ㄦ|ㄓ|ㄔ|ㄕ|ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄎ|ㄏ|ㄐ|ㄑ|ㄒ|ㄖ|ㄗ|ㄘ|ㄙ|ㄚ|ㄛ|ㄜ|ㄝ|ㄧ|ㄨ|ㄩ|˙|˙||ˊ|ˇ|ˋ/
+
