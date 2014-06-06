@@ -60,6 +60,8 @@ count = 0
 for fn in schemas:
     yy = yaml.load(open("data/%s.schema.yaml" % fn))
     l = [count]
+    if "dictionary" not in yy["schema"] and "translator" in yy:
+        yy["schema"]["dictionary"] = yy["translator"]["dictionary"]
     dicts.add(yy["schema"]["dictionary"])
     for i in "name,version,author,description,dictionary,phrase,alphabet,syllable,keyboard,pyspell,py2ipa,ipa2py,ipafuzzy".split(","):
         s = yy["schema"].get(i,"")
@@ -73,7 +75,6 @@ logging.info("碼表")
 
 for fn in map(lambda x: "data/%s.dict.yaml" % x, dicts):
     hz = []
-    ps = []
     zd = collections.defaultdict(list)
     mbStart = "..."
     isMB = False
@@ -97,13 +98,15 @@ for fn in map(lambda x: "data/%s.dict.yaml" % x, dicts):
                 phrase.add(fs[0])
             elif l > 1:
                 hz.append(fs[0:2])
-                zd[fs[0]].append(fs[1])
-                if l == 3:
+                if len(fs[0]) > 1 and fs[0] in phrase:
+                    phrase.remove(fs[0])
+                if l == 2:
+                    zd[fs[0]].append(fs[1])
+                elif l == 3:
                     if not fs[2].startswith("0"):
                         zd[fs[0]].append(fs[1])
                         if "%" not in fs[2]:
                             d[fs[0]] = int(fs[2])
-
     for p in phrase:
         pp = list(map(lambda x: zd.get(x, False), p))
         if all(pp):        
