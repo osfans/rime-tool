@@ -16,8 +16,14 @@ schema:
       * opencc - 開放中文轉換
   dependencies:
     - stroke
-  alphabet: "[a-z]+"
-  syllable: "([bpmfdtnlgkhjqxryw]|[zcs]h?)?([iu])?([aoeiu])*(ng?|r)?"
+  alphabet: "[a-zü]+"
+  syllable: "([bpmfdtnlgkhjqxryw]|[zcs]h?)?([iuü])?([aoeiu])*([aoeiu]ng?|er)?"
+  keyboard:
+    - q|w|e|r|t|y|u|i|o|p|a|s|d|f|g|h|j|k|l|z|x|c|ü|b|n|m|'|朙月
+  py2ipa:
+    - /ü/v/
+  ipa2py:
+    - /v/ü/
 
 switches:
   - name: ascii_mode
