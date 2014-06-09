@@ -1,9 +1,15 @@
 ## 碼表格式說明
-trime碼表由多套輸入方案构成。
-每套輸入方案包含一個「方案定義」和一個「詞典」文件，其中不同的方案可以公用同一個詞典文件。
+- trime碼表由多套輸入方案構成。
+- 每套輸入方案包含一個「方案定義」和一個「詞典」文件。不同方案可公用詞典文件。
+- 推薦詞典文件使用正體中文，輸入法可設置輸出簡體。
+- 在拼音方案不唯一的情況下，詞典文件推薦使用國際音標方案編碼。
+
+### 相關知識
+- [yaml]：一種數據描述語言，「方案定義」和「詞典」文件均使用該語言編寫而成。
+- [正則表達式]：用於音節切分和各種規則轉換。java中使用的是ICU實現的正則表達式。
 
 ### 方案定義文件
-方案定義，命名爲 <方案標識>.schema.yaml，是一份包含輸入方案配置信息的 YAML 文檔。 
+方案定義，命名爲 <方案標識>.schema.yaml，是一份包含輸入方案配置信息的YAML文檔。 
 
     # TRIME schema
     # encoding: utf-8
@@ -32,18 +38,18 @@ trime碼表由多套輸入方案构成。
       ipafuzzy:
         - 陽去歸陰平 (6⇒1)/1/6/
 
-- name: 方案名，
-- version: 版本號，在發佈新版前請確保已陞版本號
+- name: 方案名
+- version: 版本號
 - author: 發明人、撰寫者。如果您對方案做出了修改，請保留原作者名，並將自己的名字加在後面
 - description: 簡要描述方案歷史、碼表來源、方案規則等
 - dictionary： 方案使用的詞典文件名
-- alphabet: 方案使用的所有字母
-- syllable: 由字母構成的合法音節，用於音節自動切分
-- keyboard: 鍵盤佈局，支持27、37、40、50鍵，默認為37鍵
-- pyspell: 拼音的拼写規則
-- py2ipa: 拼音轉音標的規則
-- ipa2py: 音標轉拼音的規則
-- ipafuzzy: 模糊音的規則
+- alphabet: 方案使用的字母。正則表達式。
+- syllable: 由字母構成的合法音節，用於音節自動切分。正則表達式。
+- keyboard: 鍵盤佈局，支持27、37、40、50鍵，默認爲37鍵。支持多鍵盤，如全拼、雙拼等。
+- pyspell: 拼音的拼写規則。用於規範拼寫。如，可將ja自動轉換爲jia。
+- py2ipa: 拼音轉音標的規則。檢索時使用。
+- ipa2py: 音標轉拼音的規則。反查顯示時使用。
+- ipafuzzy: 模糊音的規則。檢索時使用。
 
 ### 詞典文件
 完全兼容[Rime的詞典文件]，命名爲 <詞典名>.dict.yaml。包含一份碼表及對應的規則說明。詞典文件的前半部份爲一份 YAML 文檔： 
@@ -69,4 +75,6 @@ trime碼表由多套輸入方案构成。
 - max_phrase_length: 配合<code>use_preset_vocabulary</code>，設定導入詞條最大詞長
 - min_phrase_weight: 配合<code>use_preset_vocabulary</code>，設定導入詞條最小詞頻
 
+[yaml]: http://yaml.org/
+[正則表達式]: http://developer.android.com/reference/java/util/regex/Pattern.html
 [Rime的詞典文件]: https://code.google.com/p/rimeime/wiki/RimeWithSchemata#碼表與詞典
