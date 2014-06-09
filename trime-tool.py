@@ -117,9 +117,9 @@ for fn in map(lambda x: "data/%s.dict.yaml" % x, dicts):
         hz.sort(key=lambda x: d[x[0]] if d[x[0]] > 0 else 1000, reverse = True)
 
     table = yy.get("name", os.path.basename(fn).split(".")[0])
-    cursor.execute("CREATE VIRTUAL TABLE %s USING fts3(hz,py)" % table)
+    cursor.execute("CREATE VIRTUAL TABLE %s USING fts3(hz, py, pl INTEGER DEFAULT (0))" % table)
     for i in hz:
-        sql = 'insert into %s values (?, ?)' % table
+        sql = 'insert into %s values (?, ?, 0)' % table
         cursor.execute(sql, i)
     logging.info("\t%s 詞條数 %d", table, len(hz))
 
