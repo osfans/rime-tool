@@ -11,6 +11,8 @@
   - 已root的手機可以直接<code>adb push trime.db/data/data/com.osfans.trime/databases/</code>
   - 放到trime的源代碼的assests目錄下，重新編譯生成新apk
 
+- [碼表格式說明](data/README.md)
+
 ### 目錄結構
 - data/:
   - essay.txt: [Rime]中的【八股文】預設詞彙表
