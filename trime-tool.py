@@ -88,7 +88,7 @@ for fn in map(lambda x: "data/%s.dict.yaml" % x, dicts):
         if line.startswith(mbStart):
             isMB = True
             yy=yaml.load(y)
-            if yy["use_preset_vocabulary"]:
+            if yy.get("use_preset_vocabulary", False):
                 phrase = set(filter(lambda x:1<len(x)<=yy.get("max_phrase_length", 6) and d[x]>=yy.get("min_phrase_weight", 1000), d.keys()))
             continue
         if isMB and line and not line.startswith("#"):
