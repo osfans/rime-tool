@@ -16,6 +16,7 @@ schema:
     - pinyin_simp
   alphabet: "[a-y]+"
   syllable: "[a-y]{1,4}"
+  auto_select_syllable: "[a-y]{4}"
   keyboard:
     - q|w|e|r|t|y|u|i|o|p|a|s|d|f|g|h|j|k|l|z|x|c|v|b|n|m|？|五筆|98版
 
