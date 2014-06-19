@@ -17,15 +17,13 @@ conn = sqlite3.connect(DB)
 cursor = conn.cursor()
 
 logging.info("essay詞庫")
-cursor.execute("CREATE VIRTUAL TABLE phrase USING fts3(hz)")
+hasPhrase = False
 d=collections.defaultdict(int)
 for i in open("data/essay.txt"):
     i=i.strip()
     if i:
         hz,weight=i.split()
         d[hz]=int(weight)
-for i in sorted(filter(lambda x: len(x) > 1 and d[x] > 600, d.keys()), key=lambda x: d[x], reverse = True):
-    cursor.execute('insert into phrase values (?)', (i,))
 
 logging.info("opencc簡化")
 cursor.execute("CREATE VIRTUAL TABLE opencc USING fts3(t,s)")
@@ -65,6 +63,7 @@ for fn in schemas:
     dicts.add(yy["schema"]["dictionary"])
     for i in "name,version,author,description,dictionary,phrase,alphabet,syllable,keyboard,pyspell,py2ipa,ipa2py,ipafuzzy".split(","):
         s = yy["schema"].get(i,"")
+        if i == "phrase" and s == "phrase": hasPhrase = True
         if type(s) == list: s = "\n".join(map(lambda x: x if type(x)==str else "",s))
         l.append(s)
     cursor.execute('insert into schema values (?,?,?,?,?,?,?,?,?,?,?,?,?,?)', l)
@@ -122,6 +121,12 @@ for fn in map(lambda x: "data/%s.dict.yaml" % x, dicts):
         sql = 'insert into %s values (?, ?, 0)' % table
         cursor.execute(sql, i)
     logging.info("\t%s 詞條数 %d", table, len(hz))
+
+if hasPhrase:
+    logging.info("聯想詞庫")
+    cursor.execute("CREATE VIRTUAL TABLE phrase USING fts3(hz)")
+    for i in sorted(filter(lambda x: len(x) > 1 and d[x] > 600, d.keys()), key=lambda x: d[x], reverse = True):
+        cursor.execute('insert into phrase values (?)', (i,))
 
 conn.commit()
 conn.close()
