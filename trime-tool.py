@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, sqlite3, logging, collections, itertools, sys
+import os, sqlite3, logging, collections, itertools, sys, re
 import yaml 
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
@@ -117,9 +117,15 @@ for fn in map(lambda x: "data/%s.dict.yaml" % x, dicts):
         hz.sort(key=lambda x: d[x[0]] if d[x[0]] > 0 else 1000, reverse = True)
 
     table = yy.get("name", os.path.basename(fn).split(".")[0])
-    cursor.execute("CREATE VIRTUAL TABLE %s USING fts3(hz, py, pl INTEGER DEFAULT (0))" % table)
+    cursor.execute('CREATE VIRTUAL TABLE %s USING fts3(hz, py, pl INTEGER DEFAULT (0), tokenize=simple "separators=@")' % table)
+    py2ipa = yy.get("py2ipa", [])
     for i in hz:
         sql = 'insert into %s values (?, ?, 0)' % table
+        for j in py2ipa:
+            r = re.split("(?<!\\\\)/", j)
+            if r[0] == "xlit":
+                for a,b in zip(r[1].replace("\\",""),r[2].replace("\\","")):
+                    i[1]=i[1].replace(a,b)
         cursor.execute(sql, i)
     logging.info("\t%s 詞條数 %d", table, len(hz))
 
