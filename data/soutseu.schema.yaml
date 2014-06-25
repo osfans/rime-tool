@@ -10,6 +10,7 @@ schema:
     http://www.suzhouhua.org/home/yx.html
   dictionary: suzhou
   syllable: "([bcdfghjklmnprstvwz]|tsh?|ng|[ptkcsg]h)?([aoeiuy]*)?((?<=[aeio])[nh])?"
+  delimiter: "'，"
   keyboard:
     - ts|gh|ng|aeh|aon|au|eu|oe|yu|iu
     - p|ph|b|m|f|v|u|r|aon|aeh|t|th|d|n|l|w|a|au|an|ah|k|kh|g|ng|h|gh|e|eu|en|eh|c|ch|j|sh|y|iu|i|ie|in|ih|ts|tsh|s|z|'|yu|o|oe|on|oh|蘇州|三拼

@@ -10,6 +10,7 @@ schema:
   dictionary: thaerv
   alphabet: "[a-z0-8ʦŋʨɻɕʈʂʰʅɿʋiʊyaɑɪəɛɔɤɚɯŋ̃ʔ']+"
   syllable: "([pmftʈnlkxsʦŋʨɻɕ]?ʂ?ʰ?)?([ʅɿʋiuʊyaɑɪəɛɔɤɚ]*)?([iɯŋ̃ʔ])?([0-8])?"
+  delimiter: "'，"
   keyboard:
     - p|t|k|ʈʂ|ʦ|ʨ|i|a|1|3|pʰ|tʰ|kʰ|ʈʂʰ|ʦʰ|ʨʰ|ʊ|ə|2|[57]|m|n|ŋ|ʂ|s|ɕ|y|ɔ|ɛ|[68]|f|l|x|[ɻʅ]|ɿ|ʋ|̃|ʔ|ɤɯ|ɚ|泰如|音標
   pyspell:

@@ -50,10 +50,6 @@ engine:
     - reverse_lookup_translator
     - table_translator
 
-speller:
-  delimiter: " ;'"
-  max_code_length: 4
-
 translator:
   dictionary: wubi98s
   enable_charset_filter: true
