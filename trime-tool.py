@@ -19,7 +19,7 @@ cursor = conn.cursor()
 logging.info("essay詞庫")
 hasPhrase = False
 d=collections.defaultdict(int)
-for i in open("data/essay.txt"):
+for i in open("data/essay.txt", encoding="U8"):
     i=i.strip()
     if i:
         hz,weight=i.split()
@@ -28,7 +28,7 @@ for i in open("data/essay.txt"):
 logging.info("opencc簡化")
 cursor.execute("CREATE VIRTUAL TABLE opencc USING fts3(t,s)")
 for fn in ("opencc/TSCharacters.txt", "opencc/TSPhrases.txt"):
-    for i in open(fn):
+    for i in open(fn, encoding="U8"):
         i=i.strip()
         if i: cursor.execute('insert into opencc values (?,?)', i.split('\t'))
 
@@ -58,7 +58,7 @@ dicts=set()
 count = 0
 
 for fn in schemas:
-    yy = yaml.load(open("data/%s.schema.yaml" % fn))
+    yy = yaml.load(open("data/%s.schema.yaml" % fn, encoding="U8"))
     l = [count]
     if "dictionary" not in yy["schema"] and "translator" in yy:
         yy["schema"]["dictionary"] = yy["translator"]["dictionary"]
@@ -82,7 +82,7 @@ for fn in map(lambda x: "data/%s.dict.yaml" % x, dicts):
     y = ""
     phrase = set()
 
-    for line in open(fn):
+    for line in open(fn, encoding="U8"):
         if not isMB:
             y+=line
         line = line.strip()
