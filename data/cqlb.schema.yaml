@@ -1,0 +1,33 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: cqlb
+  name: "超强两笔"
+  version: "0.1"
+  author:
+    - 二笔输入法发明人：陈劲松
+    - 超强两笔编码作者：付东升
+  description: |
+    码表源自 20120309版本
+
+  dependencies:
+    - pinyin_simp
+  alphabet: "[a-z;,\\./]"
+  syllable: ".{1,4}"
+  auto_select_syllable: "u.|v([p-t].|[^p-t])|.{4}|[,\\./;]"
+  keyboard:
+    - q|w|e|r|t|y|u|i|o|p|a|s|d|f|g|h|j|k|l|;|z|x|c|v|b|n|m|,|.|/|超|
+    - 1|2|3|4|5|6|7|8|9|0|!|@|#|$|%|^|&|*|(|)|\[|\]|{|}|/|=|\\|-|+|_|超|
+
+  py2ipa:
+    - xlit/,.\/;/，。、；/
+    - /^.{3}$/$0*/
+    - /^[uv].*$/$0*/
+
+  ipa2py:
+    - xlit/，。、；/,.\/;/
+
+translator:
+  dictionary: cqlb
+
