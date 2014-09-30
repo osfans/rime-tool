@@ -13,20 +13,162 @@ schema:
 
   dependencies:
     - pinyin_simp
-  alphabet: "[a-z;,\\./]"
+  alphabet: "[a-z；，。、]"
   syllable: ".{1,4}"
-  auto_select_syllable: "u.|v([p-t].|[^p-t])|.{4}|[,\\./;]"
-  keyboard:
-    - q|w|e|r|t|y|u|i|o|p|a|s|d|f|g|h|j|k|l|;|z|x|c|v|b|n|m|,|.|/|超|
-    - 1|2|3|4|5|6|7|8|9|0|!|@|#|$|%|^|&|*|(|)|\[|\]|{|}|/|=|\\|-|+|_|超|
+  auto_select_syllable: "u.|v([p-t].|[^p-t])|.{4}|[；，。、]"
 
   py2ipa:
-    - xlit/,.\/;/，。、；/
     - /^.{3}$/$0*/
     - /^[uv].*$/$0*/
 
-  ipa2py:
-    - xlit/，。、；/,.\/;/
+  keyboard:
+  - mode: 0
+    keys:
+    - {symbol: '1', text: q}
+    - {symbol: '2', text: w}
+    - {symbol: '3', text: e}
+    - {symbol: '4', text: r}
+    - {symbol: '5', text: t}
+    - {symbol: '6', text: y}
+    - {symbol: '7', text: u}
+    - {symbol: '8', text: i}
+    - {symbol: '9', text: o}
+    - {symbol: '0', text: p}
+    - {symbol: '@', text: a}
+    - {symbol: '#', text: s}
+    - {symbol: "￥", text: d}
+    - {symbol: '%', text: f}
+    - {symbol: "……", text: g}
+    - {symbol: '&', text: h}
+    - {symbol: "（", text: j}
+    - {symbol: "）", text: k}
+    - {symbol: "！", text: l}
+    - {symbol: "：", text: '；'}
+    - {symbol: '+', text: z}
+    - {symbol: '-', text: x}
+    - {symbol: '*', text: c}
+    - {symbol: '/', text: v}
+    - {symbol: "——", text: b}
+    - {symbol: "“", text: n}
+    - {symbol: "”", text: m}
+    - {symbol: "《", text: "，"}
+    - {symbol: "》", text: "。"}
+    - {symbol: "？", text: "、"}
+    - {label: "中", switch: 1, text: <switch>, width: 12}
+    - {text: "<shift>", width: 12}
+    - {label: "符", switch: 2, text: <switch>, width: 12}
+    - {label: "超强两笔", preview: "␣",text: <space>, width: 28}
+    - {label: '123', switch: 4, text: <switch>, width: 12}
+    - {text: <delete>, width: 12}
+    - {text: <enter>, width: 12}
+  - mode: 1
+    keys:
+    - {symbol: '1', text: q}
+    - {symbol: '2', text: w}
+    - {symbol: '3', text: e}
+    - {symbol: '4', text: r}
+    - {symbol: '5', text: t}
+    - {symbol: '6', text: y}
+    - {symbol: '7', text: u}
+    - {symbol: '8', text: i}
+    - {symbol: '9', text: o}
+    - {symbol: '0', text: p}
+    - {symbol: '~', text: a}
+    - {symbol: '!', text: s}
+    - {symbol: "@", text: d}
+    - {symbol: '#', text: f}
+    - {symbol: "%", text: g}
+    - {symbol: '''', text: h}
+    - {symbol: "&", text: j}
+    - {symbol: "*", text: k}
+    - {symbol: "?", text: l}
+    - {symbol: ":", text: ';'}
+    - {symbol: '(', text: z}
+    - {symbol: ')', text: x}
+    - {symbol: '-', text: c}
+    - {symbol: '_', text: v}
+    - {symbol: ":", text: b}
+    - {symbol: ";", text: n}
+    - {symbol: "/", text: m}
+    - {symbol: "<", text: ","}
+    - {symbol: ">", text: "."}
+    - {symbol: "?", text: "/"}
+    - {switch: 0, text: <switch>, width: 12}
+    - {text: "<shift>", width: 12}
+    - {label: "@#$", switch: 3, text: <switch>, width: 12}
+    - {text: <space>, width: 28}
+    - {label: '123', switch: 4, text: <switch>, width: 12}
+    - {text: <delete>, width: 12}
+    - {text: <enter>, width: 12}
+  - mode: 2
+    width: 20
+    keys:
+    - {text: '，'}
+    - {text: '。'}
+    - {text: '？'}
+    - {text: '！'}
+    - {text: <delete>}
+    - {text: '~'}
+    - {text: '、'}
+    - {text: "："}
+    - {text: "＃"}
+    - {text: <switch_prev>}
+    - {text: "；"}
+    - {text: '％'}
+    - {text: ＊}
+    - {text: '——'}
+    - {text: <switch_next>}
+    - {text: '……'}
+    - {text: ＆}
+    - {text: ・}
+    - {text: '￥'}
+    - {text: <switch>, switch: 0}
+  - mode: 3
+    width: 20
+    keys:
+    - {text: '.'}
+    - {text: '@'}
+    - {text: '~'}
+    - {text: '-'}
+    - {text: <delete>}
+    - {text: ','}
+    - {text: ':'}
+    - {text: "*"}
+    - {text: "?"}
+    - {text: <switch_prev>}
+    - {text: "!"}
+    - {text: '_'}
+    - {text: ＇#＇}
+    - {text: '/'}
+    - {text: <switch_next>}
+    - {text: '='}
+    - {text: '+'}
+    - {text: '...'}
+    - {text: '&'}
+    - {text: <switch>, switch: 1}
+  - mode: 4
+    width: 22
+    keys:
+    - {text: '.', width: 17}
+    - {text: '1'}
+    - {text: '2'}
+    - {text: '3'}
+    - {text: <delete>, width: 17}
+    - {text: '/', width: 17}
+    - {text: '4'}
+    - {text: '5'}
+    - {text: '6'}
+    - {text: '*', width: 17}
+    - {text: '+', width: 17}
+    - {text: '7'}
+    - {text: '8'}
+    - {text: '9'}
+    - {text: '#', width: 17}
+    - {text: <switch>, switch: 2, label: "符", width: 17}
+    - {text: <switch_last>}
+    - {text: '0'}
+    - {text: <space>}
+    - {text: <enter>, width: 17}
 
 translator:
   dictionary: cqlb

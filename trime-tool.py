@@ -37,20 +37,8 @@ sql = """
 CREATE TABLE schema (
     "_id" INTEGER PRIMARY KEY AUTOINCREMENT,
     "name" TEXT NOT NULL,
-    "version" TEXT,
-    "author" TEXT,
-    "description" TEXT,
     "dictionary" TEXT NOT NULL,
-    "phrase" TEXT,
-    "delimiter" TEXT,
-    "alphabet" TEXT,
-    "syllable" TEXT,
-    "auto_select_syllable" TEXT,
-    "keyboard" TEXT,
-    "pyspell" TEXT,
-    "py2ipa" TEXT,
-    "ipa2py" TEXT,
-    "ipafuzzy" TEXT
+    "full" TEXT NOT NULL
 )"""
 cursor.execute(sql)
 
@@ -63,12 +51,11 @@ for fn in schemas:
     if "dictionary" not in yy["schema"] and "translator" in yy:
         yy["schema"]["dictionary"] = yy["translator"]["dictionary"]
     dicts.add(yy["schema"]["dictionary"])
-    for i in "name,version,author,description,dictionary,phrase,delimiter,alphabet,syllable,auto_select_syllable,keyboard,pyspell,py2ipa,ipa2py,ipafuzzy".split(","):
-        s = yy["schema"].get(i, yy["speller"].get(i, "") if "speller" in yy else "")
-        if i == "phrase" and s == "phrase": hasPhrase = True
-        if type(s) == list: s = "\n".join(map(lambda x: x if type(x)==str else "",s))
-        l.append(s)
-    cursor.execute('insert into schema values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)', l)
+    hasPhrase = (yy["schema"].get("phrase", "")  == "phrase")
+    l.append(yy["schema"]["name"])
+    l.append(yy["schema"]["dictionary"])
+    l.append(yaml.dump(yy))
+    cursor.execute('insert into schema values (?,?,?,?)', l)
     count += 1
     logging.info("\t%s", yy["schema"]["name"])
 
