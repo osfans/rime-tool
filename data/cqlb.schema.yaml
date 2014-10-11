@@ -13,13 +13,17 @@ schema:
 
   dependencies:
     - pinyin_simp
-  alphabet: "[a-z；，。、]"
+  alphabet: "[a-z;,\\./]"
   syllable: ".{1,4}"
-  auto_select_syllable: "u.|v([p-t].|[^p-t])|.{4}|[；，。、]"
+  auto_select_syllable: "u.|v([p-t].|[^p-t])|.{4}|[,\\./;]"
 
   py2ipa:
+    - xlit/,.\/;/，。、；/
     - /^.{3}$/$0*/
     - /^[uv].*$/$0*/
+
+  ipa2py:
+    - xlit/，。、；/,.\/;/
 
   keyboard:
   - mode: 0
@@ -37,23 +41,23 @@ schema:
     - {symbol: '@', text: a}
     - {symbol: '#', text: s}
     - {symbol: "￥", text: d}
-    - {symbol: '%', text: f}
-    - {symbol: "……", text: g}
-    - {symbol: '&', text: h}
+    - {symbol: '&', text: f}
+    - {symbol: "——", text: g}
+    - {symbol: '……', text: h}
     - {symbol: "（", text: j}
     - {symbol: "）", text: k}
     - {symbol: "！", text: l}
-    - {symbol: "：", text: '；'}
+    - {symbol: "：", text: ';', label: '；'}
     - {symbol: '+', text: z}
     - {symbol: '-', text: x}
     - {symbol: '*', text: c}
-    - {symbol: '/', text: v}
-    - {symbol: "——", text: b}
+    - {symbol: '=', text: v}
+    - {symbol: "%", text: b}
     - {symbol: "“", text: n}
     - {symbol: "”", text: m}
-    - {symbol: "《", text: "，"}
-    - {symbol: "》", text: "。"}
-    - {symbol: "？", text: "、"}
+    - {symbol: "《", text: ",", label: "，"}
+    - {symbol: "》", text: ".", label: "。"}
+    - {symbol: "？", text: "/"}
     - {label: "中", switch: 1, text: <switch>, width: 12}
     - {text: "<shift>", width: 12}
     - {label: "符", switch: 2, text: <switch>, width: 12}
@@ -73,103 +77,318 @@ schema:
     - {symbol: '8', text: i}
     - {symbol: '9', text: o}
     - {symbol: '0', text: p}
-    - {symbol: '~', text: a}
+    - {symbol: '@', text: a}
     - {symbol: '!', text: s}
-    - {symbol: "@", text: d}
-    - {symbol: '#', text: f}
-    - {symbol: "%", text: g}
-    - {symbol: '''', text: h}
-    - {symbol: "&", text: j}
-    - {symbol: "*", text: k}
-    - {symbol: "?", text: l}
-    - {symbol: ":", text: ';'}
-    - {symbol: '(', text: z}
-    - {symbol: ')', text: x}
-    - {symbol: '-', text: c}
-    - {symbol: '_', text: v}
-    - {symbol: ":", text: b}
-    - {symbol: ";", text: n}
-    - {symbol: "/", text: m}
+    - {symbol: '$', text: d}
+    - {symbol: '&', text: f}
+    - {symbol: '_', text: g}
+    - {symbol: '...', text: h}
+    - {symbol: '(', text: j}
+    - {symbol: ')', text: k}
+    - {symbol: '!', text: l}
+    - {symbol: ':', text: ';'}
+    - {symbol: '+', text: z}
+    - {symbol: '-', text: x}
+    - {symbol: '*', text: c}
+    - {symbol: '=', text: v}
+    - {symbol: "%", text: b}
+    - {symbol: "'", text: n}
+    - {symbol: '"', text: m}
     - {symbol: "<", text: ","}
     - {symbol: ">", text: "."}
     - {symbol: "?", text: "/"}
-    - {switch: 0, text: <switch>, width: 12}
+    - {label: "英", switch: 0, text: <switch>, width: 12}
     - {text: "<shift>", width: 12}
-    - {label: "@#$", switch: 3, text: <switch>, width: 12}
+    - {label: "符", switch: 3, text: <switch>, width: 12}
     - {text: <space>, width: 28}
     - {label: '123', switch: 4, text: <switch>, width: 12}
     - {text: <delete>, width: 12}
     - {text: <enter>, width: 12}
   - mode: 2
-    width: 20
     keys:
-    - {text: '，'}
-    - {text: '。'}
-    - {text: '？'}
-    - {text: '！'}
-    - {text: <delete>}
-    - {text: '~'}
-    - {text: '、'}
-    - {text: "："}
-    - {text: "＃"}
-    - {text: <switch_prev>}
-    - {text: "；"}
-    - {text: '％'}
-    - {text: ＊}
+    - {label: 'Ⅰ⒈', text: '<switch>', switch: 5}
+    - {text: '【'}
+    - {text: '’'}
+    - {label: '其他', text: '<switch>', switch: 6}
+    - {label: '数学', text: '<switch>', switch: 7}
+    - {text: '［'}
+    - {text: '］'}
     - {text: '——'}
-    - {text: <switch_next>}
+    - {text: '·'}
+    - {label: '①⑴', text: '<switch>', switch: 8}
+    - {text: '‰'}
+    - {label: '希腊', text: '<switch>', switch: 9}
+    - {text: '‘'}
+    - {text: '＃'}
+    - {text: '√'}
     - {text: '……'}
-    - {text: ＆}
-    - {text: ・}
-    - {text: '￥'}
-    - {text: <switch>, switch: 0}
+    - {text: '（'}
+    - {text: '）'}
+    - {text: '！'}
+    - {text: '：'}
+    - {text: '※'}
+    - {text: '】'}
+    - {text: '℃'}
+    - {text: '？'}
+    - {text: '％'}
+    - {text: '“'}
+    - {text: '”'}
+    - {text: '《'}
+    - {text: '》'}
+    - {text: '～'}
+    - {label: "中", text: <switch>, switch: 3, width: 18}
+    - {label: "⟲", text: <switch>, switch: 0, width: 18}
+    - {text: <space>, width: 28}
+    - {label: '123', switch: 4, text: <switch>, width: 12}
+    - {text: <delete>, width: 12}
+    - {text: <enter>, width: 12}
   - mode: 3
-    width: 20
     keys:
-    - {text: '.'}
-    - {text: '@'}
-    - {text: '~'}
-    - {text: '-'}
-    - {text: <delete>}
-    - {text: ','}
-    - {text: ':'}
-    - {text: "*"}
-    - {text: "?"}
-    - {text: <switch_prev>}
-    - {text: "!"}
-    - {text: '_'}
-    - {text: ＇#＇}
-    - {text: '/'}
-    - {text: <switch_next>}
-    - {text: '='}
-    - {text: '+'}
-    - {text: '...'}
-    - {text: '&'}
-    - {text: <switch>, switch: 1}
-  - mode: 4
-    width: 22
-    keys:
-    - {text: '.', width: 17}
     - {text: '1'}
     - {text: '2'}
     - {text: '3'}
-    - {text: <delete>, width: 17}
-    - {text: '/', width: 17}
     - {text: '4'}
     - {text: '5'}
     - {text: '6'}
-    - {text: '*', width: 17}
-    - {text: '+', width: 17}
     - {text: '7'}
     - {text: '8'}
     - {text: '9'}
-    - {text: '#', width: 17}
-    - {text: <switch>, switch: 2, label: "符", width: 17}
-    - {text: <switch_last>}
     - {text: '0'}
+    - {text: '@'}
+    - {text: '!'}
+    - {text: '$'}
+    - {text: '&'}
+    - {text: '_'}
+    - {text: '...'}
+    - {text: '('}
+    - {text: ')'}
+    - {text: '!'}
+    - {text: ':'}
+    - {text: '+'}
+    - {text: '-'}
+    - {text: '*'}
+    - {text: '='}
+    - {text: "%"}
+    - {text: "'"}
+    - {text: '"'}
+    - {text: "<"}
+    - {text: ">"}
+    - {text: "?"}
+    - {label: "英", text: <switch>, switch: 2, width: 18}
+    - {label: "⟲", text: <switch>, switch: 1, width: 18}
+    - {text: <space>, width: 28}
+    - {label: '123', switch: 4, text: <switch>, width: 12}
+    - {text: <delete>, width: 12}
+    - {text: <enter>, width: 12}
+  - mode: 4
+    width: 25
+    keys:
+    - {text: '1'}
+    - {text: '2'}
+    - {text: '3'}
+    - {text: <switch_last>}
+    - {text: '4'}
+    - {text: '5'}
+    - {text: '6'}
     - {text: <space>}
-    - {text: <enter>, width: 17}
-
+    - {text: '7'}
+    - {text: '8'}
+    - {text: '9'}
+    - {text: <delete>}
+    - {text: '*'}
+    - {text: '0'}
+    - {text: '#'}
+    - {text: <enter>}
+  - mode: 5
+    keys:
+    - {text: Ⅰ}
+    - {text: Ⅱ}
+    - {text: Ⅲ}
+    - {text: Ⅳ}
+    - {text: Ⅴ}
+    - {text: Ⅵ}
+    - {text: Ⅶ}
+    - {text: Ⅷ}
+    - {text: Ⅸ}
+    - {text: Ⅹ}
+    - {text: ⒈}
+    - {text: ⒉}
+    - {text: ⒊}
+    - {text: ⒋}
+    - {text: ⒌}
+    - {text: ⒍}
+    - {text: ⒎}
+    - {text: ⒏}
+    - {text: ⒐}
+    - {text: ⒑}
+    - {text: ㈠}
+    - {text: ㈡}
+    - {text: ㈢}
+    - {text: ㈣}
+    - {text: ㈤}
+    - {text: ㈥}
+    - {text: ㈦}
+    - {text: ㈧}
+    - {text: ㈨}
+    - {text: ㈩}
+    - {text: <switch>, switch: 0, width: 18}
+    - {label: "⟲", text: <switch>, switch: 2, width: 18}
+    - {text: <space>, width: 28}
+    - {label: '123', switch: 4, text: <switch>, width: 12}
+    - {text: <delete>, width: 12}
+    - {text: <enter>, width: 12}
+  - mode: 6
+    keys:
+    - {text: ｛}
+    - {text: ｝}
+    - {text: ♂}
+    - {text: ♀}
+    - {text: 〔}
+    - {text: 〕}
+    - {text: 〈}
+    - {text: 〉}
+    - {text: 〖}
+    - {text: 〗}
+    - {text: ★}
+    - {text: ☆}
+    - {text: ●}
+    - {text: ○}
+    - {text: ▲}
+    - {text: △}
+    - {text: ◆}
+    - {text: ◇}
+    - {text: ■}
+    - {text: □}
+    - {text: →}
+    - {text: ←}
+    - {text: ↑}
+    - {text: ↓}
+    - {text: 『}
+    - {text: 』}
+    - {text: 「}
+    - {text: 」}
+    - {text: ￥}
+    - {text: №}
+    - {text: <switch>, switch: 0, width: 18}
+    - {label: "⟲", text: <switch>, switch: 2, width: 18}
+    - {text: <space>, width: 28}
+    - {label: '123', switch: 4, text: <switch>, width: 12}
+    - {text: <delete>, width: 12}
+    - {text: <enter>, width: 12}
+  - mode: 7
+    keys:
+    - {text: ＋}
+    - {text: －}
+    - {text: ×}
+    - {text: ÷}
+    - {text: ±}
+    - {text: ＝}
+    - {text: ≈}
+    - {text: ≡}
+    - {text: ≠}
+    - {text: ∷}
+    - {text: ＜}
+    - {text: ＞}
+    - {text: ≤}
+    - {text: ≥}
+    - {text: ∫}
+    - {text: ∮}
+    - {text: ∞}
+    - {text: ∝}
+    - {text: ∩}
+    - {text: ∪}
+    - {text: ∵}
+    - {text: ∴}
+    - {text: ∽}
+    - {text: ≌}
+    - {text: ∈}
+    - {text: ∥}
+    - {text: ∠}
+    - {text: ⊙}
+    - {text: Ψ}
+    - {text: Σ}
+    - {text: <switch>, switch: 0, width: 18}
+    - {label: "⟲", text: <switch>, switch: 2, width: 18}
+    - {text: <space>, width: 28}
+    - {label: '123', switch: 4, text: <switch>, width: 12}
+    - {text: <delete>, width: 12}
+    - {text: <enter>, width: 12}
+  - mode: 8
+    keys:
+    - {text: ①}
+    - {text: ②}
+    - {text: ③}
+    - {text: ④}
+    - {text: ⑤}
+    - {text: ⑥}
+    - {text: ⑦}
+    - {text: ⑧}
+    - {text: ⑨}
+    - {text: ⑩}
+    - {text: ⑴}
+    - {text: ⑵}
+    - {text: ⑶}
+    - {text: ⑷}
+    - {text: ⑸}
+    - {text: ⑹}
+    - {text: ⑺}
+    - {text: ⑻}
+    - {text: ⑼}
+    - {text: ⑽}
+    - {text: 壹}
+    - {text: 贰}
+    - {text: 叁}
+    - {text: 肆}
+    - {text: 伍}
+    - {text: 陆}
+    - {text: 柒}
+    - {text: 捌}
+    - {text: 玖}
+    - {text: 拾}
+    - {text: <switch>, switch: 0, width: 18}
+    - {label: "⟲", text: <switch>, switch: 2, width: 18}
+    - {text: <space>, width: 28}
+    - {label: '123', switch: 4, text: <switch>, width: 12}
+    - {text: <delete>, width: 12}
+    - {text: <enter>, width: 12}
+  - mode: 9
+    keys:
+    - {text: π}
+    - {text: θ}
+    - {text: Δ}
+    - {text: Φ}
+    - {text: α}
+    - {text: β}
+    - {text: ζ}
+    - {text: δ}
+    - {text: ε}
+    - {text: φ}
+    - {text: Ω}
+    - {text: η}
+    - {text: ι}
+    - {text: Γ}
+    - {text: κ}
+    - {text: λ}
+    - {text: μ}
+    - {text: Π}
+    - {text: ο}
+    - {text: ρ}
+    - {text: σ}
+    - {text: γ}
+    - {text: ξ}
+    - {text: τ}
+    - {text: υ}
+    - {text: ν}
+    - {text: ω}
+    - {text: χ}
+    - {text: ψ}
+    - {text: Ξ}
+    - {text: <switch>, switch: 0, width: 18}
+    - {label: "⟲", text: <switch>, switch: 2, width: 18}
+    - {text: <space>, width: 28}
+    - {label: '123', switch: 4, text: <switch>, width: 12}
+    - {text: <delete>, width: 12}
+    - {text: <enter>, width: 12}
 translator:
   dictionary: cqlb
 
