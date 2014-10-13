@@ -55,8 +55,8 @@ schema:
     - {symbol: "%", text: b}
     - {symbol: "“", text: n}
     - {symbol: "”", text: m}
-    - {symbol: "《", text: ",", label: "，"}
-    - {symbol: "》", text: ".", label: "。"}
+    - {symbol: "《", text: ","}
+    - {symbol: "》", text: "."}
     - {symbol: "？", text: "/"}
     - {label: "中", switch: 1, text: <switch>, width: 12}
     - {text: "<shift>", width: 12}
@@ -78,11 +78,11 @@ schema:
     - {symbol: '9', text: o}
     - {symbol: '0', text: p}
     - {symbol: '@', text: a}
-    - {symbol: '!', text: s}
+    - {symbol: '#', text: s}
     - {symbol: '$', text: d}
     - {symbol: '&', text: f}
     - {symbol: '_', text: g}
-    - {symbol: '...', text: h}
+    - {symbol: '^', text: h}
     - {symbol: '(', text: j}
     - {symbol: ')', text: k}
     - {symbol: '!', text: l}
@@ -155,11 +155,11 @@ schema:
     - {text: '9'}
     - {text: '0'}
     - {text: '@'}
-    - {text: '!'}
+    - {text: '#'}
     - {text: '$'}
     - {text: '&'}
     - {text: '_'}
-    - {text: '...'}
+    - {text: '^'}
     - {text: '('}
     - {text: ')'}
     - {text: '!'}
