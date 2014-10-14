@@ -88,7 +88,7 @@ schema:
     - {label: "符", switch: 2, text: <switch>, width: 15}
     - {label: '123', switch: 4, text: <switch>, width: 12}
     - {text: ","}
-    - {label: "English", preview: "␣", text: <space>, width: 26}
+    - {text: <space>, width: 26}
     - {text: "."}
     - {label: "英", switch: 0, text: <switch>, width: 12}
     - {text: <enter>, width: 15}

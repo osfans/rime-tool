@@ -2,16 +2,169 @@
 # encoding: utf-8
 
 schema:
-  name: 臺灣拼音
+  name: 臺灣帶調拼音
   description: |
     帶調拼音
     輸入pin1 yin1 或 pīn yīn 都可以
   dictionary: taiwan
-  phrase: phrase
   alphabet: "[a-z1-5üāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüê]+"
   syllable: "([bpmfdtnlgkhjqxryw]|[zcs]h?)?([iuü])?([āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüê])?([aoeiu])*(ng?|r)?([0-5])?"
   keyboard:
-    - 1|2|3|4|5|zh|ch|sh|ng|er|q|w|[eēéěèê]|r|t|y|[uūúǔù]|[iīíǐì]|[oōóǒò]|p|[aāáǎà]|s|d|f|g|h|j|k|l|z|x|c|[üǖǘǚǜ]|b|n|m|'|臺灣|拼音
+  - mode: 0
+    keys:
+    - {symbol: '！', text: '1'}
+    - {symbol: "@", text: '2'}
+    - {symbol: '#', text: '3'}
+    - {symbol: "￥", text: '4'}
+    - {symbol: "%", text: '5'}
+    - {symbol: "……", text: '6'}
+    - {symbol: "&", text: '7'}
+    - {symbol: "*", text: '8'}
+    - {symbol: "（", text: '9'}
+    - {symbol: "）", text: '0'}
+    - {text: q}
+    - {text: w}
+    - {text: e}
+    - {text: r}
+    - {text: t}
+    - {text: y}
+    - {text: u}
+    - {text: i}
+    - {text: o}
+    - {text: p}
+    - {width: 5}
+    - {text: a}
+    - {text: s}
+    - {text: d}
+    - {text: f}
+    - {text: g}
+    - {text: h}
+    - {text: j}
+    - {text: k}
+    - {text: l}
+    - {text: "<shift>", width: 15}
+    - {text: z}
+    - {text: x}
+    - {text: c}
+    - {text: ü}
+    - {text: b}
+    - {text: n}
+    - {text: m}
+    - {text: <delete>, width: 15}
+    - {label: "符", switch: 2, text: <switch>, width: 15}
+    - {label: '123', switch: 4, text: <switch>, width: 12}
+    - {symbol: "、", text: "，"}
+    - {label: "帶調拼音", preview: "␣", text: <space>, width: 26}
+    - {symbol: "？", text: "。"}
+    - {label: "中", switch: 1, text: <switch>, width: 12}
+    - {text: <enter>, width: 15}
+  - mode: 1
+    keys:
+    - {symbol: '1', text: q}
+    - {symbol: '2', text: w}
+    - {symbol: '3', text: e}
+    - {symbol: '4', text: r}
+    - {symbol: '5', text: t}
+    - {symbol: '6', text: y}
+    - {symbol: '7', text: u}
+    - {symbol: '8', text: i}
+    - {symbol: '9', text: o}
+    - {symbol: '0', text: p}
+    - {width: 5}
+    - {symbol: '~', text: a}
+    - {symbol: '!', text: s}
+    - {symbol: "@", text: d}
+    - {symbol: '#', text: f}
+    - {symbol: "%", text: g}
+    - {symbol: '''', text: h}
+    - {symbol: "&", text: j}
+    - {symbol: "*", text: k}
+    - {symbol: "?", text: l}
+    - {text: "<shift>", width: 15}
+    - {symbol: '(', text: z}
+    - {symbol: ')', text: x}
+    - {symbol: '-', text: c}
+    - {symbol: '_', text: v}
+    - {symbol: ":", text: b}
+    - {symbol: ";", text: n}
+    - {symbol: "/", text: m}
+    - {text: <delete>, width: 15}
+    - {label: "符", switch: 2, text: <switch>, width: 15}
+    - {label: '123', switch: 4, text: <switch>, width: 12}
+    - {text: ","}
+    - {text: <space>, width: 26}
+    - {text: "."}
+    - {label: "英", switch: 0, text: <switch>, width: 12}
+    - {text: <enter>, width: 15}
+  - mode: 2
+    width: 20
+    keys:
+    - {text: '，'}
+    - {text: '。'}
+    - {text: '？'}
+    - {text: '！'}
+    - {text: <delete>}
+    - {text: '~'}
+    - {text: '、'}
+    - {text: "："}
+    - {text: "＃"}
+    - {text: <switch_prev>}
+    - {text: "；"}
+    - {text: '％'}
+    - {text: ＊}
+    - {text: '——'}
+    - {text: <switch_next>}
+    - {text: '……'}
+    - {text: ＆}
+    - {text: ・}
+    - {text: '￥'}
+    - {text: <switch>, switch: 0}
+  - mode: 3
+    width: 20
+    keys:
+    - {text: '.'}
+    - {text: '@'}
+    - {text: '~'}
+    - {text: '-'}
+    - {text: <delete>}
+    - {text: ','}
+    - {text: ':'}
+    - {text: "*"}
+    - {text: "?"}
+    - {text: <switch_prev>}
+    - {text: "!"}
+    - {text: '_'}
+    - {text: ＇#＇}
+    - {text: '/'}
+    - {text: <switch_next>}
+    - {text: '='}
+    - {text: '+'}
+    - {text: '...'}
+    - {text: '&'}
+    - {text: <switch>, switch: 1}
+  - mode: 4
+    width: 22
+    keys:
+    - {text: '.', width: 17}
+    - {text: '1'}
+    - {text: '2'}
+    - {text: '3'}
+    - {text: <delete>, width: 17}
+    - {text: '/', width: 17}
+    - {text: '4'}
+    - {text: '5'}
+    - {text: '6'}
+    - {text: '*', width: 17}
+    - {text: '+', width: 17}
+    - {text: '7'}
+    - {text: '8'}
+    - {text: '9'}
+    - {text: '#', width: 17}
+    - {text: <switch>, switch: 2, label: "符", width: 17}
+    - {text: <switch_last>}
+    - {text: '0'}
+    - {text: <space>}
+    - {text: <enter>, width: 17}
   pyspell:
     - /\d+(\d)\b/$1/
   py2ipa:
