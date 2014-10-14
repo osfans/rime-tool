@@ -25,10 +25,10 @@ schema:
     - xlit/；，。、/mcvb/
 
   ipafuzzy:
-    - /\Bm/；/
-    - /\Bc/，/
-    - /\Bv/。/
-    - /\Bb/、/
+    - /(?!^)m/；/
+    - /(?!^)c/，/
+    - /(?!^)v/。/
+    - /(?!^)b/、/
 
   keyboard:
   - mode: 0
