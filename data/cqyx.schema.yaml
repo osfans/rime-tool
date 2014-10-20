@@ -22,7 +22,7 @@ schema:
     - /^[uv].*$/$0*/
 
   ipa2py:
-    - xlit/；，。、/mcvb/
+    - xlit/，。、；/cvbm/
 
   ipafuzzy:
     - /(?!^)m/；/
@@ -52,7 +52,7 @@ schema:
     - {symbol: "（", text: j}
     - {symbol: "）", text: k}
     - {symbol: "！", text: l}
-    - {symbol: "：", text: ';', label: '；'}
+    - {symbol: "：", text: '；', label: ';'}
     - {symbol: '+', text: z}
     - {symbol: '-', text: x}
     - {symbol: '*', text: c}
@@ -60,9 +60,9 @@ schema:
     - {symbol: "%", text: b}
     - {symbol: "“", text: n}
     - {symbol: "”", text: m}
-    - {symbol: "《", text: "，"}
-    - {symbol: "》", text: "。"}
-    - {symbol: "？", text: "、"}
+    - {symbol: "《", text: "，", label: ','}
+    - {symbol: "》", text: "。", label: '.'}
+    - {symbol: "？", text: "、", label: '/'}
     - {label: "中", switch: 1, text: <switch>, width: 12}
     - {text: "<shift>", width: 12}
     - {label: "符", switch: 2, text: <switch>, width: 12}
