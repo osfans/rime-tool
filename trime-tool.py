@@ -36,8 +36,8 @@ logging.info("方案")
 sql = """
 CREATE TABLE schema (
     "_id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "schema_id" TEXT NOT NULL,
     "name" TEXT NOT NULL,
-    "dictionary" TEXT NOT NULL,
     "full" TEXT NOT NULL
 )"""
 cursor.execute(sql)
@@ -48,12 +48,10 @@ count = 0
 for fn in schemas:
     yy = yaml.load(open("data/%s.schema.yaml" % fn, encoding="U8"))
     l = [count]
-    if "dictionary" not in yy["schema"] and "translator" in yy:
-        yy["schema"]["dictionary"] = yy["translator"]["dictionary"]
-    dicts.add(yy["schema"]["dictionary"])
+    dicts.add(yy["translator"]["dictionary"])
     hasPhrase = (yy["schema"].get("phrase", "")  == "phrase")
+    l.append(yy["schema"]["schema_id"])
     l.append(yy["schema"]["name"])
-    l.append(yy["schema"]["dictionary"])
     l.append(yaml.dump(yy))
     cursor.execute('insert into schema values (?,?,?,?)', l)
     count += 1
