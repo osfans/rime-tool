@@ -4,7 +4,7 @@
 schema:
   schema_id: luna_pinyin
   name: 朙月拼音
-  version: "0.19"
+  version: "0.21"
   author:
     - 佛振 <chen.sst@gmail.com>
   description: |
@@ -16,14 +16,6 @@ schema:
       * opencc - 開放中文轉換
   dependencies:
     - stroke
-  alphabet: "[a-zü]+"
-  syllable: "([bpmfdtnlgkhjqxryw]|[zcs]h?)?([iuü])?([aoeiu])*([aoeiu]ng?|er)?"
-  keyboard:
-    - q|w|e|r|t|y|u|i|o|p|a|s|d|f|g|h|j|k|l|z|x|c|ü|b|n|m|'|朙月
-  py2ipa:
-    - /ü/v/
-  ipa2py:
-    - /v/ü/
 
 switches:
   - name: ascii_mode
@@ -33,6 +25,8 @@ switches:
     states: [ 半角, 全角 ]
   - name: simplification
     states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
 
 engine:
   processors:
