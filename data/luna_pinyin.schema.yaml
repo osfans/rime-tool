@@ -71,6 +71,12 @@ speller:
     - derive/ao$/oa/
     - derive/([iu])a(o|ng?)$/a$1$2/
 
+trime:
+  syllable: "([bpmfdtnlgkhjqxryw]|[zcs]h?)?([iuv])?([aoeiu])*(ng?|r)?"
+  spell:
+    - xform/([nl])ue/$1ve/
+    - xform/([jqxy])v/$1u/
+
 translator:
   dictionary: luna_pinyin
   preedit_format:

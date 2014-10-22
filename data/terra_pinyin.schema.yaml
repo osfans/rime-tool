@@ -50,7 +50,7 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba-;/<,>\'
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba-;/<,>\1234'
   initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
@@ -75,10 +75,19 @@ speller:
     - 'derive/^(.*)<$/$1,/'
     - 'derive/^(.*)\\$/$1>/'
 
+trime:
+  syllable: "([bpmfdtnlgkhjqxryw]|[zcs]h?)?([iuv])?([aoeiu])*(ng?|r)?([1-4])?"
+  spell:
+    - 'xlit ;,> 134'
+    - 'xlit -/<\ 1234'
+    - xform/([nl])ue/$1ve/
+    - xform/([jqxy])v/$1u/
+
 translator:
   dictionary: terra_pinyin
   spelling_hints: 5  # ～字以內候選標註完整帶調拼音
   preedit_format:
+    - 'xlit 1234 -/<\'
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
