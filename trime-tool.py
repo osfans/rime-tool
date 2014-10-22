@@ -19,7 +19,7 @@ cursor = conn.cursor()
 logging.info("essay詞庫")
 hasPhrase = False
 d=collections.defaultdict(int)
-for i in open("data/essay.txt", encoding="U8"):
+for i in open("essay.txt", encoding="U8"):
     i=i.strip()
     if i:
         hz,weight=i.split()
