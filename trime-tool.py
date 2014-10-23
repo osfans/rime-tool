@@ -94,7 +94,7 @@ for fn in map(lambda x: getfilename("%s.dict" % x), dicts):
                     if not fs[2].startswith("0"):
                         zd[fs[0]].append(fs[1])
                         if "%" not in fs[2]:
-                            d[fs[0]] = int(fs[2])
+                            d[fs[0]] = int(float(fs[2]))
     for p in phrase:
         pp = list(map(lambda x: zd.get(x, False), p))
         if all(pp):        
