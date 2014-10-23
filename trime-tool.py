@@ -17,7 +17,6 @@ conn = sqlite3.connect(DB)
 cursor = conn.cursor()
 
 logging.info("essay詞庫")
-hasPhrase = False
 d=collections.defaultdict(int)
 for i in open("essay.txt", encoding="U8"):
     i=i.strip()
@@ -49,7 +48,6 @@ for fn in schemas:
     yy = yaml.load(open("data/%s.schema.yaml" % fn, encoding="U8"))
     l = [count]
     dicts.add(yy["translator"]["dictionary"])
-    hasPhrase = (yy["schema"].get("phrase", "")  == "phrase")
     l.append(yy["schema"]["schema_id"])
     l.append(yy["schema"]["name"])
     l.append(yaml.dump(yy))
@@ -114,12 +112,6 @@ for fn in map(lambda x: "data/%s.dict.yaml" % x, dicts):
                     i[1]=i[1].replace(a,b)
         cursor.execute(sql, i)
     logging.info("\t%s 詞條数 %d", table, len(hz))
-
-if hasPhrase:
-    logging.info("聯想詞庫")
-    cursor.execute("CREATE VIRTUAL TABLE phrase USING fts3(hz)")
-    for i in sorted(filter(lambda x: len(x) > 1 and d[x] > 600, d.keys()), key=lambda x: d[x], reverse = True):
-        cursor.execute('insert into phrase values (?)', (i,))
 
 conn.commit()
 conn.close()
