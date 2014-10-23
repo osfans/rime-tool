@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os, sqlite3, logging, collections, itertools, sys, re
+from glob import glob
 import yaml 
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
@@ -44,8 +45,11 @@ cursor.execute(sql)
 dicts=set()
 count = 0
 
+def getfilename(fn):
+    return glob("*/%s.yaml" % fn)[0]
+
 for fn in schemas:
-    yy = yaml.load(open("data/%s.schema.yaml" % fn, encoding="U8"))
+    yy = yaml.load(open(getfilename("%s.schema" % fn), encoding="U8"))
     l = [count]
     dicts.add(yy["translator"]["dictionary"])
     l.append(yy["schema"]["schema_id"])
@@ -57,7 +61,7 @@ for fn in schemas:
 
 logging.info("碼表")
 
-for fn in map(lambda x: "data/%s.dict.yaml" % x, dicts):
+for fn in map(lambda x: getfilename("%s.dict" % x), dicts):
     hz = []
     zd = collections.defaultdict(list)
     mbStart = "..."
