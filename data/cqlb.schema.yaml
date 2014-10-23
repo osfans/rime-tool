@@ -13,17 +13,18 @@ schema:
 
   dependencies:
     - pinyin_simp
-  alphabet: "[a-z;,\\./]"
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;,./"
+
+trime:
   syllable: ".{1,4}"
   auto_select_syllable: "u.|v([p-t].|[^p-t])|.{4}|[,\\./;]"
 
-  py2ipa:
+  lookup:
     - xlit/,.\/;/，。、；/
     - /^.{3}$/$0*/
     - /^[uv].*$/$0*/
-
-  ipa2py:
-    - xlit/，。、；/,.\/;/
 
   keyboard:
   - mode: 0
@@ -389,6 +390,9 @@ schema:
     - {label: '123', switch: 4, text: <switch>, width: 12}
     - {text: <delete>, width: 12}
     - {text: <enter>, width: 12}
+
 translator:
   dictionary: cqlb
+  comment_format:
+    - xlit/，。、；/,.\/;/
 
