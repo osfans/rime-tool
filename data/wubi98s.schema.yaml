@@ -14,11 +14,6 @@ schema:
     敲 z 鍵進入拼音反查
   dependencies:
     - pinyin_simp
-  alphabet: "[a-y]+"
-  syllable: "[a-y]{1,4}"
-  auto_select_syllable: "[a-y]{4}"
-  keyboard:
-    - q|w|e|r|t|y|u|i|o|p|a|s|d|f|g|h|j|k|l|z|x|c|v|b|n|m|？|五筆|98版
 
 switches:
   - name: ascii_mode
@@ -80,3 +75,7 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "^z[a-z]*'?$"
+
+trime:
+  syllable: "[a-y]{1,4}"
+  auto_select_syllable: "[a-y]{4}"
