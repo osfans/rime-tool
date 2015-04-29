@@ -28,7 +28,10 @@ trime:
 
   keyboard:
   - mode: 0
+    horizontalGap: 1
+    width: 9
     keys:
+    - {width: 0}
     - {symbol: '1', text: q}
     - {symbol: '2', text: w}
     - {symbol: '3', text: e}
@@ -39,6 +42,7 @@ trime:
     - {symbol: '8', text: i}
     - {symbol: '9', text: o}
     - {symbol: '0', text: p}
+    - {width: 0}
     - {symbol: '@', text: a}
     - {symbol: '#', text: s}
     - {symbol: "￥", text: d}
@@ -49,6 +53,7 @@ trime:
     - {symbol: "）", text: k}
     - {symbol: "！", text: l}
     - {symbol: "：", text: ';', label: '；'}
+    - {width: 0}
     - {symbol: '+', text: z}
     - {symbol: '-', text: x}
     - {symbol: '*', text: c}
@@ -59,15 +64,19 @@ trime:
     - {symbol: "《", text: ","}
     - {symbol: "》", text: "."}
     - {symbol: "？", text: "/"}
-    - {label: "中", switch: 1, text: <switch>, width: 12}
-    - {text: "<shift>", width: 12}
-    - {label: "符", switch: 2, text: <switch>, width: 12}
-    - {label: "超强两笔", preview: "␣",text: <space>, width: 28}
-    - {label: '123', switch: 4, text: <switch>, width: 12}
-    - {text: <delete>, width: 12}
-    - {text: <enter>, width: 12}
+    - {width: 0}
+    - {label: "中", switch: 1, text: <switch>, width: 11}
+    - {text: "<shift>", width: 11}
+    - {label: "符", switch: 2, text: <switch>, width: 11}
+    - {label: "超强两笔", preview: "␣",text: <space>, width: 27}
+    - {label: '123', switch: 4, text: <switch>, width: 11}
+    - {text: <delete>, width: 11}
+    - {text: <enter>, width: 11}
   - mode: 1
+    horizontalGap: 1
+    width: 9
     keys:
+    - {width: 0}
     - {symbol: '1', text: q}
     - {symbol: '2', text: w}
     - {symbol: '3', text: e}
@@ -78,6 +87,7 @@ trime:
     - {symbol: '8', text: i}
     - {symbol: '9', text: o}
     - {symbol: '0', text: p}
+    - {width: 0}
     - {symbol: '@', text: a}
     - {symbol: '#', text: s}
     - {symbol: '$', text: d}
@@ -88,6 +98,7 @@ trime:
     - {symbol: ')', text: k}
     - {symbol: '!', text: l}
     - {symbol: ':', text: ';'}
+    - {width: 0}
     - {symbol: '+', text: z}
     - {symbol: '-', text: x}
     - {symbol: '*', text: c}
@@ -98,15 +109,19 @@ trime:
     - {symbol: "<", text: ","}
     - {symbol: ">", text: "."}
     - {symbol: "?", text: "/"}
-    - {label: "英", switch: 0, text: <switch>, width: 12}
-    - {text: "<shift>", width: 12}
-    - {label: "符", switch: 3, text: <switch>, width: 12}
-    - {text: <space>, width: 28}
-    - {label: '123', switch: 4, text: <switch>, width: 12}
-    - {text: <delete>, width: 12}
-    - {text: <enter>, width: 12}
+    - {width: 0}
+    - {label: "英", switch: 0, text: <switch>, width: 11}
+    - {text: "<shift>", width: 11}
+    - {label: "符", switch: 3, text: <switch>, width: 11}
+    - {text: <space>, width: 27}
+    - {label: '123', switch: 4, text: <switch>, width: 11}
+    - {text: <delete>, width: 11}
+    - {text: <enter>, width: 11}
   - mode: 2
+    horizontalGap: 1
+    width: 9
     keys:
+    - {width: 0}
     - {label: 'Ⅰ⒈', text: '<switch>', switch: 5}
     - {label: '①⑴', text: '<switch>', switch: 8}
     - {label: '希腊', text: '<switch>', switch: 9}
@@ -117,6 +132,7 @@ trime:
     - {text: '：'}
     - {text: '——'}
     - {text: '……'}
+    - {width: 0}
     - {text: '·'}
     - {text: '＃'}
     - {text: '※'}
@@ -127,6 +143,7 @@ trime:
     - {text: '℃'}
     - {text: '‘'}
     - {text: '’'}
+    - {width: 0}
     - {text: '“'}
     - {text: '”'}
     - {text: '（'}
@@ -137,14 +154,18 @@ trime:
     - {text: '】'}
     - {text: '［'}
     - {text: '］'}
-    - {label: "中", text: <switch>, switch: 3, width: 18}
-    - {label: "⟲", text: <switch>, switch: 0, width: 18}
-    - {text: <space>, width: 28}
-    - {label: '123', switch: 4, text: <switch>, width: 12}
-    - {text: <delete>, width: 12}
-    - {text: <enter>, width: 12}
+    - {width: 0}
+    - {label: "中", text: <switch>, switch: 3, width: 17}
+    - {label: "⟲", text: <switch>, switch: 0, width: 17}
+    - {text: <space>, width: 27}
+    - {label: '123', switch: 4, text: <switch>, width: 11}
+    - {text: <delete>, width: 11}
+    - {text: <enter>, width: 11}
   - mode: 3
+    horizontalGap: 1
+    width: 9
     keys:
+    - {width: 0}
     - {text: '`'}
     - {text: '~'}
     - {text: '['}
@@ -155,6 +176,7 @@ trime:
     - {text: '|'}
     - {text: '/'}
     - {text: '.'}
+    - {width: 0}
     - {text: '@'}
     - {text: '#'}
     - {text: '$'}
@@ -165,6 +187,7 @@ trime:
     - {text: ')'}
     - {text: '!'}
     - {text: ':'}
+    - {width: 0}
     - {text: '+'}
     - {text: '-'}
     - {text: '*'}
@@ -175,12 +198,13 @@ trime:
     - {text: "<"}
     - {text: ">"}
     - {text: "?"}
-    - {label: "英", text: <switch>, switch: 2, width: 18}
-    - {label: "⟲", text: <switch>, switch: 1, width: 18}
-    - {text: <space>, width: 28}
-    - {label: '123', switch: 4, text: <switch>, width: 12}
-    - {text: <delete>, width: 12}
-    - {text: <enter>, width: 12}
+    - {width: 0}
+    - {label: "英", text: <switch>, switch: 2, width: 17}
+    - {label: "⟲", text: <switch>, switch: 1, width: 17}
+    - {text: <space>, width: 27}
+    - {label: '123', switch: 4, text: <switch>, width: 11}
+    - {text: <delete>, width: 11}
+    - {text: <enter>, width: 11}
   - mode: 4
     width: 20
     keys:
@@ -210,7 +234,10 @@ trime:
     - {text: <delete>}
     - {text: <enter>}
   - mode: 5
+    horizontalGap: 1
+    width: 9
     keys:
+    - {width: 0}
     - {text: Ⅰ}
     - {text: Ⅱ}
     - {text: Ⅲ}
@@ -221,6 +248,7 @@ trime:
     - {text: Ⅷ}
     - {text: Ⅸ}
     - {text: Ⅹ}
+    - {width: 0}
     - {text: ⒈}
     - {text: ⒉}
     - {text: ⒊}
@@ -231,6 +259,7 @@ trime:
     - {text: ⒏}
     - {text: ⒐}
     - {text: ⒑}
+    - {width: 0}
     - {text: ㈠}
     - {text: ㈡}
     - {text: ㈢}
@@ -241,14 +270,18 @@ trime:
     - {text: ㈧}
     - {text: ㈨}
     - {text: ㈩}
-    - {text: <switch>, switch: 0, width: 18}
-    - {label: "⟲", text: <switch>, switch: 2, width: 18}
-    - {text: <space>, width: 28}
-    - {label: '123', switch: 4, text: <switch>, width: 12}
-    - {text: <delete>, width: 12}
-    - {text: <enter>, width: 12}
+    - {width: 0}
+    - {text: <switch>, switch: 0, width: 17}
+    - {label: "⟲", text: <switch>, switch: 2, width: 17}
+    - {text: <space>, width: 27}
+    - {label: '123', switch: 4, text: <switch>, width: 11}
+    - {text: <delete>, width: 11}
+    - {text: <enter>, width: 11}
   - mode: 6
+    horizontalGap: 1
+    width: 9
     keys:
+    - {width: 0}
     - {text: ｛}
     - {text: ｝}
     - {text: ♂}
@@ -259,6 +292,7 @@ trime:
     - {text: 〉}
     - {text: 〖}
     - {text: 〗}
+    - {width: 0}
     - {text: ★}
     - {text: ☆}
     - {text: ●}
@@ -269,6 +303,7 @@ trime:
     - {text: ◇}
     - {text: ■}
     - {text: □}
+    - {width: 0}
     - {text: →}
     - {text: ←}
     - {text: ↑}
@@ -279,14 +314,18 @@ trime:
     - {text: 」}
     - {text: ￥}
     - {text: №}
-    - {text: <switch>, switch: 0, width: 18}
-    - {label: "⟲", text: <switch>, switch: 2, width: 18}
-    - {text: <space>, width: 28}
-    - {label: '123', switch: 4, text: <switch>, width: 12}
-    - {text: <delete>, width: 12}
-    - {text: <enter>, width: 12}
+    - {width: 0}
+    - {text: <switch>, switch: 0, width: 17}
+    - {label: "⟲", text: <switch>, switch: 2, width: 17}
+    - {text: <space>, width: 27}
+    - {label: '123', switch: 4, text: <switch>, width: 11}
+    - {text: <delete>, width: 11}
+    - {text: <enter>, width: 11}
   - mode: 7
+    horizontalGap: 1
+    width: 9
     keys:
+    - {width: 0}
     - {text: ＋}
     - {text: －}
     - {text: ×}
@@ -297,6 +336,7 @@ trime:
     - {text: ≡}
     - {text: ≠}
     - {text: ∷}
+    - {width: 0}
     - {text: ＜}
     - {text: ＞}
     - {text: ≤}
@@ -307,6 +347,7 @@ trime:
     - {text: ∝}
     - {text: ∩}
     - {text: ∪}
+    - {width: 0}
     - {text: ∵}
     - {text: ∴}
     - {text: ∽}
@@ -317,14 +358,18 @@ trime:
     - {text: ⊙}
     - {text: Ψ}
     - {text: Σ}
-    - {text: <switch>, switch: 0, width: 18}
-    - {label: "⟲", text: <switch>, switch: 2, width: 18}
-    - {text: <space>, width: 28}
-    - {label: '123', switch: 4, text: <switch>, width: 12}
-    - {text: <delete>, width: 12}
-    - {text: <enter>, width: 12}
+    - {width: 0}
+    - {text: <switch>, switch: 0, width: 17}
+    - {label: "⟲", text: <switch>, switch: 2, width: 17}
+    - {text: <space>, width: 27}
+    - {label: '123', switch: 4, text: <switch>, width: 11}
+    - {text: <delete>, width: 11}
+    - {text: <enter>, width: 11}
   - mode: 8
+    horizontalGap: 1
+    width: 9
     keys:
+    - {width: 0}
     - {text: ①}
     - {text: ②}
     - {text: ③}
@@ -335,6 +380,7 @@ trime:
     - {text: ⑧}
     - {text: ⑨}
     - {text: ⑩}
+    - {width: 0}
     - {text: ⑴}
     - {text: ⑵}
     - {text: ⑶}
@@ -345,6 +391,7 @@ trime:
     - {text: ⑻}
     - {text: ⑼}
     - {text: ⑽}
+    - {width: 0}
     - {text: 壹}
     - {text: 贰}
     - {text: 叁}
@@ -355,14 +402,18 @@ trime:
     - {text: 捌}
     - {text: 玖}
     - {text: 拾}
-    - {text: <switch>, switch: 0, width: 18}
-    - {label: "⟲", text: <switch>, switch: 2, width: 18}
-    - {text: <space>, width: 28}
-    - {label: '123', switch: 4, text: <switch>, width: 12}
-    - {text: <delete>, width: 12}
-    - {text: <enter>, width: 12}
+    - {width: 0}
+    - {text: <switch>, switch: 0, width: 17}
+    - {label: "⟲", text: <switch>, switch: 2, width: 17}
+    - {text: <space>, width: 27}
+    - {label: '123', switch: 4, text: <switch>, width: 11}
+    - {text: <delete>, width: 11}
+    - {text: <enter>, width: 11}
   - mode: 9
+    horizontalGap: 1
+    width: 9
     keys:
+    - {width: 0}
     - {text: π}
     - {text: θ}
     - {text: Δ}
@@ -373,6 +424,7 @@ trime:
     - {text: δ}
     - {text: ε}
     - {text: φ}
+    - {width: 0}
     - {text: Ω}
     - {text: η}
     - {text: ι}
@@ -383,6 +435,7 @@ trime:
     - {text: Π}
     - {text: ο}
     - {text: ρ}
+    - {width: 0}
     - {text: σ}
     - {text: γ}
     - {text: ξ}
@@ -393,12 +446,13 @@ trime:
     - {text: χ}
     - {text: ψ}
     - {text: Ξ}
-    - {text: <switch>, switch: 0, width: 18}
-    - {label: "⟲", text: <switch>, switch: 2, width: 18}
-    - {text: <space>, width: 28}
-    - {label: '123', switch: 4, text: <switch>, width: 12}
-    - {text: <delete>, width: 12}
-    - {text: <enter>, width: 12}
+    - {width: 0}
+    - {text: <switch>, switch: 0, width: 17}
+    - {label: "⟲", text: <switch>, switch: 2, width: 17}
+    - {text: <space>, width: 27}
+    - {label: '123', switch: 4, text: <switch>, width: 11}
+    - {text: <delete>, width: 11}
+    - {text: <enter>, width: 11}
 
 translator:
   dictionary: cqlb
