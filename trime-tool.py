@@ -101,7 +101,7 @@ for fn in map(lambda x: getfilename("%s.dict" % x), dicts):
             for i in itertools.product(*pp):
                 hz.append([p," ".join(i)])
 
-    if yy.get("sort", "by_weight") == "by_weight":
+    if yy.get("sort", "original") == "by_weight":
         hz.sort(key=lambda x: d[x[0]] if d[x[0]] > 0 else 1000, reverse = True)
 
     table = yy.get("name", os.path.basename(fn).split(".")[0])
