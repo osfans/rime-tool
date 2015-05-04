@@ -3,7 +3,7 @@
 
 schema:
   schema_id: xiaoxis
-  name: "小兮码（单字）"
+  name: "小兮单字"
   version: "2015.1.18"
   author:
     - 编码作者：猎鹞
@@ -18,10 +18,11 @@ schema:
 
 speller:
   alphabet: "zyxwvutsrqponmlkjihgfedcba;,./'"
+  initials: "bpmfdtnlgkhjqxcsrywi;,./'"
 
 trime:
-  syllable: ".{1,5}"
-  auto_select_syllable: ".{2,5}"
+  syllable: "[bpmfdtnlgkhjqxcsrywi].?[aoeuvz,\\./;']{0,3}|[;,\\./']"
+  auto_select_syllable: ".{2,5}|[;,\\./']"
 
   lookup:
     - xlit/,.\/;'/，。、；：/
