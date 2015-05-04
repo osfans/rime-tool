@@ -27,8 +27,8 @@ for i in open("essay.txt", encoding="U8"):
 
 logging.info("opencc簡化")
 cursor.execute("CREATE VIRTUAL TABLE opencc USING fts3(t,s)")
-for fn in ("opencc/TSCharacters.txt", "opencc/TSPhrases.txt"):
-    for i in open(fn, encoding="U8"):
+for fn in ("TSCharacters.txt", "TSPhrases.txt"):
+    for i in open("OpenCC/data/dictionary/" + fn, encoding="U8"):
         i=i.strip()
         if i: cursor.execute('insert into opencc values (?,?)', i.split('\t'))
 
