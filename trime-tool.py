@@ -25,12 +25,30 @@ for i in open("essay.txt", encoding="U8"):
         hz,weight=i.split()
         d[hz]=int(weight)
 
-logging.info("opencc簡化")
-cursor.execute("CREATE VIRTUAL TABLE opencc USING fts3(t,s)")
-for fn in ("TSCharacters.txt", "TSPhrases.txt"):
-    for i in open("OpenCC/data/dictionary/" + fn, encoding="U8"):
-        i=i.strip()
-        if i: cursor.execute('insert into opencc values (?,?)', i.split('\t'))
+logging.info("OpenCC轉換")
+opencc_dir = "OpenCC/data/dictionary/"
+cursor.execute("CREATE VIRTUAL TABLE opencc USING fts3(s, t, r)")
+
+for fn in ("TSCharacters.txt", "TSPhrases.txt", "STCharacters.txt", "STPhrases.txt", \
+              "TWVariantsRevPhrases.txt", "HKVariantsRevPhrases.txt"):
+    r = fn[:2].lower()
+    if r in ("tw", "hk"): r = r + "2t"
+    else: r = "%s2%s" % (r[0], r[1])
+    for i in open(opencc_dir + fn, encoding="U8"):
+        i = i.strip()
+        if i:
+            a = i.split('\t')
+            cursor.execute('insert into opencc values (?, ?, "%s")' % r, a)
+
+for fn in ("TWVariants.txt", "HKVariants.txt", "HKVariantsPhrases.txt", "JPVariants.txt", \
+             "TWPhrasesIT.txt", "TWPhrasesName.txt", "TWPhrasesOther.txt"):
+    r = fn[:3].lower().rstrip('v')
+    for i in open(opencc_dir + fn, encoding="U8"):
+        i = i.strip()
+        if i:
+            a = i.split('\t')
+            cursor.execute('insert into opencc values (?,?,"t2%s")' % r, a)
+            cursor.execute('insert into opencc values (?,?,"%s2t")' % r, a[::-1])
 
 logging.info("方案")
 sql = """
