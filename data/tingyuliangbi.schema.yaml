@@ -3,13 +3,12 @@
 
 schema:
   schema_id: tingyuliangbi
-  name: "极速听雨两笔"
+  name: "速版听雨两笔"
   version: "2.0"
   author:
-    - 發明人 听雨先生
+    - 发明人 听雨先生
   description: |
     听雨两笔极速版
-    碼表源自 tingyu
     敲q键进入拼音引导
   dependencies:
     - pinyin_simp
@@ -59,6 +58,8 @@ translator:
   max_phrase_length: 4
   disable_user_dict_for_patterns:
     - "^z.*$"
+  comment_format:
+    - xform/^q//
 
 reverse_lookup:
   dictionary: pinyin_simp
