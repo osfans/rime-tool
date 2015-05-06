@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 schema:
-  schema_id: pinyin
+  schema_id: taiwan_pinyin
   name: 臺灣帶調拼音
   description: |
     帶調拼音
