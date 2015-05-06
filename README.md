@@ -25,5 +25,5 @@
 [trime]: https://github.com/osfans/trime
 [python3]: https://www.python.org/downloads/release/python-340/
 [PyYAML]: http://pyyaml.org/wiki/PyYAML
-[OpenCC]: https://github.com/BYVoid/OpenCC
+[OpenCC/]: https://github.com/BYVoid/OpenCC
 [Rime]: https://code.google.com/p/rimeime/
