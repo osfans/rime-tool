@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 import os, sqlite3, logging, collections, itertools, sys, re
-from glob import glob
 import yaml 
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
 
 schemas = sys.argv[1:]
 if len(schemas) == 0:
-    schemas = ["thaerv", "thaerv_ipa", "soutseu", "pinyin", "zhuyin"]
-    logging.info("使用默認方案集:%s", schemas)
+    logging.info("請指定方案集schema.yaml文件！")
+    exit(0)
 else:
     logging.info("使用指定方案集:%s", schemas)
 
@@ -63,13 +62,14 @@ cursor.execute(sql)
 dicts=set()
 count = 0
 
-def getfilename(fn):
-    return glob("*/%s.yaml" % fn)[0]
+def getdictname(fn, dic):
+    path = os.path.dirname(fn)
+    return os.path.join(path, dic + ".dict.yaml")
 
 for fn in schemas:
-    yy = yaml.load(open(getfilename("%s.schema" % fn), encoding="U8"))
+    yy = yaml.load(open(fn, encoding="U8"))
     l = [count]
-    dicts.add(yy["translator"]["dictionary"])
+    dicts.add(getdictname(fn, yy["translator"]["dictionary"]))
     l.append(yy["schema"]["schema_id"])
     l.append(yy["schema"]["name"])
     l.append(yaml.dump(yy))
@@ -79,7 +79,7 @@ for fn in schemas:
 
 logging.info("碼表")
 
-for fn in map(lambda x: getfilename("%s.dict" % x), dicts):
+for fn in dicts:
     hz = []
     zd = collections.defaultdict(list)
     mbStart = "..."

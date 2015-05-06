@@ -4,3 +4,12 @@
 [submodule "brise"]
 	path = brise
 	url = git@github.com:rime/brise.git
+[submodule "rime-forge"]
+	path = rime-forge
+	url = git@github.com:lotem/rime-forge.git
+[submodule "zhung"]
+	path = zhung
+	url = git@github.com:lotem/zhung.git
+[submodule "schemata"]
+	path = schemata
+	url = git@github.com:rime-aca/schemata.git
