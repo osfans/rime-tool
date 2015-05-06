@@ -1,3 +1,6 @@
 [submodule "OpenCC"]
 	path = OpenCC
-	url = github.com:BYVoid/OpenCC.git
+	url = git@github.com:BYVoid/OpenCC.git
+[submodule "brise"]
+	path = brise
+	url = git@github.com:rime/brise.git
