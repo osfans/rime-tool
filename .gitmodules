@@ -13,3 +13,6 @@
 [submodule "schemata"]
 	path = schemata
 	url = git@github.com:rime-aca/schemata.git
+[submodule "sqlite-fts-python"]
+	path = sqlite-fts-python
+	url = git@github.com:hideaki-t/sqlite-fts-python.git
