@@ -2,26 +2,31 @@
 # encoding: utf-8
 
 schema:
+  schema_id: soutseu
   name: 蘇州吳拼
   version: "2013.02.23"
   author: 
     - 寒寒豆
   description: |
     http://www.suzhouhua.org/home/yx.html
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: "'，"
+
+translator:
   dictionary: suzhou
   syllable: "([bcdfghjklmnprstvwz]|tsh?|ng|[ptkcsg]h)?([aoeiuy]*)?((?<=[aeio])[nh])?"
-  delimiter: "'，"
-  keyboard:
-    - ts|gh|ng|aeh|aon|au|eu|oe|yu|iu
-    - p|ph|b|m|f|v|u|r|aon|aeh|t|th|d|n|l|w|a|au|an|ah|k|kh|g|ng|h|gh|e|eu|en|eh|c|ch|j|sh|y|iu|i|ie|in|ih|ts|tsh|s|z|'|yu|o|oe|on|oh|蘇州|三拼
-  pyspell:
+
+trime:
+  spell:
     - /\b(ch?|j|sh|ny)([aeou])/$1i$2/
     - /\bni/nyi/
     - /\bq/ch/
     - /\bx/sh/
     - /([^bpmfviayeoh]|[^p]h|\bh?)u\b/$1ou/
     - /ou\B/u/
-  py2ipa:
+  lookup:
     - /\bts/ʦ/
     - /\bsh/ɕ/
     - /\bzh/ʑ/
@@ -52,7 +57,7 @@ schema:
     - /ie/iɪ/
     - /e\b/E/
     - /(\b[ɕʥȵʨɦ]?ʰ?i)([nʔ])/$1ə$2/
-  ipafuzzy:
+  fuzzy:
     - 打黨不分 (aon⇒an)/ã/ɑ̃/
     - 襪麥不分 (aeh⇒ah)/ɑʔ/aʔ/
     - 官幹不分 (uoe⇒oe)/([^ui])ø/$1uø/

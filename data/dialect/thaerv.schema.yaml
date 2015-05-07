@@ -2,43 +2,20 @@
 # encoding: utf-8
 
 schema:
+  schema_id: thaerv
   name: "泰如拼音"
   version: "2014.6"
   author:
     - hisahara
   description: "http://thaerv.8048.my5m.com/"
-  dictionary: thaerv
-  alphabet: "[a-z0-8]+"
-  syllable: "([pmftnlkhcsr]?[shrg]*)?([zviuy]|e[ur]?)?([aeou]|ae?|ei?)?((?<=[aeuoi])[nh])?([0-8])?"
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba012345678"
   delimiter: "'，"
-  keyboard:
-    - p|t|k|tr|ts|c|i|a|1|3|ph|th|kh|thr|tsh|ch|u|e|2|[57]|m|n|ng|sr|s|sh|y|o|ae|[68]|f|l|h|r|z|v|n|h|eu|er|泰如|四拼
-    - 1|2|3|4|5|6|7|8|9|0
-  pyspell:
-    - /\d+(\d)\b/$1/
-    - /h5/h7/
-    - /h6/h8/
-    - /\b(ch?|sh)([aeou])/$1i$2/
-  py2ipa:
-    - /\bh/x/
-    - /\bts?hr/ʈʂʰ/
-    - /\bts?r/ʈʂ/
-    - /\bsr/ʂ/
-    - /\br/ɻ/
-    - /\bts/ʦ/
-    - /\bsh/ɕ/
-    - /\bc/ʨ/
-    - /\bng/ŋ/
-    - /(ɻ|ʂ|ʂʰ)(?=\d)/$1ʅ/
-    - /(?<=[aeiouy])h/ʔ/
-    - xlit/h|v|z|ae|er|eu|e|o/ʰ|ʋ|ɿ|ɛ|ɚ|ɤɯ|ə|ɔ/
-    - /(?<=[iuɛ])n/̃/
-    - /(?<=[aəɔ])n/ŋ/
-    - /a(?![ŋʔ])/ɑ/
-    - /i(?=[ʔ̃])/ɪ/
-    - /u(?=\b|[\dʔ̃])/ʊ/
-    - /iəŋ/iŋ/
-  ipa2py:
+
+translator:
+  dictionary: thaerv
+  comment_format:
     - /\bŋ/ng/
     - /iŋ/ien/
     - /[ŋ̃]/n/
@@ -62,7 +39,34 @@ schema:
     - /ɻ/r/
     - /ʅ//
     - /ɿ/z/
-  ipafuzzy:
+
+trime:
+  syllable: "([pmftnlkhcsr]?[shrg]*)?([zviuy]|e[ur]?)?([aeou]|ae?|ei?)?((?<=[aeuoi])[nh])?([0-8])?"
+  spell:
+    - /\d+(\d)\b/$1/
+    - /h5/h7/
+    - /h6/h8/
+    - /\b(ch?|sh)([aeou])/$1i$2/
+  lookup:
+    - /\bh/x/
+    - /\bts?hr/ʈʂʰ/
+    - /\bts?r/ʈʂ/
+    - /\bsr/ʂ/
+    - /\br/ɻ/
+    - /\bts/ʦ/
+    - /\bsh/ɕ/
+    - /\bc/ʨ/
+    - /\bng/ŋ/
+    - /(ɻ|ʂ|ʂʰ)(?=\d)/$1ʅ/
+    - /(?<=[aeiouy])h/ʔ/
+    - xlit/h|v|z|ae|er|eu|e|o/ʰ|ʋ|ɿ|ɛ|ɚ|ɤɯ|ə|ɔ/
+    - /(?<=[iuɛ])n/̃/
+    - /(?<=[aəɔ])n/ŋ/
+    - /a(?![ŋʔ])/ɑ/
+    - /i(?=[ʔ̃])/ɪ/
+    - /u(?=\b|[\dʔ̃])/ʊ/
+    - /iəŋ/iŋ/
+  fuzzy:
     - 陽去歸陰平 (6⇒1)/1/6/
     - 訓瞬不分 (sru-⇒xy-)/ɕy/ʂu/
     - 訓瞬不分 (sru-⇒xy-)/ʨ(ʰ?)y/ʈʂ$1u/

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os, sqlite3, logging, collections, itertools, sys, re
+from glob import glob
 import yaml 
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
@@ -63,11 +64,17 @@ dicts=set()
 count = 0
 
 def getdictname(fn, dic):
+    bn = dic + ".dict.yaml"
     path = os.path.dirname(fn)
-    return os.path.join(path, dic + ".dict.yaml")
+    fn = os.path.join(path, bn)
+    if not os.path.exists(fn):
+        fns = glob("./brise/*/%s" % bn)
+        if fns:
+            return fns[0]
+    return fn
 
 for fn in schemas:
-    yy = yaml.load(open(fn, encoding="U8"))
+    yy = yaml.load(open(fn, encoding="U8").read().replace("\t", " "))
     l = [count]
     dicts.add(getdictname(fn, yy["translator"]["dictionary"]))
     l.append(yy["schema"]["schema_id"])
@@ -93,7 +100,7 @@ for fn in dicts:
         line = line.strip()
         if line.startswith(mbStart):
             isMB = True
-            yy=yaml.load(y)
+            yy=yaml.load(y.replace("\t", " "))
             if yy.get("use_preset_vocabulary", False):
                 phrase = set(filter(lambda x:1<len(x)<=yy.get("max_phrase_length", 6) and d[x]>=yy.get("min_phrase_weight", 1000), d.keys()))
             continue
@@ -123,10 +130,10 @@ for fn in dicts:
         hz.sort(key=lambda x: d[x[0]] if d[x[0]] > 0 else 1000, reverse = True)
 
     table = yy.get("name", os.path.basename(fn).split(".")[0])
-    cursor.execute('CREATE VIRTUAL TABLE %s USING fts3(hz, py, pl INTEGER DEFAULT (0), tokenize=simple "separators=@")' % table)
+    cursor.execute('CREATE VIRTUAL TABLE "%s" USING fts3(hz, py, tokenize=simple)' % table)
     py2ipa = yy.get("py2ipa", [])
     for i in hz:
-        sql = 'insert into %s values (?, ?, 0)' % table
+        sql = 'insert into %s values (?, ?)' % table
         for j in py2ipa:
             r = re.split("(?<!\\\\)/", j)
             if r[0] == "xlit":

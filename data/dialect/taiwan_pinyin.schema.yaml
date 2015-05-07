@@ -11,6 +11,9 @@ schema:
 speller:
   alphabet: "zyxwvutsrqponmlkjihgfedcba12345üāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüê"
 
+translator:
+  dictionary: taiwan
+
 trime:
   syllable: "([bpmfdtnlgkhjqxryw]|[zcs]h?)?([iuü])?([āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüê])?([aoeiu])*(ng?|r)?([0-5])?"
   spell:
@@ -40,5 +43,3 @@ trime:
     - /\d+(\d)\b/$1/
     - xlit/ang|eng|ai|ei|ao|ou|an|en|er|zh|ch|sh|b|p|m|f|d|t|n|l|g|k|h|j|q|x|r|z|c|s|a|o|e|ê|i|u|ü|0|5|1|2|3|4/ㄤ|ㄥ|ㄞ|ㄟ|ㄠ|ㄡ|ㄢ|ㄣ|ㄦ|ㄓ|ㄔ|ㄕ|ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄎ|ㄏ|ㄐ|ㄑ|ㄒ|ㄖ|ㄗ|ㄘ|ㄙ|ㄚ|ㄛ|ㄜ|ㄝ|ㄧ|ㄨ|ㄩ|˙|˙||ˊ|ˇ|ˋ/
 
-translator:
-  dictionary: taiwan
