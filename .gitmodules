@@ -16,3 +16,36 @@
 [submodule "sqlite-fts-python"]
 	path = sqlite-fts-python
 	url = git@github.com:hideaki-t/sqlite-fts-python.git
+[submodule "lakyang"]
+	path = lakyang
+	url = git@github.com:Patricivs/lakyang.git
+[submodule "type-pinyin"]
+	path = type-pinyin
+	url = git@github.com:shawnwu/type-pinyin.git
+[submodule "ziranma_flyx_for_Rime"]
+	path = ziranma_flyx_for_Rime
+	url = git@github.com:daya-prac/ziranma_flyx_for_Rime.git
+[submodule "polyhedron"]
+	path = polyhedron
+	url = git@github.com:biopolyhedron/rime_schemata.git
+[submodule "erstern"]
+	path = erstern
+	url = git@github.com:erstern/myRIMEschemas.git
+[submodule "flypy_double"]
+	path = flypy_double
+	url = git@github.com:zecy/flypy_double.git
+[submodule "rime-nihongo-romaji"]
+	path = rime-nihongo-romaji
+	url = git@github.com:m13253/rime-nihongo-romaji.git
+[submodule "DaicingRimeSchema"]
+	path = DaicingRimeSchema
+	url = git@github.com:smreg/DaicingRimeSchema.git
+[submodule "meow-emoji-rime"]
+	path = meow-emoji-rime
+	url = git@github.com:hitigon/meow-emoji-rime.git
+[submodule "ime-sawrauz"]
+	path = ime-sawrauz
+	url = git@github.com:hienning/ime-sawrauz.git
+[submodule "Rime_Sunman_Schema"]
+	path = Rime_Sunman_Schema
+	url = git@github.com:tanmei2/Rime_Sunman_Schema.git
