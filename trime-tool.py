@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, sqlite3, logging, collections, itertools, sys, re
+import os, sqlite3, logging, collections, itertools, sys, re, string
 import glob, fnmatch
 import yaml 
 
@@ -70,6 +70,9 @@ def get_essaydict():
             d[hz]=int(weight)
     return d
 
+half = map(ord, string.punctuation + string.ascii_uppercase)
+fullwidth = {i: i - 0x20+0xff00 for i in half}
+
 def parse_dict(dicts):
     hz = []
     zd = collections.defaultdict(list)
@@ -94,6 +97,7 @@ def parse_dict(dicts):
             if l == 1:
                 phrase.add(fs[0])
             elif l > 1:
+                fs[1] = fs[1].translate(fullwidth)
                 hz.append(fs[:2])
                 if len(fs[0]) > 1 and fs[0] in phrase:
                     phrase.remove(fs[0])
@@ -132,7 +136,7 @@ opencc_dir = "OpenCC/data/dictionary/"
 if os.path.exists(opencc_dir):
     logging.info("簡繁")
     cursor.execute("CREATE VIRTUAL TABLE opencc USING fts3(s, t, r)")
-    cursor.executemany('INSERT INTO opencc VALUES (?, ?, ?)', opencc())
+    cursor.executemany('INSERT INTO opencc VALUES (?, ?, ?)', opencc(opencc_dir))
 
 logging.info("方案")
 cursor.execute('CREATE TABLE schema (_id INTEGER PRIMARY KEY, schema_id, name, full)')

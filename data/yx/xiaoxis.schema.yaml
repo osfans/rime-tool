@@ -18,14 +18,13 @@ schema:
 
 speller:
   alphabet: "zyxwvutsrqponmlkjihgfedcba;,./'"
-  initials: "bpmfdtnlgkhjqxcsrywi;,./'"
+  initials: "bpmfdtnlgkhjqxcsrywi"
 
 trime:
-  syllable: "[bpmfdtnlgkhjqxcsrywi].?[aoeuvz,\\./;']{0,3}|[;,\\./']"
-  auto_select_syllable: ".{2,5}|[;,\\./']"
+  syllable: "[bpmfdtnlgkhjqxcsrywi].?[aoeuvz,\\./;']{0,3}"
+  auto_select_syllable: ".{2,5}"
 
   lookup:
-    - xlit/,.\/;'/，。、；：/
     - /^.{2,4}$/$0*/
 
   keyboard:
@@ -214,6 +213,4 @@ trime:
 
 translator:
   dictionary: xiaoxis
-  comment_format:
-    - xlit/，。、；/,.\/;/
 

@@ -27,14 +27,8 @@ encoder:
       formula: "AaAbBaCa"
     - length_in_range: [4, 10]
       formula: "AaBaCaZa"
-py2ipa:
-    - xlit/,.\/;'/，。、；：/
 ...
-：	'
-，	,
-。	.
-、	/
-；	;
+
 并	b
 本	b,
 必	b.

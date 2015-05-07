@@ -27,14 +27,8 @@ encoder:
       formula: "AaAbBaCa"
     - length_in_range: [4, 10]
       formula: "AaBaCaZa"
-py2ipa:
-    - xlit/,.\/;/，。、；/
 ...
 
-，	,
-。	.
-、	/
-；	;
 安	a
 嫒	a,
 娭	a,.

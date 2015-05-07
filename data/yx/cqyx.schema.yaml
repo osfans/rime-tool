@@ -14,6 +14,11 @@ schema:
   dependencies:
     - pinyin_simp
 
+translator:
+  dictionary: cqlb
+  comment_format:
+    - xlit/，．／；/cvbm/
+
 trime:
   syllable: ".{1,4}"
   auto_select_syllable: "u.|v([p-t].|[^p-t])|.{4}"
@@ -25,10 +30,5 @@ trime:
   fuzzy:
     - /(?!^)m/；/
     - /(?!^)c/，/
-    - /(?!^)v/。/
-    - /(?!^)b/、/
-
-translator:
-  dictionary: cqlb
-  comment_format:
-    - xlit/，。、；/cvbm/
+    - /(?!^)v/．/
+    - /(?!^)b/／/

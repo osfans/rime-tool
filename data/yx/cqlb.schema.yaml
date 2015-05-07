@@ -16,13 +16,13 @@ schema:
 
 speller:
   alphabet: "zyxwvutsrqponmlkjihgfedcba;,./"
+  initials: "zyxwvutsrqponmlkjihgfedcba"
 
 trime:
   syllable: ".{1,4}"
-  auto_select_syllable: "u.|v([p-t].|[^p-t])|.{4}|[,\\./;]"
+  auto_select_syllable: "u.|v([p-t].|[^p-t])|.{4}"
 
   lookup:
-    - xlit/,.\/;/，。、；/
     - /^.{3}$/$0*/
     - /^[uv].*$/$0*/
 
@@ -456,6 +456,3 @@ trime:
 
 translator:
   dictionary: cqlb
-  comment_format:
-    - xlit/，。、；/,.\/;/
-
