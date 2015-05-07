@@ -3,67 +3,41 @@ import os, sqlite3, logging, collections, itertools, sys, re
 import glob, fnmatch
 import yaml 
 
-logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
+def get_schemas():
+    return fnmatch.filter(sys.argv[1:], "*.schema.yaml")
 
-schemas = fnmatch.filter(sys.argv[1:], "*.schema.yaml")
-if len(schemas) == 0:
-    logging.info("請指定方案集schema.yaml文件！")
-    exit(0)
-else:
-    logging.info("使用指定方案集:%s", schemas)
+def open_db():
+    DB = 'trime.db'
+    if os.path.exists(DB): os.remove(DB)
+    conn = sqlite3.connect(DB)
+    return conn
 
-DB = 'trime.db'
-if os.path.exists(DB): os.remove(DB)
-conn = sqlite3.connect(DB)
-cursor = conn.cursor()
+def close_db(conn):
+    conn.commit()
+    conn.close()
 
-logging.info("essay詞庫")
-d=collections.defaultdict(int)
-for i in open("brise/essay.txt", encoding="U8"):
-    i=i.strip()
-    if i:
-        hz,weight=i.split()
-        d[hz]=int(weight)
+def opencc(opencc_dir):
+    for fn in ("TSCharacters.txt", "TSPhrases.txt", "STCharacters.txt", "STPhrases.txt", \
+                  "TWVariantsRevPhrases.txt", "HKVariantsRevPhrases.txt"):
+        r = fn[:2].lower()
+        if r in ("tw", "hk"): r = r + "2t"
+        else: r = "%s2%s" % (r[0], r[1])
+        for i in open(opencc_dir + fn, encoding="U8"):
+            i = i.strip()
+            if i:
+                a = i.split('\t')
+                yield a[0], a[1], r
+    for fn in ("TWVariants.txt", "HKVariants.txt", "HKVariantsPhrases.txt", "JPVariants.txt", \
+                 "TWPhrasesIT.txt", "TWPhrasesName.txt", "TWPhrasesOther.txt"):
+        r = fn[:3].lower().rstrip('v')
+        for i in open(opencc_dir + fn, encoding="U8"):
+            i = i.strip()
+            if i:
+                a = i.split('\t')
+                yield a[0], a[1], "t2%s" % r
+                yield a[1], a[0], "%s2t" % r
 
-logging.info("OpenCC轉換")
-opencc_dir = "OpenCC/data/dictionary/"
-cursor.execute("CREATE VIRTUAL TABLE opencc USING fts3(s, t, r)")
-
-for fn in ("TSCharacters.txt", "TSPhrases.txt", "STCharacters.txt", "STPhrases.txt", \
-              "TWVariantsRevPhrases.txt", "HKVariantsRevPhrases.txt"):
-    r = fn[:2].lower()
-    if r in ("tw", "hk"): r = r + "2t"
-    else: r = "%s2%s" % (r[0], r[1])
-    for i in open(opencc_dir + fn, encoding="U8"):
-        i = i.strip()
-        if i:
-            a = i.split('\t')
-            cursor.execute('insert into opencc values (?, ?, "%s")' % r, a)
-
-for fn in ("TWVariants.txt", "HKVariants.txt", "HKVariantsPhrases.txt", "JPVariants.txt", \
-             "TWPhrasesIT.txt", "TWPhrasesName.txt", "TWPhrasesOther.txt"):
-    r = fn[:3].lower().rstrip('v')
-    for i in open(opencc_dir + fn, encoding="U8"):
-        i = i.strip()
-        if i:
-            a = i.split('\t')
-            cursor.execute('insert into opencc values (?,?,"t2%s")' % r, a)
-            cursor.execute('insert into opencc values (?,?,"%s2t")' % r, a[::-1])
-
-logging.info("方案")
-sql = """
-CREATE TABLE schema (
-    "_id" INTEGER PRIMARY KEY AUTOINCREMENT,
-    "schema_id" TEXT NOT NULL,
-    "name" TEXT NOT NULL,
-    "full" TEXT NOT NULL
-)"""
-cursor.execute(sql)
-
-dicts=set()
-count = 0
-
-def getdictname(fn, dic):
+def get_dict_name(fn, dic):
     bn = dic + ".dict.yaml"
     path = os.path.dirname(fn)
     fn = os.path.join(path, bn)
@@ -73,20 +47,30 @@ def getdictname(fn, dic):
             return fns[0]
     return fn
 
-for fn in schemas:
-    yy = yaml.load(open(fn, encoding="U8").read().replace("\t", " "))
-    l = [count]
-    dicts.add(getdictname(fn, yy["translator"]["dictionary"]))
-    l.append(yy["schema"]["schema_id"])
-    l.append(yy["schema"]["name"])
-    l.append(yaml.dump(yy))
-    cursor.execute('insert into schema values (?,?,?,?)', l)
-    count += 1
-    logging.info("\t%s", yy["schema"]["name"])
+def parse_schemas(schemas):
+    count = 0
+    for fn in schemas:
+        yy = yaml.load(open(fn, encoding="U8").read().replace("\t", " "))
+        l = [count]
+        dicts.add(get_dict_name(fn, yy["translator"]["dictionary"]))
+        l.append(yy["schema"]["schema_id"])
+        l.append(yy["schema"]["name"])
+        l.append(yaml.dump(yy))
+        yield l
+        count += 1
+        logging.info("\t%s", yy["schema"]["name"])
 
-logging.info("碼表")
+def get_essaydict():
+    d = collections.defaultdict(int)
+    if not os.path.exists("brise"): return
+    for i in open("brise/essay.txt", encoding="U8"):
+        i=i.strip()
+        if i:
+            hz,weight=i.split()
+            d[hz]=int(weight)
+    return d
 
-for fn in dicts:
+def parse_dict(dicts):
     hz = []
     zd = collections.defaultdict(list)
     mbStart = "..."
@@ -110,7 +94,7 @@ for fn in dicts:
             if l == 1:
                 phrase.add(fs[0])
             elif l > 1:
-                hz.append(fs[0:2])
+                hz.append(fs[:2])
                 if len(fs[0]) > 1 and fs[0] in phrase:
                     phrase.remove(fs[0])
                 if l == 2:
@@ -130,17 +114,38 @@ for fn in dicts:
         hz.sort(key=lambda x: d[x[0]] if d[x[0]] > 0 else 1000, reverse = True)
 
     table = yy.get("name", os.path.basename(fn).split(".")[0])
-    cursor.execute('CREATE VIRTUAL TABLE "%s" USING fts3(hz, py, tokenize=simple)' % table)
-    py2ipa = yy.get("py2ipa", [])
-    for i in hz:
-        sql = 'insert into %s values (?, ?)' % table
-        for j in py2ipa:
-            r = re.split("(?<!\\\\)/", j)
-            if r[0] == "xlit":
-                for a,b in zip(r[1].replace("\\",""),r[2].replace("\\","")):
-                    i[1]=i[1].replace(a,b)
-        cursor.execute(sql, i)
-    logging.info("\t%s 詞條数 %d", table, len(hz))
+    return table, hz
 
-conn.commit()
-conn.close()
+if len(sys.argv) == 1:
+    print("請指定方案集schema.yaml文件！")
+    exit(0)
+
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
+
+conn = open_db()
+cursor = conn.cursor()
+
+schemas = get_schemas()
+dicts=set()
+
+opencc_dir = "OpenCC/data/dictionary/"
+if os.path.exists(opencc_dir):
+    logging.info("簡繁")
+    cursor.execute("CREATE VIRTUAL TABLE opencc USING fts3(s, t, r)")
+    cursor.executemany('INSERT INTO opencc VALUES (?, ?, ?)', opencc())
+
+logging.info("方案")
+cursor.execute('CREATE TABLE schema (_id INTEGER PRIMARY KEY, schema_id, name, full)')
+cursor.executemany('INSERT INTO schema VALUES (?, ?, ?, ?)', parse_schemas(schemas))
+
+logging.info("詞庫")
+d = get_essaydict()
+
+logging.info("碼表")
+for fn in dicts:
+    table, hz = parse_dict(fn)
+    logging.info("\t%s 詞條数 %d", table, len(hz))
+    cursor.execute('CREATE VIRTUAL TABLE "%s" USING fts3(hz, py)' % table)
+    cursor.executemany('INSERT INTO "{0}" VALUES(?, ?)'.format(table), hz)
+
+close_db(conn)
