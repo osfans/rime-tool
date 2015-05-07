@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 import os, sqlite3, logging, collections, itertools, sys, re
-from glob import glob
+import glob, fnmatch
 import yaml 
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
 
-schemas = sys.argv[1:]
+schemas = fnmatch.filter(sys.argv[1:], "*.schema.yaml")
 if len(schemas) == 0:
     logging.info("請指定方案集schema.yaml文件！")
     exit(0)
@@ -68,7 +68,7 @@ def getdictname(fn, dic):
     path = os.path.dirname(fn)
     fn = os.path.join(path, bn)
     if not os.path.exists(fn):
-        fns = glob("./brise/*/%s" % bn)
+        fns = glob.glob("./brise/*/%s" % bn)
         if fns:
             return fns[0]
     return fn
