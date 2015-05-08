@@ -80,6 +80,7 @@ def parse_dict(dicts):
     isMB = False
     y = ""
     phrase = set()
+    syllables = set()
 
     for line in open(fn, encoding="U8"):
         if not isMB:
@@ -98,6 +99,7 @@ def parse_dict(dicts):
                 phrase.add(fs[0])
             elif l > 1:
                 fs[1] = fs[1].translate(fullwidth)
+                for i in fs[1].split(" "): syllables.add(i)
                 hz.append(fs[:2])
                 if len(fs[0]) > 1 and fs[0] in phrase:
                     phrase.remove(fs[0])
@@ -118,6 +120,10 @@ def parse_dict(dicts):
         hz.sort(key=lambda x: d[x[0]] if d[x[0]] > 0 else 1000, reverse = True)
 
     table = yy.get("name", os.path.basename(fn).split(".")[0])
+    count = len(syllables)
+    maxlen = max(map(len, syllables))
+    hz.insert(0, [" ".join(sorted(syllables)), " " * maxlen])
+    logging.info("\t%s 音節数 %d, 詞條数 %d", table, count, len(hz))
     return table, hz
 
 if len(sys.argv) == 1:
@@ -148,7 +154,6 @@ d = get_essaydict()
 logging.info("字典")
 for fn in dicts:
     table, hz = parse_dict(fn)
-    logging.info("\t%s 詞條数 %d", table, len(hz))
     cursor.execute('CREATE VIRTUAL TABLE "%s" USING fts3(hz, py)' % table)
     cursor.executemany('INSERT INTO "{0}" VALUES(?, ?)'.format(table), hz)
 
