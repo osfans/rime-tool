@@ -19,10 +19,12 @@ schema:
 speller:
   alphabet: "zyxwvutsrqponmlkjihgfedcba;,./'"
   initials: "bpmfdtnlgkhjqxcsrywi"
+  auto_select: true
+  auto_select_pattern: ".{2,5}"
+  max_code_length: 5
 
 trime:
   syllable: "[bpmfdtnlgkhjqxcsrywi].?[aoeuvz,\\./;']{0,3}"
-  auto_select_syllable: ".{2,5}"
 
   lookup:
     - /^.{2,4}$/$0*/

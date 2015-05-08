@@ -43,6 +43,11 @@ engine:
     - reverse_lookup_translator
     - table_translator
 
+speller:
+  max_code_length: 4
+  auto_select: true
+  auto_select_pattern: "[a-y]{3,4}"
+
 translator:
   dictionary: wubi98gb2312
   enable_charset_filter: true
@@ -75,7 +80,5 @@ recognizer:
     reverse_lookup: "^z[a-z]*'?$"
 
 trime:
-  syllable: "[a-y]{1,4}"
-  auto_select_syllable: "[a-y]{3,4}"
   lookup:
     - /^.{3}$/$0*/ #三碼模糊搜索

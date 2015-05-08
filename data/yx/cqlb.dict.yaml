@@ -28,7 +28,10 @@ encoder:
     - length_in_range: [4, 10]
       formula: "AaBaCaZa"
 ...
-
+，	,
+。	.
+、	/
+；	;
 安	a
 嫒	a,
 娭	a,.

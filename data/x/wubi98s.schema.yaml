@@ -3,10 +3,10 @@
 
 schema:
   schema_id: wubi98s
-  name: "五筆98單字"
+  name: "五笔98单字"
   version: "0.1"
   author:
-    - 發明人 王永民先生
+    - 发明人 王永民先生
     - 乘凉的猪
   description: |
     五筆字型98版
@@ -45,6 +45,9 @@ engine:
     - reverse_lookup_translator
     - table_translator
 
+speller:
+  max_code_length: 4
+
 translator:
   dictionary: wubi98s
   enable_charset_filter: true
@@ -75,7 +78,3 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "^z[a-z]*'?$"
-
-trime:
-  syllable: "[a-y]{1,4}"
-  auto_select_syllable: "[a-y]{4}"

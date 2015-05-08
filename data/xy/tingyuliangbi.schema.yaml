@@ -45,9 +45,10 @@ engine:
     - reverse_lookup_translator
     - table_translator
 
-#speller:
+speller:
   #delimiter: " ;'"
-  #max_code_length: 4
+  auto_select: true
+  auto_select_pattern: "[^q][a-z]{3}" #四碼唯一頂字
 
 translator:
   dictionary: tingyuliangbi
@@ -84,7 +85,6 @@ recognizer:
 
 trime:
   syllable: "([a-z]{1,4})|(q[a-z]{1,6})"
-  auto_select_syllable: "[^q][a-z]{3}" #四碼唯一頂字
   lookup:
     - /^.{2,6}$/$0*/ #三碼模糊搜索
 

@@ -145,7 +145,7 @@ cursor.executemany('INSERT INTO schema VALUES (?, ?, ?, ?)', parse_schemas(schem
 logging.info("詞庫")
 d = get_essaydict()
 
-logging.info("碼表")
+logging.info("字典")
 for fn in dicts:
     table, hz = parse_dict(fn)
     logging.info("\t%s 詞條数 %d", table, len(hz))
@@ -153,3 +153,4 @@ for fn in dicts:
     cursor.executemany('INSERT INTO "{0}" VALUES(?, ?)'.format(table), hz)
 
 close_db(conn)
+logging.info("碼表")
