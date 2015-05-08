@@ -84,7 +84,6 @@ recognizer:
     reverse_lookup: "^z[a-z]*'?$"
 
 trime:
-  syllable: "([a-z]{1,4})|(q[a-z]{1,6})"
   lookup:
     - /^.{2,6}$/$0*/ #三碼模糊搜索
 

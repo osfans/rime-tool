@@ -15,7 +15,6 @@ translator:
   dictionary: taiwan
 
 trime:
-  syllable: "([bpmfdtnlgkhjqxryw]|[zcs]h?)?([iuü])?([āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüê])?([aoeiu])*(ng?|r)?([0-5])?"
   spell:
     - /\d+(\d)\b/$1/
   lookup:

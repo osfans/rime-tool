@@ -16,7 +16,6 @@ speller:
 
 translator:
   dictionary: suzhou
-  syllable: "([bcdfghjklmnprstvwz]|tsh?|ng|[ptkcsg]h)?([aoeiuy]*)?((?<=[aeio])[nh])?"
 
 trime:
   spell:

@@ -41,7 +41,6 @@ translator:
     - /ɿ/z/
 
 trime:
-  syllable: "([pmftnlkhcsr]?[shrg]*)?([zviuy]|e[ur]?)?([aeou]|ae?|ei?)?((?<=[aeuoi])[nh])?([0-8])?"
   spell:
     - /\d+(\d)\b/$1/
     - /h5/h7/

@@ -17,7 +17,6 @@ translator:
   dictionary: thaerv
 
 trime:
-  syllable: "([pmftʈnlkxsʦŋʨɻɕ]?ʂ?ʰ?)?([ʅɿʋiuʊyaɑɪəɛɔɤɚ]*)?([iɯŋ̃ʔ])?([0-8])?"
   spell:
     - /\d+(\d)\b/$1/
     - /ʔ5/ʔ7/

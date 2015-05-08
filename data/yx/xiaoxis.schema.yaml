@@ -24,8 +24,6 @@ speller:
   max_code_length: 5
 
 trime:
-  syllable: "[bpmfdtnlgkhjqxcsrywi].?[aoeuvz,\\./;']{0,3}"
-
   lookup:
     - /^.{2,4}$/$0*/
 
