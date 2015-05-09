@@ -62,7 +62,7 @@ def parse_schemas(schemas):
 
 def get_essaydict():
     d = collections.defaultdict(int)
-    if not os.path.exists("brise"): return
+    if not os.path.exists("brise/essay.txt"): return
     for i in open("brise/essay.txt", encoding="U8"):
         i=i.strip()
         if i:
