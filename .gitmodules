@@ -43,6 +43,3 @@
 [submodule "ime-sawrauz"]
 	path = ime-sawrauz
 	url = git@github.com:hienning/ime-sawrauz.git
-[submodule "Rime_Sunman_Schema"]
-	path = Rime_Sunman_Schema
-	url = git@github.com:tanmei2/Rime_Sunman_Schema.git
