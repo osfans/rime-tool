@@ -43,3 +43,6 @@
 [submodule "ime-sawrauz"]
 	path = ime-sawrauz
 	url = git@github.com:hienning/ime-sawrauz.git
+[submodule "trime"]
+	path = trime
+	url = git@github.com:osfans/trime.git

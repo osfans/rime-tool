@@ -15,8 +15,9 @@
 - [碼表格式說明](https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md)
 
 ### 目錄結構
-- **[trime-tool.py](trime-tool.py)**：碼表製作工具主程序
-- [trime.apk](trime.apk)：輸入法主程序
+- **[trime-tool.py](trime-tool.py)**：碼表製作工具
+- [trime.apk](trime.apk)：輸入法安裝包
+- [trime/](https://github.com/osfans/trime)：輸入法代碼
 - [OpenCC/](https://github.com/BYVoid/OpenCC)：開放中文繁簡轉換工具
 - [brise/](https://github.com/rime/brise)：詞庫、RIME自帶碼表
 - [data/](data)：trime自帶碼表

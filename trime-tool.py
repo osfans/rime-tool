@@ -8,6 +8,8 @@ def get_schemas():
 
 def open_db():
     DB = 'trime.db'
+    asset = "trime/assets"
+    if os.path.exists(asset): DB = os.path.join(asset, DB)
     if os.path.exists(DB): os.remove(DB)
     conn = sqlite3.connect(DB)
     return conn
