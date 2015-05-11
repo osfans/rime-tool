@@ -44,10 +44,10 @@ def get_dict_name(fn, dic):
     path = os.path.dirname(fn)
     fn = os.path.join(path, bn)
     if not os.path.exists(fn):
-        fns = glob.glob("./brise/*/%s" % bn)
+        fns = glob.glob("brise/*/%s" % bn)
         if fns:
-            return fns[0]
-    return fn
+            return os.path.abspath(fns[0])
+    return os.path.abspath(fn)
 
 def parse_schemas(schemas):
     count = 0
