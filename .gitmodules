@@ -46,3 +46,6 @@
 [submodule "trime"]
 	path = trime
 	url = git@github.com:osfans/trime.git
+[submodule "Tone-double_pinyin"]
+	path = Tone-double_pinyin
+	url = git@github.com:zaqzrh/Tone-double_pinyin.git
