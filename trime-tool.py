@@ -43,21 +43,27 @@ def get_dict_name(fn, dic):
     bn = dic + ".dict.yaml"
     path = os.path.dirname(fn)
     fn = os.path.join(path, bn)
-    if not os.path.exists(fn):
-        fns = glob.glob("brise/*/%s" % bn)
-        if fns:
-            return os.path.abspath(fns[0])
-    return os.path.abspath(fn)
+    if os.path.exists(fn):
+        return os.path.abspath(fn)
+    fns = glob.glob("brise/*/%s" % bn)
+    if fns:
+        return os.path.abspath(fns[0])
 
 def parse_schemas(schemas):
     count = 0
     for fn in schemas:
         yy = yaml.load(open(fn, encoding="U8").read().replace("\t", " "))
         l = [count]
-        dicts.add(get_dict_name(fn, yy["translator"]["dictionary"]))
-        l.append(yy["schema"]["schema_id"])
+        schema_id = yy["schema"]["schema_id"]
+        l.append(schema_id)
         l.append(yy["schema"]["name"])
         l.append(yaml.dump(yy))
+        if "translator" in yy and "dictionary" in yy["translator"]:
+            dictionary = yy["translator"]["dictionary"]
+            dict_name = get_dict_name(fn, dictionary)
+            if dict_name: dicts.add(dict_name)
+            if "speller" in yy and "algebra" in yy["speller"]:
+                algebras[schema_id] = dictionary, yy["speller"]["algebra"]
         yield l
         count += 1
         logging.info("\t%s", yy["schema"]["name"])
@@ -75,58 +81,169 @@ def get_essaydict():
 half = map(ord, string.punctuation + string.ascii_uppercase)
 fullwidth = {i: i - 0x20+0xff00 for i in half}
 
-def parse_dict(dicts):
+def is_exclude(code, exclude_patterns):
+    if not exclude_patterns: return False
+    for i in exclude_patterns:
+        if i.fullmatch(code):
+            return True
+    return False
+
+def parse_columns(line, columns):
+    if line and not line.startswith("#"):
+        fs = line.split("#")[0].split("\t")
+    else:
+        return None, None, None, None
+    values = []
+    for c in ["text", "code", "weight", "stem"]:
+        if c in columns:
+            i = columns.index(c)
+            if len(fs) > i:
+                values.append(fs[i])
+            else:
+                values.append(None)
+        else:
+            values.append(None)
+    return values
+
+def get_formula_index(abc):
+    if "A" <=abc < "X":
+        return ord(abc) - ord("A")
+    if "X" <=abc <= "Z":
+        return ord(abc) - ord("Z") - 1
+    if "a" <=abc < "x":
+        return ord(abc) - ord("a")
+    if "x" <=abc <= "z":
+        return ord(abc) - ord("z") - 1
+
+def encoder_by_rules(pys, rules):
+    if not rules:
+        return " ".join(pys)
+    l = len(pys)
+    for d in rules:
+        if "length_equal" in d  and l == d["length_equal"] \
+            or ("length_in_range" in d and d["length_in_range"][0] <= l <=d["length_in_range"][1]):
+            f = d["formula"]
+            py = ""
+            for i in range(0, len(f), 2):
+                a, b = get_formula_index(f[i]), get_formula_index(f[i + 1])
+                if b >= len(pys[a]): b = -1
+                py += pys[a][b]
+            return py
+    return ""
+
+def parse_dict(fs):
     hz = []
+    hzs = set()
     zd = collections.defaultdict(list)
     mbStart = "..."
     isMB = False
     y = ""
     phrase = set()
-    syllables = set()
 
     for line in open(fn, encoding="U8"):
         if not isMB:
-            y+=line
+            y += line
         line = line.strip()
         if line.startswith(mbStart):
             isMB = True
             yy=yaml.load(y.replace("\t", " "))
-            if yy.get("use_preset_vocabulary", False):
+            if yy.get("use_preset_vocabulary"):
+                d = essay_d.copy()
                 phrase = set(filter(lambda x:1<len(x)<=yy.get("max_phrase_length", 6) and d[x]>=yy.get("min_phrase_weight", 1000), d.keys()))
+            else:
+                d = collections.defaultdict(int)
+            table = yy["name"]
+            columns = yy.get("columns", ["text", "code", "weight"])
+            encoder = yy.get("encoder")
+            exclude_patterns = None
+            rules = None
+            if encoder:
+                if "exclude_patterns" in encoder:
+                    exclude_patterns = list(map(re.compile, encoder["exclude_patterns"]))
+                if "rules" in encoder:
+                    rules = encoder["rules"]
             continue
-        if isMB and line and not line.startswith("#"):
-            fs = line.split("\t")
-            l = len(fs)
-            if l == 1:
-                phrase.add(fs[0])
-            elif l > 1:
-                fs[1] = fs[1].translate(fullwidth)
-                for i in fs[1].split(" "): syllables.add(i)
-                hz.append(fs[:2])
-                if len(fs[0]) > 1 and fs[0] in phrase:
-                    phrase.remove(fs[0])
-                if l == 2:
-                    zd[fs[0]].append(fs[1])
-                elif l == 3:
-                    if not fs[2].startswith("0"):
-                        zd[fs[0]].append(fs[1])
-                        if "%" not in fs[2]:
-                            d[fs[0]] = int(float(fs[2]))
+        if isMB:
+            text, code, weight, stem = parse_columns(line, columns)
+            if code:
+                text = text.translate(fullwidth)
+                if (text,code) not in hzs:
+                    hzs.add((text,code))
+                    hz.append((text, code))
+                if len(text) > 1 and text in phrase:
+                    phrase.remove(text)
+                if not is_exclude(code, exclude_patterns):
+                    if weight and weight.endswith("%"):
+                        percent = float(weight[:-1])
+                    else:
+                        percent = 100
+                    if percent > 20:
+                        zd[text].append(stem if stem else code)
+                if weight and not weight.startswith("0") and "%" not in weight:
+                    d[text] = int(float(weight))
+            elif text:
+                phrase.add(text)
     for p in phrase:
         pp = list(map(lambda x: zd.get(x, False), p))
-        if all(pp):        
+        pps = set()
+        if all(pp):
             for i in itertools.product(*pp):
-                hz.append([p," ".join(i)])
+                code = encoder_by_rules(i, rules)
+                if code and (text,code) not in hzs:
+                    hzs.add((p ,code))
+                    hz.append((p, code))
 
     if yy.get("sort", "original") == "by_weight":
         hz.sort(key=lambda x: d[x[0]] if d[x[0]] > 0 else 1000, reverse = True)
 
-    table = yy.get("name", os.path.basename(fn).split(".")[0])
-    count = len(syllables)
-    maxlen = max(map(len, syllables))
-    hz.insert(0, [" ".join(sorted(syllables)), " " * maxlen])
-    logging.info("\t%s 音節数 %d, 詞條数 %d", table, count, len(hz))
+    cursor.execute('INSERT INTO dictionary(name, phrase_gap, full) VALUES(?, ?, ?)', [table, bool(phrase) and rules == None, yaml.dump(yy)])
+
+    logging.info("\t%s 詞條数 %d", table, len(hz))
     return table, hz
+
+def get_prism(dictionary, algebra):
+    values = []
+    if algebra:
+        xform = []
+        delimeters = " /|"
+        for i in algebra:
+            for j in delimeters:
+                if j in i and i.count(j) >= 2:
+                    i = i.split(j, 3)
+                    if i[0] != 'xlit':
+                        i[1] = re.sub("(\([^\)]*\)\?)", "(\\1)", i[1])
+                        i[1] = re.compile(i[1])
+                    xform.append(i[:3])
+                    break
+        pya = set()
+        pyd = collections.defaultdict(set)
+        for i in cursor.execute('SELECT DISTINCT py from "%s"' % dictionary):
+            for j in i[0].split(" "):
+                pya.add(j)
+        for py in sorted(pya):
+            pys = set((py,))
+            for r, a, b in xform:
+                for i in sorted(pys):
+                    if r == 'erase' and a.fullmatch(i):
+                        pys.remove(i)
+                        break
+                    elif r == 'abbrev' and a.search(i):
+                        pys.add(a.sub(b, i))
+                    elif r == 'derive' and a.search(i):
+                        pys.add(a.sub(b, i))
+                    elif r == 'xform' and a.search(i):
+                        pys.remove(i)
+                        pys.add(a.sub(b, i))
+                    elif r == 'xlit':
+                        n = i.translate(dict(zip(a, b)))
+                        if n != i:
+                            pys.remove(i)
+                            pys.add(n)
+            for i in pys:
+                pyd[i].add(py)
+        for i in sorted(pyd):
+            values.append([i.translate(fullwidth), " ".join(sorted(pyd[i]))])
+    return values
 
 if len(sys.argv) == 1:
     print("請指定方案集schema.yaml文件！")
@@ -139,6 +256,7 @@ cursor = conn.cursor()
 
 schemas = get_schemas()
 dicts=set()
+algebras=dict()
 
 opencc_dir = "OpenCC/data/dictionary/"
 if os.path.exists(opencc_dir):
@@ -151,13 +269,26 @@ cursor.execute('CREATE TABLE schema (_id INTEGER PRIMARY KEY, schema_id, name, f
 cursor.executemany('INSERT INTO schema VALUES (?, ?, ?, ?)', parse_schemas(schemas))
 
 logging.info("詞庫")
-d = get_essaydict()
+essay_d = get_essaydict()
 
 logging.info("字典")
+cursor.execute('CREATE TABLE dictionary (_id INTEGER PRIMARY KEY AUTOINCREMENT, name, phrase_gap INTEGER, full)')
+tables = set()
 for fn in dicts:
     table, hz = parse_dict(fn)
-    cursor.execute('CREATE VIRTUAL TABLE "%s" USING fts3(hz, py)' % table)
-    cursor.executemany('INSERT INTO "{0}" VALUES(?, ?)'.format(table), hz)
+    if table not in tables:
+        tables.add(table)
+        cursor.execute('CREATE VIRTUAL TABLE "%s" USING fts3(hz, py)' % table)
+        cursor.executemany('INSERT INTO "%s" VALUES(?, ?)'%(table), hz)
+
+logging.info("棱鏡")
+for i in algebras.keys():
+    table = "%s.prism" % i
+    logging.info("\t%s", table)
+    values = get_prism(*algebras[i])
+    if values:
+        cursor.execute('CREATE VIRTUAL TABLE "%s" USING fts3(px, py)' % table)
+        cursor.executemany('INSERT INTO "%s" VALUES(?, ?)'%(table), values)
 
 close_db(conn)
 logging.info("碼表")
