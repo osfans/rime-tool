@@ -131,6 +131,11 @@ def encoder_by_rules(pys, rules):
             return py
     return ""
 
+def get_pyabcz(code):
+    a = code.split(" ", 3)
+    for i in range(4 -len(a)): a.append("")
+    return a
+
 def parse_dict(fs):
     hz = []
     hzs = set()
@@ -149,7 +154,7 @@ def parse_dict(fs):
             yy=yaml.load(y.replace("\t", " "))
             if yy.get("use_preset_vocabulary"):
                 d = essay_d.copy()
-                phrase = set(filter(lambda x:1<len(x)<=yy.get("max_phrase_length", 6) and d[x]>=yy.get("min_phrase_weight", 1000), d.keys()))
+                phrase = set(filter(lambda x:1<len(x)<=yy.get("max_phrase_length", 6) and d[x]>=yy.get("min_phrase_weight", 0), d.keys()))
             else:
                 d = collections.defaultdict(int)
             table = yy["name"]
@@ -169,7 +174,7 @@ def parse_dict(fs):
                 text = text.translate(fullwidth)
                 if (text,code) not in hzs:
                     hzs.add((text,code))
-                    hz.append((text, code))
+                    hz.append([text] + get_pyabcz(code))
                 if len(text) > 1 and text in phrase:
                     phrase.remove(text)
                 if not is_exclude(code, exclude_patterns):
@@ -191,7 +196,7 @@ def parse_dict(fs):
                 code = encoder_by_rules(i, rules)
                 if code and (text,code) not in hzs:
                     hzs.add((p ,code))
-                    hz.append((p, code))
+                    hz.append([p] + get_pyabcz(code))
 
     if yy.get("sort", "original") == "by_weight":
         hz.sort(key=lambda x: d[x[0]] if d[x[0]] > 0 else 1000, reverse = True)
@@ -213,13 +218,16 @@ def get_prism(dictionary, algebra):
                     if i[0] != 'xlit':
                         i[1] = re.sub("(\([^\)]*\)\?)", "(\\1)", i[1])
                         i[1] = re.compile(i[1])
+                        if i[2]:
+                            i[2] = re.sub("\$(\d)", r"\\\1", i[2])
                     xform.append(i[:3])
                     break
         pya = set()
         pyd = collections.defaultdict(set)
-        for i in cursor.execute('SELECT DISTINCT py from "%s"' % dictionary):
+        for i in cursor.execute('SELECT DISTINCT pya || " " || pyb || " " || pyc || " " || pyz from "%s"' % dictionary):
             for j in i[0].split(" "):
-                pya.add(j)
+                if j:
+                    pya.add(j)
         for py in sorted(pya):
             pys = set((py,))
             for r, a, b in xform:
@@ -240,10 +248,13 @@ def get_prism(dictionary, algebra):
                             pys.remove(i)
                             pys.add(n)
             for i in pys:
-                pyd[i].add(py)
-        for i in sorted(pyd):
-            values.append([i.translate(fullwidth), " ".join(sorted(pyd[i]))])
-    return values
+                pyd[i.translate(fullwidth)].add(py.translate(fullwidth))
+        px = sorted(pyd)
+        for i in px:
+            py = pyd[i]
+            #if len(py) > 4: py = [i + "*"]
+            values.append([i, " ".join(sorted(py))])
+    return " ".join(px), values
 
 if len(sys.argv) == 1:
     print("請指定方案集schema.yaml文件！")
@@ -265,8 +276,8 @@ if os.path.exists(opencc_dir):
     cursor.executemany('INSERT INTO opencc VALUES (?, ?, ?)', opencc(opencc_dir))
 
 logging.info("方案")
-cursor.execute('CREATE TABLE schema (_id INTEGER PRIMARY KEY, schema_id, name, full)')
-cursor.executemany('INSERT INTO schema VALUES (?, ?, ?, ?)', parse_schemas(schemas))
+cursor.execute('CREATE VIRTUAL TABLE schema USING fts3(_id INTEGER PRIMARY KEY, schema_id, name, full, px)')
+cursor.executemany('INSERT INTO schema(_id, schema_id, name, full) VALUES (?, ?, ?, ?)', parse_schemas(schemas))
 
 logging.info("詞庫")
 essay_d = get_essaydict()
@@ -278,17 +289,18 @@ for fn in dicts:
     table, hz = parse_dict(fn)
     if table not in tables:
         tables.add(table)
-        cursor.execute('CREATE VIRTUAL TABLE "%s" USING fts3(hz, py)' % table)
-        cursor.executemany('INSERT INTO "%s" VALUES(?, ?)'%(table), hz)
+        cursor.execute('CREATE VIRTUAL TABLE "%s" USING fts3(hz, pya, pyb, pyc, pyz)' % table)
+        cursor.executemany('INSERT INTO "%s" VALUES(?, ?, ?, ?, ?)'%(table), hz)
 
 logging.info("棱鏡")
 for i in algebras.keys():
     table = "%s.prism" % i
     logging.info("\t%s", table)
-    values = get_prism(*algebras[i])
+    px, values = get_prism(*algebras[i])
     if values:
         cursor.execute('CREATE VIRTUAL TABLE "%s" USING fts3(px, py)' % table)
         cursor.executemany('INSERT INTO "%s" VALUES(?, ?)'%(table), values)
+        cursor.execute('UPDATE schema SET px = "%s" WHERE schema_id = "%s"' % (px , i))
 
 close_db(conn)
 logging.info("碼表")
