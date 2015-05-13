@@ -216,7 +216,7 @@ def get_prism(dictionary, algebra):
                 if j in i and i.count(j) >= 2:
                     i = i.split(j, 3)
                     if i[0] != 'xlit':
-                        i[1] = re.sub("(\([^\)]*\)\?)", "(\\1)", i[1])
+                        i[1] = re.sub("(?<=\()([^\)]*\)\?)", "|\\1", i[1])
                         i[1] = re.compile(i[1])
                         if i[2]:
                             i[2] = re.sub("\$(\d)", r"\\\1", i[2])
@@ -230,23 +230,27 @@ def get_prism(dictionary, algebra):
                     pya.add(j)
         for py in sorted(pya):
             pys = set((py,))
-            for r, a, b in xform:
-                for i in sorted(pys):
-                    if r == 'erase' and a.fullmatch(i):
-                        pys.remove(i)
-                        break
-                    elif r == 'abbrev' and a.search(i):
-                        pys.add(a.sub(b, i))
-                    elif r == 'derive' and a.search(i):
-                        pys.add(a.sub(b, i))
-                    elif r == 'xform' and a.search(i):
-                        pys.remove(i)
-                        pys.add(a.sub(b, i))
-                    elif r == 'xlit':
-                        n = i.translate(dict(zip(a, b)))
-                        if n != i:
+            try:
+                for r, a, b in xform:
+                    for i in sorted(pys):
+                        if r == 'erase' and a.fullmatch(i):
                             pys.remove(i)
-                            pys.add(n)
+                            break
+                        elif r == 'abbrev' and a.search(i):
+                            pys.add(a.sub(b, i))
+                        elif r == 'derive' and a.search(i):
+                            pys.add(a.sub(b, i))
+                        elif r == 'xform' and a.search(i):
+                            pys.remove(i)
+                            pys.add(a.sub(b, i))
+                        elif r == 'xlit':
+                            n = i.translate(dict(zip(a, b)))
+                            if n != i:
+                                pys.remove(i)
+                                pys.add(n)
+            except:
+                logging.error("%s/%s/%s/出錯：%s", r, a, b, i)
+                exit(1)
             for i in pys:
                 pyd[i.translate(fullwidth)].add(py.translate(fullwidth))
         px = sorted(pyd)
