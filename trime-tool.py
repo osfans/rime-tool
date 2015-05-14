@@ -107,13 +107,13 @@ def parse_columns(line, columns):
     return values
 
 def get_formula_index(abc):
-    if "A" <=abc < "X":
+    if "A" <=abc < "U":
         return ord(abc) - ord("A")
-    if "X" <=abc <= "Z":
+    if "U" <=abc <= "Z":
         return ord(abc) - ord("Z") - 1
-    if "a" <=abc < "x":
+    if "a" <=abc < "u":
         return ord(abc) - ord("a")
-    if "x" <=abc <= "z":
+    if "u" <=abc <= "z":
         return ord(abc) - ord("z") - 1
 
 def encoder_by_rules(pys, rules):
@@ -211,18 +211,16 @@ def get_prism(dictionary, algebra):
     values = []
     if algebra:
         xform = []
-        delimeters = " /|"
+        sep = re.compile("\W")
         for i in algebra:
-            for j in delimeters:
-                if j in i and i.count(j) >= 2:
-                    i = i.split(j, 3)
-                    if i[0] != 'xlit':
-                        i[1] = re.sub("(?<=\()([^\)]*\)\?)", "|\\1", i[1])
-                        i[1] = re.compile(i[1])
-                        if i[2]:
-                            i[2] = re.sub("\$(\d)", r"\\\1", i[2])
-                    xform.append(i[:3])
-                    break
+            j = sep.search(i).group(0)
+            i = i.split(j, 3)
+            if i[0] != 'xlit':
+                i[1] = re.sub("(?<=\()([^\)]*\)\?)", "|\\1", i[1])
+                i[1] = re.compile(i[1])
+                if i[2]:
+                    i[2] = re.sub("\$(\d)", r"\\\1", i[2])
+            xform.append(i[:3])
         pya = set()
         pyd = collections.defaultdict(set)
         for i in cursor.execute('SELECT DISTINCT pya || " " || pyb || " " || pyc || " " || pyz from "%s"' % dictionary):
