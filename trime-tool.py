@@ -80,6 +80,7 @@ def get_essaydict():
 
 half = map(ord, string.punctuation + string.ascii_uppercase)
 fullwidth = {i: i - 0x20+0xff00 for i in half}
+halfwidth = {i - 0x20+0xff00: i for i in half}
 
 def is_exclude(code, exclude_patterns):
     if not exclude_patterns: return False
@@ -171,7 +172,7 @@ def parse_dict(fs):
         if isMB:
             text, code, weight, stem = parse_columns(line, columns)
             if code:
-                text = text.translate(fullwidth)
+                code = code.translate(fullwidth)
                 if (text,code) not in hzs:
                     hzs.add((text,code))
                     hz.append([text] + get_pyabcz(code))
@@ -227,38 +228,42 @@ def get_prism(dictionary, algebra):
         for i in cursor.execute('SELECT DISTINCT pya || " " || pyb || " " || pyc || " " || pyz from "%s"' % dictionary):
             for j in i[0].split(" "):
                 if j:
-                    pya.add(j)
+                    pya.add(j.translate(halfwidth))
         for py in sorted(pya):
             pys = set((py,))
             try:
                 for r, a, b in xform:
                     for i in sorted(pys):
+                        n = ''
                         if r == 'erase' and a.fullmatch(i):
                             pys.remove(i)
                             break
                         elif r == 'abbrev' and a.search(i):
-                            pys.add(a.sub(b, i))
+                            n = a.sub(b, i)
+                            pys.add(n)
                         elif r == 'derive' and a.search(i):
-                            pys.add(a.sub(b, i))
+                            n = a.sub(b, i)
+                            pys.add(n)
                         elif r == 'xform' and a.search(i):
                             pys.remove(i)
-                            pys.add(a.sub(b, i))
+                            n = a.sub(b, i)
+                            pys.add(n)
                         elif r == 'xlit':
-                            n = i.translate(dict(zip(a, b)))
+                            n = i.translate(str.maketrans(a, b))
                             if n != i:
                                 pys.remove(i)
                                 pys.add(n)
             except:
-                logging.error("%s/%s/%s/出錯：%s", r, a, b, i)
-                exit(1)
+                logging.error("%s/%s/%s/出錯：%s->%s", r, a, b, i, n)
+                raise
             for i in pys:
-                pyd[i.translate(fullwidth)].add(py.translate(fullwidth))
+                pyd[i].add(py)
         px = sorted(pyd)
         for i in px:
             py = pyd[i]
             #if len(py) > 4: py = [i + "*"]
-            values.append([i, " ".join(sorted(py))])
-    return " ".join(px), values
+            values.append([i.translate(fullwidth), (" ".join(sorted(py))).translate(fullwidth)])
+    return " ".join(px).translate(fullwidth), values
 
 if len(sys.argv) == 1:
     print("請指定方案集schema.yaml文件！")
