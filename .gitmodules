@@ -49,3 +49,9 @@
 [submodule "Tone-double_pinyin"]
 	path = Tone-double_pinyin
 	url = git@github.com:zaqzrh/Tone-double_pinyin.git
+[submodule "rime-jutjnyu_gaulaupin_dangjunbikwaa"]
+	path = rime-jutjnyu_gaulaupin_dangjunbikwaa
+	url = git@github.com:safetychinese/rime-jutjnyu_gaulaupin_dangjunbikwaa.git
+[submodule "rime-hepy"]
+	path = rime-hepy
+	url = git@github.com:nlimpid/rime-hepy.git
