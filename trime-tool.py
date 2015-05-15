@@ -179,14 +179,19 @@ def parse_dict(fs):
                 if len(text) > 1 and text in phrase:
                     phrase.remove(text)
                 if not is_exclude(code, exclude_patterns):
+                    percent = 100
                     if weight and weight.endswith("%"):
-                        percent = float(weight[:-1])
-                    else:
-                        percent = 100
-                    if percent > 20:
+                        try:
+                            percent = float(weight[:-1])
+                        except:
+                            logging.warning("\t!!! %s 詞頻錯誤：%s", table, line)
+                    if percent >= 5:
                         zd[text].append(stem if stem else code)
                 if weight and not weight.startswith("0") and "%" not in weight:
-                    d[text] = int(float(weight))
+                    try:
+                        d[text] = int(float(weight))
+                    except:
+                        logging.warning("\t!!! %s 詞頻錯誤：%s", table, line)
             elif text:
                 phrase.add(text)
     for p in phrase:
@@ -209,6 +214,7 @@ def parse_dict(fs):
 
 def get_prism(dictionary, algebra):
     values = []
+    px = []
     if algebra:
         xform = []
         sep = re.compile("\W")
