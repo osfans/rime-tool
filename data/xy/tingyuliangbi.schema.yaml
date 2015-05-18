@@ -4,7 +4,7 @@
 schema:
   schema_id: tingyuliangbi
   name: "速版听雨两笔"
-  version: "2.0"
+  version: "2.11"
   author:
     - 发明人 听雨先生
   description: |
@@ -48,7 +48,7 @@ engine:
 speller:
   #delimiter: " ;'"
   auto_select: true
-  auto_select_pattern: "[^q][a-z]{3}" #四碼唯一頂字
+  auto_select_pattern: "^[^aq]q$|^[^q][a-z]{3}$" #四碼或q尾二碼唯一頂字
 
 translator:
   dictionary: tingyuliangbi
@@ -82,8 +82,3 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "^z[a-z]*'?$"
-
-trime:
-  lookup:
-    - /^.{2,6}$/$0*/ #三碼模糊搜索
-
