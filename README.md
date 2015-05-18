@@ -2,7 +2,7 @@
 
 ### 用法
 - 環境: [python3](https://www.python.org/downloads/release/python-340/) + [PyYAML](http://pyyaml.org/wiki/PyYAML)
-- 輸入: 參數為一個或多個方案文件名，如`brise/preset/luna_pinyin.schema.yaml`。
+- 輸入: 參數為一個或多個方案文件名，如`brise/preset/luna_pinyin.schema.yaml`。程序會自動從當前目錄或者brise目錄中找到對應的`*.dict.yaml`文件。
 
   `python3 trime-tool.py brise/preset/luna_pinyin.schema.yaml`
 
