@@ -23,6 +23,6 @@
 - [data/](data)：trime自帶碼表
 - 其他目錄：github開源碼表
 
-###　常見問題
+### 常見問題
  - 問：Windows + Python 3.4.0 環境下，提示無fts3模塊
  - 答：從[sqlite官網](http://www.sqlite.org/download.html)下載最新dll替換`C:\Python 34\DLLs\sqlite3.dll`
