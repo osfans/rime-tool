@@ -52,13 +52,3 @@ translator:
   comment_format:
     - xlit/，．／；/cvbm/
 
-trime:
-  lookup:
-    - /^.{3}$/$0*/
-    - /^[uv].*$/$0*/
-
-  fuzzy:
-    - /(?!^)m/；/
-    - /(?!^)c/，/
-    - /(?!^)v/．/
-    - /(?!^)b/／/

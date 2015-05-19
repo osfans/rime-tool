@@ -58,13 +58,29 @@ translator:
   max_phrase_length: 4
   enable_user_dict: false
 
-trime:
-  lookup:
-    - /^.{3}$/$0*/
-    - /^[uv].*$/$0*/
+reverse_lookup:
+  dictionary: pinyin_simp
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
 
+recognizer:
+  import_preset: default
+  patterns:
+    # hack: to enable "/fh" style symbols, '/' must be mapped to a [list].
+    # so those who have customized '/' for direct commit won't be affected by
+    # this change.
+    punct: "^/([0-9]+[a-z]*|[a-z]+)$"
+    reverse_lookup: "`[a-z]*'?$"
+
+trime:
   keyboard:
   - mode: 0
+    chinese: true
     horizontalGap: 1
     width: 9
     keys:

@@ -78,7 +78,3 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "^z[a-z]*'?$"
-
-trime:
-  lookup:
-    - /^.{3}$/$0*/ #三碼模糊搜索
