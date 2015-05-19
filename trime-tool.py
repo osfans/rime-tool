@@ -64,6 +64,10 @@ def parse_schemas(schemas):
             if dict_name: dicts.add(dict_name)
             if "speller" in yy and "algebra" in yy["speller"]:
                 algebras[schema_id] = dictionary, yy["speller"]["algebra"]
+        if "reverse_lookup" in yy and "dictionary" in yy["reverse_lookup"]:
+            dictionary = yy["reverse_lookup"]["dictionary"]
+            dict_name = get_dict_name(fn, dictionary)
+            if dict_name: dicts.add(dict_name)
         yield l
         count += 1
         logging.info("\t%s", yy["schema"]["name"])
@@ -249,9 +253,10 @@ def get_prism(dictionary, algebra):
                             n = a.sub(b, i)
                             pys.add(n)
                         elif r == 'xform' and a.search(i):
-                            pys.remove(i)
                             n = a.sub(b, i)
-                            pys.add(n)
+                            if n != i:
+                              pys.remove(i)
+                              pys.add(n)
                         elif r == 'xlit':
                             n = i.translate(str.maketrans(a, b))
                             if n != i:
