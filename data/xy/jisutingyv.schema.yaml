@@ -1,0 +1,79 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: jisutingyv
+  name: "极速听雨两笔"
+  version: "0.20"
+  author:
+    - 听雨
+  description: |
+    敲 ` 鍵進入拼音反查
+  dependencies:
+    - pinyin_simp
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ ，。, ，． ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+
+speller:
+  delimiter: " ;'"
+  max_code_length: 4
+
+translator:
+  dictionary: jisutingyv
+  enable_sentence: true#false
+  enable_charset_filter: true#false
+  enable_encoder: true#false
+  encode_commit_history: true#false
+  max_phrase_length: 4
+  #disable_user_dict_for_patterns:
+    #- "^q.*$"
+
+reverse_lookup:
+  dictionary: pinyin_simp
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/[0-9]*[a-z]*$"
+    reverse_lookup: "^`[a-z]*'?$"
