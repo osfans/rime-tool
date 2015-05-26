@@ -82,7 +82,7 @@ def get_essaydict():
             d[hz]=int(weight)
     return d
 
-half = map(ord, string.punctuation + string.ascii_uppercase)
+half = list(map(ord, string.punctuation + string.ascii_uppercase))
 fullwidth = {i: i - 0x20+0xff00 for i in half}
 halfwidth = {i - 0x20+0xff00: i for i in half}
 
