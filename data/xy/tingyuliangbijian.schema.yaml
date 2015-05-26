@@ -75,3 +75,83 @@ recognizer:
   patterns:
     punct: "^/[0-9]*[a-z]*$"
     reverse_lookup: "^`[a-z]*'?$"
+
+trime:
+  keyboard:
+  - mode: 0
+    ascii_mode: 0
+    keys:
+    - {symbol: '"', text: q, label: q乁}
+    - {symbol: "'", text: w, label: w丶}
+    - {text: e, label: e丿, symbol: '日'}
+    - {symbol: '|', text: r, label: r丨}
+    - {symbol: '/', text: t, label: t一}
+    - {symbol: '\', text: y, label: y一}
+    - {text: u, label: u丨, symbol: '月辶'}
+    - {symbol: ';', text: i, label: i丿}
+    - {symbol: '{', text: o, label: o丶}
+    - {symbol: '}', text: p, label: p乁}
+    - {width: 5}
+    - {symbol: '=', text: a, label: a乁}
+    - {symbol: '±', text: s, label: s丶, symbolLabel: '土'}
+    - {symbol: "_", text: d, label: d丿}
+    - {symbol: '+', text: f, label: f丨}
+    - {symbol: '-', text: g, label: g一}
+    - {text: h, label: h一, symbol: '钅'}
+    - {text: j, label: j丨, symbol: '木'}
+    - {symbol: ':', text: k, label: k丿, symbolLabel: ': 口'}
+    - {text: l, label: l丶, symbol: '氵'}
+    - {text: <shift>}
+    - {symbol: "<", text: z, label: z乁}
+    - {symbol: ">", text: x, label: x丶, symbolLabel: "> 艹"}
+    - {text: c, label: c丿, symbol: 山}
+    - {text: v, label: v丨, symbol: 扌}
+    - {symbol: "~", text: b, label: b一}
+    - {symbol: '[', text: n, label: n乁}
+    - {symbol: ']', text: m, label: m乁}
+    - {text: <delete>, width: 20}
+    - {label: '123', switch: 1, text: <switch>, symbol: '...', symbolCode: -10, width: 12}
+    - {symbol: '反查', text: '`', symbolCode: -12}
+    - {symbol: '符号', text: '/', symbolCode: -11}
+    - {label: '听雨两笔', text: <space>, width: 36}
+    - {symbol: '?', text: ','}
+    - {symbol: '!', text: '.'}
+    - {text: <enter>, symbol: '???', width: 12}
+    - {symbol: '!', text: '1'}
+    - {symbol: '@', text: '2'}
+    - {symbol: '#', text: '3'}
+    - {symbol: '$', text: '4'}
+    - {symbol: '%', text: '5'}
+    - {symbol: '^', text: '6'}
+    - {symbol: '&', text: '7'}
+    - {symbol: '*', text: '8'}
+    - {symbol: '(', text: '9'}
+    - {symbol: ')', text: '0'}
+  - mode: 1
+    width: 20
+    keys:
+    - {text: '+'}
+    - {text: '1'}
+    - {text: '2'}
+    - {text: '3'}
+    - {text: '#'}
+    - {text: '-'}
+    - {text: '4'}
+    - {text: '5'}
+    - {text: '6'}
+    - {text: '%'}
+    - {text: '*'}
+    - {text: '7'}
+    - {text: '8'}
+    - {text: '9'}
+    - {text: ':'}
+    - {text: '/'}
+    - {text: '±'}
+    - {text: '0'}
+    - {text: '.'}
+    - {text: ','}
+    - {text: '='}
+    - {text: <switch>, switch: 0}
+    - {text: <space>}
+    - {text: <delete>}
+    - {text: <enter>}
