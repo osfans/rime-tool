@@ -81,34 +81,34 @@ trime:
   - mode: 0
     ascii_mode: 0
     keys:
-    - {symbol: '"', text: q, hint: 丿乁}
-    - {symbol: "'", text: w, hint: 丿丶}
-    - {text: e, symbol: '日', hint: 丿丿}
-    - {symbol: '|', text: r, hint: 丿丨}
-    - {symbol: '/', text: t, hint: 丿一}
-    - {symbol: '\', text: y, hint: 丶一}
-    - {text: u, symbol: '月辶', hint: 丶丨}
-    - {text: i, hint: 丶丿}
-    - {symbol: '{', text: o, hint: 丶丶}
-    - {symbol: '}', text: p, hint: 丶乁}
+    - {symbol: '"', text: q, hint: 匕}
+    - {symbol: "'", text: w, hint: 人}
+    - {text: e, symbol: '日', hint: 彳}
+    - {symbol: '|', text: r, hint: 亻}
+    - {symbol: '/', text: t, hint: 千}
+    - {symbol: '\', text: y, hint: 亠}
+    - {text: u, symbol: '月辶', hint: 门}
+    - {text: i, symbol: ';', hint: 丷}
+    - {symbol: '{', text: o, hint: 灬}
+    - {symbol: '}', text: p, hint: 讠}
     - {width: 5}
-    - {symbol: '=', text: a, hint: 一乁}
-    - {text: s, symbol: '土', hint: 一丶}
-    - {symbol: "_", text: d, hint: 一丿}
-    - {symbol: '+', text: f, hint: 一丨}
-    - {symbol: '-', text: g, hint: 一一}
-    - {text: h, symbol: '钅', hint: 丨一}
-    - {text: j, symbol: '木', hint: 丨丨}
-    - {symbol: ':', text: k, hint: 丨丿, symbolLabel: ': 口'}
-    - {symbol: ';', text: l, hint: 丨丶, symbolLabel: '; 氵'}
+    - {symbol: '=', text: a, hint: 七}
+    - {text: s, symbol: '土', hint: 平}
+    - {symbol: "_", text: d, hint: 厂}
+    - {symbol: '+', text: f, hint: 十}
+    - {symbol: '-', text: g, hint: 二}
+    - {text: h, symbol: '钅', hint: 上}
+    - {text: j, symbol: '木', hint: 刂}
+    - {symbol: ':', text: k, hint: 小, symbolLabel: ': 口'}
+    - {symbol: ';', text: l, hint: 卜, symbolLabel: '; 氵'}
     - {text: <shift>}
-    - {symbol: "<", text: z, hint: 乁乁}
-    - {symbol: ">", text: x, hint: 乁丶, symbolLabel: "> 艹"}
-    - {text: c, hint: 乁丿, symbol: 山}
-    - {text: v, hint: 乁丨, symbol: 扌}
-    - {symbol: "~", text: b, hint: 乁一}
-    - {symbol: '[', text: n, hint: 丿乁}
-    - {symbol: ']', text: m, hint: 丨乁}
+    - {symbol: "<", text: z, hint: 纟}
+    - {symbol: ">", text: x, hint: 又, symbolLabel: "> 艹"}
+    - {text: c, symbol: 山, hint: 力}
+    - {text: v, symbol: 扌, hint: 阝}
+    - {symbol: "~", text: b, hint: 尸}
+    - {symbol: '[', text: n, hint: 勹}
+    - {symbol: ']', text: m, hint: 冂}
     - {text: <delete>, width: 20}
     - {label: '123', switch: 1, text: <switch>, symbol: '...', symbolCode: -10, width: 12}
     - {symbol: '反查', text: '`', symbolCode: -12}
