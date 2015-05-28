@@ -81,34 +81,34 @@ trime:
   - mode: 0
     ascii_mode: 0
     keys:
-    - {symbol: '"', text: q, label: q乁}
-    - {symbol: "'", text: w, label: w丶}
-    - {text: e, label: e丿, symbol: '日'}
-    - {symbol: '|', text: r, label: r丨}
-    - {symbol: '/', text: t, label: t一}
-    - {symbol: '\', text: y, label: y一}
-    - {text: u, label: u丨, symbol: '月辶'}
-    - {symbol: ';', text: i, label: i丿}
-    - {symbol: '{', text: o, label: o丶}
-    - {symbol: '}', text: p, label: p乁}
+    - {symbol: '"', text: q, hint: 丿乁}
+    - {symbol: "'", text: w, hint: 丿丶}
+    - {text: e, symbol: '日', hint: 丿丿}
+    - {symbol: '|', text: r, hint: 丿丨}
+    - {symbol: '/', text: t, hint: 丿一}
+    - {symbol: '\', text: y, hint: 丶一}
+    - {text: u, symbol: '月辶', hint: 丶丨}
+    - {text: i, hint: 丶丿}
+    - {symbol: '{', text: o, hint: 丶丶}
+    - {symbol: '}', text: p, hint: 丶乁}
     - {width: 5}
-    - {symbol: '=', text: a, label: a乁}
-    - {symbol: '±', text: s, label: s丶, symbolLabel: '土'}
-    - {symbol: "_", text: d, label: d丿}
-    - {symbol: '+', text: f, label: f丨}
-    - {symbol: '-', text: g, label: g一}
-    - {text: h, label: h一, symbol: '钅'}
-    - {text: j, label: j丨, symbol: '木'}
-    - {symbol: ':', text: k, label: k丿, symbolLabel: ': 口'}
-    - {text: l, label: l丶, symbol: '氵'}
+    - {symbol: '=', text: a, hint: 一乁}
+    - {text: s, symbol: '土', hint: 一丶}
+    - {symbol: "_", text: d, hint: 一丿}
+    - {symbol: '+', text: f, hint: 一丨}
+    - {symbol: '-', text: g, hint: 一一}
+    - {text: h, symbol: '钅', hint: 丨一}
+    - {text: j, symbol: '木', hint: 丨丨}
+    - {symbol: ':', text: k, hint: 丨丿, symbolLabel: ': 口'}
+    - {symbol: ';', text: l, hint: 丨丶, symbolLabel: '; 氵'}
     - {text: <shift>}
-    - {symbol: "<", text: z, label: z乁}
-    - {symbol: ">", text: x, label: x丶, symbolLabel: "> 艹"}
-    - {text: c, label: c丿, symbol: 山}
-    - {text: v, label: v丨, symbol: 扌}
-    - {symbol: "~", text: b, label: b一}
-    - {symbol: '[', text: n, label: n乁}
-    - {symbol: ']', text: m, label: m乁}
+    - {symbol: "<", text: z, hint: 乁乁}
+    - {symbol: ">", text: x, hint: 乁丶, symbolLabel: "> 艹"}
+    - {text: c, hint: 乁丿, symbol: 山}
+    - {text: v, hint: 乁丨, symbol: 扌}
+    - {symbol: "~", text: b, hint: 乁一}
+    - {symbol: '[', text: n, hint: 丿乁}
+    - {symbol: ']', text: m, hint: 丨乁}
     - {text: <delete>, width: 20}
     - {label: '123', switch: 1, text: <switch>, symbol: '...', symbolCode: -10, width: 12}
     - {symbol: '反查', text: '`', symbolCode: -12}
@@ -116,7 +116,7 @@ trime:
     - {label: '听雨两笔', text: <space>, width: 36}
     - {symbol: '?', text: ','}
     - {symbol: '!', text: '.'}
-    - {text: <enter>, symbol: '???', width: 12}
+    - {text: <enter>, width: 12, symbol: '???', symbolCode: -12}
     - {symbol: '!', text: '1'}
     - {symbol: '@', text: '2'}
     - {symbol: '#', text: '3'}
