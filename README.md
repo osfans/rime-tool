@@ -26,3 +26,5 @@
 ### 常見問題
  - 問：Windows + Python 3.4.0 環境下，提示無fts3模塊
  - 答：從[sqlite官網](http://www.sqlite.org/download.html)下載最新dll替換`C:\Python 34\DLLs\sqlite3.dll`
+ - 問：sqlite官網無64位的dll
+ - 答：下載代碼用mingw編譯（不推薦要使用MSVC），命令爲`gcc -DSQLITE_ENABLE_FTS3 -Os -shared sqlite3.c -o sqlite3.dll`
