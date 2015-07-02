@@ -55,3 +55,6 @@
 [submodule "rime-hepy"]
 	path = rime-hepy
 	url = git@github.com:nlimpid/rime-hepy.git
+[submodule "rime-schema-jyutping"]
+	path = rime-schema-jyutping
+	url = git@github.com:jakwings/rime-schema-jyutping.git
