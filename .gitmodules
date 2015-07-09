@@ -1,6 +1,3 @@
-[submodule "OpenCC"]
-	path = OpenCC
-	url = git@github.com:BYVoid/OpenCC.git
 [submodule "brise"]
 	path = brise
 	url = git@github.com:rime/brise.git
@@ -43,9 +40,6 @@
 [submodule "ime-sawrauz"]
 	path = ime-sawrauz
 	url = git@github.com:hienning/ime-sawrauz.git
-[submodule "trime"]
-	path = trime
-	url = git@github.com:osfans/trime.git
 [submodule "Tone-double_pinyin"]
 	path = Tone-double_pinyin
 	url = git@github.com:zaqzrh/Tone-double_pinyin.git
