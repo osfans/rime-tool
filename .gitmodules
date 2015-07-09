@@ -58,3 +58,6 @@
 [submodule "rime-schema-jyutping"]
 	path = rime-schema-jyutping
 	url = git@github.com:jakwings/rime-schema-jyutping.git
+[submodule "hakka-culture"]
+	path = hakka-culture
+	url = git@github.com:xunux/hakka-culture.git
