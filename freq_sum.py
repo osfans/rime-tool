@@ -14,10 +14,12 @@ def freq_sum(encoding):
     for line in f:
       line = line.strip()
       if line:
-        fs = line.split()
-        if len(fs) == 2:
+        fs = line.rsplit("\t", 1)
+        if len(fs) == 2 and fs[1].isdigit():#詞\t音\t頻 或 詞\t頻
           word, freq = fs
-          d[word] += int(freq) #累加
+        else:
+          word, freq = line, 1 ##詞\t音 或 詞，默認詞頻爲1
+        d[word] += int(freq) #累加
     f.close()
     global enc
     enc = encoding
