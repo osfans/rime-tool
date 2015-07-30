@@ -49,9 +49,9 @@
 [submodule "rime-hepy"]
 	path = rime-hepy
 	url = git@github.com:nlimpid/rime-hepy.git
-[submodule "rime-schema-jyutping"]
-	path = rime-schema-jyutping
-	url = git@github.com:jakwings/rime-schema-jyutping.git
 [submodule "hakka-culture"]
 	path = hakka-culture
 	url = git@github.com:xunux/hakka-culture.git
+[submodule "rime-schema-jyutping"]
+	path = rime-schema-jyutping
+	url = git@github.com:jyutping/rime-schema-jyutping.git
