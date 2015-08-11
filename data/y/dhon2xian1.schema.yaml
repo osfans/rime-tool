@@ -48,12 +48,10 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: "zyxwvutsrqponmlkjihgfedcba12345678'"
+  alphabet: "zyxwvutsrqponmlkjihgfedcba12345678"
   finals: " 12345678"
   delimiter: " '"
   algebra:
-    - abbrev/\d$//       # 無調輸入
-    - abbrev/^(ʔ?[bpmfvdtnlgŋkhɦʨʥɕȵʒʦszj]ʻ?).+$/$1/       # 無韻簡拼
     - xform/\(.+\)//  #刪除備註
     #尖團弗分
     - derive/ʦi/ʨi/
@@ -105,8 +103,8 @@ speller:
     - xform/ʒ/xh/
     - xform/ȵ/ni/
     - xform/z/sh/
-    - xform/ʦ/z/
     - xform/ʦʻ/c/
+    - xform/ʦ/z/
     #韻母
     #- xform/a/a/
     #- xform/o/o/
@@ -119,15 +117,18 @@ speller:
     - xform/ɛ/e/
     - xform/əl/er/
     - xform/əɯ/ou/
+    - xform/iəʔ/ik/
     - xform/ə/e/
     - xform/ɿ/y/
     - xform/ʔ/k/
     #規則
-    - xform/^(i\d)$/y$1/
+    - xform/^(i[k\d])/y$1/
     - xform/^i/y/
-    - xform/^(u\d)$/w$1/
+    - xform/^(u\d)/w$1/
     - xform/^u/w/
     - xform/nii/ni/
+    - abbrev/^([bpmfdtnlgkhjqxzcsyw]+?).*$/$1/       # 無韻簡拼
+    - abbrev/\d$//       # 無調輸入
 
 translator:
   dictionary: dhon2xian1

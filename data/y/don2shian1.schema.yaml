@@ -52,8 +52,6 @@ speller:
   finals: " 12345678"
   delimiter: " '"
   algebra:
-    - abbrev/\d$//       # 無調輸入
-    - abbrev/^(ʔ?[bpmfvdtnlgŋkhɦʨʥɕȵʒʦszj]ʻ?).+$/$1/       # 無韻簡拼
     - xform/\(.+\)//  #刪除備註
     #尖團弗分
     - derive/ʦi/ʨi/
@@ -106,6 +104,9 @@ speller:
     - xform/ə/e/
     - xform/ɿ/y/
     - xform/ʔ/h/
+    #規則
+    - abbrev/^(['bpmfdtnlgkhjqxzcsyw]+?).*$/$1/       # 無韻簡拼
+    - abbrev/\d$//       # 無調輸入
 
 translator:
   dictionary: dhon2xian1
