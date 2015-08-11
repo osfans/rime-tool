@@ -1,0 +1,156 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: dhon2xian1
+  name: 桐鄉普拚
+  version: "2015.8.11"
+  author:
+    - 雪心居士
+  description: |
+    桐鄉言話注音輸入方案吳協版
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba12345678'"
+  finals: " 12345678"
+  delimiter: " '"
+  algebra:
+    - abbrev/\d$//       # 無調輸入
+    - abbrev/^(ʔ?[bpmfvdtnlgŋkhɦʨʥɕȵʒʦszj]ʻ?).+$/$1/       # 無韻簡拼
+    - xform/\(.+\)//  #刪除備註
+    #尖團弗分
+    - derive/ʦi/ʨi/
+    - derive/ʦʻi/ʨʻi/
+    - derive/zi/ʒi/
+    - derive/si/ɕi/
+    #打党弗分
+    - derive/ɔ̃/ã/
+    #齊棋弗分
+    #- derive/zi/ʥi/
+    #一育弗分
+    #- derive/ioʔ/iʔ/
+    #飛灰弗分
+    - derive/hu/f/
+    - derive/ɦu/v/
+    - xform/f(\d)/fu$1/
+    - xform/v(\d)/vu$1/
+    #半杯弗分
+    #- derive/(b|p|pʻ)ɛ/$1i/
+    #肩艱弗分
+    #- derive/iɛ/iæ/
+    #歐衣弗分
+    #- derive/əɯ/i/
+    #撮口音
+   # - derive/oe/ɛ/
+    #聲母
+    - xform/j/yh/
+    - xform/w/wh/
+    - xform/b/bh/
+    - xform/pʻ/P/
+    - xform/p/b/
+    - xform/P/p/
+    - xform/v/fh/
+    - xform/d/dh/
+    - xform/tʻ/T/
+    - xform/t/d/
+    - xform/T/t/
+    - xform/^ʔ//
+    - xform/g/gh/
+    - xform/kʻ/K/
+    - xform/k/g/
+    - xform/K/k/
+    - xform/ŋ/ng/
+    - xform/ɦ/hh/
+    - xform/ʨʻ/q/
+    - xform/ʨ/j/
+    - xform/ʥ/jh/
+    - xform/ɕ/x/
+    - xform/ʒ/xh/
+    - xform/ȵ/ni/
+    - xform/z/sh/
+    - xform/ʦ/z/
+    - xform/ʦʻ/c/
+    #韻母
+    #- xform/a/a/
+    #- xform/o/o/
+    - xform/ã/ang/ #打党弗分
+    - xform/ã/an/
+    - xform/ɔ̃/ang/
+    - xform/õ/on/
+    - xform/ɔ/ao/
+    - xform/æ/ae/
+    - xform/ɛ/e/
+    - xform/əl/er/
+    - xform/əɯ/ou/
+    - xform/ə/e/
+    - xform/ɿ/y/
+    - xform/ʔ/k/
+
+translator:
+  dictionary: dhon2xian1
+  spelling_hints: 5
+  comment_format:
+    - xform/^(.*)\((.*)\)$/$2✔/
+    #- xform ^(.*)$ /$1/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    # hack: to enable "/fh" style symbols, '/' must be mapped to a [list].
+    # so those who have customized '/' for direct commit won't be affected by
+    # this change.
+    punct: "^/([0-9]+[a-z]*|[a-z]+)$"
+    reverse_lookup: "`[a-z]*'?$"
