@@ -3,12 +3,12 @@
 
 schema:
   schema_id: dhon2xian1
-  name: 桐鄉普拚
+  name: 桐鄉拚音
   version: "2015.8.11"
   author:
     - 雪心居士
   description: |
-    桐鄉言話注音輸入方案吳協版
+    桐鄉言話注音輸入方案漢語拼音版
   dependencies:
     - luna_pinyin
 
@@ -122,6 +122,12 @@ speller:
     - xform/ə/e/
     - xform/ɿ/y/
     - xform/ʔ/k/
+    #規則
+    - xform/^(i\d)$/y$1/
+    - xform/^i/y/
+    - xform/^(u\d)$/w$1/
+    - xform/^u/w/
+    - xform/nii/ni/
 
 translator:
   dictionary: dhon2xian1
