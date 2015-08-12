@@ -1,0 +1,115 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: cqyx_weightcode
+  name: "超强音形(26键)"
+  version: "0.50"
+  author:
+    - 超强两笔发明人：付东升
+    - 方案制作：白云
+    - 方案修改：tram
+  description: |
+    码表源自 120309版本
+
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ '，。', ',.' ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    - table_translator
+
+speller:
+  alphabet: 'abcdefghijklmnopqrstuvwxyz'
+  initials: 'abcdefghijklmnopqrstuvwxyz'
+  auto_select: true
+  auto_select_pattern: '(^[uv].$)|(^[^i].{3}$)'
+  max_code_length: 4
+  algebra:
+    - xform/^([^i].{3}).$/$1/
+
+translator:
+  dictionary: chaoqiang_yinxing
+  prism: cqyx_weightcode
+  enable_charset_filter: true
+  enable_sentence: false
+  enable_encoder: true
+  encode_commit_history: true
+  max_phrase_length: 4
+  enable_user_dict: false
+
+punctuator:
+  full_shape:
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
+    '!' : { commit: ！ }
+    '?' : { commit: ？ }
+    "'" : { pair: [ ‘, ’ ] }
+    '"' : { pair: [ “, ” ] }
+    ' ' : { commit: '　' }
+    '/' : [ 、, ÷ ]    
+    '*' : [ ＊, × ]
+    '<' : [ 《, 〈, «, ‹, 〔 ]
+    '>' : [ 》, 〉, », ›,  〕]
+    '(' : { commit: （ }
+    ')' : { commit: ） }
+  half_shape:
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
+    '/' : { commit: 、 }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
+    '!' : { commit: ！ }
+    '?' : { commit: ？ }
+    '<' : { commit: 《 }
+    '>' : { commit: 》 }
+    '(' : { commit: （ }
+    ')' : { commit: ） }
+    "'" : { pair: [ ‘, ’ ] }
+    '"' : { pair: [ “, ” ] }
+
+key_binder:
+    bindings:
+    - {accept: ISO_Left_Tab, send: Page_Up, when: composing}
+    - {accept: "Shift+Tab", send: Page_Up, when: composing}
+    - {accept: Tab, send: Page_Down, when: composing}
+    - {accept: minus, send: Page_Up, when: has_menu}
+    - {accept: equal, send: Page_Down, when: has_menu}
+    - {accept: "Control+Shift+space", toggle: full_shape, when: always}
+    - {accept: "Control+period", toggle: ascii_punct, when: always}
+    - when:  composing
+      accept: Control+bracketleft
+      send: Escape
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "^`[a-z]*'?$"
+    i_reverse_lookup_pattern: "^i[a-z;,./]+$"
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$"
