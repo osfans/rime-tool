@@ -63,12 +63,12 @@ speller:
     #齊棋弗分
     #- derive/zi/ʥi/
     #一育弗分
-    #- derive/ioʔ/iʔ/
+    - derive/ioʔ/iʔ/
     #飛灰弗分
     - derive/hu/f/
-    - derive/ɦu/v/
+    - derive/ɦu/w/
     - xform/f(\d)/fu$1/
-    - xform/v(\d)/vu$1/
+    - xform/w(\d)/wu$1/
     #半杯弗分
     #- derive/(b|p|pʻ)ɛ/$1i/
     #肩艱弗分
