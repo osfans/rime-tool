@@ -117,18 +117,18 @@ speller:
     - xform/ɛ/e/
     - xform/əl/er/
     - xform/əɯ/ou/
-    - xform/iəʔ/ik/
+    - xform/iəʔ/iʔ/
     - xform/ə/e/
     - xform/ɿ/y/
     - xform/ʔ/k/
     #規則
-    - xform/^i(k?)(\d?)$/yi$1$2/
+    - xform/^i([kn]?)(\d?)$/yi$1$2/
     - xform/^i/y/
-    - xform/^u(\d?)$/wu$1/
+    - xform/^u(n?)(\d?)$/wu$1$2/
     - xform/^u/w/
     - xform/nii/ni/
     - abbrev/^([bpmfdtnlgkhjqxzcsyw]+?).*$/$1/       # 無韻簡拼
-    - abbrev/\d$//       # 無調輸入
+    - derive/\d$//       # 無調輸入
 
 translator:
   dictionary: dhon2xian1
