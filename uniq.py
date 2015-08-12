@@ -10,7 +10,7 @@ for fn in sys.argv[1:]:
   uniq=set()
   f = open(fn, "r")
   for line in f:
-    if line.startswith("#") or line.startswith("\n") or (line not in uniq):
+    if line.startswith("#") or line.startswith("\n") or line.startswith(" ") or (line not in uniq):
       s+=line
       uniq.add(line)
   f.close()
