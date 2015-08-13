@@ -106,7 +106,7 @@ speller:
     - xform/ɿ/y/
     - xform/ʔ/h/
     #規則
-    - abbrev/^(['bpmfdtnlgkhjqxzcsyw]+?).*$/$1/       # 無韻簡拼
+    - abbrev/^(['bpmfdtnlgkhjqxzcsyw]+).*$/$1/       # 無韻簡拼
     - derive/\d$//       # 無調輸入
 
 translator:

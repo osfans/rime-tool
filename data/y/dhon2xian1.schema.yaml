@@ -127,7 +127,7 @@ speller:
     - xform/^u(n?)(\d?)$/wu$1$2/
     - xform/^u/w/
     - xform/nii/ni/
-    - abbrev/^([bpmfdtnlgkhjqxzcsyw]+?).*$/$1/       # 無韻簡拼
+    - abbrev/^([bpmfdtnlgkhjqxzcsyw]+).*$/$1/       # 無韻簡拼
     - derive/\d$//       # 無調輸入
 
 translator:
