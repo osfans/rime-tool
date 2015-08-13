@@ -3,7 +3,7 @@ import sys
 
 if len(sys.argv) == 1:
   print("Usage: %s filename" % sys.argv[0])
-  exit
+  exit(0)
 
 for fn in sys.argv[1:]:
   s = ""
