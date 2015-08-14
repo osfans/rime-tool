@@ -3,42 +3,128 @@
 
 schema:
   schema_id: taiwan_pinyin
-  name: 臺灣帶調拼音
+  name: 臺灣拼音
+  version: "2015.8.14"
+  author:
+    - 注音倉頡輸入法
   description: |
     帶調拼音
-    輸入pin1 yin1 或 pīn yīn 都可以
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+  filters:
+    - simplifier
+    - uniquifier
 
 speller:
-  alphabet: "zyxwvutsrqponmlkjihgfedcba12345üāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüê"
-
+  alphabet: "zyxwvutsrqponmlkjihgfedcba012345üāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüê"
+  delimiter: " '"
+  algebra:
+    - xform/ㄤ/ang/
+    - xform/ㄥ/eng/
+    - xform/ㄞ/ai/
+    - xform/ㄟ/ei/
+    - xform/ㄠ/ao/
+    - xform/ㄡ/ou/
+    - xform/ㄢ/an/
+    - xform/ㄣ/en/
+    - xform/ㄦ/er/
+    - xform/ㄓ/zh/
+    - xform/ㄔ/ch/
+    - xform/ㄕ/sh/
+    - xlit/ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄖㄗㄘㄙㄚㄛㄜㄝㄧㄨㄩ˙ˊˇˋ/bpmfdtnlgkhjqxrzcsaoeêiuü5234/
+    - xform/ê/e/
+    - derive/5/0/
+    - xform/[^\d]$/${0}1/
+    - derive/\d$//       # 無調輸入
+    - xform/([hrzcs])(\d)/$1i$2/
+    - xform/ien/in/
+    - xform/^(i)(n|ng)?(\d)$/y$1$2$3/
+    - xform/^i/y/
+    - xform/^u\d$/w$0/
+    - xform/^u/w/
+    - xform/^ü/yu/
+    - xform/([jqx])ü/$1u/
+    - xform/ueng/ong/
+    - xform/iou/iu/
+    - xform/uei/ui/
+    - xform/uen/un/
+    - derive/^([bpmfdtnlgkhjqxzcsryw]+).*$/$1/       # 無韻簡拼
+ 
 translator:
   dictionary: taiwan
+  prism: taiwan_pinyin
+  spelling_hints: 5  # ～字以內候選標註完整帶調拼音
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+    - xform/eh/ê/
+    - 'xform ([aeiou])(ng?|r)(\d) $1$3$2'
+    - 'xform ([aeo])([iuo])(\d) $1$3$2'
+    - 'xform a1 ā'
+    - 'xform a2 á'
+    - 'xform a3 ǎ'
+    - 'xform a4 à'
+    - 'xform e1 ē'
+    - 'xform e2 é'
+    - 'xform e3 ě'
+    - 'xform e4 è'
+    - 'xform o1 ō'
+    - 'xform o2 ó'
+    - 'xform o3 ǒ'
+    - 'xform o4 ò'
+    - 'xform i1 ī'
+    - 'xform i2 í'
+    - 'xform i3 ǐ'
+    - 'xform i4 ì'
+    - 'xform u1 ū'
+    - 'xform u2 ú'
+    - 'xform u3 ǔ'
+    - 'xform u4 ù'
+    - 'xform ü1 ǖ'
+    - 'xform ü2 ǘ'
+    - 'xform ü3 ǚ'
+    - 'xform ü4 ǜ'
 
-trime:
-  spell:
-    - /\d+(\d)\b/$1/
-  lookup:
-    - /[āēīōūǖ].*\b/$01/
-    - /[áéíóúǘ].*\b/$02/
-    - /[ǎěǐǒǔǚ].*\b/$03/
-    - /[àèìòùǜ].*\b/$04/
-    - /[āáǎà]/a/
-    - /[ēéěè]/e/
-    - /[īíǐì]/i/
-    - /[ōóǒò]/o/
-    - /[ūúǔù]/u/
-    - /[ǖǘǚǜ]/ü/
-    - /iu/iou/
-    - /ui/uei/
-    - /([jqx])u/$1ü/
-    - /([zcsr]h?)i/$1/
-    - /yu/ü/
-    - /yi?/i/
-    - /wu?/u/
-    - /io(?=ng)/ü/
-    - /o(?=ng)/u/
-    - /([iuü])n/$1en/
-    - /([iü])e(\d)?\b/$1ê$2/
-    - /\d+(\d)\b/$1/
-    - xlit/ang|eng|ai|ei|ao|ou|an|en|er|zh|ch|sh|b|p|m|f|d|t|n|l|g|k|h|j|q|x|r|z|c|s|a|o|e|ê|i|u|ü|0|5|1|2|3|4/ㄤ|ㄥ|ㄞ|ㄟ|ㄠ|ㄡ|ㄢ|ㄣ|ㄦ|ㄓ|ㄔ|ㄕ|ㄅ|ㄆ|ㄇ|ㄈ|ㄉ|ㄊ|ㄋ|ㄌ|ㄍ|ㄎ|ㄏ|ㄐ|ㄑ|ㄒ|ㄖ|ㄗ|ㄘ|ㄙ|ㄚ|ㄛ|ㄜ|ㄝ|ㄧ|ㄨ|ㄩ|˙|˙||ˊ|ˇ|ˋ/
+punctuator:
+  import_preset: symbols
 
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    # hack: to enable "/fh" style symbols, '/' must be mapped to a [list].
+    # so those who have customized '/' for direct commit won't be affected by
+    # this change.
+    punct: "^/([0-9]+[a-z]*|[a-z]+)$"

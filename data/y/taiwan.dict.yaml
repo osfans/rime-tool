@@ -1,19 +1,17 @@
 # Rime dictionary
 # encoding: utf-8
 #
-# 蘇州吳語
-#
-# 碼表製作：
-#
-#   寒寒豆
-#   吳語越音 <zhufya@mail.ustc.edu.cn>
+#   源於注音倉頡輸入法
+#   https://code.google.com/p/android-traditional-chinese-ime/
 #
 
 ---
 name: taiwan
 version: "2013.02.23"
 sort: by_weight
-use_preset_vocabulary: false
+use_preset_vocabulary: true
+max_phrase_length: 7
+min_phrase_weight: 100
 ...
 的	ㄉㄜ˙
 的	ㄉㄧˊ
