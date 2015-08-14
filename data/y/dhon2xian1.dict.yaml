@@ -1117,6 +1117,10 @@ min_phrase_weight: 100
 於	i1
 迂	i1
 乙	i3
+以	i3
+雨	i3
+已	i3
+椅	i3
 倚	i3
 旖	i3
 嶼	i3
@@ -1412,14 +1416,10 @@ min_phrase_weight: 100
 予	ji2
 譽	ji2
 伊	ji4
-以	ji4
-已	ji4
-椅	ji4
 予	ji4
 宇	ji4
 禹	ji4
 與	ji4
-雨	ji4
 喻	ji5
 吁	ji6
 異	ji6
