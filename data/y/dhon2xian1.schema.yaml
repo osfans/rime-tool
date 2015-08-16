@@ -76,7 +76,7 @@ speller:
     #歐衣弗分
     #- derive/əɯ/i/
     #撮口音
-   # - derive/oe/ɛ/
+    - derive/ɛ/oe/
     #聲母
     - xform/j/yh/
     - xform/w/wh/
