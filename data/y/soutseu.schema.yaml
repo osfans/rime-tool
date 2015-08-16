@@ -1,68 +1,124 @@
-# TRIME schema
+# Rime schema
 # encoding: utf-8
 
 schema:
   schema_id: soutseu
   name: 蘇州吳拼
-  version: "2013.02.23"
+  version: "2015.08.16"
   author: 
     - 寒寒豆
+    - osfans
   description: |
     http://www.suzhouhua.org/home/yx.html
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
-  delimiter: "'，"
+  delimiter: " '"
+  algebra:
+    #- fuzz/uø/ø/ #官幹不分 (uoe⇒oe)
+    #- fuzz/iøʏ/iø/ #丘圈不分 (ioe⇔ieu)
+    #- fuzz/ʮ/ɿ/ #資豬不分 (yu⇒y)
+    #- fuzz/si/ɕi/ #尖團合併 (tsi,tshi,si⇒ci,chi,shi)
+    #- fuzz/zi/ʑi/ #尖團合併 (tsi,tshi,si⇒ci,chi,shi)
+    #- fuzz/ʦ(ʰ?)i/ʨ$1i/ #尖團合併 (tsi,tshi,si⇒ci,chi,shi)
+    - xform/ʦ/ts/
+    - xform/ɕ/sh/
+    - xform/ʑ/zh/
+    - xform/ʥ/j/
+    - xform/ʨ/c/
+    - xform/ŋ/ng/
+    - xform/ɦ/gh/
+    - xform/ʰ/h/
+    - xform/ɑʔ/ah/
+    - xform/aʔ/aeh/
+    - xform/ʔ/h/
+    - xform/y/iu/
+    - xform/ȵ/ny/
+    - xform/ɿ/y/
+    - xform/ʮ/yu/
+    - xform/æ/au/
+    - xform/ɑ/ao/
+    - xform/ɚ/r/
+    - xform/øʏ/eu/
+    - xform/əu/ou/
+    - xform/ə/e/
+    - xform/ø/oe/
+    - xform/oŋ/on/
+    - xform/̃/n/
+    - xform/iɪ/ie/
+    - xform/ᴇ/e/
+    - derive/ou/u/
+    - derive/ghi/yi/
+    - derive/ghu/wu/
+    - derive/ie([nh])/i$1/
+    - xform/iun/iuin/
+    - xform/iueh/iuih/
+    - derive/nyi/ni/
+    - derive/^(ch|d?j|gn|x|y)i([aeou])/$1$2/      # 可省略的 i
+    - derive/ch/q/
+    - derive/sh/x/
+    - abbrev/^([^aoeiu]).+$/$1/       # 簡拼
+    #- fuzzy/aon/an/ #打黨不分 (aon⇒an)
+    #- fuzzy/aeh/ah/ #襪麥不分 (aeh⇒ah)
 
 translator:
   dictionary: suzhou
+  spelling_hints: 5
 
-trime:
-  spell:
-    - /\b(ch?|j|sh|ny)([aeou])/$1i$2/
-    - /\bni/nyi/
-    - /\bq/ch/
-    - /\bx/sh/
-    - /([^bpmfviayeoh]|[^p]h|\bh?)u\b/$1ou/
-    - /ou\B/u/
-  lookup:
-    - /\bts/ʦ/
-    - /\bsh/ɕ/
-    - /\bzh/ʑ/
-    - /\bj/ʥ/
-    - /\bny/ȵ/
-    - /\bc/ʨ/
-    - /\bng/ŋ/
-    - /\bgh/ɦ/
-    - /\bwu?/ɦu/
-    - /\byi?/ɦi/
-    - /y\b/ɿ/
-    - /([ptkʨʦ])h/$1ʰ/
-    - /ah/ɑʔ/
-    - /aeh/aʔ/
-    - /h\b/ʔ/
-    - /yu\b/ʮ/
-    - /au\b/æ/
-    - /ao/ɑ/
-    - /r/ɚ/
-    - /eu/øʏ/
-    - /e([nʔ])/ə$1/
-    - /oe/ø/
-    - /ou/əu/
-    - /on/oŋ/
-    - /([ɑa])n/$1̃/
-    - /iu/y/
-    - /yən/yn/
-    - /ie/iɪ/
-    - /e\b/E/
-    - /(\b[ɕʥȵʨɦ]?ʰ?i)([nʔ])/$1ə$2/
-  fuzzy:
-    - 打黨不分 (aon⇒an)/ã/ɑ̃/
-    - 襪麥不分 (aeh⇒ah)/ɑʔ/aʔ/
-    - 官幹不分 (uoe⇒oe)/([^ui])ø/$1uø/
-    - 丘圈不分 (ioe⇔ieu)/iøʏ/iø/
-    - 丘圈不分 (ioe⇔ieu)/iø([^ʏ]?)/iøʏ$1/
-    - 資豬不分 (yu⇒y)/ɿ/ʮ/
-    - 尖團合併 (tsi,tshi,si⇒ci,chi,shi)/ɕi/si/
-    - 尖團合併 (tsi,tshi,si⇒ci,chi,shi)/ʑi/zi/
-    - 尖團合併 (tsi,tshi,si⇒ci,chi,shi)/ʨ(ʰ?)i/ʦ$1i/
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
