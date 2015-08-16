@@ -5,7 +5,7 @@
 
 ---
 name: dhon2xian1
-version: "2015.08.12"
+version: "2015.08.16"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -566,6 +566,7 @@ min_phrase_weight: 100
 跪	ʥi4
 忌	ʥi4
 颶	ʥi4
+佢	ʥi6
 伎	ʥi6
 偈	ʥi6
 妓	ʥi6
@@ -1105,8 +1106,8 @@ min_phrase_weight: 100
 餛	ɦun2
 魂	ɦun2
 混	ɦun6
-或	huoʔ7
-獲	huoʔ7
+或	ɦuoʔ7
+獲	ɦuoʔ7
 核	ɦuoʔ8
 活	ɦuoʔ8
 伊	i1
@@ -1116,11 +1117,12 @@ min_phrase_weight: 100
 醫	i1
 於	i1
 迂	i1
-乙	i3
-以	i3
+與	i3
 雨	i3
+以	i3
 已	i3
 椅	i3
+乙	i3
 倚	i3
 旖	i3
 嶼	i3
@@ -1156,6 +1158,7 @@ min_phrase_weight: 100
 樣	iã5
 漾	iã5
 映	iã5
+也	iaʔ7
 呀	iaʔ7
 約	iaʔ7
 喲	iaʔ7
@@ -1330,7 +1333,6 @@ min_phrase_weight: 100
 耀	jɔ6
 躍	jɔ6
 圜	jɛ2
-綠	jɛ2
 嫌	jɛ2
 賢	jɛ2
 械	jɛ2
@@ -1338,10 +1340,10 @@ min_phrase_weight: 100
 玄	jɛ2
 鉉	jɛ2
 巖	jɛ2
+言	jɛ2
 延	jɛ2
 炎	jɛ2
 蜒	jɛ2
-言	jɛ2
 鹽	jɛ2
 元	jɛ2
 員	jɛ2
@@ -1352,6 +1354,14 @@ min_phrase_weight: 100
 爰	jɛ2
 袁	jɛ2
 轅	jɛ2
+弦	jɛ2
+絃	jɛ2
+檐	jɛ2
+沿	jɛ2
+衍	jɛ4
+陷	jɛ6
+焰	jɛ6
+豔	jɛ6
 現	jɛ6
 炫	jɛ6
 眩	jɛ6
@@ -1419,7 +1429,6 @@ min_phrase_weight: 100
 予	ji4
 宇	ji4
 禹	ji4
-與	ji4
 喻	ji5
 吁	ji6
 異	ji6
@@ -1429,15 +1438,6 @@ min_phrase_weight: 100
 裕	ji6
 豫	ji6
 預	ji6
-弦	jiɛ2
-絃	jiɛ2
-巖	jiɛ2
-檐	jiɛ2
-沿	jiɛ2
-衍	jiɛ4
-陷	jiɛ6
-焰	jiɛ6
-豔	jiɛ6
 挾	jiəʔ8
 掖	jiəʔ8
 燁	jiəʔ8
@@ -2515,7 +2515,6 @@ min_phrase_weight: 100
 硯	ȵiɛ6
 諺	ȵiɛ6
 驗	ȵiɛ6
-人	ȵiən2
 嫉	ȵiəʔ8
 岌	ȵiəʔ8
 匿	ȵiəʔ8
@@ -2532,6 +2531,7 @@ min_phrase_weight: 100
 鄴	ȵiəʔ8
 屹	ȵiəʔ8
 月	ȵiəʔ8
+人	ȵin2
 齦	ȵin2
 濘	ȵin2
 凝	ȵin2
@@ -5332,7 +5332,6 @@ min_phrase_weight: 100
 活倷	wəʔ8 nəɯ6
 佶個	ʨiəʔ7 kəʔ7
 許邊	hæ1 piɛ1
-𡮦	zɔ2
 𤎤𡮦	lɔ2 zɔ2
 蘿蔔	lu2 bu2
 偏得	biɛ4 təʔ7
