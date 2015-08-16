@@ -94,7 +94,7 @@ speller:
     - derive/^(ch|d?j|gn|x|y)i([aeou])/$1$2/      # 可省略的 i
     - derive/ch/q/
     - derive/sh/x/
-    - abbrev/^([^aoeiu]).+$/$1/       # 簡拼
+    - abbrev/^([^aoeiu]+).+$/$1/       # 簡拼
     #- fuzzy/aon/an/ #打黨不分 (aon⇒an)
     #- fuzzy/aeh/ah/ #襪麥不分 (aeh⇒ah)
 
