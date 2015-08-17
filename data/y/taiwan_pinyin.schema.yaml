@@ -64,10 +64,10 @@ speller:
     - xform/ê/e/
     - derive/5/0/
     - xform/[^\d]$/${0}1/
-    - derive/\d$//       # 無調輸入
     - xform/([hrzcs])(\d)/$1i$2/
+    - derive/\d$//       # 無調輸入
     - xform/ien/in/
-    - xform/^(i)(n|ng)?(\d)$/y$1$2$3/
+    - xform/^(i)(n|ng)?(\d)?$/y$1$2$3/
     - xform/^i/y/
     - xform/^u\d$/w$0/
     - xform/^u/w/
