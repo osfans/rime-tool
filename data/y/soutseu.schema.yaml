@@ -63,7 +63,6 @@ speller:
     - xform/ʑ/zh/
     - xform/ʥ/j/
     - xform/ʨ/c/
-    - xform/ŋ/ng/
     - xform/ɦ/gh/
     - xform/ʰ/h/
     - xform/ɑʔ/ah/
@@ -81,6 +80,7 @@ speller:
     - xform/ə/e/
     - xform/ø/oe/
     - xform/oŋ/on/
+    - xform/ŋ/ng/
     - xform/̃/n/
     - xform/iɪ/ie/
     - xform/ᴇ/e/
