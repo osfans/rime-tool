@@ -85,19 +85,19 @@ speller:
     - xform/iɪ/ie/
     - xform/ᴇ/e/
     - xform/ie([nh])/i$1/
+    - xform/iun/iuin/
+    - xform/iueh/iuih/
     - derive/ou/u/
     - derive/nyiu/nyu/
     - derive/nyi/ni/
-    - derive/ghi([enh]?)$/yi$1/
-    - derive/ghi/y/
+    - derive/ghi([enh])?$/yi$1/
+    - derive/ghi([^enh])/y$1/
     - derive/ghu$/wu/
     - derive/ghu/w/
-    - xform/iun/iuin/
-    - xform/iueh/iuih/
-    - derive/^(ch|d?j|gn|x|y)i([aeou])/$1$2/      # 可省略的 i
     - derive/ch/q/
     - derive/sh/x/
-    - abbrev/^([^aoeiu]+).+$/$1/       # 簡拼
+    - abbrev/^([^aoeiuy]+).+$/$1/       # 簡拼
+    - abbrev/^(n?y).+$/$1/ #簡拼
     #- fuzzy/aon/an/ #打黨不分 (aon⇒an)
     #- fuzzy/aeh/ah/ #襪麥不分 (aeh⇒ah)
 
