@@ -14,8 +14,6 @@ name: suzhou
 version: "2013.02.23"
 sort: by_weight
 use_preset_vocabulary: true
-max_phrase_length: 6
-min_phrase_weight: 1000
 ...
 
 一	iəʔ

@@ -10,8 +10,6 @@ name: taiwan
 version: "2013.02.23"
 sort: by_weight
 use_preset_vocabulary: true
-max_phrase_length: 7
-min_phrase_weight: 100
 ...
 的	ㄉㄜ˙
 的	ㄉㄧˊ

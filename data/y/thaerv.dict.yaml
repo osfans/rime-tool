@@ -8,8 +8,6 @@ name: thaerv
 version: "2014.6.3"
 sort: by_weight
 use_preset_vocabulary: true
-max_phrase_length: 6
-min_phrase_weight: 600
 ...
 街	kɛ1
 的	tiəʔ7

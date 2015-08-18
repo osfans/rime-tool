@@ -8,8 +8,6 @@ name: dhon2xian1
 version: "2015.08.16"
 sort: by_weight
 use_preset_vocabulary: true
-max_phrase_length: 7
-min_phrase_weight: 100
 ...
 阿	a1
 啊	a1
