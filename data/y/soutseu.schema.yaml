@@ -92,6 +92,7 @@ speller:
     - derive/nyi/ni/
     - derive/ghi([enh])?$/yi$1/
     - derive/ghi([^enh])/y$1/
+    - derive/ghieu/yeu/
     - derive/ghu$/wu/
     - derive/ghu/w/
     - derive/ch/q/
