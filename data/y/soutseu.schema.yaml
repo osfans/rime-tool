@@ -84,13 +84,16 @@ speller:
     - xform/̃/n/
     - xform/iɪ/ie/
     - xform/ᴇ/e/
+    - xform/ie([nh])/i$1/
     - derive/ou/u/
-    - derive/ghi/yi/
-    - derive/ghu/wu/
-    - derive/ie([nh])/i$1/
+    - derive/nyiu/nyu/
+    - derive/nyi/ni/
+    - derive/ghi([enh]?)$/yi$1/
+    - derive/ghi/y/
+    - derive/ghu$/wu/
+    - derive/ghu/w/
     - xform/iun/iuin/
     - xform/iueh/iuih/
-    - derive/nyi/ni/
     - derive/^(ch|d?j|gn|x|y)i([aeou])/$1$2/      # 可省略的 i
     - derive/ch/q/
     - derive/sh/x/
