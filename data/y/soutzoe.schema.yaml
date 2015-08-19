@@ -2,14 +2,16 @@
 # encoding: utf-8
 
 schema:
-  schema_id: soutseu
-  name: 蘇州吳拼
-  version: "2015.08.16"
-  author: 
+  schema_id: soutzoe
+  name: 蘇州法吳
+  version: "0.6"
+  author:
     - 寒寒豆
+    - 吳語越音 <zhufya@mail.ustc.edu.cn>
     - osfans
   description: |
-    http://www.suzhouhua.org/home/yx.html
+    蘇州言話，採用《吳語拉丁式注音法》拼寫
+    http://input.foruto.com/wu/method.html
   dependencies:
     - luna_pinyin
 
@@ -52,59 +54,45 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    #- fuzz/uø/ø/ #官幹不分 (uoe⇒oe)
-    #- fuzz/iøʏ/iø/ #丘圈不分 (ioe⇔ieu)
-    #- fuzz/ʮ/ɿ/ #資豬不分 (yu⇒y)
-    #- fuzz/si/ɕi/ #尖團合併 (tsi,tshi,si⇒ci,chi,shi)
-    #- fuzz/zi/ʑi/ #尖團合併 (tsi,tshi,si⇒ci,chi,shi)
-    #- fuzz/ʦ(ʰ?)i/ʨ$1i/ #尖團合併 (tsi,tshi,si⇒ci,chi,shi)
-    - xform/ʦ/ts/
-    - xform/ɕ/sh/
+    - xform/ʦʰ/ts/
+    - xform/ʦ/tz/
+    - xform/ɕ/x/
     - xform/ʑ/zh/
-    - xform/ʥ/j/
+    - xform/ʥ/dj/
     - xform/ʨ/c/
-    - xform/ɦ/gh/
-    - xform/ʰ/h/
-    - xform/ɑʔ/ah/
-    - xform/aʔ/aeh/
-    - xform/ʔ/h/
     - xform/y/iu/
-    - xform/ȵ/ny/
+    - xform/ɦ/r/
+    - xform/ʰ/h/
+    - xform/ʔ/q/
+    - xform/ȵ/gn/
     - xform/ɿ/y/
     - xform/ʮ/yu/
-    - xform/æ/au/
+    - xform/æ/ae/
     - xform/ɑ/ao/
-    - xform/ɚ/r/
-    - xform/øʏ/eu/
+    - xform/ɚ/el/
+    - xform/øʏ/oe/
+    - xform/ø/eu/
     - xform/əu/ou/
     - xform/ə/e/
-    - xform/ø/oe/
     - xform/oŋ/on/
     - xform/ŋ/ng/
     - xform/̃/n/
     - xform/iɪ/ie/
+    - xform/ri/y/
+    - xform/^y$/yi/
+    - xform/ru/w/
     - xform/ᴇ/e/
-    - xform/ie([nh])/i$1/
-    - xform/iun/iuin/
-    - xform/iueh/iuih/
     - derive/ou/u/
-    - derive/nyiu/nyu/
-    - derive/nyi/ni/
-    - derive/ghi([enh])?$/yi$1/
-    - derive/ghi([^enh])/y$1/
-    - derive/ghieu/yeu/
-    - derive/ghu$/wu/
-    - derive/ghu/w/
-    - derive/ch/q/
-    - derive/sh/x/
-    - abbrev/^([^aoeiuy]+).+$/$1/       # 簡拼
-    - abbrev/^(n?y).+$/$1/ #簡拼
-    #- fuzzy/aon/an/ #打黨不分 (aon⇒an)
-    #- fuzzy/aeh/ah/ #襪麥不分 (aeh⇒ah)
+    - derive/([yi])un/$1uen/
+    - derive/dj/j/
+    - abbrev/^([^aoeiu]+).+$/$1/       # 簡拼
+    - derive/^(ch|d?j|gn|x|y)i([aeou])/$1$2/      # 可省略的 i
+    - derive/ie([nq])$/i$1/
+    - derive/^yen$/yin/
 
 translator:
   dictionary: suzhou
-  prism: soutseu
+  prism: soutzoe
   spelling_hints: 5
 
 reverse_lookup:
