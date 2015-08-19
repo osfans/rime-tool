@@ -55,3 +55,6 @@
 [submodule "rime-schema-jyutping"]
 	path = rime-schema-jyutping
 	url = git@github.com:jyutping/rime-schema-jyutping.git
+[submodule "rime-zhengma"]
+	path = rime-zhengma
+	url = git@github.com:acevery/rime-zhengma.git
