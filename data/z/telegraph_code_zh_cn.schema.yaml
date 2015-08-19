@@ -1,0 +1,62 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: telegraph_code_zh_cn
+  name: 中国大陆标准电码
+  version: "0.1"
+  author:
+    - 熊猫阿Bo
+  description: |
+    源自 中华人民共和国邮电部1983年9月第3版 ISBN：9787115042194
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ ，。, ，． ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+
+speller:
+  alphabet: 1234567890
+  delimiter: " '"
+  algebra:
+    - erase/^xxxx$/
+
+translator:
+  dictionary: telegraph_code_zh_cn
+  spelling_hints: 10
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+
+menu:
+  alternative_select_keys: abcdefghij
