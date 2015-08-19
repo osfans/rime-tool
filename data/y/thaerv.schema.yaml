@@ -3,77 +3,125 @@
 
 schema:
   schema_id: thaerv
-  name: "泰如拼音"
-  version: "2014.6"
+  name: "泰如吳拼"
+  version: "2015.8"
   author:
     - hisahara
   description: "http://thaerv.8048.my5m.com/"
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
 
 speller:
-  alphabet: "zyxwvutsrqponmlkjihgfedcba012345678"
-  delimiter: "'，"
+  alphabet: zyxwvutsrqponmlkjihgfedcba012345678
+  delimiter: " '"
+  algebra:
+    #- fuzz/6/1/ #陽去歸陰平 (6⇒1)
+    #- fuzz/ʂu/ɕy/ #訓瞬不分 (sru-⇒xy-)
+    #- fuzz/ʈʂ(ʰ?)u/ʨ$1y/ # 訓瞬不分 (sru-⇒xy-)
+    #- fuzz/ʈʂ/ʦ/ #翹舌歸平舌 (sr⇒s)
+    #- fuzz/ʂ/s/ #翹舌歸平舌 (sr⇒s)
+    #- fuzz/^n/l/ #年連不分 (n⇔l)
+    #- fuzz/^l/n/ #年連不分 (n⇔l)
+    #- fuzz/iəʔ/ɪʔ/ #力列不分 (ieh⇔ih)
+    #- fuzz/ɪʔ/iəʔ/ #力列不分 (ieh⇔ih)
+    #- fuzz/iŋ/ɪ̃/ #零連不分 (ien⇔in)
+    #- fuzz/ɪ̃/iŋ/ #零連不分 (ien⇔in)
+    - xform/^ŋ/ng/
+    - xform/iŋ/ien/
+    - xform/ŋ/n/
+    - xform/̃/n/
+    - xform/x/h/
+    - xform/ʰ/h/
+    - xform/ʔ/h/
+    - xform/ʂ/sr/
+    - xform/ʈ/t/
+    - xform/ʦ/ts/
+    - derive/tsrh/thr/
+    - fuzz/thr/trh/
+    - derive/tsr/tr/
+    - xform/ʨ/c/
+    - xform/ɕ/sh/
+    - xform/ʊ/u/
+    - xform/ɯ/u/
+    - xform/ʋ/v/
+    - xform/ɔ/o/
+    - xform/ɑ/a/
+    - xform/ɛ/ae/
+    - xform/ɤ/e/
+    - xform/ə/e/
+    - xform/ɚ/er/
+    - xform/ɪ/i/
+    - xform/ɻ/r/
+    - xform/ʅ//
+    - xform/ɿ/z/
+    - derive/h7/h5/
+    - derive/h8/h6/
+    - derive/^(ch?|sh)i([aeou])/$1$2/
+    - derive/ch/q/
+    - derive/c/j/
+    - derive/sh/x/
+    - abbrev/^([^aoeui]+).+$/$1/       # 無韻簡拼
+    - abbrev/^([aoeui]).+$/$1/       # 無韻簡拼
+    - derive/\d$//       # 無調輸入
 
 translator:
-  dictionary: thaerv
-  comment_format:
-    - /\bŋ/ng/
-    - /iŋ/ien/
-    - /[ŋ̃]/n/
-    - /[ʔʰx]/h/
-    - /ʂ/sr/
-    - /ʈ/t/
-    - /ʦ/ts/
-    - /tsrh/thr/
-    - /tsr/tr/
-    - /ʨ/c/
-    - /ɕ/sh/
-    - /[ʊɯ]/u/
-    - /ʋ/v/
-    - /ɔ/o/
-    - /ɑ/a/
-    - /ɛ/ae/
-    - /[əɤ]/e/
-    - /ɚ/er/
-    - /i([ʔ̃])/ɪ$1/
-    - /ɪ/i/
-    - /ɻ/r/
-    - /ʅ//
-    - /ɿ/z/
+  dictionary: tairu
+  prism: thaerv
+  spelling_hints: 5
 
-trime:
-  spell:
-    - /\d+(\d)\b/$1/
-    - /h5/h7/
-    - /h6/h8/
-    - /\b(ch?|sh)([aeou])/$1i$2/
-  lookup:
-    - /\bh/x/
-    - /\bts?hr/ʈʂʰ/
-    - /\bts?r/ʈʂ/
-    - /\bsr/ʂ/
-    - /\br/ɻ/
-    - /\bts/ʦ/
-    - /\bsh/ɕ/
-    - /\bc/ʨ/
-    - /\bng/ŋ/
-    - /(ɻ|ʂ|ʂʰ)(?=\d)/$1ʅ/
-    - /(?<=[aeiouy])h/ʔ/
-    - xlit/h|v|z|ae|er|eu|e|o/ʰ|ʋ|ɿ|ɛ|ɚ|ɤɯ|ə|ɔ/
-    - /(?<=[iuɛ])n/̃/
-    - /(?<=[aəɔ])n/ŋ/
-    - /a(?![ŋʔ])/ɑ/
-    - /i(?=[ʔ̃])/ɪ/
-    - /u(?=\b|[\dʔ̃])/ʊ/
-    - /iəŋ/iŋ/
-  fuzzy:
-    - 陽去歸陰平 (6⇒1)/1/6/
-    - 訓瞬不分 (sru-⇒xy-)/ɕy/ʂu/
-    - 訓瞬不分 (sru-⇒xy-)/ʨ(ʰ?)y/ʈʂ$1u/
-    - 翹舌歸平舌 (sr⇒s)/ʦ/ʈʂ/
-    - 翹舌歸平舌 (sr⇒s)/s/ʂ/
-    - 年連不分 (n⇔l)/\bn/l/
-    - 年連不分 (n⇔l)/\bl/n/
-    - 力列不分 (ieh⇔ih)/iəʔ/ɪʔ/
-    - 力列不分 (ieh⇔ih)/ɪʔ/iəʔ/
-    - 零連不分 (ien⇔in)/iŋ/ɪ̃/
-    - 零連不分 (ien⇔in)/ɪ̃/iŋ/
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[a-z]+)$"
+    reverse_lookup: "`[a-z]*'?$"
