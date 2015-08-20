@@ -5,7 +5,7 @@
 
 ---
 name: tairu
-version: "2014.6.3"
+version: "2015.8.20"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -32,6 +32,8 @@ use_preset_vocabulary: true
 大	tʰɛ3
 為	ʋəi2
 為	ʋəi6
+爲	ʋəi2
+爲	ʋəi6
 上	ʂaŋ6
 個	kʊ5
 國	kɔʔ7
@@ -375,6 +377,7 @@ use_preset_vocabulary: true
 許	ɕy3
 步	pʰʋ6
 群	ʨʰyəŋ2
+羣	ʨʰyəŋ2
 石	ʂəʔ8
 石	tɛ̃5
 廣	kuaŋ3
@@ -1554,6 +1557,7 @@ use_preset_vocabulary: true
 績	ʨiəʔ7
 淡	tʰɛ̃6
 啟	ʨʰi3
+啓	ʨʰi3
 尖	ʨɪ̃1
 陷	xɛ̃6
 柴	ʂɛ2
@@ -2122,6 +2126,7 @@ use_preset_vocabulary: true
 緯	ʋəi6
 昨	ʦʰaʔ8
 偽	ʋəi6
+僞	ʋəi6
 煮	ʈʂʋ3
 癥	ʈʂəŋ1
 搭	tɛʔ7
@@ -2736,6 +2741,7 @@ use_preset_vocabulary: true
 艘	sɤɯ1
 芒	maŋ2
 唇	ʂuəŋ2
+脣	ʂuəŋ2
 挫	ʦʰʊ5
 浴	iɔʔ8
 羞	ɕiʊ1
@@ -8126,6 +8132,7 @@ use_preset_vocabulary: true
 各	kaʔ7
 新	ɕiŋ1
 線	ɕɪ̃5
+綫	ɕɪ̃5
 內	nuəi6
 内	ny6
 數	ʂʋ5
@@ -8338,3 +8345,28 @@ use_preset_vocabulary: true
 拄	ʈʂʋ3
 𢜶	sɔ5
 㞎	pɑ3
+帆	fɛ̃6
+幕	mʊ6
+契	ʨʰiəʔ7
+𪣩	kkʰəŋ5
+牀	ʈʂʰuaŋ2
+㞢	təi
+呶	nɔ
+㖠	nɛ
+𠮹	ʦʰɛ
+呦	iʊ
+㘃	ɻɑ
+嗱	nɑ
+𠯈	tɑ
+𠰻	ʋɛ
+嚛	laʔ
+嗦	saʔ
+嘵	ɻɔ
+𠰉	ʈʂɔ
+呃	əʔ
+𠺝	kəʔ
+𡅅	ŋəʔ
+𠲅	səʔ
+𡁧	ʦaŋ
+哴	laŋ
+許	xɛ
