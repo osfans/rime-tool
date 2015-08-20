@@ -1,36 +1,41 @@
 #!/usr/bin/env python3
-#一個篩選過濾的程式
-#輸入input.txt，條件match.txt，輸出output.txt
-#https://github.com/osfans/rime-tool/issues/4
+"""一個篩選過濾的程式
+輸入input.txt，條件match.txt，輸出output.txt
+https://github.com/osfans/rime-tool/issues/4
+"""
 
-input_file = "input.txt" #輸入input.txt
-match_file = "match.txt" #條件match.txt
-output_file = "output.txt" #輸出output.txt
+INPUT_NAME = "input.txt" #輸入input.txt
+MATCH_NAME = "match.txt" #條件match.txt
+OUTPUT_NAME = "output.txt" #輸出output.txt
 
-enc = ""
-s = set() #條件集合
-d = list() #輸出結果列表
-encodings = ["utf-8-sig", "utf-16", "gbk", "gb18030"] #嘗試編碼列表
+ENC = "utf-8"
+ENCODINGS = ["utf-8-sig", "utf-16", "gbk", "gb18030"] #嘗試編碼列表
 
-def load_match(encoding):
-  try:
-    global s, enc
-    s = set(line.strip() for line in open(match_file, encoding=encoding)) 
-    enc = encoding
-    return True
-  except:
-    return False
+def open_file(filename):
+    "嘗試解碼文件"
+    for enc in ENCODINGS:
+        try:
+            input_file = open(filename, encoding=enc)
+            return input_file
+        except UnicodeError:
+            continue
 
-def load_input(encoding):
-  try:
-    global d, s, enc
-    d = [line for line in open(input_file, encoding=encoding) if line.strip().rsplit("\t", 1)[0] in s]
-    enc = encoding
-    return True
-  except:
-    return False
+def load_match():
+    "讀取條件集合"
+    match_file = open_file(MATCH_NAME)
+    if match_file:
+        match_set = set(line.strip() for line in match_file)
+        match_file.close()
+        return match_set
 
-any(map(load_match, encodings))
-any(map(load_input, encodings))
-print("file encoding:", enc)
-open(output_file, "w", encoding = enc).writelines(d)
+def main():
+    "讀取文件並篩選"
+    input_file = open_file(INPUT_NAME)
+    if input_file:
+        match_set = load_match()
+        lines = [line for line in input_file if line.strip().rsplit("\t", 1)[0] in match_set]
+        if lines:
+            open(OUTPUT_NAME, "w", encoding=ENC).writelines(lines)
+
+if __name__ == "__main__":
+    main()
