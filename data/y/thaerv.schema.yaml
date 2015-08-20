@@ -95,6 +95,8 @@ speller:
     - derive/ch/q/
     - derive/c/j/
     - derive/sh/x/
+    - derive/eu/ou/
+    - derive/ae(\d?)$/ai$1/
     - abbrev/^([^aoeui]+).+$/$1/       # 無韻簡拼
     - abbrev/^([aoeui]).+$/$1/       # 無韻簡拼
     - derive/\d$//       # 無調輸入
