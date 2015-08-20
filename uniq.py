@@ -4,6 +4,7 @@
 import sys
 
 if len(sys.argv) == 1:
+    print(__doc__)
     print("Usage: %s filename" % sys.argv[0])
     exit(0)
 
