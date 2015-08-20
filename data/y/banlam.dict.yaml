@@ -344,7 +344,6 @@ use_preset_vocabulary: false
 拋魚	pha hIR
 拋荒	pha hng
 拋碇	pha tiann
-拋車輪	pha chia lin
 拍拚	phah piann
 拍報	phah po
 拍醒	phah chenn
@@ -659,7 +658,6 @@ use_preset_vocabulary: false
 哈哈笑	hah hah chio
 哈唏	hah hi
 哈唏	ha hi
-哈呛	hah chiunn
 哈呛	hah chiunn
 哈呛	hat chiunn
 哈呛	ha chiunn
@@ -1877,7 +1875,6 @@ use_preset_vocabulary: false
 胞兄	pau hing
 胞弟	pau te
 胞姊	pau ci
-胞妹	pau mue
 胞妹	pau mue
 飽暖	pau luan
 飽滿	pau buan
@@ -5145,8 +5142,6 @@ use_preset_vocabulary: false
 厭厭死	ia ia si
 厭𤺪	ia sian
 厭死	ia si
-抑是	iah si
-抑是	ah si
 搤空	iah khang
 搤縫	iah phang
 搤塗	iah thoo
@@ -6167,7 +6162,6 @@ use_preset_vocabulary: false
 平本	phenn puInn
 平錢	phenn cinn
 平倒來	phenn to lai
-平本	phenn puInn
 名聲	mia siann
 名字	mia ji
 名姓	mia senn
@@ -6374,7 +6368,6 @@ use_preset_vocabulary: false
 誠𠢕	ciann gau
 誠實	ciann sit
 誠實	siann sit
-誠夠	ciann kau
 成樣	ciann iunn
 成款	ciann kui
 成鬼	ciann kui
@@ -8349,7 +8342,6 @@ use_preset_vocabulary: false
 脹恨	tIang hern
 脹心萬恨	tIang sim ban hern
 脹膽	tIang tann
-脹膽	tIang tann
 脹大	tIang tua
 脹肚	tIang too
 丈夫	tIang hu
@@ -8432,7 +8424,6 @@ use_preset_vocabulary: false
 強烈	kIang liat
 強勢	kIang se
 強暴
-強調	kIang tiau
 強權	kIang kuan
 強權	kIang khuan
 強壓	kIang ap
@@ -8654,7 +8645,6 @@ use_preset_vocabulary: false
 相連	sIang lian
 相配	sIang phue
 相別	sIang piat
-相識	sIang sik
 相承	sIang sing
 相信	sIang sin
 相比	sIang pi
@@ -9623,7 +9613,6 @@ use_preset_vocabulary: false
 散市	suann chi
 散場	suann tiunn
 散會	suann hue
-散工	suann kang
 散去	suann khIR
 散陣	suann tin
 ##	uainn/uainnh
@@ -9657,7 +9646,6 @@ use_preset_vocabulary: false
 縣丞	kuainn sing
 縣老爺	kuainn noo ia
 縣老爺	kuainn lo ia
-縣誌	kuainn ci
 橫直	huainn tit
 橫扴	huainn keeh
 橫霸霸	huainn pa pa
@@ -10539,7 +10527,6 @@ use_preset_vocabulary: false
 轉身	cuan sin
 轉瞬即逝	cuan sun cik se
 轉達	cuan tat
-轉世	cuan se
 轉型	cuan hing
 轉運	cuan un
 轉化	cuan hua
@@ -11113,7 +11100,6 @@ use_preset_vocabulary: false
 畫像	uee sIang
 畫冊	uee cheeh
 畫家	uee ka
-畫面	uee bin
 畫廊	uee long
 畫筆	uee pit
 畫展	uee tian
@@ -12594,7 +12580,6 @@ use_preset_vocabulary: false
 肄業	i giap
 悲哀	pi ai
 悲傷	pi sIang
-悲哀	pi ai
 悲慘	pi cham
 悲喜交加	pi hi kau ka
 悲歡離合	pi huan li hap
@@ -13145,7 +13130,6 @@ use_preset_vocabulary: false
 起雄	khi hiong
 起無空	khi bo khang
 起價	khi kee
-起家	khi kee
 起藥蛆	khi ioh chir
 起行	khi kiann
 起鼓	khi koo
@@ -13656,7 +13640,6 @@ use_preset_vocabulary: false
 四爿	si paInn
 四輪	si lun
 四輪	si lian
-四邊	si pinn
 四十	si cap
 四百
 四千	si chaInn
@@ -14761,7 +14744,6 @@ use_preset_vocabulary: false
 引路	in loo
 引退	in thEr
 引渡	in too
-引起	in khi
 引言	in gian
 引發	in huat
 引領	in ling
@@ -15514,7 +15496,6 @@ use_preset_vocabulary: false
 一秒	cit biau
 一秒	cit bio
 一仔	cit a
-一仔久	cit a ku
 一頓	cit tuInn
 疾苦	cit khoo
 親愛	chin ai
@@ -17183,8 +17164,6 @@ use_preset_vocabulary: false
 傾國傾城	khing kok khing siann
 傾心	khing sim
 傾銷	khing siau
-肯定	khing ting
-肯定	kherng ting
 頃刻	khing khik
 慶祝	khing ciok
 慶典	khing tian
@@ -17464,7 +17443,6 @@ use_preset_vocabulary: false
 積善
 積怨
 積德
-積分	cik hun
 積水	cik cui
 積累
 績效
@@ -17573,7 +17551,6 @@ use_preset_vocabulary: false
 清幽	ching iu
 清閒	ching aInn
 清寒	ching han
-清水	ching cui
 清掃	ching sau
 清洗	ching sere
 清新	ching sin
@@ -18696,7 +18673,6 @@ use_preset_vocabulary: false
 歸期	kui ki
 歸全	kui cuan
 歸信天	kui sin thinn
-歸國	kui kok
 歸家	kui ka
 歸來	kui lai
 歸檔	kui tong
@@ -19229,7 +19205,6 @@ use_preset_vocabulary: false
 水果	cui ker
 水份	cui hun
 水漈	cui chua
-水餃	cui kiau
 水餃	cui kiau
 水手	cui chiu
 水星	cui chenn
@@ -19795,7 +19770,6 @@ use_preset_vocabulary: false
 軟齶	nuI gok
 軟體	nuI the
 軟塗	nuI thoo
-軟塗深掘	nuI thoo chim kut
 軁鑽	nuI cuInn
 軁空	nuI khang
 軁錢空	nuI cinn khang
@@ -20692,8 +20666,6 @@ use_preset_vocabulary: false
 死有餘辜	sur iu ir koo
 四物	sur but
 四物湯	sur but thng
-四正	sur ciann
-四正	si ciann
 四海	sur hai
 四方	sur hong
 四方八達	sur hong pat tat
@@ -21371,7 +21343,6 @@ use_preset_vocabulary: false
 說多謝	serh to sia
 說多謝	serh toO sia
 說笑	serh chio
-說明	serh bing
 說啥	serh siann
 說破	serh phua
 說賺	serh tann
@@ -21817,7 +21788,6 @@ use_preset_vocabulary: false
 欣欣向榮	herm herm hIang ing
 箴言	cerm gian
 參差	cherm chir
-參差	cham chir
 森林	serm lim
 森嚴	serm giam
 森林	som lim
@@ -22316,7 +22286,6 @@ use_preset_vocabulary: false
 布告
 布目	poo bak
 布鞋	poo ere
-布景	poo king
 布機	poo kui
 布料	poo liau
 布篷	poo phang
@@ -23028,7 +22997,6 @@ use_preset_vocabulary: false
 初稿	choo ko
 初戀	choo luan
 初見面	choo kinn bin
-起初	khi choo
 初初	choo choo
 初學者	choo hak cia
 初步	choo poo
@@ -23132,8 +23100,6 @@ use_preset_vocabulary: false
 耗	honn3
 貨	honn3
 唔唔睏	onn onn khun
-惡妒	onn too
-惡妒	oo too
 𢯾壁	mooh piah
 𢯾壁鬼	mooh piah kui
 𢯾無路	mooh bo loo
@@ -24188,9 +24154,7 @@ use_preset_vocabulary: false
 膏膏纏	ko ko tinn
 膏肓	ko bong
 羔羊	ko iunn
-咖啡	ko pi
 咖啡色	ko pi sik
-咖啡	ka pi
 咖啡色	ka pi sik
 稿費	ko hui
 果然
@@ -25285,7 +25249,6 @@ use_preset_vocabulary: false
 通緝	thong chip
 通書	thong sir
 通航	thong hang
-通行	thong hing
 通告	thong ko
 通告	thong koO
 通勤	thong khern
@@ -25726,7 +25689,6 @@ use_preset_vocabulary: false
 風化	hong hua
 風光	hong kong
 風琴	hong khim
-風鼓	hong koo
 風波	hong pho
 風韻	hong un
 風度	hong too
@@ -25796,7 +25758,6 @@ use_preset_vocabulary: false
 放看看	hong khuann khuann
 放鬼鬼	hong kui kui
 放縱	hong chiong
-放放	hong hong
 放棄	hong khi
 放肆	hong sur
 放送	hong sang
@@ -26210,7 +26171,6 @@ use_preset_vocabulary: false
 漂白粉	phio peeh hun
 秒針
 秒鐘	bio cing
-秒鐘	biau cing
 描寫	bio sia
 描字	bio ji
 描線	bio suann
@@ -27552,7 +27512,6 @@ use_preset_vocabulary: false
 有路	u loo
 有路用	u loo ing
 有擋用	u tong ing
-有擋頭	u tong thau
 有賜	u sur
 有喙無瀾	u chui bo nua
 有勢	u se
@@ -27860,7 +27819,6 @@ use_preset_vocabulary: false
 舊落落	ku lak lak
 舊例	ku le
 舊名	ku mia
-舊年	ku ni
 舊年冬	ku ni tang
 舊怨	ku uan
 舊版	ku pan
@@ -27983,7 +27941,6 @@ use_preset_vocabulary: false
 輔助	hu coo
 輔導
 輔選	hu suan
-輔助	hu coo
 輔音	hu im
 俯仰	hu gIang
 赴後手	hu au chiu
@@ -28219,7 +28176,6 @@ use_preset_vocabulary: false
 厝邊	chu pinn
 厝內	chu lai
 厝內儂	chu lai lang
-厝邊	chu pinn
 厝邊頭尾	chu pinn thau ber
 厝邊跤兜	chu pinn kha tau
 厝面	chu bin
@@ -29134,7 +29090,6 @@ use_preset_vocabulary: false
 甪捒	lut sak
 甪鉎	lut san
 甪蒂	lut ti
-甪漆	lut chat
 輪流	lun liu
 輪渡	lun too
 輪轉	lun cuan
@@ -29635,7 +29590,6 @@ use_preset_vocabulary: false
 尊師	cun sur
 尊存	cun chun
 尊重	cun tiong
-尊存	cun chun
 遵照	cun ciau
 遵趁	cun than
 遵守	cun siu
@@ -29912,9 +29866,7 @@ use_preset_vocabulary: false
 出床	chut sng
 出腳	chut kioh
 出年	chut ni
-出月	chut gerh
 出汁
-出水淋	chut cui lam
 出其不意	chut ki put i
 出於	chut ir
 齣頭	chut thau
@@ -30819,7 +30771,6 @@ use_preset_vocabulary: false
 酒粕	ciu phoh
 酒稅	ciu ser
 酒色	ciu sik
-酒狂	ciu kong
 酒食	ciu sit
 酒肆	ciu sur
 酒痟	ciu siau
@@ -31865,7 +31816,6 @@ use_preset_vocabulary: false
 想起	siunn khi
 想看	siunn khuann
 想見	siunn kinn
-想來想去	siunn lai siunn khIR
 想路	siunn loo
 想毋著	siunn m tioh
 想偏	siunn phian
@@ -31996,16 +31946,12 @@ use_preset_vocabulary: false
 摁落去	hmh loh khIR
 媒儂	hm lang
 媒儂	mue lang
-媒儂	mue lang
 媒儂	mui lang
 媒儂婆	hm lang po
 媒儂婆	mue lang po
-媒儂婆	mue lang po
 媒儂公	hm lang kong
 媒儂公	mue lang kong
-媒儂公	mue lang kong
 媒儂禮	hm lang le
-媒儂禮	mue lang le
 媒儂禮	mue lang le
 茅仔草	hm a chau
 茅草	hm chau
@@ -32135,7 +32081,6 @@ use_preset_vocabulary: false
 張賊	tng chat
 張老鼠	tng loo chir
 張鳥鼠	tng niau chir
-張等	tng tan
 張綴	tng ter
 當咧	tng lErh
 當眾儂面	tng cing lang bin
@@ -32173,7 +32118,6 @@ use_preset_vocabulary: false
 長聲	tng siann
 長賒短欠	tng sia ter khiam
 長短	tng ter
-長短跤	tng ter kha
 長桶	tng thang
 長桶鞋	tng thang ere
 長桶襪	tng thang berh
@@ -32193,7 +32137,6 @@ use_preset_vocabulary: false
 長線	tng suann
 長桌	tng toh
 長度	tng too
-長尾星	tng ber chenn
 長長	tng tng
 腸仔	tng a
 腸肚	tng too
@@ -32284,22 +32227,11 @@ use_preset_vocabulary: false
 妝媠	cng sui
 妝腌做臢	cng am cue cam
 指頭	cng thau
-指頭仔	cng thau a
-指甲	cng kah
-指甲花	cng kah huee
-指甲䉔	cng kah chuann
 指頭拇	cng thau bu
 指頭	cing thau
-指頭仔	cing thau a
-指甲	cing kah
-指甲花	cing kah huee
-指甲䉔	cing kah chuann
-指頭拇公	cing thau bu kong
 從古	cng koo
 伸手	chng chiu
-伸手	chun chiu
 伸直	chng tit
-伸直	chun tit
 倉庫	chng khoo
 床鋪	chng phoo
 床頭	chng thau
@@ -32319,10 +32251,8 @@ use_preset_vocabulary: false
 ###############
 ##	節氣
 入春	lip chun
-雨水	u sui
 驚蟄	kenn tit
 驚蟄	king tik
-春分	chun hun
 清明	chaInn mia
 穀雨	kok u
 立夏	lip hee
@@ -32334,8 +32264,6 @@ use_preset_vocabulary: false
 立秋	lip chiu
 處暑	chir sir
 白露	peeh loo
-秋分	chiu hun
-寒露	han loo
 霜降	sng kang
 立冬	lip tang
 小雪	siau suat
@@ -32486,16 +32414,13 @@ use_preset_vocabulary: false
 赤道	chik toO
 熱帶	jiat tai
 副熱帶	hu jiat tai
-溫帶	un tai
 寒帶	han tai
 極地	kik tere
 平原	ping guan
 高原
 山脈	suann beeh
 山脈	suann meeh
-丘陵	khiu ling
 盆地	phun tue
-陸地	liok tere
 大陸架	tai liok kee
 海洋	hai iunn
 海洋性	hai iunn sing
@@ -32629,7 +32554,6 @@ use_preset_vocabulary: false
 耶路撒冷	ia loo sat ling
 希伯來	hi pik lai
 希伯來語	hi pik lai gir
-埃及	ai kip
 阿拉伯語	a la pik gir
 土耳其	thoo ni ki
 土耳其語	thoo ni ki gir
@@ -32678,7 +32602,6 @@ use_preset_vocabulary: false
 羅馬	lo ma
 意大利語	i tai li gir
 意語	i gir
-葡萄牙	phu to ga
 希臘	hi lap
 雅典	nga tian
 愛琴海	ai khim hai
@@ -32739,7 +32662,6 @@ use_preset_vocabulary: false
 中原官話	tiong guan kuann uee
 山西	suann sai
 山西省	suann sai sing
-太原	thai guan
 晉語	cin gir
 山東	suann tang
 山東省	suann tang sing
@@ -32791,7 +32713,6 @@ use_preset_vocabulary: false
 徐州	sir ciu
 浙江	ciat kang
 浙江省	ciat kang sing
-杭州	hang ciu
 蘇杭	soo hang
 寧波	ling pho
 溫州	un ciu
@@ -32806,7 +32727,6 @@ use_preset_vocabulary: false
 金華	kim hua
 衢州	gu ciu
 舟山	ciu suann
-台州	thai ciu
 麗水	le sui
 南吳	lam goo
 安徽	an hui
@@ -32831,7 +32751,6 @@ use_preset_vocabulary: false
 江西省	kang sai sing
 江右	kang iu
 南昌	lam chIang
-贛語	kam gir
 湖北	oo pak
 湖北省	oo pak sing
 武漢	bu han
@@ -32854,7 +32773,6 @@ use_preset_vocabulary: false
 深圳	chim cun
 珠海	cu hai
 東莞	tang kuan
-中山	tiong san
 粵語	uat gir
 河源	ho guan
 惠州	hui ciu
@@ -32870,7 +32788,6 @@ use_preset_vocabulary: false
 潮汕	tio suann
 廣西	kuInn sai
 廣西省	kuInn sai sing
-桂林	kui lim
 柳州	liu ciu
 桂柳話	kui liu uee
 南寧	lam ling
@@ -32929,7 +32846,6 @@ use_preset_vocabulary: false
 軟絲仔	nuI si a
 透抽	thau thiu
 鰇魚	jiu hIR
-鰻魚	mua hIR
 鯽魚	cit hIR
 非洲鯽	hui ciu cit
 草魚	chau hIR
@@ -32948,13 +32864,11 @@ use_preset_vocabulary: false
 海參	hai serm
 蚵仔	o a
 蟶乾	than kuann
-竹蟶	tik than
 花蛤	huee kap
 蚶仔	ham a
 蟳仔	cim a
 紅膏蟳	ang ko cim
 紅蟳	ang cim
-蠘仔	chih a
 毛蟹
 沙梭	sua so
 梭仔魚	so a hIR
@@ -32986,13 +32900,11 @@ use_preset_vocabulary: false
 狗母魚	kau bu hIR
 狗母魚	kau bo hIR
 烏胿魚	oo kui hIR
-田螺	chan lEr
 長釘螺	tng tan lEr
 鵝蚌
 皇帝魚	hong te hIR
 肉魚	hik hIR
 虱目魚	sat bak hIR
-馬跤	bee kha
 馬跤魚	bee kha hIR
 紅花魚	ang huee hIR
 沙蜊	sua la
@@ -33032,11 +32944,8 @@ use_preset_vocabulary: false
 蠓仔	bang a
 烏釘蠓	oo tan bang
 木蝨	bak sat
-胡蠅	hoo sin
 蜈蚣	gia kang
-尾蝶	ber iah
 蝶仔	iah a
-蝴蝶	oo tiap
 火螢	her iann
 火金姑	her kim koo
 金龜	kim ku
@@ -33050,7 +32959,6 @@ use_preset_vocabulary: false
 白蟻	peeh hia
 雞母蟲
 蟧蜈	la gia
-蜜蜂	bit phang
 黃蜂	uInn phang
 塗猴	thoo kau
 杜猴	too kau
@@ -33069,10 +32977,6 @@ use_preset_vocabulary: false
 臭龜仔	chau ku a
 牛螕	gu pi
 蠶仔	cham a
-娘仔	niu a
-娘帽	niu bo
-蜘蛛	ti tu
-田嬰	chan enn
 豆龜	tau ku
 圓頭仔仙	inn thau a sian
 樹蝛	chiu bui
@@ -33087,7 +32991,6 @@ use_preset_vocabulary: false
 百步蛇	peeh poo cua
 七步蛇	chit poo cua
 水蛇	cui cua
-海蛇	hai cua
 飯匙銃	puInn si ching
 青竹絲	chenn tik si
 簸箕甲	pua ki kah
@@ -33125,7 +33028,6 @@ use_preset_vocabulary: false
 貓頭鷹	niau thau ing
 貓頭鳥	niau thau ciau
 暗光鳥	am kong ciau
-客鳥	kheeh ciau
 山雞	suann kere
 白頭鷥	peeh thau si
 白鴒鷥	peeh ling si
@@ -33135,15 +33037,12 @@ use_preset_vocabulary: false
 海鷗
 海燕
 鷓鴣	cia koo
-燕仔	inn a
 鵁鴒	ka ling
 孔雀	khong chIak
 鸕鶿	loo cur
 白鶴	peeh hoh
-天鵝	thian gia
 天鵝	thian go
 水鴨	cui ah
-鸚哥	ing ko
 金絲鳥	kim si ciau
 伯勞	pik lo
 伯勞	pik loO
@@ -33163,7 +33062,6 @@ use_preset_vocabulary: false
 駱駝	lok to
 斑馬	pan bee
 獅仔	sai a
-老虎	lau hoo
 犀牛	sai gu
 山貓	suann niau
 山豬	suann tIR
@@ -33192,15 +33090,11 @@ use_preset_vocabulary: false
 ##	菜蔬
 瓜仔	kuee a
 菜頭	chai thau
-膋儳	la sam
 籮蔔	la pak
 籮蔔	la tak
 紅籮蔔	ang la pak
 紅籮蔔	ang la tak
 高麗菜	ko le chai
-紅菜	ang chai
-茄仔	kio a
-油菜	iu chai
 芫荽	ian sui
 辣椒	luah cio
 青椒	chinn cio
@@ -33209,19 +33103,13 @@ use_preset_vocabulary: false
 番瓜	huan kuee
 烏瓜仔	oo kuee a
 金瓜	kim kuee
-匏仔	pu a
 茼蒿菜	tang o chai
 茼蒿	tang her chai
 菠薐菜	po lun chai
 冬瓜	tang kuee
 芥菜	kua chai
-蕹菜	ing chai
-茭白筍	ka pik sun
 茭白筍	kha peeh sun
-茭白筍	ka peeh sun
 東筍	tang sun
-春筍	chun sun
-白菜	peeh chai
 木耳	bok ni
 烏木耳	oo bok ni
 白木耳	peeh bok ni
@@ -33237,14 +33125,9 @@ use_preset_vocabulary: false
 柑仔得	kam a tit
 柑仔蜜	kam a bit
 臭柿仔	chau khi a
-菜豆	chai tau
 荷蘭豆	ho lin tau
-綠豆	lik tau
-香菇	hiunn koo
-塗豆	thoo tau
 塗豆	tho tau
 鼠瓜	chir kuee
-菜瓜	chai kuee
 豆生	tau senn
 豆青	tau chenn
 豆菜	tau chai
@@ -33262,16 +33145,12 @@ use_preset_vocabulary: false
 蘋果	phing koO
 蘋果	phiang koO
 蘋果	phong ko
-梨仔	lai a
 王梨	ong lai
-李仔	li a
 葡萄	phu to
 提子	the ci
 西瓜	se kuee
 西瓜	si kuee
-桔仔	kiat a
 黃桔	hong kiat
-柑仔	kam a
 檨仔	suan a
 檨仔	suainn a
 草莓	chau mue
@@ -33285,16 +33164,11 @@ use_preset_vocabulary: false
 荔枝	lian ci
 燈柿	ting khi
 柿仔	khi a
-油柑	iu kam
-油柑枝	iu kam ki
-桃仔	tho a
 櫻桃	ing tho
 哈蜜瓜	hah bit kuee
-木瓜	bok kuee
 山竹	suann tik
 榴槤	liu lian
 榴槤	lau lian
-楊桃	iunn to
 弓蕉	king cio
 水蜜桃	cui bit tho
 芳瓜	phang kuee
@@ -33347,7 +33221,6 @@ use_preset_vocabulary: false
 仄聲	ceeh siann
 陰平	im piann
 陽平	Iang piann
-上聲	sIang siann
 陰上	im sIang
 陽上	Iang sIang
 去聲	khIR siann
@@ -33466,7 +33339,6 @@ use_preset_vocabulary: false
 東山縣	tang suann kuainn
 南靖	lam cing
 南靖縣	lam cing kuainn
-平和	ping ho
 平和縣	ping ho kuainn
 華安	hua an
 華安縣	hua an kuainn
