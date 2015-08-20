@@ -99,8 +99,8 @@ speller:
     - derive/sh/x/
     - abbrev/^([^aoeiuy]+).+$/$1/       # 簡拼
     - abbrev/^(n?y).+$/$1/ #簡拼
-    #- fuzzy/aon/an/ #打黨不分 (aon⇒an)
-    #- fuzzy/aeh/ah/ #襪麥不分 (aeh⇒ah)
+    #- fuzz/aon/an/ #打黨不分 (aon⇒an)
+    #- fuzz/aeh/ah/ #襪麥不分 (aeh⇒ah)
 
 translator:
   dictionary: suzhou
