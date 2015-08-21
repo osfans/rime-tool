@@ -82,6 +82,7 @@ speller:
     - xform/ʈʂ/zh/
     - xform/ʂ/sh/
     - xform/ɻ/r/
+    - xform/ʅ/r/
     - xform/ʨʰ/q/
     - xform/ʨ/j/
     - xform/ɕ/x/
@@ -95,12 +96,13 @@ speller:
     - xform/ə/e/
     - xform/ɚ/er/
     - xform/ɪ/i/
-    - xform/ʅ/r/
     - xform/ɿ/z/
     - derive/h7/h5/
     - derive/h8/h6/
     - derive/eu/ou/
     - derive/ae(\d?)$/ai$1/
+    - derive/o(\d?)$/ao/
+    - derive/uei/ui/
     - derive/^([jqx])i([aeou])/$1$2/
     - abbrev/^([^aoeui]+).+$/$1/       # 無韻簡拼
     - abbrev/^([aoeui]).+$/$1/       # 無韻簡拼
