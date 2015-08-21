@@ -5,7 +5,7 @@
 
 ---
 name: dhon2xian1
-version: "2015.08.16"
+version: "2015.08.21"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1104,6 +1104,7 @@ use_preset_vocabulary: true
 餛	ɦun2
 魂	ɦun2
 混	ɦun6
+學	ɦuoʔ7
 或	ɦuoʔ7
 獲	ɦuoʔ7
 核	ɦuoʔ8
@@ -1309,13 +1310,13 @@ use_preset_vocabulary: true
 涯	ja6
 煬	jã6
 冶	jæ4
-挾	jaʔ8
-俠	jaʔ8
-峽	jaʔ8
-協	jaʔ8
-藥	jaʔ8
-鑰	jaʔ8
-鈅	jaʔ8
+挾	jiaʔ8
+俠	jiaʔ8
+峽	jiaʔ8
+協	jiaʔ8
+藥	jiaʔ8
+鑰	jiaʔ8
+鈅	jiaʔ8
 淆	jɔ2
 姚	jɔ2
 搖	jɔ2
@@ -1382,18 +1383,18 @@ use_preset_vocabulary: true
 誘	jəɯ6
 云	jən2
 雲	jən2
-葉	jəʔ8
-枼	jəʔ8
-液	jəʔ8
-頁	jəʔ8
-亦	jəʔ8
-佚	jəʔ8
-益	jəʔ8
-逸	jəʔ8
-月	jəʔ8
-粵	jəʔ8
-越	jəʔ8
-閱	jəʔ8
+葉	jiəʔ8
+枼	jiəʔ8
+液	jiəʔ8
+頁	jiəʔ8
+亦	jiəʔ8
+佚	jiəʔ8
+益	jiəʔ8
+逸	jiəʔ8
+月	jiəʔ8
+粵	jiəʔ8
+越	jiəʔ8
+閱	jiəʔ8
 眙	ji2
 蹊	ji2
 遺	ji2
@@ -1506,17 +1507,17 @@ use_preset_vocabulary: true
 鎣	jõ2
 庸	jõ2
 慵	jõ2
-穴	joʔ8
-役	joʔ8
-疫	joʔ8
-域	joʔ8
-峪	joʔ8
-慾	joʔ8
-欲	joʔ8
-浴	joʔ8
-煜	joʔ8
-育	joʔ8
-閾	joʔ8
+穴	jioʔ8
+役	jioʔ8
+疫	jioʔ8
+域	jioʔ8
+峪	jioʔ8
+慾	jioʔ8
+欲	jioʔ8
+浴	jioʔ8
+煜	jioʔ8
+育	jioʔ8
+閾	jioʔ8
 旮	ka1
 傢	ka1
 加	ka1
@@ -1632,6 +1633,7 @@ use_preset_vocabulary: true
 敎	kɔ5
 窖	kɔ5
 覺	kɔ5
+叫	kɔ5	0%
 槓	kɔ̃5
 犒	kʻɔ5
 銬	kʻɔ5
@@ -2513,6 +2515,7 @@ use_preset_vocabulary: true
 硯	ȵiɛ6
 諺	ȵiɛ6
 驗	ȵiɛ6
+願	ȵiɛ6
 嫉	ȵiəʔ8
 岌	ȵiəʔ8
 匿	ȵiəʔ8
@@ -2642,6 +2645,7 @@ use_preset_vocabulary: true
 百	paʔ7
 伯	paʔ7
 柏	paʔ7
+巴	paʔ7	0%
 𤖼	pʻaʔ7
 泊	pʻaʔ7
 啪	pʻaʔ7
@@ -2874,6 +2878,7 @@ use_preset_vocabulary: true
 紗	sa1	0%
 牲	sã1
 生	sã1
+聲	sã1	0%
 撒	sa3
 傻	sa3
 耍	sa3
@@ -3090,6 +3095,7 @@ use_preset_vocabulary: true
 箲	siɛ3
 銑	siɛ3
 選	siɛ3
+綫	siɛ5
 線	siɛ5
 腺	siɛ5
 渲	siɛ5
@@ -4499,6 +4505,7 @@ use_preset_vocabulary: true
 汪	uɔ̃1
 枉	uɔ̃1
 往	uɔ̃3
+網	uɔ̃3	0%
 蜿	uɛ1
 豌	uɛ1
 宛	uɛ3
@@ -4666,7 +4673,6 @@ use_preset_vocabulary: true
 爲	wɛ2
 莞	wɛ4
 換	wɛ6
-爲	wɛ6
 琿	wən2
 聞	wən2
 徊	wi2
@@ -4676,7 +4682,8 @@ use_preset_vocabulary: true
 魏	wi2
 瑋	wi4
 葦	wi4
-謂	wi5
+謂	wi6
+爲	wi6
 匯	wi6
 繪	wi6
 位	wi6
@@ -5252,6 +5259,7 @@ use_preset_vocabulary: true
 惱	ʔnɔ3
 瑙	ʔnɔ3
 腦	ʔnɔ3
+諾	ʔnɔ3
 暖	ʔnɛ3
 妳	ʔni3
 你	ʔni3
@@ -5268,6 +5276,7 @@ use_preset_vocabulary: true
 語	ʔȵi3
 寓	ʔȵi5
 仰	ʔȵiã3
+嬲	ʔȵiɔ3
 裊	ʔȵiɔ3
 鳥	ʔȵiɔ3
 尿	ʔȵiɔ3
@@ -5347,6 +5356,13 @@ use_preset_vocabulary: true
 西許	si1 hæ1
 南許	nɛ2 hæ1
 晚黃梅	ʔmæ3 wɔ̃2 ʔmi1
+問聲	mən6 sã1
+網絡	uɔ̃3 loʔ8
+上網	zɔ̃6 uɔ̃3
+無綫網	vu2 siɛ1 uɔ̃1
+啞巴子	ia1 paʔ7 ʦɿ1
+叫花子	kɔ5 ho5 ʦɿ3
+一聲言話	iəʔ7 sã1 ɦæ2 ɦo2
 一二弗過三
 一天世界
 一手落
@@ -7394,6 +7410,7 @@ use_preset_vocabulary: true
 駡山門
 龍洋
 龍頭
+𤎤𡮦
 嚇人倒怪
 嚎辣氣
 壓坍街
@@ -7715,7 +7732,6 @@ use_preset_vocabulary: true
 汙	u1
 獾	huɛ1
 艄	sɔ1
-綫	siɛ5
 臓	zɔ̃6
 抛	pʻɔ1
 焐	u5

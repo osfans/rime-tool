@@ -4,7 +4,7 @@
 schema:
   schema_id: dhon2xian1
   name: 桐鄉拚音
-  version: "2015.8.11"
+  version: "2015.8.21"
   author:
     - 雪心居士
   description: |
@@ -122,8 +122,8 @@ speller:
     - xform/ɿ/y/
     - xform/ʔ/k/
     #規則
-    - xform/^i([kn]?)(\d?)$/yi$1$2/
-    - xform/^i/y/
+    - xform/^i/yi/
+    - xform/(yh?)i([aoeu])/$1$2/
     - xform/^u(n?)(\d?)$/wu$1$2/
     - xform/^u/w/
     - xform/nii/ni/

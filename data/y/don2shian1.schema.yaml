@@ -4,7 +4,7 @@
 schema:
   schema_id: don2shian1
   name: 桐鄉吳拚
-  version: "2015.8.11"
+  version: "2015.8.21"
   author:
     - 雪心居士
   description: |
@@ -106,6 +106,7 @@ speller:
     - xform/ɿ/y/
     - xform/ʔ/h/
     #規則
+    - xform/yi([aoeu])/y$1/
     - abbrev/^(['bpmfdtnlgkhjqxzcsyw]+).*$/$1/       # 無韻簡拼
     - derive/\d$//       # 無調輸入
 
