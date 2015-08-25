@@ -48,6 +48,7 @@ engine:
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba012345678
+  initials: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
     #- fuzz/6/1/ #陽去歸陰平 (6⇒1)
@@ -89,19 +90,20 @@ speller:
     - xform/ɚ/er/
     - xform/ɪ/i/
     - xform/ɿ/z/
-    - derive/h7/h5/
-    - derive/h8/h6/
-    - derive/eu/ou/
-    - derive/ae(\d?)$/ai$1/
-    - derive/o(\d?)$/ao/
-    - derive/uei/ui/
-    - derive/^(ch?|sh)i([aeou])/$1$2/
-    - derive/ch/q/
-    - derive/c/j/
-    - derive/sh/x/
+    - fuzz/h7/h5/
+    - fuzz/h8/h6/
+    - fuzz/eu/ou/
+    - fuzz/ae(\d?)$/ai$1/
+    - fuzz/o(\d?)$/ao/
+    - fuzz/uei/ui/
+    - fuzz/iu([hn])/y$1/
+    - fuzz/^(ch?|sh)i([aeou])/$1$2/
+    - fuzz/ch/q/
+    - fuzz/c/j/
+    - fuzz/sh/x/
     - abbrev/^([^aoeui]+).+$/$1/       # 無韻簡拼
     - abbrev/^([aoeui]).+$/$1/       # 無韻簡拼
-    - derive/\d$//       # 無調輸入
+    - abbrev/\d$//       # 無調輸入
 
 translator:
   dictionary: tairu
