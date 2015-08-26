@@ -11,7 +11,7 @@
 
 ---
 name: suzhou
-version: "2013.02.23"
+version: "2015.08.26"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1438,7 +1438,7 @@ use_preset_vocabulary: true
 嚨	loŋ
 咚	toŋ
 嚀	ȵiən
-哎	ɛ
+哎	ᴇ
 囹	lin
 固	kəu
 國	kuəʔ
@@ -1992,7 +1992,7 @@ use_preset_vocabulary: true
 咸	ɦᴇ
 咽	iɪ
 咽	iəʔ
-哀	ɛ
+哀	ᴇ
 品	pʰin
 哄	hoŋ
 鬨	hoŋ
@@ -2614,7 +2614,7 @@ use_preset_vocabulary: true
 唆	səu
 唇	zən
 脣	zən
-唉	ɛ
+唉	ᴇ
 唐	dɑ̃
 唔	n
 嘮	læ
@@ -2627,7 +2627,7 @@ use_preset_vocabulary: true
 圓	ɦiø
 埂	kã
 埂	kən
-埃	ɛ
+埃	ᴇ
 埋	ma
 埋	mᴇ
 埔	pʰu
@@ -2728,7 +2728,7 @@ use_preset_vocabulary: true
 晃	ɦuɑ̃
 晉	ʦin
 晌	sɑ̃
-晏	ɛ
+晏	ᴇ
 晏	iɪ
 曬	so
 曉	ɕiæ
@@ -2843,7 +2843,7 @@ use_preset_vocabulary: true
 燙	tʰɑ̃
 燼	zin
 熱	ȵiəʔ
-愛	ɛ
+愛	ᴇ
 爹	tia
 特	dəʔ
 特	diʔ
@@ -4170,7 +4170,7 @@ use_preset_vocabulary: true
 嗤	ʦʰʮ
 嗦	səu
 嗲	tia
-噯	ɛ
+噯	ᴇ
 嗷	ŋæ
 塌	tʰᴇ
 塑	soʔ
@@ -4186,7 +4186,7 @@ use_preset_vocabulary: true
 嫁	ka
 嫉	ziʔ
 嫌	ɦiɪ
-嬡	ɛ
+嬡	ᴇ
 寢	ʦʰin
 寞	moʔ
 尷	kᴇ
@@ -4601,7 +4601,7 @@ use_preset_vocabulary: true
 敲	kʰæ
 旗	ʥi
 暝	min
-曖	ɛ
+曖	ᴇ
 暨	ʨi
 榕	ɦioŋ
 榛	ʦən
@@ -4722,7 +4722,7 @@ use_preset_vocabulary: true
 薔	ziã
 藺	lin
 蔻	kʰøʏ
-藹	ɛ
+藹	ᴇ
 蔽	pi
 蜀	zoʔ
 蜘	ʦʮ
@@ -5334,7 +5334,7 @@ use_preset_vocabulary: true
 蹴	ʦʰoʔ
 蹼	pʰoʔ
 躥	ʦʰø
-靄	ɛ
+靄	ᴇ
 靡	mi
 顫	ʦø
 驥	ʨi
