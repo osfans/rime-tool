@@ -1,0 +1,145 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: don2xian1
+  name: 桐鄉法吳
+  version: "2015.8.21"
+  author:
+    - 雪心居士
+  description: |
+    桐鄉言話注音輸入方案法吳版
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba12345678'"
+  finals: " 12345678"
+  delimiter: " '"
+  algebra:
+    - xform/\(.+\)//  #刪除備註
+    #尖團弗分
+    - derive/ʦi/ʨi/
+    - derive/ʦʻi/ʨʻi/
+    - derive/zi/ʒi/
+    - derive/si/ɕi/
+    #打党弗分
+    - derive/ɔ̃/ã/
+    #齊棋弗分
+    #- derive/zi/ʥi/
+    #一育弗分
+    - derive/ioʔ/iʔ/
+    #飛灰弗分
+    - derive/hu/f/
+    - derive/ɦu/w/
+    - xform/f(\d)/fu$1/
+    - xform/w(\d)/wu$1/
+    #半杯弗分
+    #- derive/(b|p|pʻ)ɛ/$1i/
+    #肩艱弗分
+    #- derive/iɛ/iæ/
+    #歐衣弗分
+    #- derive/əɯ/i/
+    #撮口音
+    - derive/ɛ/eu/
+    #聲母
+    - xform/ʦʻ/ts/
+    - xform/ʦ/tz/
+    - xform/ʻ/h/
+    - xform/ʔ([mnl])/$1h/
+    - xform/ʔȵ/kn/
+    - xform/ʔŋ/nk/
+    - xform/ŋ/ng/
+    - xform/ɦ/r/
+    - xform/ʨ/c/
+    - xform/j/y/
+    - xform/ʒ/j/
+    - xform/ʥ/dj/
+    - xform/ȵ/gn/
+    - xform/ɕ/x/
+    #韻母
+    #- xform/a/a/
+    - xform/ã/an/
+    - xform/ɔ̃/aon/
+    - xform/õ/on/
+    - xform/o(\d?)$/au$1/
+    - xform/ɔ/o/
+    - xform/æ/ae/
+    - xform/ɛ/e/
+    - xform/əl/el/
+    - xform/əɯ/oe/
+    - xform/iəʔ/iʔ/
+    - xform/ə/e/
+    - xform/ɿ/y/
+    - xform/ʔ/q/
+    #規則
+    - abbrev/^(['bpmfdtnlgkhjqxzcsyw]+).*$/$1/       # 無韻簡拼
+    - derive/\d$//       # 無調輸入
+
+translator:
+  dictionary: dhon2xian1
+  prism: don2xian1
+  spelling_hints: 5
+  comment_format:
+    - xform/^(.*)\((.*)\)$/$2✔/
+    #- xform ^(.*)$ /$1/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    # hack: to enable "/fh" style symbols, '/' must be mapped to a [list].
+    # so those who have customized '/' for direct commit won't be affected by
+    # this change.
+    punct: "^/([0-9]+[a-z]*|[a-z]+)$"
+    reverse_lookup: "`[a-z]*'?$"
