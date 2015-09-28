@@ -58,3 +58,12 @@
 [submodule "rime-zhengma"]
 	path = rime-zhengma
 	url = git@github.com:acevery/rime-zhengma.git
+[submodule "Tamil-for-Rime"]
+	path = Tamil-for-Rime
+	url = git@github.com:Lo-Aidas/Tamil-for-Rime.git
+[submodule "FLAIS-EX-for-Rime"]
+	path = FLAIS-EX-for-Rime
+	url = git@github.com:Lo-Aidas/FLAIS-EX-for-Rime.git
+[submodule "meow_mspy"]
+	path = meow_mspy
+	url = git@github.com:elxy/meow_mspy.git
