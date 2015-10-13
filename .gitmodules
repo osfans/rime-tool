@@ -67,3 +67,9 @@
 [submodule "meow_mspy"]
 	path = meow_mspy
 	url = git@github.com:elxy/meow_mspy.git
+[submodule "RIME-98wubi"]
+	path = RIME-98wubi
+	url = git@github.com:ellicefix/RIME-98wubi.git
+[submodule "RimeDayi"]
+	path = RimeDayi
+	url = git@github.com:chiahsien/RimeDayi.git
