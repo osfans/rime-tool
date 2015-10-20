@@ -53,71 +53,74 @@ speller:
   delimiter: " '"
   algebra:
     - xform/\(.+\)//  #刪除備註
+    - xform/o(\d)/O$1/
+    - xform/au/o/
+    - xform/O/au/
+    - xform/r/el/
+    - xform/eu/oe/
+    - xform/h(\d)$/q$1/
+    - xform/'nyi?/kni/
+    - xform/^nyi?/gni/
+    - xform/'ng/nk/
+    - xform/^gh/r/
+    - xform/'(.)/$1h/
+    - xform/^j/dj/
+    - xform/^tsh/TS/
+    - xform/^ts/tz/
+    - xform/^TS/ts/
+    - xform/^sh/x/
+    - xform/^zh/j/
     #尖團弗分
-    - derive/ʦi/ʨi/
-    - derive/ʦʻi/ʨʻi/
-    - derive/zi/ʒi/
-    - derive/si/ɕi/
+    - derive/^tzi/ci/
+    - derive/^tsi/chi/
+    - derive/^zi/ji/
+    - derive/^si/xi/
     #打党弗分
-    - derive/ɔ̃/ã/
+    - derive/aon/an/
     #齊棋弗分
-    #- derive/zi/ʥi/
+    #- derive/^zi/dji/
     #一育弗分
-    - derive/ioʔ/iʔ/
+    - derive/ioh/ih/
     #飛灰弗分
-    - derive/hu/f/
-    - derive/ɦu/w/
-    - xform/f(\d)/fu$1/
-    - xform/w(\d)/wu$1/
+    - derive/^hu/f/
+    - xform/^f(\d)/fu$1/
     #半杯弗分
-    #- derive/(b|p|pʻ)ɛ/$1i/
+    #- derive/^(b|p|ph)e(\d)/$1i$2/
     #肩艱弗分
-    #- derive/iɛ/iæ/
+    #- derive/ie(\d)/iae$1/
     #歐衣弗分
-    #- derive/əɯ/i/
+    #- derive/oe/i/
     #撮口音
-    - derive/ɛ/eu/
-    #聲母
-    - xform/ʦʻ/ts/
-    - xform/ʦ/tz/
-    - xform/ʻ/h/
-    - xform/ʔ([mnl])/$1h/
-    - xform/ʔȵ/kn/
-    - xform/ʔŋ/nk/
-    - xform/ŋ/ng/
-    - xform/ɦ/r/
-    - xform/ʨ/c/
-    - xform/j/y/
-    - xform/ʒ/j/
-    - xform/ʥ/dj/
-    - xform/ȵ/gn/
-    - xform/ɕ/x/
-    #韻母
-    #- xform/a/a/
-    - xform/ã/an/
-    - xform/ɔ̃/aon/
-    - xform/õ/on/
-    - xform/o(\d?)$/au$1/
-    - xform/ɔ/o/
-    - xform/æ/ae/
-    - xform/ɛ/e/
-    - xform/əl/el/
-    - xform/əɯ/oe/
-    - xform/iəʔ/iʔ/
-    - xform/ə/e/
-    - xform/ɿ/y/
-    - xform/ʔ/q/
+    - derive/e(\d)/eu$1/
     #規則
+    #- xform/yi([aoeu])/y$1/
     - abbrev/^(['bpmfdtnlgkhjqxzcsyw]+).*$/$1/       # 無韻簡拼
     - derive/\d$//       # 無調輸入
 
 translator:
-  dictionary: dhon2xian1
+  dictionary: don2shian1
   prism: don2xian1
   spelling_hints: 5
   comment_format:
     - xform/^(.*)\((.*)\)$/$2✔/
     #- xform ^(.*)$ /$1/
+    - xform/o(\d)/O$1/
+    - xform/au/o/
+    - xform/O/au/
+    - xform/r/el/
+    - xform/eu/oe/
+    - xform/h(\d)$/q$1/
+    - xform/'nyi?/kni/
+    - xform/^nyi?/gni/
+    - xform/'ng/nk/
+    - xform/^gh/r/
+    - xform/'(.)/$1h/
+    - xform/^j/dj/
+    - xform/^tsh/TS/
+    - xform/^ts/tz/
+    - xform/^TS/ts/
+    - xform/^sh/x/
+    - xform/^zh/j/
 
 reverse_lookup:
   dictionary: luna_pinyin

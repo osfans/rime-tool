@@ -1,0 +1,8064 @@
+# Rime dictionary
+# encoding: utf-8
+#
+#
+
+---
+name: don2shian1
+version: "2015.10.17"
+sort: by_weight
+use_preset_vocabulary: true
+...
+阿	a1
+啊	a1
+挨	a1
+矮	a3
+隘	a3
+捱	a5
+淹	ae1
+限	ae3
+餡	ae3
+眼	ae3
+晏	ae5
+雁	ae5
+阿	ah7
+壓	ah7
+押	ah7
+鴨	ah7
+厭	ah7
+也	ah7
+櫻	an1
+鸚	an1
+杏	an3
+骯	aon1
+昂	aon3
+項	aon3
+凹	au1
+襖	au1
+肴	au1	0%
+咬	au3
+拗	au3
+奧	au5
+懊	au5
+澳	au5
+爬	ba2
+俳	ba2
+排	ba2
+牌	ba2
+叭	ba6
+唄	ba6
+敗	ba6
+稗	ba6
+叭	ba6	0%
+瓣	bae2
+爿	bae2
+𨂝	bae6
+辦	bae6
+白	bah8
+帛	bah8
+舶	bah8
+鉑	bah8
+龐	ban2
+澎	ban2
+彭	ban2
+朋	ban2
+棚	ban2
+膨	ban2
+鵬	ban2
+蚌	ban4
+掽	ban6
+甏	ban6
+鰟	baon2
+防	baon2
+彷	baon2
+旁	baon2
+螃	baon2
+膀	baon2
+傍	baon4
+棒	baon4	0%
+鎊	baon6
+刨	bau2
+咆	bau2
+袍	bau2
+跑	bau2
+抱	bau4
+鮑	bau4
+齙	bau6
+刨	bau6
+暴	bau6
+爆	bau6
+鉋	bau6
+䶕	bau6
+曝	bau6
+瀑	bau6
+瘢	be2
+蹣	be2
+徘	be2
+瀊	be2
+盤	be2
+磐	be2
+蟠	be2
+伴	be4
+拌	be4
+悖	be6
+叛	be6
+畔	be6
+孛	beh8
+孛	beh8
+跋	beh8
+魃	beh8
+誖	beh8
+餑	beh8
+勃	beh8
+渤	beh8
+脖	beh8
+葡	beh8
+𥹸	beh8
+盆	ben2
+蹦	ben6
+坌	ben6
+笨	ben6
+鮍	bi2
+裨	bi2
+陂	bi2
+琶	bi2
+培	bi2
+裴	bi2
+賠	bi2
+陪	bi2
+邳	bi2
+啤	bi2
+毗	bi2
+琵	bi2
+疲	bi2
+皮	bi2
+脾	bi2
+貔	bi2
+郫	bi2
+肥	bi2	0%
+倍	bi4
+碚	bi4
+被	bi4
+婢	bi4
+陛	bi4
+備	bi6
+憊	bi6
+焙	bi6
+鐴	bi6
+鐾	bi6
+幣	bi6
+弊	bi6
+斃	bi6
+痹	bi6
+避	bi6
+痱	bi6
+佩	bi6
+鰾	biau2
+剽	biau2
+嫖	biau2
+瓢	biau2
+摽	biau4	0%
+楩	bie2
+便	bie2	0%
+卞	bie4
+辨	bie4
+辮	bie4
+辯	bie4
+偏	bie4
+汴	bie6
+辯	bie6
+便	bie6
+萆	bih8
+鼻	bih8
+吡	bih8
+闢	bih8
+別	bih8
+蹩	bih8
+彆	bih8
+擗	bih8
+枇	bih8
+苹	bin2
+蘋	bin2
+貧	bin2
+頻	bin2
+坪	bin2
+屏	bin2
+平	bin2
+憑	bin2
+瓶	bin2
+萍	bin2
+評	bin2
+髕	bin4
+并	bin4
+病	bin4
+並	bin6
+扒	bo2
+耙	bo2
+杷	bo2
+爬	bo2
+琶	bo2
+巴	bo2	0%
+坺	boh8
+拔	boh8
+薄	boh8
+雹	boh8
+亳	boh8
+泊	boh8
+礴	boh8
+箔	boh8
+卜	boh8
+蔔	boh8
+縛	boh8
+濮	boh8
+瀑	boh8
+雹	boh8
+塳	bon2
+篷	bon2
+蓬	bon2
+髼	bon2
+棒	bon4
+埲	bon4
+鵓	bu2
+埠	bu2
+脯	bu2
+莆	bu2
+婆	bu2
+蹼	bu2
+鄱	bu2
+匍	bu2
+菩	bu2
+蒲	bu2
+巴	bu2	0%
+萄	bu2
+篰	bu4
+簿	bu4
+部	bu4
+佈	bu6
+哺	bu6
+捕	bu6
+埠	bu6
+步	bu6
+孵	bu6
+虧	chi1
+區	chi1
+欺	chi1
+嶇	chi1
+祛	chi1
+軀	chi1
+驅	chi1
+溪	chi1
+墟	chi1
+稽	chi3
+豈	chi3
+企	chi3
+啓	chi3
+啟	chi3
+杞	chi3
+起	chi3
+亟	chi5
+器	chi5
+契	chi5
+憩	chi5
+棄	chi5
+氣	chi5
+汽	chi5
+去	chi5
+恰	chiah7
+洽	chiah7
+怯	chiah7
+榷	chiah7
+羌	chian1
+腔	chian1
+羥	chian3
+橇	chiau1
+敲	chiau1
+蹺	chiau1
+蹻	chiau1
+鍬	chiau1
+巧	chiau3
+翹	chiau5
+竅	chiau5
+牽	chie1
+謙	chie1
+圈	chie1
+繾	chie3
+譴	chie3
+遣	chie3
+犬	chie3
+芡	chie5
+欠	chie5
+歉	chie5
+券	chie5
+勸	chie5
+丘	chieu1
+恘	chieu1
+蚯	chieu1
+丘	chieu1
+揪	chieu3
+喫	chih7
+炔	chih7
+亟	chih7
+詰	chih7
+乞	chih7
+泣	chih7
+迄	chih7
+愜	chih7
+鍥	chih7
+屈	chih7
+隙	chih7
+契	chih7	0%
+卿	chin1
+氫	chin1
+輕	chin1
+衾	chin1
+欽	chin1
+逡	chin1
+窘	chin3
+傾	chin3
+頃	chin3
+搇	chin5
+撳	chin5
+慶	chin5
+罄	chin5
+沁	chin5
+蛐	chioh7
+曲	chioh7
+缺	chioh7
+確	chioh7
+芎	chion1
+車	ci1
+龜	ci1
+嘰	ci1
+基	ci1
+姬	ci1
+屐	ci1
+機	ci1
+磯	ci1
+稽	ci1
+箕	ci1
+羈	ci1
+肌	ci1
+譏	ci1
+雞	ci1
+飢	ci1
+饑	ci1
+鷄	ci1
+居	ci1
+拘	ci1
+雎	ci1
+駒	ci1
+矩	ci1
+裾	ci1
+据	ci1	0%
+苣	ci3
+蟣	ci3
+鬼	ci3
+幾	ci3
+己	ci3
+擠	ci3
+舉	ci3
+莒	ci3
+貴	ci5
+濟	ci5
+冀	ci5
+劑	ci5
+季	ci5
+悸	ci5
+既	ci5
+暨	ci5
+祭	ci5
+紀	ci5
+繼	ci5
+薊	ci5
+覬	ci5
+計	ci5
+記	ci5
+際	ci5
+據	ci5
+鋸	ci5
+句	ci5
+踞	ci5
+佳	cia1
+加	cia1
+嘉	cia1
+家	cia1
+皆	cia1
+階	cia1
+偕	cia1
+賈	cia3
+解	cia3
+假	cia3	0%
+價	cia5
+嫁	cia5
+駕	cia5
+介	cia5
+屆	cia5
+界	cia5
+奸	ciae1
+監	ciae1
+艱	ciae1
+間	ciae1
+簡	ciae3
+甲	ciah7
+鉀	ciah7
+腳	ciah7
+攫	ciah7
+峽	ciah7
+僵	cian1
+姜	cian1
+殭	cian1
+疆	cian1
+薑	cian1
+講	cian3
+絳	cian5
+降	cian5
+交	ciau1
+嬌	ciau1
+澆	ciau1
+膠	ciau1
+蕉	ciau1
+蛟	ciau1
+郊	ciau1
+驕	ciau1
+𨜻	ciau3
+攪	ciau3
+矯	ciau3
+絞	ciau3
+繳	ciau3
+餃	ciau3
+姣	ciau3
+佼	ciau3
+僥	ciau3
+狡	ciau3
+皎	ciau3
+撟	ciau3
+教	ciau5
+較	ciau5
+叫	ciau5
+敎	ciau5
+酵	ciau5
+校	ciau5
+窖	ciau5
+兼	cie1
+堅	cie1
+肩	cie1
+蒹	cie1
+薦	cie1
+鑑	cie1
+娟	cie1
+捐	cie1
+涓	cie1
+蠲	cie1
+鵑	cie1
+眷	cie1
+絹	cie1
+繭	cie3
+撿	cie3
+柬	cie3
+檢	cie3
+瞼	cie3
+見	cie3
+卷	cie3
+捲	cie3
+劍	cie5
+建	cie5
+諫	cie5
+鍵	cie5
+綣	cie5
+毽	cie5
+究	cieu1
+糾	cieu1
+鳩	cieu1
+灸	cieu1
+久	cieu3
+九	cieu3
+玖	cieu3
+韭	cieu3
+救	cieu5
+疚	cieu5
+搛	cih7
+吃	cih7
+砝	cih7
+給	cih7
+擊	cih7
+激	cih7
+緝	cih7
+即	cih7
+卽	cih7
+吉	cih7
+急	cih7
+棘	cih7
+汲	cih7
+秸	cih7
+級	cih7
+髻	cih7
+頰	cih7
+揭	cih7
+結	cih7
+劫	cih7
+拮	cih7
+桔	cih7
+潔	cih7
+羯	cih7
+橘	cih7
+菊	cih7
+抉	cih7
+決	cih7
+訣	cih7
+蹶	cih7
+獗	cih7
+矜	cin1
+今	cin1
+巾	cin1
+斤	cin1
+筋	cin1
+衿	cin1
+襟	cin1
+金	cin1
+京	cin1
+兢	cin1
+晶	cin1
+涇	cin1
+經	cin1
+荊	cin1
+莖	cin1
+驚	cin1
+敬	cin1
+君	cin1
+均	cin1
+軍	cin1
+鈞	cin1
+皸	cin1
+頸	cin3
+緊	cin3
+謹	cin3
+錦	cin3
+憬	cin3
+景	cin3
+警	cin3
+菌	cin3
+禁	cin5
+境	cin5
+徑	cin5
+竟	cin5
+鏡	cin5
+覺	cioh7
+鞠	cioh7
+厥	cioh7
+珏	cioh7
+龔	cion1
+炅	cion3
+炯	cion3
+迥	cion3
+䈆	da2
+笪	da2
+汏	da4	0%
+埭	da6
+大	da6
+汏	da6
+彈	dae2
+蛋	dae2
+壇	dae2
+曇	dae2
+檀	dae2
+痰	dae2
+罎	dae2
+談	dae2
+譚	dae2
+罈	dae2
+郯	dae2
+氮	dae4
+淡	dae4
+但	dae6
+憚	dae6
+達	dah8
+涾	dah8
+踏	dah8
+趤	dan6
+溏	daon2
+蕩	daon2
+唐	daon2
+堂	daon2
+塘	daon2
+搪	daon2
+棠	daon2
+糖	daon2
+膛	daon2
+螳	daon2
+盪	daon4
+趤	daon6
+宕	daon6
+碭	daon6
+悼	dau2
+盜	dau2
+萄	dau2
+啕	dau2
+桃	dau2
+逃	dau2
+陶	dau2
+導	dau4
+蹈	dau4
+稻	dau4
+道	dau4
+悼	dau6
+盜	dau6
+掏	dau6
+淘	dau6
+臺	de2
+苔	de2
+台	de2
+擡	de2
+檯	de2
+薹	de2
+跆	de2
+颱	de2
+潭	de2
+團	de2
+糰	de2
+頹	de2
+毈	de4
+待	de4
+殆	de4
+斷	de4
+緞	de4
+逮	de6
+代	de6
+岱	de6
+怠	de6
+殆	de6
+紿	de6
+袋	de6
+貸	de6
+黛	de6
+段	de6
+鍛	de6
+兌	de6
+沓	deh8
+疊	deh8
+迭	deh8
+奪	deh8
+特	deh8
+凸	deh8
+突	deh8
+囤	den2
+滕	den2
+疼	den2
+藤	den2
+騰	den2
+謄	den2
+螣	den2
+縢	den2
+幐	den2
+屯	den2
+臀	den2
+豚	den2
+飩	den2
+魨	den2
+沌	den4
+盾	den4
+鄧	den6
+遁	den6
+鈍	den6
+投	deu2
+頭	deu2
+骰	deu2
+痘	deu6
+竇	deu6
+豆	deu6
+堤	di2
+啼	di2
+提	di2
+蹄	di2
+題	di2
+弟	di4
+地	di6
+隸	di6
+棣	di6
+睇	di6
+第	di6
+締	di6
+遞	di6
+兌	di6
+隊	di6
+隸	di6
+特	di6	0%
+叠	diah8
+碟	diah8
+蝶	diah8
+齠	diau2
+蜩	diau2
+笤	diau2
+鵰	diau2
+調	diau2
+條	diau2
+迢	diau2
+苕	diau2
+鰷	diau2
+調	diau4
+掉	diau6
+佃	die2
+殿	die2
+鈿	die2
+塡	die2
+填	die2
+恬	die2
+甜	die2
+田	die2
+闐	die2
+墊	die4
+奠	die6
+澱	die6
+甸	die6
+電	die6
+淀	die6	0%
+敵	dih8
+滌	dih8
+狄	dih8
+笛	dih8
+翟	dih8
+迪	dih8
+喋	dih8
+疊	dih8
+諜	dih8
+迭	dih8
+亭	din2
+停	din2
+婷	din2
+庭	din2
+廷	din2
+蜓	din2
+霆	din2
+定	din4
+碇	din4
+錠	din4
+啶	din6
+喥	doh8
+讀	doh8
+毒	doh8
+瀆	doh8
+牘	doh8
+犢	doh8
+獨	doh8
+鐸	doh8
+鼕	don2
+峒	don2
+佟	don2
+僮	don2
+同	don2
+彤	don2
+桐	don2
+潼	don2
+瞳	don2
+童	don2
+酮	don2
+銅	don2
+筒	don2
+衕	don2
+侗	don4
+動	don4
+桶	don4
+恫	don6
+洞	don6
+胴	don6
+慟	don6
+沱	du2
+馱	du2
+圖	du2
+塗	du2
+屠	du2
+徒	du2
+荼	du2
+途	du2
+佗	du2
+跎	du2
+陀	du2
+駝	du2
+鴕	du2
+妒	du4
+杜	du4
+肚	du4
+墮	du4
+惰	du4
+舵	du4
+土	du4
+大	du6
+度	du6
+渡	du6
+鍍	du6
+惰	du6
+哀	e1
+哎	e1
+唉	e1
+埃	e1
+挨	e1
+艾	e1
+安	e1
+庵	e1
+氨	e1
+鞍	e1
+鵪	e1
+揞	e1
+胺	e1
+藹	e3
+諳	e3
+揞	e3
+愛	e5
+曖	e5
+按	e5
+暗	e5
+案	e5
+闇	e5
+黯	e5
+呃	eh7
+扼	eh7
+遏	eh7
+褐	eh7
+厄	eh7
+噩	eh7
+恩	en1
+蒽	en1
+摁	en5
+噢	eu1
+毆	eu1
+甌	eu1
+謳	eu1
+鷗	eu1
+歐	eu3
+偶	eu3
+奧	eu5
+厚	eu5
+后	eu5
+後	eu5
+嘔	eu5
+藕	eu5
+帆	fae1
+番	fae1
+翻	fae1
+蕃	fae1
+藩	fae1
+反	fae3
+返	fae3
+㽹	fae5
+氾	fae5
+泛	fae5
+販	fae5
+發	fah7
+法	fah7
+灋	fah7
+髮	fah7
+砝	fah7	0%
+坊	faon1
+方	faon1
+芳	faon1
+邡	faon1
+肪	faon1
+妨	faon3
+仿	faon3
+紡	faon3
+訪	faon3
+放	faon5
+弗	feh7
+彿	feh7
+拂	feh7
+氟	feh7
+寣	feh7
+紱	feh7
+分	fen1
+吩	fen1
+氛	fen1
+紛	fen1
+芬	fen1
+酚	fen1
+婚	fen1
+粉	fen3
+奮	fen5
+糞	fen5
+否	feu3
+缶	feu3
+啡	fi1
+妃	fi1
+扉	fi1
+緋	fi1
+菲	fi1
+蜚	fi1
+霏	fi1
+非	fi1
+飛	fi1
+匪	fi1
+誹	fi1
+蜚	fi3
+翡	fi3
+廢	fi5
+沸	fi5
+癈	fi5
+肺	fi5
+費	fi5
+覅	fiau5
+幅	foh7
+福	foh7
+蝠	foh7
+輻	foh7
+復	foh7
+腹	foh7
+複	foh7
+覆	foh7
+丰	fon1
+封	fon1
+峯	fon1
+峰	fon1
+楓	fon1
+灃	fon1
+烽	fon1
+瘋	fon1
+蜂	fon1
+豐	fon1
+酆	fon1
+鋒	fon1
+風	fon1
+諷	fon3
+呋	fu1
+麩	fu1
+夫	fu1
+敷	fu1
+膚	fu1
+俘	fu1
+孚	fu1
+呼	fu1
+戽	fu1
+俯	fu3
+府	fu3
+撫	fu3
+斧	fu3
+甫	fu3
+腑	fu3
+輔	fu3
+滸	fu3
+琥	fu3
+虎	fu3
+伙	fu3
+夥	fu3
+火	fu3
+付	fu5
+傅	fu5
+副	fu5
+咐	fu5
+富	fu5
+賦	fu5
+赴	fu5
+貨	fu5
+伽	ga2
+茄	ga2
+解	ga4
+骱	ga6
+軋	gah8
+劜	gah8
+戇	gaon4
+搞	gau4
+䬵	ge4
+隑	ge6
+餩	ge6
+搿	geh8
+啊	gha2
+骸	gha2
+鞋	gha2
+牙	gha2
+芽	gha2
+衙	gha2
+邂	gha6
+訝	gha6
+外	gha6	0%
+還	ghae2
+閒	ghae2
+咸	ghae2
+癇	ghae2
+銜	ghae2
+鹹	ghae2
+顏	ghae2
+言	ghae2	0%
+陷	ghae6
+贗	ghae6
+額	ghah8
+盒	ghah8
+匣	ghah8
+狹	ghah8
+硤	ghah8
+阿	ghah8	0%
+桁	ghan2
+行	ghan2
+洋	ghan2	0%
+硬	ghan6
+吭	ghaon2
+杭	ghaon2
+航	ghaon2
+行	ghaon2
+降	ghaon2
+黃	ghaon2	0%
+巷	ghaon6
+翱	ghau2
+鏖	ghau2
+熬	ghau2
+嗷	ghau2
+敖	ghau2
+獒	ghau2
+遨	ghau2
+鰲	ghau2
+傲	ghau2
+驁	ghau2
+嚎	ghau2
+毫	ghau2
+豪	ghau2
+壕	ghau2
+鎬	ghau4
+昊	ghau4
+皓	ghau4
+號	ghau6
+皚	ghe2
+癌	ghe2
+呆	ghe2
+孩	ghe2
+酣	ghe2
+函	ghe2
+含	ghe2
+寒	ghe2
+涵	ghe2
+邗	ghe2
+邯	ghe2
+韓	ghe2
+汗	ghe2
+亥	ghe4
+駭	ghe4
+撼	ghe4
+旱	ghe4
+礙	ghe6
+岸	ghe6
+害	ghe6
+悍	ghe6
+憾	ghe6
+捍	ghe6
+閤	gheh8
+劾	gheh8
+合	gheh8
+曷	gheh8
+核	gheh8
+涸	gheh8
+盍	gheh8
+覈	gheh8
+兀	gheh8
+閡	gheh8
+恆	ghen2
+痕	ghen2
+衡	ghen2
+恨	ghen6
+侯	gheu2
+喉	gheu2
+猴	gheu2
+候	gheu2
+候	gheu6
+逅	gheu6
+耦	gheu6
+樺	gho2
+華	gho2
+譁	gho2
+鏵	gho2
+驊	gho2
+踝	gho4
+畫	gho6
+話	gho6
+夏	gho6
+吾	gho6
+吾	ghoh8	0%
+愕	ghoh8
+鄂	ghoh8
+鱷	ghoh8
+鶴	ghoh8
+鍔	ghoh8
+涸	ghoh8
+斛	ghoh8
+惑	ghoh8
+穫	ghoh8
+鑊	ghoh8
+學	ghoh8
+何	ghoh8	0%
+宏	ghon2
+弘	ghon2
+洪	ghon2
+紅	ghon2
+虹	ghon2
+訌	ghon2
+鴻	ghon2
+共	gon6
+寰	guae2
+環	guae2
+鬟	guae2
+摜	guae4
+狂	guan2
+狂	guaon2
+逛	guaon6
+葵	gui2
+逵	gui2
+愧	gui2
+跪	gui4
+櫃	gui6
+鉅	gui6
+匱	gui6
+饋	gui6
+捆	gun4
+蛤	ha1
+哈	ha1
+颬	ha1
+蟹	ha3
+旮	ha5
+許	hae1	0%
+喊	hae5
+莧	hae5
+喝	hah7
+嚇	hah7
+瞎	hah7
+夯	han1
+亨	han1
+耗	hau1
+好	hau3
+浩	hau5
+孝	hau5	0%
+憨	he1
+鼾	he1
+嘿	he1
+海	he3
+罕	he3
+悍	he5
+捍	he5
+旱	he5
+漢	he5
+瀚	he5
+焊	he5
+熯	he5
+翰	he5
+喝	heh7
+赫	heh7
+黑	heh7
+亨	hen1
+很	hen3
+狠	hen3
+哼	hen3
+擤	hen5
+吼	heu3
+佝	heu5
+詬	heu5
+鱟	heu5
+雩	heu5
+䫲	hi1
+花	ho1
+呵	ho1
+蝦	ho1	0%
+何	ho1	0%
+化	ho5
+壑	hoh7
+忽	hoh7
+藿	hoh7
+霍	hoh7
+烘	hon1
+轟	hon1
+鬨	hon1
+哄	hon3
+訶	hu1
+唬	hu3
+嘩	hua1
+歪	hua1
+花	hua1	0%
+化	hua5
+甩	huae5
+豁	huah7
+轄	huah7
+慌	huaon1
+荒	huaon1
+恍	huaon3
+謊	huaon3
+幌	huaon5
+況	huaon5
+獾	hue1
+歡	hue1
+睢	hue1
+緩	hue3
+喚	hue5
+奐	hue5
+患	hue5
+渙	hue5
+煥	hue5
+瘓	hue5
+寣	hueh7
+惚	hueh7
+笏	hueh7
+徽	hui1
+恢	hui1
+揮	hui1
+灰	hui1
+詼	hui1
+輝	hui1
+麾	hui1
+徵	hui1
+悔	hui3
+毀	hui3
+賄	hui3
+誨	hui5
+卉	hui5
+晦	hui5
+燴	hui5
+穢	hui5
+婚	hun1
+昏	hun1
+葷	hun1
+緍	hun1
+閽	hun1
+伊	i1
+依	i1
+咿	i1
+衣	i1
+醫	i1
+於	i1
+迂	i1
+淤	i1
+與	i3
+雨	i3
+以	i3
+已	i3
+椅	i3
+倚	i3
+旖	i3
+嶼	i3
+羽	i3
+籲	i5
+曳	i5
+億	i5
+意	i5
+懿	i5
+易	i5
+臆	i5
+藝	i5
+飫	i5
+勩	i5
+啞	ia1
+鴉	ia1
+椰	ia1
+耶	ia1
+雅	ia3
+也	ia3
+野	ia3
+亞	ia5
+婭	ia5
+夜	ia5
+也	iah7
+呀	iah7
+約	iah7
+喲	iah7
+盎	ian1
+央	ian1
+殃	ian1
+秧	ian1
+鴦	ian1
+恙	ian1
+氧	ian3
+癢	ian3
+養	ian3
+样	ian5
+樣	ian5
+漾	ian5
+映	ian5
+吆	iau1
+夭	iau1
+妖	iau1
+腰	iau1
+邀	iau1
+要	iau1	0%
+舀	iau3
+杳	iau3
+要	iau5
+腌	ie1
+蔫	ie1
+嫣	ie1
+淹	ie1
+湮	ie1
+焉	ie1
+煙	ie1
+胭	ie1
+菸	ie1
+醃	ie1
+閹	ie1
+冤	ie1
+淵	ie1
+鳶	ie1
+鴛	ie1
+魇	ie3
+𩼴	ie3
+𥀬	ie3
+婉	ie3
+匽	ie3
+䞁	ie3
+偃	ie3
+厴	ie3
+奄	ie3
+演	ie3
+魘	ie3
+遠	ie3
+厭	ie5
+掩	ie5
+嚥	ie5
+堰	ie5
+宴	ie5
+燕	ie5
+怨	ie5
+苑	ie5
+優	ieu1
+呦	ieu1
+幽	ieu1
+悠	ieu1
+憂	ieu1
+友	ieu3
+有	ieu3
+酉	ieu3
+糼	ieu5
+柚	ieu5
+佑	ieu5
+侑	ieu5
+又	ieu5
+右	ieu5
+宥	ieu5
+幼	ieu5
+蔚	ih7
+咽	ih7
+噎	ih7
+靨	ih7
+一	ih7
+乙	ih7
+揖	ih7
+抑	ih7
+溢	ih7
+邑	ih7
+尉	ih7	0%
+幼	ih7	0%
+洇	in1
+殷	in1
+湮	in1
+因	in1
+姻	in1
+氤	in1
+茵	in1
+蔭	in1
+陰	in1
+音	in1
+尹	in1
+嬰	in1
+纓	in1
+應	in1
+罌	in1
+瓔	in1
+膺	in1
+英	in1
+鶯	in1
+縈	in1
+瑛	in1
+鷹	in1
+蠅	in1
+氳	in1
+允	in1
+韻	in1
+引	in3
+癮	in3
+蚓	in3
+隠	in3
+隱	in3
+飲	in3
+影	in3
+印	in5
+應	in5
+瀴	in5
+映	in5
+熨	in5
+孕	in5
+蘊	in5
+醞	in5
+喲	io1
+唷	ioh7
+郁	ioh7
+鬱	ioh7
+擁	ion1
+臃	ion1
+雍	ion1
+邕	ion1
+俑	ion3
+勇	ion3
+咏	ion3
+恿	ion3
+永	ion3
+泳	ion3
+涌	ion3
+詠	ion3
+踊	ion3
+佣	ion5
+用	ion5
+畸	ji2
+畿	ji2
+騎	ji2
+馗	ji2
+期	ji2
+其	ji2
+奇	ji2
+岐	ji2
+崎	ji2
+旗	ji2
+棋	ji2
+歧	ji2
+淇	ji2
+琦	ji2
+琪	ji2
+碁	ji2
+祈	ji2
+祺	ji2
+綦	ji2
+芪	ji2
+蘄	ji2
+騏	ji2
+麒	ji2
+朐	ji2
+衢	ji2
+跽	ji4
+忌	ji4
+颶	ji4
+佢	ji6
+伎	ji6
+偈	ji6
+妓	ji6
+技	ji6
+俱	ji6
+具	ji6
+巨	ji6
+懼	ji6
+拒	ji6
+炬	ji6
+距	ji6
+聚	ji6
+距	ji6
+鉅	ji6
+颶	ji6
+渠	ji6
+𢿡	jia2
+強	jian2
+犟	jian4
+喬	jiau2
+僑	jiau2
+橋	jiau2
+樵	jiau2
+礄	jiau2	0%
+撬	jiau4
+轎	jiau6
+蕎	jiau6
+倦	jie2
+乾	jie2
+掮	jie2
+揵	jie2
+虔	jie2
+鉗	jie2
+拳	jie2
+權	jie2
+蜷	jie2
+顴	jie2
+儉	jie4
+件	jie4
+健	jie4
+腱	jie4
+倦	jie6
+仇	jieu2
+俅	jieu2
+求	jieu2
+犰	jieu2
+球	jieu2
+裘	jieu2
+逑	jieu2
+遒	jieu2
+酋	jieu2
+咎	jieu4
+臼	jieu4
+舅	jieu4
+舊	jieu6
+柩	jieu6
+及	jih8
+極	jih8
+疾	jih8
+笈	jih8
+偈	jih8
+傑	jih8
+杰	jih8
+桀	jih8
+竭	jih8
+頡	jih8
+劇	jih8
+倔	jih8
+崛	jih8
+掘	jih8
+急	jih8
+痙	jin2
+勤	jin2
+琴	jin2
+禽	jin2
+芩	jin2
+芹	jin2
+擎	jin2
+擒	jin2
+羣	jin2
+秦	jin2
+裙	jin2
+近	jin4
+僅	jin6
+凚	jin6
+勁	jin6
+競	jin6
+郡	jin6
+侷	jioh8
+焗	jioh8
+鐲	jioh8
+軸	jioh8
+局	jioh8
+倔	jioh8
+鐲	jioh8
+瓊	jion2
+窮	jion2
+邛	jion2
+旮	ka1
+傢	ka1
+加	ka1
+嘉	ka1
+家	ka1
+枷	ka1
+珈	ka1
+葭	ka1
+袈	ka1
+迦	ka1
+街	ka1
+階	ka1
+假	ka3
+解	ka3
+尬	ka5
+芥	ka5
+價	ka5
+嫁	ka5
+架	ka5
+介	ka5
+屆	ka5
+戒	ka5
+界	ka5
+疥	ka5
+誡	ka5
+尷	kae1
+奸	kae1
+姦	kae1
+監	kae1
+間	kae1
+澗	kae1
+襇	kae3
+橄	kae3
+揀	kae3
+減	kae3
+碱	kae3
+鹼	kae3
+間	kae5
+鑑	kae5
+澗	kae6
+胛	kah7
+嘎	kah7
+嗝	kah7
+格	kah7
+隔	kah7
+骼	kah7
+夾	kah7
+裌	kah7
+戛	kah7
+庚	kan1
+羹	kan1
+更	kan1
+粳	kan1
+哽	kan3
+梗	kan3
+筻	kan5
+鯁	kan6
+豇	kaon1
+剛	kaon1
+岡	kaon1
+崗	kaon1
+扛	kaon1
+綱	kaon1
+缸	kaon1
+罡	kaon1
+肛	kaon1
+鋼	kaon1
+江	kaon1
+杠	kaon3
+港	kaon3
+講	kaon3
+槓	kaon5
+胶	kau1
+皋	kau1
+睾	kau1
+篙	kau1
+糕	kau1
+羔	kau1
+膏	kau1
+高	kau1
+膠	kau1
+交	kau1
+茭	kau1
+跤	kau1
+搞	kau3
+攪	kau3
+稿	kau3
+藁	kau3
+絞	kau3
+告	kau5
+誥	kau5
+絞	kau5
+鉸	kau5
+校	kau5
+教	kau5
+敎	kau5
+窖	kau5
+覺	kau5
+叫	kau5	0%
+該	ke1
+干	ke1
+杆	ke1
+柑	ke1
+甘	ke1
+泔	ke1
+竿	ke1
+肝	ke1
+苷	ke1
+乾	ke1
+擀	ke3
+改	ke3
+概	ke3
+感	ke3
+敢	ke3
+桿	ke3
+稈	ke3
+趕	ke3
+幹	ke4
+丐	ke5
+溉	ke5
+蓋	ke5
+鈣	ke5
+矸	ke5
+贛	ke5
+佮	keh7
+噶	keh7
+割	keh7
+戈	keh7
+疙	keh7
+鴿	keh7
+葛	keh7
+革	keh7
+鬲	keh7
+個	keh7
+箇	keh7
+頜	keh7
+根	ken1
+跟	ken1
+耕	ken1
+更	ken1
+今	ken1	0%
+耿	ken3
+艮	ken5
+亙	ken5
+更	ken5
+茛	ken5
+哥	keu1
+勾	keu1
+溝	keu1
+篝	keu1
+鈎	keu1
+鉤	keu1
+枸	keu3
+狗	keu3
+苟	keu3
+詬	keu3
+垢	keu5
+够	keu5
+夠	keu5
+構	keu5
+購	keu5
+咖	kha1
+揩	kha1
+咔	kha3
+卡	kha3
+楷	kha3
+檻	khae1
+刊	khae1
+羥	khae1
+鉛	khae1
+砍	khae3
+艦	khae5
+嵌	khae5
+喀	khah7
+客	khah7
+揢	khah7
+掐	khah7
+坑	khan1
+鏗	khan1
+康	khaon1
+慷	khaon1
+糠	khaon1
+囥	khaon5
+亢	khaon5
+抗	khaon5
+炕	khaon5
+敲	khau1
+拷	khau3
+攷	khau3
+烤	khau3
+考	khau3
+犒	khau5
+銬	khau5
+靠	khau5
+開	khe1
+勘	khe1
+堪	khe1
+龕	khe1
+凱	khe3
+愷	khe3
+慨	khe3
+楷	khe3
+鎧	khe3
+侃	khe3
+坎	khe3
+看	khe5
+瞰	khe5
+胳	kheh7
+咳	kheh7
+瞌	kheh7
+磕	kheh7
+苛	kheh7
+渴	kheh7
+克	kheh7
+刻	kheh7
+剋	kheh7
+氪	kheh7
+屹	kheh7
+啃	khen3
+墾	khen3
+懇	khen3
+肯	khen3
+箜	kheu1
+摳	kheu1
+口	kheu3
+釦	kheu3
+叩	kheu5
+寇	kheu5
+扣	kheu5
+蔻	kheu5
+夸	kho1
+可	kho3
+垮	kho3
+挎	kho5
+跨	kho5
+殼	khoh7
+恪	khoh7
+哭	khoh7
+酷	khoh7
+廓	khoh7
+擴	khoh7
+榷	khoh7
+崆	khon1
+空	khon1
+孔	khon3
+恐	khon3
+控	khon3
+空	khon5
+箍	khu1
+踝	khu1
+柯	khu1
+棵	khu1
+珂	khu1
+科	khu1
+窠	khu1
+苛	khu1
+蝌	khu1
+軻	khu1
+顆	khu1
+枯	khu1
+骷	khu1
+庫	khu1
+坷	khu3
+苦	khu3
+課	khu5
+絝	khu5
+褲	khu5
+夸	khua1
+誇	khua1
+跨	khua5
+快	khua5
+筷	khuae5
+框	khuaon1
+眶	khuaon1
+康	khuaon1
+慷	khuaon1
+糠	khuaon1
+礦	khuaon5
+曠	khuaon5
+況	khuaon5
+寛	khue1
+寬	khue1
+髖	khue1
+款	khue3
+愧	khue5
+窟	khueh7
+闊	khueh7
+潰	khui1
+盔	khui1
+窺	khui1
+虧	khui1
+奎	khui1
+睽	khui1
+魁	khui1
+傀	khui3
+塊	khui5
+坤	khun1
+昆	khun1
+崑	khun1
+鯤	khun1
+琨	khun1
+壼	khun3
+捆	khun3
+困	khun5
+睏	khun5
+賅	ki1
+今	ki1
+寄	ki5
+鋸	ki5
+瓜	ko1
+寡	ko3
+卦	ko5
+挂	ko5
+掛	ko5
+咯	koh7
+擱	koh7
+胳	koh7
+閣	koh7
+各	koh7
+鉻	koh7
+轂	koh7
+穀	koh7
+谷	koh7
+骨	koh7
+蟈	koh7
+郭	koh7
+國	koh7
+幗	koh7
+角	koh7
+覺	koh7
+肛	kon1
+公	kon1
+功	kon1
+宮	kon1
+工	kon1
+弓	kon1
+恭	kon1
+攻	kon1
+肱	kon1
+蚣	kon1
+躬	kon1
+拱	kon3
+珙	kon3
+鞏	kon3
+供	kon5
+貢	kon5
+歌	ku1
+估	ku1
+呱	ku1
+咕	ku1
+姑	ku1
+孤	ku1
+沽	ku1
+菇	ku1
+蛄	ku1
+辜	ku1
+蝸	ku1
+鍋	ku1
+舸	ku3
+古	ku3
+股	ku3
+蠱	ku3
+鼓	ku3
+固	ku3
+果	ku3
+裹	ku3
+僱	ku5
+故	ku5
+錮	ku5
+雇	ku5
+顧	ku5
+過	ku5
+呱	kua1
+瓜	kua1
+乖	kua1
+寡	kua3
+拐	kua3
+柺	kua3
+剮	kua3
+怪	kua5
+關	kuae1
+懷	kuae2
+刮	kuah7
+摑	kuah7
+颳	kuah7
+括	kuah7
+剛	kuaon1
+岡	kuaon1
+崗	kuaon1
+綱	kuaon1
+缸	kuaon1
+罡	kuaon1
+肛	kuaon1
+鋼	kuaon1
+江	kuaon1
+光	kuaon1
+胱	kuaon1
+講	kuaon3
+廣	kuaon3
+獷	kuaon3
+洸	kuaon5
+倌	kue1
+官	kue1
+棺	kue1
+莞	kue1
+觀	kue1
+冠	kue1
+莞	kue3
+管	kue3
+館	kue3
+冠	kue5
+慣	kue5
+灌	kue5
+罐	kue5
+貫	kue5
+炅	kue5
+愧	kue5
+汩	kueh7
+圭	kui1
+歸	kui1
+瑰	kui1
+皈	kui1
+硅	kui1
+規	kui1
+閨	kui1
+龜	kui1
+詭	kui3
+軌	kui3
+鬼	kui3	0%
+劊	kui3
+桂	kui5
+檜	kui5
+會	kui5
+膾	kui5
+貴	kui5	0%
+褌	kun1
+錕	kun1
+滚	kun3
+滾	kun3
+袞	kun3
+磙	kun3
+輥	kun3
+緄	kun3
+鯀	kun3
+棍	kun5
+垃	la1
+拉	la1
+旯	la1
+啦	la1
+旯	la4
+攋	la6
+瀨	la6
+癩	la6
+籟	la6
+賴	la6
+喇	la6	0%
+賴	lae2
+婪	lae2
+嵐	lae2
+攔	lae2
+斕	lae2
+欄	lae2
+瀾	lae2
+籃	lae2
+藍	lae2
+蘭	lae2
+讕	lae2
+闌	lae2
+覧	lae2
+懶	lae3
+攬	lae3
+欖	lae3
+纜	lae3
+覽	lae3
+纜	lae4
+攬	lae6
+濫	lae6
+爛	lae6
+臠	lae6
+鬎	lah8
+瘌	lah8
+喇	lah8
+邋	lah8
+腊	lah8
+臘	lah8
+蜡	lah8
+蠟	lah8
+辣	lah8
+癩	lah8
+冷	lan3
+廊	laon2
+榔	laon2
+狼	laon2
+琅	laon2
+莨	laon2
+螂	laon2
+郎	laon2
+鋃	laon2
+朗	laon2
+哴	laon2
+閬	laon6
+㫰	laon6
+浪	laon6
+撈	lau1
+嘮	lau1
+姥	lau1
+哰	lau1
+咾	lau1
+𤎤	lau2
+勞	lau2
+嶗	lau2
+牢	lau2
+癆	lau2
+佬	lau2
+佬	lau3
+老	lau3
+咾	lau4
+澇	lau6
+來	le2
+崍	le2
+徠	le2
+萊	le2
+孿	le2
+巒	le2
+攣	le2
+鸞	le2
+欒	le2
+灤	le2
+卵	le3
+耒	le4
+徠	le6
+睞	le6
+亂	le6
+肋	leh8
+勒	leh8
+粒	leh8
+捋	leh8
+𢫫	leh8
+能	len2
+綸	len2
+棱	len2
+掄	len2
+侖	len2
+倫	len2
+圇	len2
+崙	len2
+淪	len2
+輪	len2
+䑳	len2
+蜦	len2
+惀	len2
+愣	len6
+塄	len6
+論	len6
+嫩	len6
+溜	leu1
+遛	leu1
+劉	leu2
+留	leu2
+摟	leu2
+僂	leu2
+婁	leu2
+樓	leu2
+髏	leu2
+榴	leu2
+流	leu2
+瀏	leu2
+琉	leu2
+瘤	leu2
+硫	leu2
+餾	leu2
+簍	leu3
+柳	leu3
+嘍	leu4
+陋	leu4
+漏	leu6
+鏤	leu6
+喱	li1
+鱺	li2
+貍	li2
+擂	li2
+鐳	li2
+雷	li2
+類	li2
+㴝	li2
+厘	li2
+梨	li2
+漓	li2
+灕	li2
+犁	li2
+犛	li2
+狸	li2
+璃	li2
+籬	li2
+罹	li2
+釐	li2
+離	li2
+驪	li2
+黎	li2
+莉	li2
+螻	li2
+馿	li2
+驢	li2
+李	li3
+理	li3
+禮	li3
+裏	li3
+里	li3
+哩	li3
+鋰	li3
+鯉	li3
+櫚	li3
+侶	li3
+呂	li3
+屢	li3
+履	li3
+旅	li3
+縷	li3
+鋁	li3
+鱧	li4
+儡	li4
+壘	li4
+磊	li4
+蕾	li4
+累	li4
+澧	li4
+醴	li4
+擂	li6
+淚	li6
+累	li6
+麗	li6
+例	li6
+俐	li6
+儷	li6
+利	li6
+勵	li6
+厲	li6
+痢	li6
+礪	li6
+荔	li6
+蠣	li6
+鬁	li6
+慮	li6
+濾	li6
+獵	liah8
+掠	liah8
+略	liah8
+梁	lian2
+樑	lian2
+涼	lian2
+糧	lian2
+良	lian2
+量	lian2
+諒	lian2
+輛	lian3
+兩	lian4
+倆	lian4
+魎	lian4
+靚	lian6
+量	lian6
+亮	lian6
+晾	lian6
+踉	lian6
+潦	liau2
+撩	liau2
+僚	liau2
+嘹	liau2
+寥	liau2
+燎	liau2
+獠	liau2
+療	liau2
+繚	liau2
+聊	liau2
+遼	liau2
+了	liau3
+瞭	liau3
+撩	liau6
+料	liau6
+廖	liau6
+廉	lie2
+憐	lie2
+漣	lie2
+簾	lie2
+聯	lie2
+蓮	lie2
+連	lie2
+鐮	lie2
+鰱	lie2
+斂	lie3
+臉	lie3
+殮	lie3
+璉	lie4
+戀	lie4
+煉	lie4
+練	lie4
+楝	lie6
+鍊	lie6
+鏈	lie6
+慄	lih8
+力	lih8
+吏	lih8
+曆	lih8
+栗	lih8
+𢯰	lih8
+捩	lih8
+歷	lih8
+瀝	lih8
+礫	lih8
+立	lih8
+笠	lih8
+蒞	lih8
+靂	lih8
+咧	lih8
+冽	lih8
+列	lih8
+劣	lih8
+烈	lih8
+裂	lih8
+律	lih8
+率	lih8
+拎	lin1
+翎	lin2
+林	lin2
+淋	lin2
+琳	lin2
+臨	lin2
+霖	lin2
+磷	lin2
+遴	lin2
+鄰	lin2
+鱗	lin2
+嶙	lin2
+燐	lin2
+璘	lin2
+麟	lin2
+〇	lin2
+零	lin2
+伶	lin2
+泠	lin2
+凌	lin2
+玲	lin2
+羚	lin2
+聆	lin2
+苓	lin2
+菱	lin2
+鈴	lin2
+陵	lin2
+靈	lin2
+欞	lin2
+鴒	lin2
+齡	lin2
+嶺	lin2
+領	lin3
+凜	lin4
+吝	lin6
+藺	lin6
+躪	lin6
+令	lin6
+另	lin6
+烙	loh8
+絡	loh8
+酪	loh8
+樂	loh8
+漯	loh8
+六	loh8
+碌	loh8
+陸	loh8
+彔	loh8
+戮	loh8
+漉	loh8
+轆	loh8
+祿	loh8
+錄	loh8
+鹿	loh8
+麓	loh8
+洛	loh8
+落	loh8
+駱	loh8
+氯	loh8
+綠	loh8
+路	loh8	0%
+嚨	lon2
+朧	lon2
+瀧	lon2
+瓏	lon2
+籠	lon2
+聾	lon2
+隆	lon2
+龍	lon2
+膿	lon2
+農	lon2
+籠	lon3
+壟	lon3
+攏	lon3
+隴	lon3
+壠	lon3
+礱	lon4
+弄	lon4
+糯	lon4
+囉	lu1
+攎	lu1
+啰	lu1
+箩	lu2
+腡	lu2
+廬	lu2
+瀘	lu2
+爐	lu2
+盧	lu2
+蘆	lu2
+顱	lu2
+鱸	lu2
+羅	lu2
+玀	lu2
+籮	lu2
+蘿	lu2
+螺	lu2
+邏	lu2
+鑼	lu2
+騾	lu2
+嚕	lu3
+擼	lu3
+擄	lu3
+滷	lu3
+虜	lu3
+魯	lu3
+鹵	lu3
+櫓	lu4
+嚕	lu4
+裸	lu4
+露	lu6
+潞	lu6
+璐	lu6
+賂	lu6
+路	lu6
+鷺	lu6
+嘸	m1
+姆	m1
+拇	m4
+畝	m4
+拇	m4
+嗎	ma1
+媽	ma1
+馬	ma1	0%
+𨤢	ma2
+嘛	ma2
+埋	ma2
+霾	ma2
+馬	ma3
+買	ma3
+瑪	ma6
+駡	ma6
+賣	ma6
+邁	ma6
+蠻	mae1
+蠻	mae2
+曼	mae2
+晚	mae3	0%
+慢	mae6
+嫚	mae6
+謾	mae6
+漫	mae6
+縵	mae6
+蔓	mae6
+脈	mah8
+麥	mah8
+陌	mah8
+驀	mah8
+襪	mah8
+盲	man2
+猛	man3
+蜢	man3
+猛	man4
+孟	man6
+忙	maon2
+氓	maon2
+芒	maon2
+茫	maon2
+莽	maon3
+蟒	maon3
+蠎	maon3
+網	maon3
+魍	maon3
+往	maon4
+貓	mau2
+毛	mau2
+矛	mau2
+茅	mau2
+錨	mau2
+髦	mau2
+鉚	mau3
+卯	mau3
+牡	mau4
+冐	mau6
+冒	mau6
+帽	mau6
+袤	mau6
+貌	mau6
+貿	mau6
+沒	me1
+咩	me1
+㒼	me2
+瞞	me2
+饅	me2
+鰻	me2
+滿	me3
+幔	me6
+媚	me6
+寐	me6
+沒	meh8
+謎	meh8
+墨	meh8
+末	meh8
+沫	meh8
+茉	meh8
+默	meh8
+們	men2
+捫	men2
+門	men2
+盟	men2
+萌	men2
+蚊	men2
+明	men2	0%
+猛	men3
+悶	men6
+問	men6
+牟	meu2
+眸	meu2
+謀	meu2
+某	meu3
+牡	meu4
+茂	meu6
+咪	mi1
+眯	mi1
+瀰	mi1
+媒	mi2
+嵋	mi2
+枚	mi2
+梅	mi2
+煤	mi2
+玫	mi2
+眉	mi2
+莓	mi2
+酶	mi2
+霉	mi2
+彌	mi2
+獼	mi2
+糜	mi2
+迷	mi2
+醚	mi2
+靡	mi2
+麋	mi2
+每	mi3
+美	mi3
+米	mi3
+尾	mi3
+鎂	mi3
+瞇	mi6
+未	mi6
+妹	mi6
+媚	mi6
+昧	mi6
+袂	mi6
+魅	mi6
+味	mi6
+喵	miau1
+描	miau2
+瞄	miau2
+苗	miau2
+渺	miau3
+秒	miau3
+藐	miau3
+妙	miau5
+廟	miau6
+謬	miau6
+棉	mie2
+眠	mie2
+綿	mie2
+免	mie3
+勉	mie3
+冕	mie4
+娩	mie4
+緬	mie4
+面	mie4
+麵	mie4
+麪	mie6
+嘧	mih8
+密	mih8
+汨	mih8
+蜜	mih8
+覓	mih8
+謐	mih8
+滅	mih8
+搣	mih8
+篾	mih8
+蔑	mih8
+衊	mih8
+民	min2
+名	min2
+明	min2
+溟	min2
+瞑	min2
+茗	min2
+銘	min2
+憫	min3
+敏	min3
+泯	min3
+皿	min3
+閔	min3
+閩	min3
+冥	min3
+鳴	min3
+泯	min4
+命	min4
+蟆	mo2
+麻	mo2
+摩	mo2
+模	mo2
+磨	mo2
+蘑	mo2
+摹	mo2
+魔	mo2
+螞	mo3
+碼	mo3
+馬	mo3
+嬤	mo4
+罵	mo6
+駡	mo6
+幕	mo6
+慕	mo6
+暮	mo6
+麼	moh7
+摸	moh8
+模	moh8
+膜	moh8
+抹	moh8
+寞	moh8
+漠	moh8
+莫	moh8
+墓	moh8
+木	moh8
+沐	moh8
+牧	moh8
+目	moh8
+睦	moh8
+穆	moh8
+苜	moh8
+募	moh8
+墓	moh8
+忙	mon2
+朦	mon2
+檬	mon2
+濛	mon2
+瞢	mon2
+矇	mon2
+蒙	mon2
+網	mon3
+懵	mon4
+夢	mon6
+忘	mon6
+望	mon6
+母	mu3
+芋	n5
+拿	na1
+奶	na1
+哪	na3
+那	na3
+乃	na3
+奶	na3
+那	na4
+艿	na4
+娜	na6
+㑚	na6
+拿	nae1
+難	nae2
+捺	nah8
+納	nah8
+囊	naon2
+囔	naon2
+撓	nau2
+惱	nau3
+瑙	nau3
+腦	nau3
+諾	nau3
+淖	nau6
+閙	nau6
+鬧	nau6
+呢	ne1
+奈	ne2
+耐	ne2
+南	ne2
+喃	ne2
+楠	ne2
+腩	ne2
+男	ne2
+餒	ne2
+暖	ne3
+吶	neh8
+衲	neh8
+訥	neh8
+能	nen2
+倷	neu6
+嗯	ng1
+兒	ng2
+唔	ng2
+魚	ng2
+五	ng3
+妳	ni3
+你	ni3
+內	ni6
+拿	no1
+囡	no1
+挪	no2
+諾	noh8
+儂	non2
+奴	nu2
+挼	nu2
+娜	nu2	0%
+努	nu3
+怒	nu6
+懦	nu6
+妮	nyi1
+呢	nyi1	0%
+倪	nyi2
+尼	nyi2
+泥	nyi2
+霓	nyi2
+旎	nyi2
+膩	nyi2
+儀	nyi2
+宜	nyi2
+沂	nyi2
+疑	nyi2
+誼	nyi2
+娛	nyi2
+愚	nyi2
+禺	nyi2
+隅	nyi2
+耳	nyi3
+女	nyi3
+蟻	nyi3
+議	nyi3
+語	nyi3
+寓	nyi5
+擬	nyi5
+芋	nyi5
+二	nyi6
+弍	nyi6
+貳	nyi6
+囈	nyi6
+憶	nyi6
+毅	nyi6
+義	nyi6
+羿	nyi6
+藝	nyi6
+詣	nyi6
+遇	nyi6
+馭	nyi6
+鮎	nya2
+惹	nya4
+偌	nya6
+唸	nyae6
+廿	nyae6
+念	nyae6
+箬	nyah8
+捏	nyah8
+瘧	nyah8
+揑	nyah8
+娘	nyan2
+孃	nyan2
+壤	nyan2
+仰	nyan3
+釀	nyan6
+讓	nyan6
+堯	nyau2
+饒	nyau2
+嬲	nyau3
+裊	nyau3
+鳥	nyau3
+尿	nyau3
+嫋	nyau4
+嬈	nyau4
+繞	nyau6
+拈	nye1
+粘	nye1
+黏	nye1
+研	nye1
+趼	nye2
+年	nye2
+嚴	nye2
+巖	nye2
+閻	nye2
+元	nye2
+原	nye2
+源	nye2
+緣	nye2
+捻	nye3
+碾	nye3
+染	nye3
+軟	nye3
+輾	nye3
+阮	nye3
+儼	nye4
+唁	nye6
+彥	nye6
+硯	nye6
+諺	nye6
+驗	nye6
+願	nye6
+妞	nyeu1
+揉	nyeu2
+牛	nyeu2
+扭	nyeu3
+狃	nyeu3
+紐	nyeu3
+鈕	nyeu3
+嫉	nyih8
+岌	nyih8
+匿	nyih8
+暱	nyih8
+溺	nyih8
+逆	nyih8
+孽	nyih8
+涅	nyih8
+聂	nyih8
+蘖	nyih8
+熱	nyih8
+日	nyih8
+業	nyih8
+鄴	nyih8
+屹	nyih8
+月	nyih8
+人	nyin2
+齦	nyin2
+濘	nyin2
+凝	nyin2
+嚀	nyin2
+寧	nyin2
+檸	nyin2
+獰	nyin2
+壬	nyin2
+任	nyin2
+吟	nyin2
+垠	nyin2
+鄞	nyin2
+銀	nyin2
+迎	nyin2
+飪	nyin4
+賃	nyin6
+認	nyin6
+韌	nyin6
+肉	nyoh8
+褥	nyoh8
+玉	nyoh8
+御	nyoh8
+禦	nyoh8
+𢫭	nyoh8
+獄	nyoh8
+鈺	nyoh8
+濃	nyon2
+絨	nyon2
+茸	nyon2
+冗	nyon4
+窪	o1
+蛙	o1
+撾	o1
+丫	o1
+鴉	o1
+椏	o1
+阿	o3
+啞	o3
+瓦	o3
+下	o3
+掗	o3
+我	o3
+惡	oh7
+喔	oh7
+幄	oh7
+握	oh7
+沃	oh7
+齷	oh7
+屋	oh7
+噁	oh7
+嗡	on1
+翁	on1
+瓮	on1
+甕	on5
+齆	on5
+吧	pa1
+巴	pa1
+粑	pa1
+芭	pa1
+爸	pa1
+耙	pa1
+疤	pa1	0%
+把	pa3
+靶	pa3
+罷	pa3
+捭	pa3
+擺	pa3
+襬	pa3
+壩	pa5
+灞	pa5
+霸	pa5
+拜	pa5
+扳	pae1
+斑	pae1
+班	pae1
+癍	pae1
+般	pae1
+頒	pae1
+板	pae3
+版	pae3
+舨	pae3
+闆	pae3
+阪	pae3
+絆	pae3
+畈	pae3
+扮	pae5
+絆	pae5
+叭	pah7
+掰	pah7
+佰	pah7
+百	pah7
+伯	pah7
+柏	pah7
+巴	pah7	0%
+浜	pan1
+綳	pan1
+繃	pan1
+崩	pan5
+泵	pan5
+迸	pan5
+幫	paon1
+梆	paon1
+邦	paon1
+榜	paon3
+綁	paon3
+謗	paon3
+磅	paon5
+包	pau1
+孢	pau1
+煲	pau1
+胞	pau1
+苞	pau1
+褒	pau1
+堡	pau1
+保	pau3
+堡	pau3
+寶	pau3
+飽	pau3
+鴇	pau3
+報	pau5
+爆	pau5
+豹	pau5
+泡	pau5
+炮	pau5
+唄	pe1
+搬	pe1
+畀	pe3
+半	pe5
+缽	peh7
+撥	peh7
+砵	peh7
+鉢	peh7
+不	peh7
+奔	pen1
+畚	pen1
+賁	pen1
+崩	pen1
+本	pen3
+苯	pen3
+葩	pha1
+派	pha3	0%
+怕	pha5
+派	pha5
+湃	pha5
+攀	phae1
+鋬	phae3
+盼	phae5
+襻	phae5
+𤖼	phah7
+泊	phah7
+啪	phah7
+帕	phah7
+拍	phah7
+珀	phah7
+迫	phah7
+魄	phah7
+磅	phan1
+乓	phan1
+怦	phan1
+抨	phan1
+漰	phan1
+碰	phan5
+閛	phan5
+鎊	phaon1
+滂	phaon1
+胖	phaon5
+拋	phau1
+脬	phau1
+炮	phau5
+泡	phau5
+皰	phau5
+潘	phe1
+沛	phe1
+呸	phe3
+判	phe5
+潑	pheh7
+噴	phen1
+烹	phen1
+噴	phen5	0%
+𠜱	phi1
+胚	phi1
+丕	phi1
+坯	phi1
+批	phi1
+披	phi1
+砒	phi1
+吡	phi3
+否	phi3
+痞	phi3
+配	phi5
+媲	phi5
+屁	phi5
+譬	phi5
+漂	phiau1
+縹	phiau1
+飄	phiau1
+漂	phiau3
+票	phiau5
+偏	phie1
+篇	phie1
+翩	phie1
+片	phie5
+騙	phie5
+辟	phih7
+劈	phih7
+匹	phih7
+噼	phih7
+霹	phih7
+癖	phih7
+僻	phih7
+撇	phih7
+瞥	phih7
+姘	phin1
+拼	phin1
+乒	phin1
+品	phin3
+聘	phin3
+怕	pho5
+趴	phoh7
+朴	phoh7
+僕	phoh7
+撲	phoh7
+樸	phoh7
+狛	phoh7
+髈	phon3
+捧	phon3
+坡	phu1
+頗	phu1
+潽	phu1
+鋪	phu1
+埔	phu3
+破	phu3
+剖	phu3
+普	phu3
+浦	phu3
+溥	phu3
+譜	phu3
+卑	pi1
+悲	pi1
+杯	pi1
+盃	pi1
+碑	pi1
+屄	pi1
+鄙	pi1
+俾	pi3
+匕	pi3
+彼	pi3
+比	pi3
+狽	pi5
+背	pi5
+貝	pi5
+輩	pi5
+庇	pi5
+泌	pi5
+臂	pi5
+蔽	pi5
+閉	pi5
+祕	pi5
+秘	pi5
+彪	piau1
+摽	piau1
+標	piau1
+滮	piau1
+膘	piau1
+鏢	piau1
+鑣	piau1
+飆	piau1
+飈	piau1
+婊	piau3
+表	piau3
+裱	piau3
+錶	piau3
+鯿	pie1
+砭	pie1
+編	pie1
+蝙	pie1
+邊	pie1
+鞭	pie1
+煸	pie3
+匾	pie3
+扁	pie3
+貶	pie3
+變	pie5
+遍	pie5
+瘪	pih7
+癟	pih7
+逼	pih7
+筆	pih7
+壁	pih7
+必	pih7
+潷	pih7
+璧	pih7
+畢	pih7
+碧	pih7
+憋	pih7
+鱉	pih7
+彬	pin1
+斌	pin1
+檳	pin1
+濱	pin1
+瀕	pin1
+繽	pin1
+賓	pin1
+殯	pin1
+鬢	pin1
+兵	pin1
+冰	pin1
+丙	pin3
+秉	pin3
+稟	pin3
+餅	pin3
+併	pin3
+殯	pin5
+柄	pin5
+鈵	pin5
+摒	pin5
+屏	pin5
+吧	po1
+巴	po1
+疤	po1
+笆	po1
+芭	po1
+把	po3
+壩	po5
+霸	po5
+八	poh7
+北	poh7
+把	poh7
+剝	poh7
+博	poh7
+搏	poh7
+膊	poh7
+駁	poh7
+蹦	pon5
+啵	pu1
+播	pu1
+波	pu1
+玻	pu1
+菠	pu1
+簸	pu1
+補	pu3
+圃	pu3
+布	pu5
+怖	pu5
+洱	r3
+爾	r3
+耳	r3
+邇	r3
+餌	r3
+而	r3
+兒	r5	0%
+二	r5	0%
+弍	r5	0%
+貳	r5	0%
+㕐	sa1
+釃	sa1
+灑	sa1
+沙	sa1
+篩	sa1
+砂	sa1	0%
+紗	sa1	0%
+撒	sa3
+傻	sa3
+耍	sa3
+啥	sa5
+廈	sa5
+三	sae1
+叁	sae1
+弎	sae1
+杉	sae1
+刪	sae1
+姍	sae1
+山	sae1
+潸	sae1
+珊	sae1
+衫	sae1
+跚	sae1
+散	sae3
+傘	sae5
+散	sae5
+汕	sae5
+疝	sae5
+訕	sae5
+剎	sah7
+薩	sah7
+颯	sah7
+塞	sah7
+殺	sah7
+煞	sah7
+霎	sah7
+爍	sah7
+柵	sah7
+牲	san1
+生	san1
+聲	san1	0%
+甥	san3
+省	san3
+喪	saon1
+桑	saon1
+傷	saon1
+商	saon1
+孀	saon1
+雙	saon1
+霜	saon1
+搡	saon3
+嗓	saon3
+晌	saon3
+賞	saon3
+爽	saon3
+骚	sau1
+艄	sau1
+臊	sau1
+鞘	sau1
+騷	sau1
+捎	sau1
+梢	sau1
+燒	sau1
+稍	sau1
+𢜶	sau1
+嫂	sau3
+掃	sau3
+少	sau3
+掃	sau5
+瘙	sau5
+少	sau5
+哨	sau5
+燥	sau5
+腮	se1
+煽	se1
+衰	se1
+拴	se1
+栓	se1
+閂	se1
+痠	se1
+酸	se1
+閃	se3
+陝	se3
+舍	se3
+銳	se5
+賽	se5
+糝	se5
+扇	se5
+帥	se5
+算	se5
+蒜	se5
+碎	se5
+邃	se5
+趿	seh7
+虱	seh7
+圾	seh7
+適	seh7
+嗇	seh7
+澀	seh7
+瑟	seh7
+色	seh7
+懾	seh7
+摄	seh7
+設	seh7
+失	seh7
+溼	seh7
+濕	seh7
+蝨	seh7
+識	seh7
+室	seh7
+式	seh7
+拭	seh7
+軾	seh7
+釋	seh7
+飾	seh7
+刷	seh7
+摔	seh7
+蟀	seh7
+說	seh7
+十	seh7
+參	sen1
+胂	sen1
+娠	sen1
+森	sen1
+蔘	sen1
+僧	sen1
+伸	sen1
+呻	sen1
+深	sen1
+申	sen1
+紳	sen1
+砷	sen1
+莘	sen1
+身	sen1
+升	sen1
+昇	sen1
+陞	sen1
+牲	sen1
+生	sen1
+笙	sen1
+聲	sen1
+孫	sen1
+猻	sen1
+勝	sen1	0%
+詵	sen1
+蓀	sen1
+飧	sen1
+燊	sen1
+駪	sen1
+蔘	sen1
+鰺	sen1
+筍	sen3
+嬸	sen3
+審	sen3
+沈	sen3
+瀋	sen3
+損	sen3
+榫	sen3
+笋	sen3
+諗	sen3
+瘮	sen3
+淰	sen3
+訷	sen3
+滲	sen5
+勝	sen5
+聖	sen5
+瞬	sen5
+舜	sen5
+巽	sen5
+遜	sen5
+抻	sen5
+姺	sen5
+珅	sen5
+收	seu1
+搜	seu1
+艘	seu1
+蒐	seu1
+餿	seu1
+守	seu3
+手	seu3
+首	seu3
+擻	seu3
+狩	seu5
+獸	seu5
+瘦	seu5
+漱	seu5
+嗖	seu5
+嗽	seu5
+擊	shi1
+噓	shi1
+嘻	shi1
+嬉	shi1
+希	shi1
+曦	shi1
+浠	shi1
+烯	shi1
+熙	shi1
+熹	shi1
+稀	shi1
+羲	shi1
+係	shi1
+盱	shi1
+虛	shi1
+蟢	shi3
+許	shi3
+唏	shi3
+喜	shi3
+禧	shi3
+栩	shi3
+詡	shi3
+戲	shi5
+繫	shi5
+系	shi5
+煦	shi5
+酗	shi5
+消	shia1
+蝦	shia1
+奢	shia1
+下	shia5
+謔	shiah7
+鄉	shian1
+鑲	shian1
+香	shian1
+嚮	shian1
+響	shian3
+向	shian5
+享	shian5
+嚮	shian5
+枵	shiau1
+囂	shiau1
+梟	shiau1
+驍	shiau1
+曉	shiau3
+哮	shiau5
+嘯	shiau5
+孝	shiau5
+𠏕	shiau5
+掀	shie1
+喧	shie1
+暄	shie1
+萱	shie1
+軒	shie1
+欠	shie1	0%
+蜆	shie3
+險	shie3
+顯	shie3
+楦	shie5
+憲	shie5
+獻	shie5
+絢	shie5
+休	shieu1
+咻	shieu1
+羞	shieu1
+靴	shieu1
+貅	shieu1
+朽	shieu5
+溴	shieu5
+嗅	shieu5
+噱	shih7
+歙	shih7
+吸	shih7
+歇	shih7
+蠍	shih7
+脅	shih7
+恤	shih7
+血	shih7
+忻	shin1
+欣	shin1
+鑫	shin1
+馨	shin1
+興	shin1
+勛	shin1
+勳	shin1
+熏	shin1
+燻	shin1
+薰	shin1
+迅	shin3
+釁	shin5
+訓	shin5
+旭	shioh7
+畜	shioh7
+蓄	shioh7
+兄	shion1
+兇	shion1
+凶	shion1
+匈	shion1
+胸	shion1
+棲	si1
+綏	si1
+雖	si1
+樨	si1
+犀	si1
+硒	si1
+西	si1
+媳	si1
+些	si1
+需	si1
+須	si1
+死	si3
+稅	si3
+髓	si3
+嵗	si3
+徙	si3
+璽	si3
+銑	si3
+細	si5
+歲	si5
+婿	si5
+絮	si5
+寫	sia3
+卸	sia5
+瀉	sia5
+缷	sia5
+削	siah7
+厢	sian1
+廂	sian1
+湘	sian1
+相	sian1
+箱	sian1
+鮝	sian1
+襄	sian1
+想	sian3
+相	sian5
+峭	siau1
+宵	siau1
+消	siau1
+綃	siau1
+瀟	siau1
+硝	siau1
+簫	siau1
+蕭	siau1
+逍	siau1
+銷	siau1
+霄	siau1
+肖	siau1
+小	siau3
+鞘	siau5
+笑	siau5
+仙	sie1
+先	sie1
+暹	sie1
+氙	sie1
+酰	sie1
+鮮	sie1
+癬	sie1
+宣	sie1
+瑄	sie1
+秈	sie1
+筅	sie3
+蘚	sie3
+洗	sie3
+箲	sie3
+銑	sie3
+選	sie3
+綫	sie5
+綫	sie5
+線	sie5
+腺	sie5
+渲	sie5
+修	sieu1
+脩	sieu1
+銹	sieu5
+宿	sieu5
+秀	sieu5
+繡	sieu5
+鏽	sieu5
+錫	sih7
+夕	sih7
+息	sih7
+悉	sih7
+惜	sih7
+昔	sih7
+晰	sih7
+析	sih7
+淅	sih7
+熄	sih7
+皙	sih7
+膝	sih7
+蜥	sih7
+蟋	sih7
+楔	sih7
+屑	sih7
+泄	sih7
+洩	sih7
+褻	sih7
+卹	sih7
+薛	sih7
+雪	sih7
+荀	sin1
+莘	sin1
+心	sin1
+新	sin1
+芯	sin1
+薪	sin1
+辛	sin1
+鋅	sin1
+惺	sin1
+星	sin1
+猩	sin1
+腥	sin1
+詢	sin1
+些	sin1	0%
+省	sin3
+醒	sin3
+信	sin5
+姓	sin5
+性	sin5
+汛	sin5
+訊	sin5
+沙	so1
+痧	so1
+砂	so1
+紗	so1
+莎	so1
+裟	so1
+鯊	so1
+奢	so1
+畲	so1
+賒	so1
+捨	so3
+舍	so3
+所	so3
+瑣	so3
+鎖	so3
+嗄	so5
+曬	so5
+赦	so5
+嗦	soh7
+叔	soh7
+淑	soh7
+束	soh7
+嗍	soh7
+朔	soh7
+塑	soh7
+夙	soh7
+宿	soh7
+粟	soh7
+縮	soh7
+肅	soh7
+速	soh7
+索	soh7
+蓿	soh7
+嵩	son1
+松	son1
+淞	son1
+鬆	son1
+悚	son3
+慫	son3
+聳	son3
+宋	son5
+誦	son5
+送	son5
+甦	su1
+穌	su1
+蘇	su1
+蘓	su1
+酥	su1
+唆	su1
+娑	su1
+梭	su1
+羧	su1
+蓑	su1
+簑	su1
+鬚	su1
+數	su3
+所	su3
+數	su5
+愫	su5
+溯	su5
+素	su5
+訴	su5
+鷥	sy1
+螄	sy1
+尿	sy1
+尸	sy1
+屍	sy1
+師	sy1
+施	sy1
+獅	sy1
+詩	sy1
+始	sy1
+抒	sy1
+書	sy1
+梳	sy1
+樞	sy1
+舒	sy1
+輸	sy1
+水	sy1
+俬	sy1
+司	sy1
+嘶	sy1
+廝	sy1
+思	sy1
+撕	sy1
+斯	sy1
+私	sy1
+絲	sy1
+疏	sy1
+蔬	sy1
+屎	sy3
+黍	sy3
+使	sy3
+史	sy3
+矢	sy3
+駛	sy3
+暑	sy3
+鼠	sy3
+世	sy5
+勢	sy5
+試	sy5
+恕	sy5
+四	sy5
+泗	sy5
+肆	sy5
+庶	sy5
+傣	ta3
+帶	ta5
+戴	ta5
+單	tae1
+丹	tae1
+儋	tae1
+擔	tae1
+眈	tae1
+耽	tae1
+鄲	tae1
+旦	tae1
+担	tae3
+疸	tae3
+撢	tae3
+撣	tae3
+膽	tae3
+擔	tae5
+擔	tae5
+誕	tae5
+溚	tah7
+嗒	tah7
+搭	tah7
+答	tah7
+妲	tah7
+瘩	tah7
+打	tan3
+鐺	taon1
+噹	taon1
+當	taon1
+襠	taon1
+擋	taon3
+檔	taon3
+黨	taon3
+當	taon5
+檔	taon5
+刀	tau1
+叨	tau1
+島	tau3
+搗	tau3
+禱	tau3
+倒	tau5
+到	tau5
+眈	te1
+端	te1
+歹	te3
+短	te3
+戴	te5
+鍛	te5
+碓	te5
+掇	teh7
+得	teh7
+德	teh7
+咄	teh7
+燈	ten1
+登	ten1
+蹬	ten1
+膯	ten1
+噸	ten1
+墩	ten1
+敦	ten1
+礅	ten1
+蹲	ten1
+砧	ten1
+等	ten3
+盹	ten3
+躉	ten3
+炖	ten5
+燂	ten5
+凳	ten5
+瞪	ten5
+鄧	ten5
+頓	ten5
+惇	ten5
+燉	ten5
+撜	ten5
+丟	teu1
+兜	teu1
+抖	teu3
+斗	teu3
+蚪	teu3
+陡	teu3
+鬥	teu5
+逗	teu5
+他	tha1
+她	tha1
+它	tha1
+牠	tha1
+拕	tha1
+太	tha5
+汰	tha5
+泰	tha5
+肽	tha5
+酞	tha5
+鈦	tha5
+坍	thae1
+攤	thae1
+灘	thae1
+癱	thae1
+坦	thae3
+毯	thae3
+袒	thae3
+態	thae5
+嘆	thae5
+歎	thae5
+炭	thae5
+碳	thae5
+墶	thah7
+塌	thah7
+塔	thah7
+𤄥	thah7
+獺	thah7
+撻	thah7
+澾	thah7
+榻	thah7
+蹋	thah7
+遢	thah7
+溻	thah7
+湯	thaon1
+趟	thaon1
+倘	thaon3
+淌	thaon3
+躺	thaon3
+燙	thaon5
+濤	thau1
+叨	thau1
+弢	thau1
+滔	thau1
+韜	thau1
+饕	thau1
+討	thau3
+套	thau3
+胎	the1
+貪	the1
+台	the1
+忐	the3
+蛻	the5
+態	the5
+探	the5
+褪	the5
+漯	theh7
+忑	theh7
+脫	theh7
+吞	then1
+汆	then3
+偷	theu1
+敁	theu3
+敨	theu3
+透	theu5
+梯	thi1
+推	thi1
+體	thi3
+腿	thi3
+剃	thi5
+嚏	thi5
+屜	thi5
+替	thi5
+涕	thi5
+退	thi5
+帖	thiah7
+貼	thiah7
+挑	thiau1
+挑	thiau3
+眺	thiau5
+跳	thiau5
+天	thie1
+添	thie1
+靦	thie3
+腆	thie3
+舔	thie3
+剔	thih7
+踢	thih7
+惕	thih7
+鐵	thih7
+餮	thih7
+㕔	thin1
+烴	thin1
+廳	thin1
+汀	thin1
+聽	thin1
+挺	thin3
+艇	thin3
+挺	thin5
+庹	thoh7
+魄	thoh7
+拓	thoh7
+禿	thoh7
+秃	thoh7
+托	thoh7
+託	thoh7
+通	thon1
+捅	thon3
+統	thon3
+痛	thon5
+堍	thu1
+拖	thu1
+吐	thu3
+土	thu3
+妥	thu3
+橢	thu3
+唾	thu3
+吐	thu5
+兔	thu5
+低	ti1
+堆	ti1
+底	ti3
+抵	ti3
+牴	ti3
+砥	ti3
+詆	ti3
+邸	ti3
+帝	ti5
+蒂	ti5
+諦	ti5
+對	ti5
+爹	tia1
+嗲	tia3
+凋	tiau1
+刁	tiau1
+叼	tiau1
+碉	tiau1
+貂	tiau1
+雕	tiau1
+屌	tiau3
+鳥	tiau3
+吊	tiau5
+弔	tiau5
+釣	tiau5
+巔	tie1
+掂	tie1
+滇	tie1
+癲	tie1
+顚	tie1
+顛	tie1
+典	tie3
+點	tie3
+店	tie5
+惦	tie5
+敁	tie5
+掂	tie5
+玷	tie5
+癜	tie5
+的	tih7
+嘀	tih7
+滴	tih7
+跌	tih7
+擿	tih7
+丁	tin1
+叮	tin1
+盯	tin1
+釘	tin1
+頂	tin3
+鼎	tin3
+濎	tin5
+訂	tin5
+糽	tin5
+挆	to3
+朵	to3
+躲	to3
+𧰵	toh7
+𥓍	toh7
+陡	toh7
+督	toh7
+篤	toh7
+沰	toh7
+啄	toh7
+冬	ton1
+咚	ton1
+東	ton1
+懂	ton3
+董	ton3
+凍	ton5
+棟	ton5
+喳	tsa1
+渣	tsa1
+齋	tsa1
+抓	tsa1
+遮	tsa1	0%
+蔗	tsa1	0%
+爪	tsa3
+抓	tsa3
+詐	tsa5
+債	tsa5
+斬	tsae1
+劗	tsae1
+盞	tsae3
+攢	tsae3
+㜺	tsae3
+贊	tsae3
+嶄	tsae3
+斬	tsae3
+讚	tsae5
+贊	tsae5
+蘸	tsae5
+扎	tsah7
+札	tsah7
+𥈊	tsah7
+眨	tsah7
+摘	tsah7
+窄	tsah7
+着	tsah7
+隻	tsah7
+炙	tsah7
+著	tsah7
+灼	tsah7
+酌	tsah7
+張	tsan1
+爭	tsan1
+睜	tsan1
+錚	tsan1
+長	tsan3
+掌	tsan3
+漲	tsan3
+仗	tsan5
+帳	tsan5
+脹	tsan5
+賬	tsan5
+臧	tsaon1
+贓	tsaon1
+髒	tsaon1
+彰	tsaon1
+樟	tsaon1
+漳	tsaon1
+璋	tsaon1
+章	tsaon1
+蟑	tsaon1
+妝	tsaon1
+樁	tsaon1
+莊	tsaon1
+裝	tsaon1
+掌	tsaon3
+葬	tsaon5
+瘴	tsaon5
+障	tsaon5
+壯	tsaon5
+糟	tsau1
+遭	tsau1
+招	tsau1
+昭	tsau1
+朝	tsau1
+找	tsau1
+抓	tsau1
+早	tsau3
+棗	tsau3
+澡	tsau3
+藻	tsau3
+蚤	tsau3
+沼	tsau3
+爪	tsau3
+肇	tsau3(zau4)
+灶	tsau5
+竈	tsau5
+召	tsau5
+詔	tsau5
+照	tsau5
+罩	tsau5
+兆	tsau5(zau4)
+羧	tse1
+哉	tse1
+栽	tse1
+災	tse1
+簪	tse1
+瞻	tse1
+氈	tse1
+氊	tse1
+粘	tse1
+沾	tse1
+颭	tse1
+占	tse1
+專	tse1
+磚	tse1
+宰	tse3
+展	tse3
+者	tse3
+轉	tse3
+纂	tse3
+顫	tse5
+載	tse5
+再	tse5
+戰	tse5
+這	tse5
+贅	tse5
+鑽	tse5
+只	tseh7
+叱	tseh7
+嘬	tseh7
+卒	tseh7
+祇	tseh7
+懾	tseh7
+紮	tseh7
+則	tseh7
+嘖	tseh7
+澤	tseh7
+責	tseh7
+仄	tseh7
+哲	tseh7
+摺	tseh7
+輒	tseh7
+褶	tseh7
+浙	tseh7
+這	tseh7
+汁	tseh7
+織	tseh7
+執	tseh7
+職	tseh7
+窒	tseh7
+質	tseh7
+郅	tseh7
+拙	tseh7
+茁	tseh7
+肫	tsen1
+真	tsen1
+曾	tsen1
+增	tsen1
+憎	tsen1
+偵	tsen1
+斟	tsen1
+楨	tsen1
+榛	tsen1
+臻	tsen1
+珍	tsen1
+甄	tsen1
+眞	tsen1
+禎	tsen1
+貞	tsen1
+針	tsen1
+鍼	tsen1
+崢	tsen1
+征	tsen1
+徴	tsen1
+怔	tsen1
+掙	tsen1
+爭	tsen1
+猙	tsen1
+癥	tsen1
+箏	tsen1
+蒸	tsen1
+鉦	tsen1
+幀	tsen1
+尊	tsen1
+樽	tsen1
+遵	tsen1
+正	tsen1	0%
+罾	tsen1
+𪑳	tsen3
+怎	tsen3
+診	tsen3
+枕	tsen3
+畛	tsen3
+疹	tsen3
+稹	tsen3
+縝	tsen3
+軫	tsen3
+拯	tsen3
+整	tsen3
+准	tsen3
+準	tsen3
+圳	tsen5
+振	tsen5
+賑	tsen5
+鎮	tsen5
+鎭	tsen5
+震	tsen5
+症	tsen5
+政	tsen5
+正	tsen5
+証	tsen5
+證	tsen5
+周	tseu1
+州	tseu1
+洲	tseu1
+舟	tseu1
+賙	tseu1
+週	tseu1
+鄒	tseu1
+帚	tseu3
+肘	tseu3
+走	tseu3
+呪	tseu5
+晝	tseu5
+皺	tseu5
+縐	tseu5
+奏	tseu5
+鰺	tsha1
+叉	tsha1
+岔	tsha1
+差	tsha1
+釵	tsha1
+扯	tsha3
+蔡	tsha5
+姹	tsha5
+岔	tsha5
+詫	tsha5
+餐	tshae1
+摻	tshae1
+攙	tshae1
+剷	tshae3
+產	tshae3
+鏟	tshae3
+闡	tshae3
+燦	tshae5
+璨	tshae5
+粲	tshae5
+懺	tshae5
+嚓	tshah7
+擦	tshah7
+冊	tshah7
+測	tshah7
+策	tshah7
+插	tshah7
+察	tshah7
+拆	tshah7
+尺	tshah7
+斥	tshah7
+赤	tshah7
+綽	tshah7
+撒	tshah7	0%
+撑	tshan1
+撐	tshan1
+瞠	tshan1
+厰	tshan3
+廠	tshan3
+敞	tshan5
+悵	tshan5
+暢	tshan5
+踹	tshan5
+創	tshan5
+鯧	tshaon1
+倉	tshaon1
+傖	tshaon1
+滄	tshaon1
+艙	tshaon1
+蒼	tshaon1
+娼	tshaon1
+昌	tshaon1
+猖	tshaon1
+閶	tshaon1
+瘡	tshaon1
+窗	tshaon1
+闖	tshaon3
+倡	tshaon5
+唱	tshaon5
+創	tshaon5
+愴	tshaon5
+操	tshau1
+抄	tshau1
+超	tshau1
+草	tshau3
+鈔	tshau3
+吵	tshau3
+炒	tshau3
+糙	tshau5
+猜	tshe1
+參	tshe1
+餐	tshe1
+揣	tshe1
+川	tshe1
+穿	tshe1
+串	tshe1
+詹	tshe1
+彩	tshe3
+採	tshe3
+睬	tshe3
+綵	tshe3
+踩	tshe3
+采	tshe3
+慘	tshe3
+產	tshe3
+鏟	tshe3
+喘	tshe3
+菜	tshe5
+竄	tshe5
+篡	tshe5
+黜	tsheh7
+側	tsheh7
+惻	tsheh7
+測	tsheh7
+徹	tsheh7
+撤	tsheh7
+澈	tsheh7
+敕	tsheh7
+斥	tsheh7
+出	tsheh7
+齣	tsheh7
+輟	tsheh7
+猝	tsheh7
+撮	tsheh7
+皴	tshen1
+郴	tshen1
+嗔	tshen1
+琛	tshen1
+稱	tshen1
+蟶	tshen1
+檉	tshen1
+春	tshen1
+椿	tshen1
+村	tshen1
+參	tshen1	0%
+逞	tshen3
+磣	tshen3
+騁	tshen3
+蠢	tshen3
+忖	tshen3
+蝽	tshen3
+硶	tshen3
+蹭	tshen5
+襯	tshen5
+趁	tshen5
+逞	tshen5
+秤	tshen5
+寸	tshen5
+吋	tshen5
+乘	tshen5
+櫬	tshen5
+讖	tshen5
+抽	tsheu1
+丑	tsheu3
+瞅	tsheu3
+醜	tsheu3
+凑	tsheu5
+臭	tsheu5
+湊	tsheu5
+炊	tshi1
+趨	tshi1
+催	tshi1
+崔	tshi1
+摧	tshi1
+璀	tshi1
+妻	tshi1
+悽	tshi1
+淒	tshi1
+蛆	tshi1
+覷	tshi3
+取	tshi3
+娶	tshi3
+淬	tshi5
+翠	tshi5
+脆	tshi5
+砌	tshi5
+覷	tshi5
+趣	tshi5
+趄	tshia5
+鵲	tshiah7
+卻	tshiah7
+雀	tshiah7
+戧	tshian1
+槍	tshian1
+蹌	tshian1
+搶	tshian3
+熗	tshian5
+嗆	tshian5
+悄	tshiau1
+俏	tshiau5
+峭	tshiau5
+千	tshie1
+扦	tshie1
+簽	tshie1
+籤	tshie1
+芊	tshie1
+遷	tshie1
+韆	tshie1
+痊	tshie1
+詮	tshie1
+醛	tshie1
+纖	tshie1
+淺	tshie3
+倩	tshie5
+茜	tshie5
+秋	tshieu1
+鞦	tshieu1
+鰍	tshieu1
+輯	tshih7
+七	tshih7
+慼	tshih7
+戚	tshih7
+漆	tshih7
+切	tshih7
+且	tshih7
+妾	tshih7
+竊	tshih7
+旌	tshin1
+親	tshin1
+清	tshin1
+蜻	tshin1
+青	tshin1
+氰	tshin1
+侵	tshin1
+寢	tshin3
+請	tshin3
+沁	tshin5
+杈	tsho1
+差	tsho1
+車	tsho1
+錯	tsho1
+姹	tsho3
+岔	tsho5
+觸	tshoh7
+戳	tshoh7
+促	tshoh7
+猝	tshoh7
+搐	tshoh7
+齪	tshoh7
+簇	tshoh7
+蹴	tshoh7
+充	tshon1
+忡	tshon1
+憧	tshon1
+沖	tshon1
+衝	tshon1
+囪	tshon1
+匆	tshon1
+囱	tshon1
+悤	tshon1
+樅	tshon1
+聰	tshon1
+葱	tshon1
+蔥	tshon1
+寵	tshon3
+𥅻	tshon5
+銃	tshon5
+蹱	tshon5
+初	tshu1
+芻	tshu1
+礎	tshu1
+粗	tshu1
+搓	tshu1
+磋	tshu1
+蹉	tshu1
+楚	tshu3
+衩	tshu5
+醋	tshu5
+挫	tshu5
+措	tshu5
+銼	tshu5
+粢	tshy1
+嗤	tshy1
+癡	tshy1
+蚩	tshy1
+螭	tshy1
+吹	tshy1
+疵	tshy1
+雌	tshy1
+侈	tshy3
+恥	tshy3
+齒	tshy3
+杵	tshy3
+此	tshy3
+祉	tshy3
+廁	tshy5
+熾	tshy5
+翅	tshy5
+處	tshy5
+刺	tshy5
+次	tshy5
+賜	tshy5
+躋	tsi1
+齏	tsi1
+鯽	tsi1
+狙	tsi1
+追	tsi1
+錐	tsi1
+騅	tsi1
+姐	tsi3
+咀	tsi3
+姊	tsi3
+籽	tsi3
+指	tsi3	0%
+脊	tsi3	0%
+檇	tsi5
+霽	tsi5
+沮	tsi5
+綴	tsi5
+最	tsi5
+醉	tsi5
+藉	tsia5
+借	tsia5
+爵	tsiah7
+將	tsian1
+漿	tsian1
+槳	tsian3
+獎	tsian3
+蔣	tsian3
+匠	tsian5
+醬	tsian5
+椒	tsiau1
+焦	tsiau1
+礁	tsiau1
+蕉	tsiau1
+剿	tsiau3
+嘦	tsiau5
+尖	tsie1
+殲	tsie1
+煎	tsie1
+箋	tsie1
+鐫	tsie1
+剪	tsie3
+箭	tsie5
+佔	tsie5
+揪	tsieu1
+酒	tsieu3
+蝍	tsih7
+癤	tsih7
+唧	tsih7
+積	tsih7
+績	tsih7
+跡	tsih7
+蹟	tsih7
+迹	tsih7
+楫	tsih7
+瘠	tsih7
+脊	tsih7
+稷	tsih7
+接	tsih7
+揭	tsih7
+節	tsih7
+睫	tsih7
+腈	tsin1
+津	tsin1
+睛	tsin1
+精	tsin1
+菁	tsin1
+鯨	tsin1
+井	tsin3
+晉	tsin5
+縉	tsin5
+進	tsin5
+浸	tsin5
+俊	tsin5
+峻	tsin5
+竣	tsin5
+駿	tsin5
+楂	tso1
+渣	tso1
+查	tso1
+遮	tso1
+蔗	tso1
+炸	tso5
+榨	tso5
+痄	tso5
+咋	tso5
+炸	tso5
+榨	tso5
+詐	tso5
+瘃	tsoh7
+蠋	tsoh7
+吒	tsoh7
+砟	tsoh7
+柞	tsoh7
+粥	tsoh7
+朮	tsoh7
+燭	tsoh7
+竹	tsoh7
+竺	tsoh7
+囑	tsoh7
+矚	tsoh7
+祝	tsoh7
+捉	tsoh7
+桌	tsoh7
+涿	tsoh7
+卓	tsoh7
+斫	tsoh7
+琢	tsoh7
+足	tsoh7
+作	tsoh7
+樅	tson1
+綜	tson1
+中	tson1
+忠	tson1
+盅	tson1
+終	tson1
+衷	tson1
+鍾	tson1
+鐘	tson1
+宗	tson1
+棕	tson1
+踪	tson1
+鬃	tson1
+蹤	tson1
+种	tson3
+種	tson3
+肿	tson3
+腫	tson3
+踵	tson3
+衆	tson3
+總	tson3
+冢	tson3
+中	tson5
+種	tson5
+蹤	tson5
+縱	tson5
+粽	tson5
+租	tsu1
+祖	tsu3
+組	tsu3
+詛	tsu3
+阻	tsu3
+佐	tsu3
+左	tsu3
+做	tsu5
+眵	tsy1
+兹	tsy1
+啫	tsy1
+之	tsy1
+吱	tsy1
+支	tsy1
+枝	tsy1
+梔	tsy1
+知	tsy1
+肢	tsy1
+脂	tsy1
+芝	tsy1
+蜘	tsy1
+侏	tsy1
+朱	tsy1
+株	tsy1
+珠	tsy1
+硃	tsy1
+蛛	tsy1
+誅	tsy1
+諸	tsy1
+渚	tsy1
+豬	tsy1
+姿	tsy1
+孜	tsy1
+淄	tsy1
+滋	tsy1
+茲	tsy1
+諮	tsy1
+資	tsy1
+拄	tsy3
+咫	tsy3
+址	tsy3
+指	tsy3
+旨	tsy3
+止	tsy3
+紙	tsy3
+䭁	tsy3
+芷	tsy3
+趾	tsy3
+酯	tsy3
+主	tsy3
+煮	tsy3
+貯	tsy3
+子	tsy3
+梓	tsy3
+滓	tsy3
+紫	tsy3
+嘴	tsy3
+仔	tsy3
+疰	tsy5
+制	tsy5
+幟	tsy5
+志	tsy5
+摯	tsy5
+智	tsy5
+痔	tsy5
+痣	tsy5
+緻	tsy5
+置	tsy5
+至	tsy5
+致	tsy5
+製	tsy5
+誌	tsy5
+注	tsy5
+著	tsy5
+蛀	tsy5
+註	tsy5
+鑄	tsy5
+駐	tsy5
+恣	tsy5
+都	tu1
+嘟	tu1
+哆	tu1
+多	tu1
+堵	tu3
+睹	tu3
+賭	tu3
+肚	tu3
+躲	tu3
+跺	tu5
+萵	u1
+汙	u1
+窝	u1
+婀	u1
+俄	u1
+渦	u1
+媧	u1
+倭	u1
+窩	u1
+嗚	u1
+污	u1
+烏	u1
+塢	u1
+吾	u3
+滬	u3
+伍	u3
+午	u3
+摀	u3
+焐	u5
+屙	u5
+熩	u5
+臥	u5
+悟	u5
+哇	ua1
+窪	ua1
+蛙	ua1
+瓦	ua3
+壞	ua5
+彎	uae1
+灣	uae1
+挽	uae3
+輓	uae3
+幻	uae5
+綰	uae5
+挖	uah7
+斡	uah7
+汪	uaon1
+枉	uaon1
+往	uaon3
+網	uaon3	0%
+蜿	ue1
+豌	ue1
+宛	ue3
+惋	ue3
+皖	ue3
+碗	ue3
+腕	ue3
+爲	ue3	0%
+尉	ue5
+蔚	ue5
+𩑦	ueh7
+煨	ui1
+偎	ui1
+威	ui1
+畏	ui1
+委	ui3
+痿	ui3
+萎	ui3
+諉	ui3
+僞	ui3
+喂	ui3
+猥	ui5
+慰	ui5
+餵	ui5
+温	un1
+蕰	un1
+溫	un1
+瘟	un1
+韞	un1
+穏	un3
+穩	un3
+揾	un5
+嶽	uoh7
+帆	vae2
+凡	vae2
+樊	vae2
+煩	vae2
+繁	vae2
+範	vae2
+犯	vae4
+范	vae4
+晚	vae4
+梵	vae6
+飯	vae6
+萬	vae6
+万	vae6
+𠲎	vah8
+浌	vah8
+乏	vah8
+伐	vah8
+筏	vah8
+罰	vah8
+閥	vah8
+房	vaon2
+防	vaon2
+亡	vaon2
+惘	vaon4
+妄	vaon6
+忘	vaon6
+望	vaon6
+佛	veh8
+勿	veh8
+物	veh8
+坟	ven2
+墳	ven2
+汾	ven2
+焚	ven2
+玟	ven2
+文	ven2
+紋	ven2
+雯	ven2
+汶	ven2
+聞	ven2
+憤	ven4
+刎	ven4
+吻	ven4
+紊	ven4
+分	ven6
+份	ven6
+問	ven6
+忿	ven6
+罘	veu2
+涪	veu2
+負	veu4
+阜	veu4
+阜	veu6
+薇	vi1
+微	vi1
+肥	vi2
+腓	vi2
+唯	vi2
+帷	vi2
+惟	vi2
+濰	vi2
+維	vi2
+娓	vi4
+尾	vi4	0%
+吠	vi6
+狒	vi6
+費	vi6
+味	vi6
+未	vi6
+伏	voh8
+匐	voh8
+服	voh8
+符	voh8
+縛	voh8
+茯	voh8
+袱	voh8
+縫	von2
+逢	von2
+馮	von2
+俸	von4
+奉	von4
+縫	von6
+鳳	von6
+巫	vu1
+誣	vu1
+扶	vu2
+浮	vu2
+芙	vu2
+荷	vu2
+無	vu2
+毋	vu2
+蕪	vu2
+傅	vu2	0%
+釜	vu4
+婦	vu4
+父	vu4
+侮	vu4
+嫵	vu4
+武	vu4
+舞	vu4
+負	vu4
+誤	vu6
+餓	vu6
+紨	vu6
+腐	vu6
+副	vu6
+附	vu6
+駙	vu6
+護	vu6
+務	vu6
+婺	vu6
+戊	vu6
+霧	vu6
+槐	wa2
+淮	wa2
+娃	wa2
+懷	wa2
+外	wa6
+畫	wa6
+話	wa6
+還	wae2
+宦	wae6
+劃	wah8
+滑	wah8
+猾	wah8
+剗	wah8
+横	wan2
+橫	wan2
+黃	waon2
+凰	waon2
+徨	waon2
+惶	waon2
+湟	waon2
+潢	waon2
+煌	waon2
+璜	waon2
+皇	waon2
+磺	waon2
+簧	waon2
+蝗	waon2
+隍	waon2
+王	waon2
+晃	waon6
+桓	we2
+丸	we2
+完	we2
+烷	we2
+玩	we2
+紈	we2
+頑	we2
+爲	we2
+莞	we4
+換	we6
+何	weh8
+或	weh8
+獲	weh8
+核	weh8
+活	weh8
+猢	weh8
+琿	wen2
+渾	wen2
+混	wen2
+餛	wen2
+魂	wen2
+諢	wen2
+回	wi2
+蛔	wi2
+迴	wi2
+危	wi2
+圍	wi2
+桅	wi2
+違	wi2
+徊	wi2
+茴	wi2
+巍	wi2
+韋	wi2
+魏	wi2
+瑋	wi4
+葦	wi4
+彗	wi6
+彙	wi6
+惠	wi6
+慧	wi6
+會	wi6
+諱	wi6
+偉	wi6
+緯	wi6
+衛	wi6
+謂	wi6
+爲	wi6
+匯	wi6
+繪	wi6
+位	wi6
+渭	wi6
+胃	wi6
+蝟	wi6
+俄	wu2
+峨	wu2
+訛	wu2
+蛾	wu2
+鵝	wu2
+菏	wu2
+嗬	wu2
+何	wu2
+和	wu2
+河	wu2
+禾	wu2
+荷	wu2
+龢	wu2
+乎	wu2
+餬	wu2
+壺	wu2
+湖	wu2
+狐	wu2
+瑚	wu2
+糊	wu2
+胡	wu2
+葫	wu2
+蝴	wu2
+衚	wu2
+鬍	wu2
+吳	wu2
+呉	wu2
+梧	wu2
+蜈	wu2
+互	wu4
+戶	wu4
+扈	wu4
+禍	wu4
+鵡	wu4
+捂	wu6
+晤	wu6
+賀	wu6
+互	wu6
+暇	ya2
+瑕	ya2
+遐	ya2
+霞	ya2
+諧	ya2
+琊	ya2
+耶	ya2
+爺	ya2
+冶	ya4
+也	ya4	0%
+夏	ya6
+懈	ya6
+崖	ya6
+涯	ya6
+冶	yae4
+挾	yah8
+俠	yah8
+峽	yah8
+協	yah8
+藥	yah8
+鑰	yah8
+鈅	yah8
+烊	yan2
+徉	yan2
+揚	yan2
+楊	yan2
+洋	yan2
+瘍	yan2
+羊	yan2
+陽	yan2
+旺	yaon6
+鷂	yau2
+淆	yau2
+姚	yau2
+搖	yau2
+瑤	yau2
+窑	yau2
+窯	yau2
+肴	yau2
+謠	yau2
+遙	yau2
+餚	yau2
+效	yau6
+校	yau6
+耀	yau6
+躍	yau6
+圜	ye2
+嫌	ye2
+賢	ye2
+械	ye2
+懸	ye2
+玄	ye2
+鉉	ye2
+巖	ye2
+言	ye2
+延	ye2
+炎	ye2
+蜒	ye2
+言	ye2
+鹽	ye2
+元	ye2
+員	ye2
+園	ye2
+圓	ye2
+垣	ye2
+援	ye2
+爰	ye2
+袁	ye2
+轅	ye2
+弦	ye2
+絃	ye2
+巖	ye2
+檐	ye2
+沿	ye2
+衍	ye4
+縣	ye6
+陷	ye6
+焰	ye6
+豔	ye6
+現	ye6
+炫	ye6
+眩	ye6
+媛	ye6
+瑗	ye6
+院	ye6
+願	ye6
+蚰	yeu2
+湭	yeu2
+尤	yeu2
+油	yeu2
+游	yeu2
+猶	yeu2
+由	yeu2
+疣	yeu2
+遊	yeu2
+郵	yeu2
+鈾	yeu2
+釉	yeu2
+魷	yeu2
+莠	yeu6
+誘	yeu6
+於	yi2
+眙	yi2
+蹊	yi2
+遺	yi2
+兮	yi2
+攜	yi2
+夷	yi2
+姨	yi2
+彝	yi2
+怡	yi2
+移	yi2
+胰	yi2
+飴	yi2
+于	yi2
+余	yi2
+俞	yi2
+娛	yi2
+愉	yi2
+榆	yi2
+渝	yi2
+漁	yi2
+瑜	yi2
+盂	yi2
+虞	yi2
+覦	yi2
+輿	yi2
+逾	yi2
+餘	yi2
+予	yi2
+譽	yi2
+圍	yi2
+頤	yi2
+覦	yi2
+伊	yi4
+予	yi4
+宇	yi4
+禹	yi4
+喻	yi5
+吁	yi6
+異	yi6
+裔	yi6
+愈	yi6
+癒	yi6
+裕	yi6
+豫	yi6
+預	yi6
+葉	yih8
+枼	yih8
+液	yih8
+頁	yih8
+亦	yih8
+佚	yih8
+益	yih8
+逸	yih8
+月	yih8
+粵	yih8
+越	yih8
+閱	yih8
+挾	yih8
+掖	yih8
+燁	yih8
+腋	yih8
+奕	yih8
+弈	yih8
+弋	yih8
+易	yih8
+熠	yih8
+繹	yih8
+翼	yih8
+蜴	yih8
+譯	yih8
+軼	yih8
+驛	yih8
+曰	yih8
+悅	yih8
+拽	yih8
+云	yin2
+雲	yin2
+嬴	yin2
+刑	yin2
+型	yin2
+形	yin2
+邢	yin2
+陘	yin2
+寅	yin2
+淫	yin2
+楹	yin2
+瀛	yin2
+熒	yin2
+營	yin2
+瑩	yin2
+盈	yin2
+营	yin2
+螢	yin2
+贏	yin2
+暈	yin2
+勻	yin2
+匀	yin2
+紜	yin2
+耘	yin2
+蕓	yin2
+行	yin2
+筠	yin2
+兗	yin3
+倖	yin4
+幸	yin4
+潁	yin4
+穎	yin4
+隕	yin4
+閏	yin6
+晕	yin6
+運	yin6
+鄆	yin6
+學	yoh8
+穴	yoh8
+役	yoh8
+疫	yoh8
+域	yoh8
+峪	yoh8
+慾	yoh8
+欲	yoh8
+浴	yoh8
+煜	yoh8
+育	yoh8
+閾	yoh8
+傭	yon2
+容	yon2
+嶸	yon2
+榕	yon2
+榮	yon2
+溶	yon2
+熔	yon2
+蓉	yon2
+融	yon2
+鎔	yon2
+滎	yon2
+熊	yon2
+雄	yon2
+熒	yon2
+瑩	yon2
+螢	yon2
+鎣	yon2
+庸	yon2
+慵	yon2
+柴	za2
+砦	za2
+惹	za4
+丈	za4
+寨	za6
+慚	zae2
+殘	zae2
+潺	zae2
+饞	zae2
+讒	zae2
+棧	zae4
+湛	zae4
+站	zae4
+賺	zae4
+暫	zae6
+綻	zae6
+蹔	zae6
+瀺	zae6
+煠	zah8
+寂	zah8
+弱	zah8
+若	zah8
+芍	zah8
+石	zah8
+碩	zah8
+砸	zah8
+雜	zah8
+鍘	zah8
+閘	zah8
+宅	zah8
+着	zah8
+擲	zah8
+著	zah8
+場	zan2
+嫦	zan2
+常	zan2
+腸	zan2
+長	zan2
+嚷	zan4
+壤	zan4
+攘	zan4
+丈	zan4
+杖	zan4
+盛	zan6
+剩	zan6
+讓	zan6	0%
+床	zaon1
+藏	zaon2
+償	zaon2
+嘗	zaon2
+嚐	zaon2
+徜	zaon2
+裳	zaon2
+牀	zaon2
+上	zaon4
+臓	zaon6
+藏	zaon6
+幢	zaon6
+上	zaon6
+尚	zaon6
+奘	zaon6
+臟	zaon6
+撞	zaon6
+狀	zaon6
+嘈	zau2
+曹	zau2
+槽	zau2
+漕	zau2
+嘲	zau2
+巢	zau2
+晁	zau2
+潮	zau2
+韶	zau2
+皂	zau2
+朝	zau2
+擾	zau4
+造	zau4
+肇	zau4
+趙	zau4
+兆	zau4
+紹	zau6
+邵	zau6
+噪	zau6
+傳	ze2
+才	ze2
+材	ze2
+纔	ze2
+裁	ze2
+財	ze2
+蠶	ze2
+儕	ze2
+豺	ze2
+禪	ze2
+蟬	ze2
+蟾	ze2
+傳	ze2
+椽	ze2
+垂	ze2
+錘	ze2
+陲	ze2
+誰	ze2
+在	ze2
+撰	ze2
+蟮	ze4
+纏	ze4
+冉	ze4
+蕊	ze4
+善	ze4
+鱔	ze4
+社	ze4
+撏	ze4
+罪	ze4	0%
+單	ze4
+睡	ze5
+禪	ze6
+船	ze6
+悴	ze6
+粹	ze6
+萃	ze6
+然	ze6
+燃	ze6
+瑞	ze6
+睿	ze6
+芮	ze6
+銳	ze6
+擅	ze6
+膳	ze6
+贍	ze6
+隧	ze6
+篆	ze6
+値	zeh8
+轍	zeh8
+日	zeh8
+入	zeh8
+舌	zeh8
+寔	zeh8
+涉	zeh8
+什	zeh8
+十	zeh8
+實	zeh8
+拾	zeh8
+蝕	zeh8
+食	zeh8
+沭	zeh8
+術	zeh8
+述	zeh8
+擇	zeh8
+賊	zeh8
+蟄	zeh8
+侄	zeh8
+值	zeh8
+植	zeh8
+殖	zeh8
+直	zeh8
+秩	zeh8
+岑	zen2
+層	zen2
+曾	zen2
+塵	zen2
+忱	zen2
+晨	zen2
+沉	zen2
+臣	zen2
+辰	zen2
+陳	zen2
+丞	zen2
+乘	zen2
+呈	zen2
+城	zen2
+懲	zen2
+成	zen2
+承	zen2
+橙	zen2
+澄	zen2
+程	zen2
+黮	zen2
+誠	zen2
+唇	zen2
+淳	zen2
+純	zen2
+脣	zen2
+醇	zen2
+鶉	zen2
+存	zen2
+人	zen2
+仁	zen2
+扔	zen2
+仍	zen2
+神	zen2
+沈	zen2
+繩	zen2
+塍	zen2
+埕	zen2
+宸	zen2
+晟	zen2
+涔	zen2
+澠	zen2
+諶	zen2
+忍	zen4
+飪	zen4
+愼	zen4
+甚	zen4
+葚	zen4
+腎	zen4
+吮	zen4
+朕	zen4
+恁	zen4
+荏	zen4
+稔	zen4
+椹	zen4
+盛	zen6
+仞	zen6
+任	zen6
+衽	zen6
+妊	zen6
+紝	zen6
+刃	zen6
+紉	zen6
+認	zen6
+軔	zen6
+韌	zen6
+潤	zen6
+閏	zen6
+慎	zen6
+蜃	zen6
+剩	zen6
+嵊	zen6
+順	zen6
+贈	zen6
+陣	zen6
+鄭	zen6
+鴆	zen6
+惆	zeu2
+愁	zeu2
+疇	zeu2
+稠	zeu2
+籌	zeu2
+綢	zeu2
+讎	zeu2
+躊	zeu2
+酬	zeu2
+柔	zeu2
+囚	zeu2
+泅	zeu2
+蹂	zeu2
+受	zeu4
+授	zeu4
+𥣙	zeu4
+就	zeu6
+售	zeu6
+壽	zeu6
+袖	zeu6
+宙	zeu6
+驟	zeu6
+垂	zi2
+捶	zi2
+椎	zi2
+臍	zi2
+齊	zi2
+隋	zi2
+隨	zi2
+徐	zi2
+序	zi3
+沮	zi4
+敘	zi4
+漵	zi4
+緒	zi4
+罪	zi4
+粹	zi6
+遂	zi6
+隧	zi6
+墜	zi6
+穗	zi6
+邪	zia2
+斜	zia4
+謝	zia6
+嚼	ziah8
+墙	zian2
+牆	zian2
+薔	zian2
+祥	zian2
+翔	zian2
+詳	zian2
+像	zian4
+橡	zian4
+象	zian4
+匠	zian6
+憔	ziau2
+瞧	ziau2
+踐	zie2
+前	zie2
+潛	zie2
+蕁	zie2
+錢	zie2
+全	zie2
+泉	zie2
+涎	zie2
+旋	zie2
+漩	zie2
+漸	zie4
+雋	zie4
+濺	zie6
+賤	zie6
+踐	zie6
+餞	zie6
+羨	zie6
+嫉	zih8
+籍	zih8
+集	zih8
+截	zih8
+捷	zih8
+絕	zih8
+絶	zih8
+汐	zih8
+席	zih8
+習	zih8
+蓆	zih8
+襲	zih8
+蕁	zin2
+情	zin2
+晴	zin2
+尋	zin2
+旬	zin2
+巡	zin2
+循	zin2
+潯	zin2
+馴	zin2
+儘	zin4
+盡	zin4
+蕈	zin4
+靖	zin4
+靜	zin4
+燼	zin6
+阱	zin6
+淨	zin6
+靚	zin6
+徇	zin6
+殉	zin6
+查	zo2
+茬	zo2
+茶	zo2
+佘	zo2
+蛇	zo2
+查	zo6
+射	zo6
+麝	zo6
+乍	zo6
+𣀻	zoh8
+辱	zoh8
+勺	zoh8
+塾	zoh8
+熟	zoh8
+贖	zoh8
+屬	zoh8
+蜀	zoh8
+俗	zoh8
+續	zoh8
+鑿	zoh8
+逐	zoh8
+濁	zoh8
+族	zoh8
+昨	zoh8
+崇	zon2
+蟲	zon2
+幢	zon2
+從	zon2
+叢	zon2
+祟	zon2
+重	zon2
+重	zon4
+頌	zon6
+訟	zon6
+仲	zon6
+雛	zu2
+痤	zu2
+唑	zu2
+助	zu2
+坐	zu4
+座	zu4
+茬	zy2
+匙	zy2
+坻	zy2
+弛	zy2
+持	zy2
+池	zy2
+茌	zy2
+遲	zy2
+馳	zy2
+儲	zy2
+廚	zy2
+櫥	zy2
+滁	zy2
+蜍	zy2
+躇	zy2
+鋤	zy2
+除	zy2
+慈	zy2
+瓷	zy2
+磁	zy2
+祠	zy2
+茨	zy2
+詞	zy2
+辭	zy2
+儒	zy2
+如	zy2
+濡	zy2
+茹	zy2
+蠕	zy2
+時	zy2
+殊	zy2
+飼	zy2
+糍	zy2
+橱	zy2
+厨	zy2
+儲	zy4
+乳	zy4
+汝	zy4
+仕	zy4
+士	zy4
+峙	zy4
+市	zy4
+是	zy4
+柿	zy4
+氏	zy4
+署	zy4
+薯	zy4
+墅	zy4
+豎	zy4
+似	zy4
+祀	zy4
+佇	zy4
+柱	zy4
+豉	zy6
+伺	zy6
+事	zy6
+侍	zy6
+嗜	zy6
+噬	zy6
+示	zy6
+視	zy6
+誓	zy6
+樹	zy6
+寺	zy6
+治	zy6
+滯	zy6
+稚	zy6
+住	zy6
+字	zy6
+漬	zy6
+自	zy6
+肴料	au1 liau2
+棒冰	baon2 pin1
+肥皂	bi2 zau2
+摽有梅	biau4 ieu3 mi2
+摽落	biau4 loh8
+便宜	bie2 nyi2
+偏得	bie4 teh7
+欺負	chi1 vu2
+契丹	chih7 tae1
+喫勿消	chih7 veh8 shia1
+幾何	ci3 ho3
+假期	cia3 ji4
+假日	cia5 nyih8
+拮据	cih7 ci1
+佶個	cih7 keh7
+吃子	cih7 tsy3
+大麻	da6 mo2
+特爲	di6 ue3
+桐鄉言話	don2 shian1 ghae2 gho2
+大髈	du6 phon3
+砝碼	fah7 'mo3
+放假	faon5 cia3
+外婆	gha6 bu2
+外婆太太	gha6 bu6 tha3 tha3
+外公	gha6 kon6
+言話	ghae2 gho2
+阿拉	ghah8 la6
+阿倷	ghah8 neu6
+洋鈿	ghan2 die2
+話聲	gho6 san3
+何裏	ghoh8 'li1
+吾倷	ghoh8 neu6
+許牢	hae1 lau2
+許邊	hae1 pie1
+許邊	hae1 pie1
+好些	hau3 sin1
+海淀區	he3 die6 chi1
+呵欠	ho1 shie35
+啞巴子	ia1 pah7 tsy1
+要求	iau1 jieu2
+有些	ieu3 sin1
+一聲言話	ih7 san1 ghae2 gho2
+尉遲	ih7 zy2
+幼稚班	ih7 zy6 pae5
+礄口	jiau2 kheu1
+叫花子	kau5 ho5 tsy3
+今番	ken1 fae1
+今朝	ken1 tsau1
+更正	ken1 tsen1
+更加	ken5 ka5
+口吃	kheu3 cih7
+今朝	ki1 tsau1
+今番	ki1 fae1
+貴賓	kui5 pin5
+貴州	kui5 tseu5
+貴陽	kui5 yan2
+講聲	kuaon3 san3
+喇叭	la6 ba6
+𤎤𡮦	lau2 zau2
+路由器	loh8 yeu2 chi1
+蘿蔔	lu2 bu2
+明年	men2 nye2
+明朝	men2 tsau1
+問聲	men6 san3
+馬虎	ma1 fu1
+晚豆	mae3 deu6
+晚娘	mae3 nyan2
+晚黃梅	mae3 waon2 'mi1
+芋艿	n5 'na3
+乃要	na2 iau1
+乃來	na2 le2
+難得仔	nae2 teh7 tsy1
+南許	ne2 hae1
+呢喃	nyi1 ne2
+下巴	o3 bo4
+不勝酒力	peh7 sen1 tsieu3 lih8
+派司	pha3 sy1
+噴香	phen5 shian1
+背脊	pi5 tsi3
+北許	poh7 hae1
+三黃鷄	sae1 ghaon2 ci1
+奢遮	shia1 tsa1
+西許	si1 hae1
+小髈	siau3 phon3
+所在	su3 ze4
+師傅	sy1 vu2
+帶孝	ta5 hau5
+吊孝	tiau5 hau5
+東許	ton1 hae1
+正月	tsen1 yih8
+撒尿	tshah7 sy1
+撒屙	tshah7 u5
+參差	tshen1 tshy1
+指爪	tsi3 tsau3
+衆牲	tson1 san1
+嘴巴	tsy3 bu2
+婀娜	u1 nu2
+網絡	uaon3 loh8
+無綫網	vu2 sie1 uaon1
+活拉	weh8 la6
+活倷	weh8 neu6
+何裏	woh8 'li1
+著急	zah8 jih8
+長假	zan2 cia3
+上網	zaon6 uaon3
+罪過	ze4 ku1
+一二弗過三
+一天世界
+一手落
+一生一世
+一式一樣
+一周時
+一門心思
+一個老早
+一時裏
+一般性
+一庹
+一脫世色
+一報還一報
+一塔括子
+一歇歇
+一落式
+一榼
+丁香蘿葡
+七手八腳
+七弄八弄
+二一添作五
+二百五
+二婚頭
+人中
+人心隔肚皮
+人來瘋
+人情
+人賤烏龜臭
+八九弗離十
+八仙桌
+八字腳
+八屌
+刁嘴
+力道
+十三點
+十不全
+十亞烏糟
+丈人
+丈姆
+三三子
+三白酒
+三角眼
+三角棱草
+三春頭
+三剗王
+三隻手
+三腳貓
+三跳
+上代頭
+上岸
+上南
+上風頭牢
+上晝
+上梁年糕
+上梁酒
+上通
+上場
+上骱
+上頭圓子
+下小子
+下巴笑脫
+下伸店
+下作
+下作胚
+下晝
+下通
+丫頭
+久病成良醫
+千年古董
+千年韭
+千年萬古
+千張
+千張結
+土笪
+大人
+大木
+大木沖
+大水發
+大好佬
+大舌頭
+大伯
+大肚皮
+大佬
+大拇節頭
+大阿福
+大姨
+大後日
+大脈脈
+大起來
+大推八板
+大眼盲子
+大塊頭
+大腳瘋
+大道
+大蒜
+大蒜鼻子
+大嘴脯
+大頭
+大頭天話
+大頭菜
+大頭頸
+女人家
+子孫圓
+寸尺蟲
+寸金糖
+小人
+小八辣子
+小工
+小化裏
+小木
+小白菜
+小吉幽幽
+小伯
+小弄弄
+小肚皮
+小赤佬
+小乖人
+小姐妹
+小拇節頭
+小朋友
+小食
+小倌人
+小氣
+小焐焐
+小棺材
+小牌位
+小膀肚子
+小頭
+小雞肚腸
+小齠頭
+山谷
+山薯
+工鈿
+中中較
+中央心裏
+五花肉
+今年
+今朝
+今朝日辰
+介點點
+元寶籃
+六節頭
+六穀粉
+兮皺百襇
+分頭
+弗成名堂
+弗來三
+弗舒齊
+弗搭界
+化扶泥
+天井
+天火燒
+天窗
+天壇
+太太
+太翁
+太陽心
+少見少有
+巴勿得
+巴望勿得
+巴掌
+巴掌肉
+心裏痛
+戶頭
+手巾
+手把子
+手業師傅
+扎芡
+扎鈎
+文旦
+文縐縐
+方才
+方包
+方肩胛
+日中心
+日中心裏
+日到日
+日陣裏
+日逐
+日程牢
+日腳
+日裏
+日裏向
+日頭
+月到月
+月底邊
+月亮
+月餅
+月頭牢
+木人頭戲
+木木文
+木爿頭
+木匠
+木老老
+木行
+木徒鴨
+木氣
+木滯滯
+毛手毛腳
+毛毛然
+毛毛頭
+毛灰
+毛竹爿書
+毛估估
+毛病
+毛針
+毛焐芋艿
+毛筍
+毛粟子
+毛腳
+毛腳霧露
+水出烏糟
+水灰
+水赤練
+水草
+水葉蛇
+水鉗
+水槍
+水閣
+水磨粉
+水露露
+火肉
+火赤練
+火冐
+爪兮兮
+牙上肉
+牙汙
+牙齒嚼急
+牛對馬對
+牛踏扁
+牛頭夜叉
+主東家
+主客
+仙家
+兄弟
+冬青樹
+冬場裏
+冬筍
+冬菜
+冬節麥麥
+出山
+出手溚腳
+出水
+出怪
+出花頭
+出門
+出青
+出客
+出扁亞烏
+出洇
+出鬼
+出帳
+出痧子
+出道
+出鬆
+功夫
+包子
+包心菜
+包㒼
+包梢
+包菱
+北鬥星
+半上晝
+半下晝
+半子風
+半吊子
+半夜把
+半壁涼姜
+半導體
+去脫
+古婆
+叫子
+叫名
+叫呱呱
+叫亮
+叫魂
+四角頭糕
+四季豆
+四眼
+四腳蛇
+外孫囡兒
+外甥囡兒
+外肆
+夯出
+夯拔浪當
+失枕
+奶哄香
+奶塊
+市梢
+布衫
+弗入調
+弗出趟
+弗犯著
+弗作興
+弗肯歇
+弗搭界
+弗響
+必過
+打中覺
+打出
+打呃得
+打沒潭
+打呵險
+打烊
+打畔洞
+打陣
+打野鵲
+打喊聲
+打滑澾
+打䬵
+打嘔
+打彈子
+打瞌𥅻
+打稻
+打窮結
+打嚏
+打覺
+打彎臺
+末代
+本當
+正日
+正月半
+正月裏
+正式
+正宗
+正派
+犯沖
+犯潮
+犯賤
+瓜子臉
+瓦刺
+生手
+生日酒
+生瓜
+生炒熱白果
+生病鬼
+生蛋鷄
+生腥氣
+生鐵補鑊子
+甩大旗
+田畈
+田塍
+田螺眼
+田鷄
+申報紙
+白切羊肉
+白字先生
+白果
+白果眼
+白虎星
+白栓腰
+白斬鷄
+白焐肉
+白眼睛
+白場
+白煠蛋
+白蒲棗
+白癜風
+石匠
+石灰叉袋
+石病
+石埠頭
+石蟹
+立夏飯
+立壁角
+交關
+先生
+先起頭
+先開場
+光浪頭
+光淌
+光景
+全年
+全靠得
+冰清
+冰瀴徹骨
+吃墨水人
+吃賠帳
+合勿出
+吊煞鬼
+吊煙囱
+同牢
+同胞
+同道
+名堂
+回門
+回頭
+囡囡
+囡兒
+地火燒
+地滑塌
+地蒲
+地藏香
+地鱉蟲
+多頭
+愈加
+好日
+好好較
+好特
+好過
+好嘸得得
+如果
+妄想
+字書
+存心
+尖巧
+年包頭
+年到年
+年假
+年常裏
+年腳跟頭
+年腳邊
+年糕
+年頭牢
+扣吃
+扣頭帽子
+扦腳
+收作
+收疤
+收凍
+收梢
+收燥
+早先頭
+早晨頭
+旮旮旯旯
+有介歇
+有限
+有常時
+有數脈
+朵酒
+次品
+死來伊看
+死屍
+死活人
+死樣怪氣
+死樣活去
+死蟹一隻
+汗毛
+汗毛管子
+汗出呋嚕
+汗酸臭
+汗潮滋滋
+江北人
+江北船
+污皮
+屙蛆蟲
+灰牙
+灰塌塌
+灰蒙蒙
+灰鴨蛋
+百坦
+心量百坦
+百草梨膏糖
+百搭
+百腳
+百熱沸燙
+百曉
+竹爿頭
+竹匠
+竹筻
+竹榻
+米蝴蝶
+羊肉麵
+羊臊氣
+老大姑娘
+老小夥子 
+老太婆
+老甲魚
+老老頭
+老來子
+老底子
+老油條
+老花頭
+老青頭
+老屋裏
+老面皮
+老倌
+老倌阿嬤
+老娘
+老鬼
+老鬼三
+老趼
+老喫老做
+老鉗
+老實頭
+老槍
+老熟
+老調
+老鴉
+老頭老腦
+老頭鴨
+老擦
+考究
+耳朵屎
+耳朵管
+肉皮
+肉油
+肉炖蛋
+肉圓
+肉圓子
+肉糕
+肉頭
+肋胳子
+肋條肉
+自出三道
+自家
+自家人
+自埭屋裏
+臼子
+血赤精精
+行爲
+行當
+衣裳
+西洋景
+亨郎頭
+何場
+作冷性
+作真
+作頭
+作孽
+冷尼
+冷角落
+冷篤
+別毛
+利朗
+卵子
+卵手嘸腳
+卵脬
+含豆
+吱咕
+吵坯
+吵相駡
+吹風落雨
+吹隠
+呆大
+呆大女婿
+呆咕咕
+呆板
+呆板數
+呆撥落托
+坌地
+坍並膨郎
+坍臺
+坍寵
+坎脫
+坐臀肉
+夾心肉
+夾眼睛
+夾裏
+妊娠
+孛相
+完胎
+完結
+尾巴樁
+尿出狗
+尿哄臭
+尿梗病
+尿臊臭
+屁是弗是
+屁眼
+屁棚骨
+屁輕
+弄人
+弄堂
+弄開
+弄鬆
+弟兄
+忌日
+忌嘴
+忘記徒
+扯扯
+扯扯過
+扯挺
+扯牌
+扳艄
+扶泥
+找頭
+把家
+把細
+把頭鷄
+抓手
+投人生
+投于投六
+抖冷
+抖傷風
+抛錨
+杏子
+杏桃
+村坊
+土搭酒
+土鷄蛋
+求告
+汪頂頭
+沉默
+沐浴
+沒心想
+沒面孔
+沒淘
+沒腰栓
+沒該
+灶頭
+男人家
+禿著
+私囡兒
+肚皮
+肚皮屙
+肚皮眼
+肚皮痛
+肚兜
+肚腸
+見面鈿
+角落頭
+角頭
+谷底
+豆板牙
+豆腐醬
+豆瓣
+豆瓣醬
+赤豆糯米飯
+赤佬
+赤腳醫生
+赤膊船
+赤膊鷄
+走孛相
+走油肉
+走脫
+身本牢
+身坯
+身根頭
+身浪熱
+辰光
+乃來牢介
+伊拉
+乃呢
+乃來
+乃格歇
+乃落來
+乃過來
+邪頭撇腦
+事體
+佮淘
+來三
+來去
+來去酒
+來年
+依賴
+兩家頭
+刮鼻頭
+到把
+到乃
+刺毛
+刻毒
+受涼
+味之素
+和順
+和調
+坦平
+坦性子
+坦肩胛
+夜快邊
+夜來香
+夜夠
+夜夠頭
+夜飯
+夜壼箱
+奇葩
+妲己精
+妹子
+妹夫子
+姆伯
+姆媽
+姑娘
+姑嫂餅
+孤鳥
+定食
+定勝糕
+岸紅
+岸灘
+幸福
+延開
+怕勢勢
+怕醜
+怕懼
+怪出
+怪好
+怪東西
+怪怨
+怪氣
+怪鳥
+怪頭怪腦
+所在
+抱娘娘
+抵掌
+抹布
+抽斗
+拄舌頭
+拄拐棒
+担心事
+担怕
+拆棚腳
+拆爛污
+拉功
+拉帶胡子
+拌元
+拍拍滿滿
+拎勿清
+拐子
+拐腳
+拔長
+拖油瓶
+拖梢船
+拗刁頭
+拗手
+招女婿
+招風耳朵
+放夜學
+放飯學
+放鷂子
+明嗒明
+昏頭七衝
+服佬
+杭勿住
+板扎
+板油
+板錯頭
+河沙
+河灘頭
+沸滾百燙
+沸燙
+油出它陀
+油汆果肉
+油肉
+油豆腐
+油豆腐嵌肉
+油沸餃
+油泡
+油炸檜
+油墩
+油膩咕都
+油繩
+油露露
+油鹽豆
+泛泛格糟
+泡開水
+泡飯
+泥疙多
+泥腥氣
+泥蟹
+炒米𥹸
+炒米糕
+爸爸
+牀横頭
+狀元糕
+狐貍精
+狗尾巴草
+狗屄倒竈
+狗頭軍師
+畀掉
+疙裏疙瘩
+疙瘩
+疙瘩東西
+的方
+的角四方
+的活
+盲子灰裏壁
+直顯出
+空落落
+肩架
+肩胛
+肺心
+肺頭
+舍姆娘
+芝麻片
+芝麻餅
+芡粉
+芡實糕
+花毒鬼
+花毒頭
+花哨
+花書
+花草
+花菇
+花窠羊
+花裏八臘
+花頭
+花頭花腦
+花蟲
+芽蠶豆
+軋油
+軋苗頭
+軋淘
+軋閙猛
+近覷眼
+金金魚
+金烏龜
+金針菇
+金鈴子
+金橘
+長大
+長生果
+長豇豆
+長條子
+長腳鷺鷥
+長壽綫
+門底
+門閂
+門面
+門牌
+門裏大
+門膛子
+門檻
+阿大
+阿公爹
+阿全
+阿姊
+阿哥
+阿能麵
+阿婆娘
+阿嬤
+阿嬸
+雨陣裏
+雨頭裏
+雨濛濛
+青麥麥
+青綠其其
+青頭鬼
+㽹道道
+便介
+便飯
+促掐
+俏刮
+信殼
+剃頭
+剃頭店
+剃頭麥麥
+削水片
+前世作孽
+前腳後腳
+前贊發
+勁道
+勃粒頭
+匍倒
+南湖菱
+厚兹納得
+咪咪細
+咪酥塔爛
+咬卵
+咬煞
+城頭牢
+姘頭
+姨婆娘娘
+客人來
+屎出狗
+屎騷臭
+屏牢
+度死
+待虧
+後日
+後生
+後年
+後枕骨
+扁尖荀
+扁扁服服
+扁嘴
+拜娘
+拜堂
+拜揖
+拜爺
+括痧
+拮据
+拱膿
+拷邊
+指爪
+挑水
+挑痧
+挑痧徒
+挑擔
+挑選
+春天公
+春梢蛇
+春場裏
+昨日
+架形
+架型
+柱門團
+柿肚
+歪嘴
+歪轉
+毒頭
+洋山薯
+洋火
+洋白人
+洋夾
+洋釘
+洋蛀
+洋貨擔子
+洋盤
+洋蟲
+洋襪
+洗沙
+洗沙羊尾
+洞裏毛
+活出水脫
+活弗像
+活絡
+活龍活現
+派賴
+派頭一六
+玻璃
+相公
+相巴
+相信
+相客
+相拱攏
+相駡
+省力
+眉毛
+看相
+看穿
+看想
+秋老虎
+秋風莽雨
+秋涼夏薄
+穿幫
+紅白臺彩
+紅封筒
+紅蛋
+美人蕉
+胃氣痛
+背命
+背脊
+背梁脊骨
+背纖
+胖青
+胖蠶豆
+胡子叭嗒
+胡拖稀濕
+胡盲
+胡蜂
+若大後日
+若隔年子
+苦吊吊
+苹菇蕈
+茅山道士
+茅草
+要好看
+要緊要慢
+郎中
+陌生人
+陌陌人
+面孔
+面皮
+面肩骨
+面長面短
+面架子
+面相
+面熟陌生
+韭菜
+韭薹
+風水先生
+風雨落雪
+風癱
+飛叫跳
+食甜
+香市
+香泡
+香面孔
+香椽
+香鼻頭
+香噴噴
+香糕
+香蕈
+個支個嗒
+倒大臉
+倒脫
+倒運
+倒箱囡兒
+倒竈
+候等
+借手
+借段牙
+借轉來
+値鈿
+冤枉鬼叫
+冤家
+凍米
+凍殺鬼
+凍鹵水
+凍瘃
+剗船
+原日頭
+哭出烏拉
+哭煞鬼
+哮徒
+夏至飯
+夏至蜩
+娘咾囡兒
+娘咾兒子
+娘姨
+娘娘
+娘娘拉
+娘舅
+宰相
+家主婆
+家生
+家伙
+家蛇
+家裏
+峽谷
+差勿多
+師娘
+師傅
+席夢思
+拿周
+挫牙齒
+挺刮
+捉牢
+捉漏
+料作
+時件
+時辰八字
+晃開
+晏歇點
+書毒頭
+栗殼色
+格勒勢白
+格通
+桂花蒸
+桃凝
+桐鄉辣醬
+桑樹蕈
+梳妝臺
+殷家漾梨子
+氣吼百吼
+氣急
+氣數
+氣䭁
+浜底頭
+浜兜
+浪船
+海完
+烊雪
+烏比斑漿
+烏吱夾納
+烏泥出黑
+烏盲
+烏花
+烏花同同
+烏花醫生
+烏青塊
+烏都
+烏龜鮝
+烏雞板
+烘山薯
+爹爹
+狹窄
+畔好
+畚斗
+畚箕
+疰夏
+真生活
+真样果經
+笋殼
+笑面老虎
+粉皮
+純純
+素酒
+缺嘴
+耙耳朵
+胳毛
+胴肛
+胶菜
+胸脯團頭
+臭豆腐乾
+臭花娘子
+臭烘烘
+臭鬼
+臭鹵毛豆
+臭鹵甏
+臭黃豆
+舀海星
+航船
+茶淘飯
+茹菇
+荀乾
+草狗
+草莓
+草鞋底
+草頭黃
+蚊厨
+蚌殼油
+蚤虱
+討丫頭
+討手腳
+討債
+討媳婦
+討饒
+記牢
+記毒
+記魚
+起之
+起囤
+起底
+起陣頭
+起亂頭
+起碼
+酒盅
+酒胖氣
+酒靨潭
+閃腰
+陣頭雨
+陣頭風
+除脫
+馬子
+馬尿梢
+馬屁精
+馬楩草
+馬路
+馬蘭頭
+骨殖甏
+骨碌勢圓
+骨骱
+骨頭骨腦
+高高墩
+高橋糕
+鬥雞眼
+鬼丫頭
+鬼出現
+鬼伯伯
+鬼頭風
+鬼頭鬼腦
+鬼厴螺螄
+𤖼開
+㒼塞
+乾之辣塔
+乾並梆硬
+乾炖蛋
+乾膚起𢫭
+乾龍
+乾癟
+假癡假呆
+偏得
+做大人家
+做小工
+做田畈
+做死腔
+做作
+做舍母
+做相幫
+做淘
+做脫
+做絕
+做墨子
+停蕩
+側轉睏
+偷針
+偷鷄豹
+凑凑較
+厢屋
+唱書
+唸佛
+啞子
+奢庶
+宿舍
+寄拜囡兒
+寄拜閙兒
+寄售店
+密縫
+屠宰
+崆峒
+帳房
+帶帶過
+張嘴
+強橫
+惆悵
+捨得
+捩轉
+捱幾日
+捻綫
+掃帚星
+掇轉
+掉勿落
+排場
+掛機船
+掛鹽水
+採繭子
+接河泥膀
+推般
+推推車
+掮木梢
+掮官
+掽著
+敎輸
+敗家精
+斜王旁
+斜對過
+斬炖肉
+晝時
+望汛
+梗子
+梗固頭
+梟起
+梟開
+梨子
+梨膏
+梨膏糖
+殺千刀
+殺坯
+殺豬徒
+涼淘淘
+涼菜
+淘空
+淘箩
+淡約約
+淨糖
+混堂
+清水鼻涕
+清秀
+清明圓子
+清爽
+清通
+清蒸
+焐心
+焐手
+爽債
+牽磨
+猛門
+猛門人
+猜脈郎中
+猜墨子
+現世
+現世寶
+現鈔
+現摜
+甜咪咪
+甜麥塌餅
+甜環頭
+畢爆
+盛飯
+眼目前
+眼泡皮
+眼烏珠
+眼淚
+眼淚出
+眼眵
+眼腳毛
+眼熱
+着力
+移火蟲
+移星
+笤帚
+粘脂咕嗒
+細巧
+細呃
+細鬼頭
+細貨色
+細猢猻
+細圓子
+細裏細
+細僵蠶
+聆市面
+聆聽
+脫力
+脫底棺材
+脫骱
+脫頭落襻
+脫襻
+船牢人
+船洋
+船艄上前
+荷花糕
+荷葉粉蒸肉
+荼盞
+荼館店
+莧頭梗
+蛀蟲
+蛇皮袋
+蛇蟲百腳
+蛇纏
+蛋球
+被套
+被橫巾
+趿班
+軟疲搭骨
+軟番
+軟糕
+透氣
+連牢
+連襟
+部頭
+野田畈
+野胡桃
+野貓
+野豁豁
+野鷄
+野蠶
+陰盲子
+陰盲天
+陰間秀才
+陰篤鬼
+陳貨
+陸接陸續
+雪白粉嫩
+雪爽
+雪菜
+雪團瓜
+魚行
+魚肚腸草
+魚圓
+魚𩼴
+麥疙瘩
+麻子
+麻球
+麻鳥
+麻鳥鷄
+麻酥糖
+麻蝍蝍
+𨤢個
+傢具
+創頂
+勞碌命
+喇開
+喜蛋
+喫力
+喫勿落
+喫毛栗子
+喫出
+喫白食
+喫沒
+喫豆腐
+喫朋東
+喫盲
+喫軋頭
+喫客
+喫倒
+喫倒篤
+喫家生
+喫茶
+喫酒
+喫悶棍
+喫欺
+喫菸
+喫勢頭牢
+喫準
+喫煙
+喫潮
+喫瘪
+單隑人
+單謹
+報吉
+報老
+場戶
+媒人
+寒豆
+尋出
+尋生活
+尋死
+尋吼勢
+尋銅鈿
+就介
+嵌寶鴨
+幾化
+廊屋頭
+廊柱
+悶狗
+悶聲弗響
+惠鈔
+惡結八賴
+揀剩貨
+提子
+提桶
+插蠟蠋
+摒牢
+散會
+敨冷
+替力
+朝天睏
+朝倷話
+棉筋頭草
+棉綫頭草
+棚硬鐵骨
+棚窖
+棺材
+温吞
+温開水
+港灘
+游河
+渾淘淘
+湯包
+湯圓
+滋味
+無綫電
+爲嚮
+猢猻
+琵琶骨
+番茄
+痧氣
+登樣
+發大頭魇
+發身
+發亟
+發胖死屍
+發風
+發梗
+發寒熱
+發斑
+發菜
+皴糙
+睏出來
+睏失寣
+睏寣
+睏頭夢裏
+睏覺
+硬百裏拉
+硬板床
+硬氣
+硬棚棚
+硬蠶豆
+硯瓦
+稀毛瘌痢
+稀奇勿煞
+稀朗朗
+稀濕
+窗爿
+童子鷄
+筅帚
+筆篤
+粟子
+粟莆黍
+粢米飯團
+紫嘟嘟
+結冰
+結婚
+結棍
+結蛛
+結厴
+絕戶
+絞軋
+絶薄
+腈肉
+腌篤鮮
+菊花
+菊花米頭
+菜油
+菜青蟲
+菜蔬
+菠蘿
+菩菩笨笨
+著光
+著地聾
+著實
+蛐蟮
+蛤腮
+衆牲
+街牢人
+街路
+貼隔壁
+進帳
+郵差
+鄉下人
+鈍卵
+開伙倉
+開年
+開間
+開銷
+開頭人
+開關
+閒人
+閒話
+陽春麵
+階沿石
+雁鵝
+雄小娘
+雄鷄
+雄鷄蛋
+雲片糕
+雲障
+雲障天
+順手
+順事
+順徑
+順起
+順當
+飯瓜
+飯米糝
+飯桶
+飯搶骨
+飯飽
+飯摻粥
+飯糝
+飯糰
+飯鑊糍
+黃豆𥹸
+黃昏頭
+黃芽菜
+黃金瓜
+黃春
+黃梅
+黃魚
+黃鼠狼八屌
+黃雌狼
+黑鱧頭
+亂污亂糟
+亂說
+亂頭千張
+傷風
+勤健
+勤謹
+嗆聲
+嗒嗒滴
+嗯娘
+圓肩胛
+圓骨龍冬
+塊頭
+塌眼睛
+塌棵菜
+塌鼻頭
+塘河
+塘路
+塡房娘娘
+媳婦
+嫌撑
+寛舒
+惹毛
+惹肥
+惹氣
+惹煞鬼
+惹厭
+惹厭客人
+搖紗椅子
+搖轉
+搖籃
+搛菜
+搞七廿三
+搞搿
+搬嘴
+搭七搭八
+搭手
+搭末名
+搭白
+搭死摜
+搭夜作
+搭底
+搭肩駝
+搭界
+搭脈
+搭訕頭
+搭脫
+搭鈕
+搭順飯
+搭煞
+搭槳
+搭頭
+搶羹飯
+新官人
+新娘子
+新娘子草
+新開店
+暖熱
+暖橱
+暖鍋
+暗囤囤
+暗黜黜
+會得
+楊梅
+楝樹
+楝樹卵子
+極做
+歇介日
+歇夜
+溏黃蛋
+準日酒
+準足
+準準較
+溫吞水
+滑卵精光
+滑裏滑澾
+滑頭貨
+滑鐵澾拉
+滚水
+煎藥
+煞克
+煞刮四亮
+煞清四脫
+煤頭紙
+照牢
+照應
+煨山薯
+煨竈貓
+煩舌頭
+煩厭
+爺老頭子
+爺咾囡兒
+爺咾兒子
+爺聽娘
+獅子頭
+當中横裏
+當錯
+盞子
+督結
+矮人
+矮爸
+矮勃倫頓
+矮胖子
+矮焐焐
+矮媽
+矮凳
+碗橱
+碰碰攏
+碰額角頭
+稗草
+節頭管
+經用
+罪過
+腡紋
+腦子活絡
+腰子
+腰子病
+腰子餅
+腰身
+腰花
+腰眼
+腰眼裏
+腳毛
+腳爪
+腳污頭臭
+腳色
+腳孤骱
+腳底板
+腳板年糕
+腳柱
+腳剗船
+腳桶
+腳魚
+腳筋吊
+腳碰腳
+腳節頭
+腳跟頭
+腳蒲頭
+腳踏車
+腳橫頭
+腳骼
+腳藕
+腳彎裏
+舅公爹爹
+舅佬
+舅婆娘娘
+舅媽
+萬年青
+萬花筒
+萵苣筍
+落北
+落車
+落雨
+落雨世界
+落雪世界
+落搞
+落寣
+葉蝶
+葛嘴
+葱管糖
+葷腥
+蜆肉
+裏戳出
+裙帶頭
+裝假次
+解日
+解匠
+話勿出
+該話
+賊骨頭
+賊腔
+跟屁蟲
+跳泡
+逼出
+遊泳頭
+運橫三千
+過汛
+過西
+過性
+過東
+過門
+過飯
+道地
+鉛角子
+鉛筆盒頭
+鉛絲
+鉢頭
+銃頭
+閙兒蟲
+隔日子
+隔年子
+隔宿
+雷部瘟
+電子管
+電火
+靴子
+颬氣
+𥹸粥
+𩑦殺
+嗷食
+嗷食鬼
+嘆死氣
+嘆苦經
+嘦得
+圖眼豆
+團匾
+團團化化
+團頭貨
+塳塵
+墎頭
+墙圈
+壽利
+壽桃
+壽頭
+嫩喫
+孵日頭
+孵退蛋
+孵鷄荀
+實梗
+對勿起
+對掉
+對過
+對親
+嶄新筆篤
+徹紫烏裏
+戧刀
+戧風
+摜言話
+摜家摜生
+摜殺
+摜脫
+摜脫貨
+摜跤
+摜撇子
+摸勿出
+摸水産
+撇浌
+撤理
+敲竹杠
+敲扁豆
+敲頭塔
+榨菜
+槍斃鬼
+滾大勢壯
+滾壯
+漢服
+漢族
+漾潭
+熏豆
+熗柿子
+甄頭
+盡根牙
+碧力勢清
+種田
+稱心
+稱手
+稱好佬
+稱道
+端蛋湯
+端整
+箇墶
+箍牢
+算數
+算盤子
+管身娘
+粽箬
+精出
+精光
+精光滑澾
+精赤
+精怪
+精括
+精乾
+精乾四淨
+精乾百燥
+精乾淨
+精瘦
+精篤篤
+綫鷄
+綿兜
+罰呪
+罰願
+腐乳
+臺頭
+蒙蒙亮
+蒜薹
+蒸架
+蒸蒲頭氣
+蒸穀米
+蜒蚰
+蜜糖糕
+蜡燭包
+蜻蜓
+蝕本
+認牢
+認青蠶
+認青條
+認帳
+誖什
+誣賴做
+說大書
+說書
+說書先生
+豪稍
+豪𢜶
+賒帳
+趕胎
+趕骚雄鷄
+輕相骨頭
+輕骨頭
+辣火醬
+辣咪咪
+辣茄
+辣貨
+酸吉括拉
+酸胖氣
+酸梅子
+酸嘰嘰
+銀洋鈿
+銅勺
+銅匠
+銅盆臉
+銅鈿
+隙開
+雌老虎
+領娘
+颱風
+鳳仙菱
+麼兩日
+鼻屎
+鼻頭
+齊巧
+齊整
+齊整娘娘
+僵蠶
+劈開頭
+嘰糟
+嘴唇皮
+嘴唇膏
+嘴裏壞
+嘸不
+嘸不特
+嘸不幾日
+嘸介事
+嘸天野地
+嘸心想
+嘸行用
+嘸沒
+嘸啥話頭
+嘸淘成
+嘸清頭
+嘸搭頭
+墨筆
+墨墨公
+墩頭
+墩頭板
+墳墩
+墳墩窠
+寫意
+彈出
+彈簧
+撏起來
+撑船
+撑順水篙
+撞來
+撞著法
+撩蕰草
+撮結
+撮藥
+撲塔
+撲塔睏
+暫沖頭
+樂人
+標緻
+樟木箱
+漿粽店
+潦夜
+潭潭化化
+潮面
+潮浴
+潮煙管
+澆頭
+熟手
+熟頭
+熬喫省油
+熱昏
+熱焐焐
+熱麻
+熱絡
+熱癤頭
+犟教化
+犟瘌痢
+犟頭頸
+瘤芥菜
+瘦爽
+皺襇
+盤牙
+盤纏
+瞇覷眼
+瞌𥅻
+瞎七搭八
+瞎子
+磕頭嘸救
+箬葉
+箱墊
+箲帚
+範範看
+糍米飯
+膝缽饅體
+膝缽體
+蓬花雨
+蓬花草
+蓮花
+蝦油鹵
+調碎蛋
+談朋友
+請太太
+豎肉頭
+豬尾巴
+豬油
+豬頭三
+豬頭三牲
+豬頭糕
+豬獾
+豬玀
+賣狗
+賣相
+賤骨頭
+賤貨
+趟螺螄
+踏沉船頭
+踏車
+踢腳絆手
+躺死屍
+遮㒼
+鄰舍
+醋大蒜
+銹釘頭
+霉乾菜
+霉塔臭
+靠牢
+鞋楦頭
+養身娘
+養媳婦
+餓煞鬼
+駝包蜒蚰
+骷榔頭
+鬧兒
+鬧猛
+麩皮
+儘够
+噶子
+墾地
+壁板
+壁蟢
+學生子
+學生意
+學堂
+學堂裏
+懊致
+懊蝕掉
+懊糟
+擀皮子
+擒牢
+擔心
+橋堍頭
+橘經糕
+橫死鬼
+橫肚子裏
+橫槍使棒
+毈命
+燒野飯
+燒麥
+燒餅
+燒餅店
+燙婆子
+燙燙鹵水
+獨門獨戶
+篤定
+篤起
+簑衣
+糕團店
+糕餅牢潮
+糖年糕
+糖炒粟子
+糖燒蛋
+膨膨夯夯
+膩心
+膩心筒筒
+興核
+蕎麥粥
+蕎蔥
+蕩田
+蕩空
+蕩頭
+螞絆
+褥子
+褪南瓜
+親爸
+親家公
+親家母
+親眷
+親媽
+貓魚
+賴倒
+賴倒做
+賴孵
+賴孵鷄
+蹄子
+蹄子酒
+辦勿到
+遲隆隆
+鋼中鑊子
+錦粉
+閹雞徒
+霍顯
+靜落落
+頭三搭四
+頭大
+頭皮爿
+頭皮鮮
+頭盲目
+頭發支裏
+頭裏虱
+頭裏痛
+頭路
+頭橫頭
+頭頭
+頭頸
+餛飩皮子
+餛飩擔
+館子店
+駡山門
+龍洋
+龍頭
+𤎤𡮦
+嚇人倒怪
+嚎辣氣
+壓坍街
+尷尬
+幫出
+幫岸
+擠痧
+擤鼻涕
+擦板
+擦背
+檇李
+濕糟糟
+濫潦坯
+環豆粟
+甏裏菜
+盪碗
+篾席
+糙紙
+縮結
+縮癟癟
+膽膽大大
+臂把
+臂把搡子
+薄枵枵
+螳螂
+螻蛄
+蟈蜢
+蟑螂
+謎子
+講勿響
+講到
+講消排
+講張
+講攏
+豁翎子
+豁搭頭
+豁邊
+賽過
+醜勢勢
+鍼灸
+霜打
+鮮鮮鬆鬆
+黏介介
+黏滋疙瘩
+點心
+點點飢
+齋星官
+嚕裏嚕拖
+嬸媽
+戳霉頭
+戳壁腳
+擺渡船
+擺煞
+擺噱頭
+擺攤頭
+斷手
+斷脫
+檯子
+櫃臺
+櫃臺猢猻
+濾水
+瀊出來
+瀑布
+禮鈿
+織布娘
+翹起
+翹嘴脯
+翹辮子
+翻梢
+舊年
+舊貨
+薹心菜
+藏青
+蟮蝍
+覆沿
+豐富
+蹔孛相
+蹔路
+蹩腳
+蹩腳貨
+轉彎
+醬肉
+醬板莧草
+醬胖氣
+醬悶蛋
+醬蹄子
+雙季稻
+雙隑人
+雙雙子
+鞭荀
+額角頭
+顏色
+鬆爽
+鬆糕
+鯁牢
+鯉婆
+鵝蛋臉
+鵝頭頸
+嚥勿落
+懶坯
+懶阿嬤
+懶洋洋
+櫓櫓板進
+爆魚
+矇騙
+礙路
+簿子
+臘八粥
+藤榻
+藥罐頭
+蟹爪菊
+蟹殼豆
+識出
+識相
+贊成
+蹺腳
+邊牢
+邋遢
+邋遢婆
+邋邋遢遢
+鏟倒
+關門落閂
+關飯學
+關魂
+難爲
+霧露
+顛倒
+騙秤
+鬎鬁
+鬎鬁頭
+鯧鯿魚
+瀺唾
+瀺唾水
+爐臺師傅
+糯米
+蘆花鷄
+蘑菇
+覺著
+觸氣
+鐘頭
+騷骨頭
+騷頭
+鹹肉
+鹹津豆
+鹹淡
+鹹滋滋
+鹹菜
+鹹漬菜
+鹹酸
+麵餅
+麵餑
+麵羹
+齙牙齒
+劗肉
+爛光錯
+爛料坯
+爛糟糟
+癩太婆
+礱糠
+竈家菩薩
+竈蟣
+纏錯
+蘭花節頭
+蠟燭
+鐵匠
+響鈴
+鰟鮍魚
+鷄盲搭腳
+鷄肫脯
+鷄蛋糕
+㜺貨
+囉嗦
+彎刁
+彎舌頭
+彎轉
+攤底牌
+攤面餅
+籠絡
+罎子
+聽壁腳
+聾子
+襯衫
+讀書
+贖藥
+鑊子
+鑊煤
+鑊糍
+鰱魚
+鰺鰷魚
+鰻魚
+鰻鱺
+纖路
+蘿蔔絲餅
+變死
+顯寶
+鱔魚
+蠶尼
+蠶沙污
+蠶豆
+蠶豆耳朵
+蠶豆花
+蠶寶寶
+鬢角
+鷹架
+齆鼻頭
+臠矮
+蠻烏勢拉
+蠻魚蠻肉
+觀世音草
+鑲拱籠
+饞佬坯
+戇徒
+啰拖
+窝鵲
+臓腑
+估著數
+本則來
+起碼貨
+清白貨
+瞎搭糊塗
+沒得
+完呃
+之故
+覅伊
+𠏕伊
+得來
+得肆
+箇檔
+箇淘
+哪哼
+阿嫂
+乖人
+戇大
+喥頭
+叼子
+狠將
+𢿡客
+殺胚
+盲子
+面羹
+㕐茶
+淘伴
+中人
+樣色
+急性子
+外路人
+屋裏嚮
+羹飯
+羹飯頭
+啞巴子
+好好生先
+鷄腳幹部
+開眼烏龜
+昂剛不能登
+縮頭烏龜
+脫底貨
+潮頭小伙子
+手腳
+體面
+心肝
+粟米
+外快
+箬葉
+利鈿
+零頭
+盤頭
+窗簾
+景致
+竹筻
+拜天
+等歇
+等一歇
+担點啥
+毽子
+儕是
+儕弗是
+儕好
+像倒
+弗然
+慈溪
+肌腱
+好𠲎
+是𠲎
+來𠲎
+去𠲎
+桐鄉
+梧桐
+龍翔
+鳳鳴
+石門
+濮院
+洲泉
+屠甸
+高橋
+河山
+崇福
+廚師工
+中衣
+兩用衫
+儕部
+汏腳
+汏浴
+潮浴
+沐身
+镬盖
+食咀
+米泔水
+部分
+未哩
+一窠
+苕溪
+寔介
+吮卵
+犯犯看
+圓眼豆

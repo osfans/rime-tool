@@ -53,89 +53,128 @@ speller:
   delimiter: " '"
   algebra:
     - xform/\(.+\)//  #刪除備註
-    #尖團弗分
-    - derive/ʦi/ʨi/
-    - derive/ʦʻi/ʨʻi/
-    - derive/zi/ʒi/
-    - derive/si/ɕi/
-    #打党弗分
-    - derive/ɔ̃/ã/
-    #齊棋弗分
-    #- derive/zi/ʥi/
-    #一育弗分
-    - derive/ioʔ/iʔ/
-    #飛灰弗分
-    - derive/hu/f/
-    - derive/ɦu/w/
-    - xform/f(\d)/fu$1/
-    - xform/w(\d)/wu$1/
-    #半杯弗分
-    #- derive/(b|p|pʻ)ɛ/$1i/
-    #肩艱弗分
-    #- derive/iɛ/iæ/
-    #歐衣弗分
-    #- derive/əɯ/i/
-    #撮口音
-    - derive/ɛ/oe/
+    - xform/au/ao/
+    - xform/r/er/
+    - xform/eu/ou/
+    - xform/aon/ang/
+    - xform/h(\d)$/k$1/
     #聲母
-    - xform/j/yh/
-    - xform/w/wh/
-    - xform/b/bh/
-    - xform/pʻ/P/
-    - xform/p/b/
-    - xform/P/p/
-    - xform/v/fh/
-    - xform/d/dh/
-    - xform/tʻ/T/
-    - xform/t/d/
-    - xform/T/t/
-    - xform/^ʔ//
-    - xform/g/gh/
-    - xform/kʻ/K/
-    - xform/k/g/
-    - xform/K/k/
-    - xform/ŋ/ng/
-    - xform/ɦ/hh/
-    - xform/ʨʻ/q/
-    - xform/ʨ/j/
-    - xform/ʥ/jh/
-    - xform/ɕ/x/
-    - xform/ʒ/xh/
-    - xform/ȵ/ni/
-    - xform/z/sh/
-    - xform/ʦʻ/c/
-    - xform/ʦ/z/
-    #韻母
-    #- xform/a/a/
-    #- xform/o/o/
-    - xform/ã/ang/ #打党弗分
-    - xform/ã/an/
-    - xform/ɔ̃/ang/
-    - xform/õ/on/
-    - xform/ɔ/ao/
-    - xform/æ/ae/
-    - xform/ɛ/e/
-    - xform/əl/er/
-    - xform/əɯ/ou/
-    - xform/iəʔ/iʔ/
-    - xform/ə/e/
-    - xform/ɿ/y/
-    - xform/ʔ/k/
+    - xform/^m/mh/
+    - xform/^ng/ngh/
+    - xform/^ni(\d)/nni$1/ #你內
+    - xform/^ny/nhi/
+    - xform/^n([^hn])/nh$1/
+    - xform/'ny/ni/
+    - xform/^l/lh/
+    - xform/^v/fh/
+    - xform/'//
+    - xform/^gh/hh/
+    - xform/^y/yh/
+    - xform/^w/wh/
+    - xform/^b/bh/
+    - xform/^ph/P/
+    - xform/^p/b/
+    - xform/^P/p/
+    - xform/^g/gh/
+    - xform/^kh/K/
+    - xform/^k/g/
+    - xform/^K/k/
+    - xform/^ch/q/
+    - xform/^sh/x/
+    - xform/^zh/xh/
+    - xform/^j/jh/
+    - xform/^c/j/
+    - xform/^zh/xh/
+    - xform/^z/sh/
+    - xform/^tsh/c/
+    - xform/^ts/z/
+    - xform/^d/dh/
+    - xform/^th/T/
+    - xform/^t/d/
+    - xform/^T/t/
+    #尖團弗分
+    - derive/^zi/ji/
+    - derive/^ci/qi/
+    - derive/^si/xi/
+    - derive/^shi/xhi/
+    #打党弗分
+    - derive/an(\d)/ang$1/
+    #齊棋弗分
+    #- derive/^shi/jhi/
+    #一育弗分
+    - derive/ioh/ih/
+    #飛灰弗分
+    - derive/^hu/f/
+    - xform/^f(\d)/fu$1/
+    #半杯弗分
+    #- derive/^(b|p|bh)e(\d)/$1i$2/
+    #肩艱弗分
+    #- derive/ie(\d)/iae$1/
+    #歐衣弗分
+    #- derive/ou/i/
+    #撮口音
+    - derive/e(\d)/oe$1/
     #規則
     - xform/^i/yi/
     - xform/(yh?)i([aoeu])/$1$2/
     - xform/^u(n?)(\d?)$/wu$1$2/
     - xform/^u/w/
-    - xform/nii/ni/
+    - xform/ii/i/
     - abbrev/^([bpmfdtnlgkhjqxzcsyw]+).*$/$1/       # 無韻簡拼
     - derive/\d$//       # 無調輸入
 
 translator:
-  dictionary: dhon2xian1
+  dictionary: don2shian1
+  prism: dhon2xian1
   spelling_hints: 5
   comment_format:
     - xform/^(.*)\((.*)\)$/$2✔/
     #- xform ^(.*)$ /$1/
+    - xform/au/ao/
+    - xform/r/er/
+    - xform/eu/ou/
+    - xform/aon/ang/
+    - xform/h(\d)$/k$1/
+    #聲母
+    - xform/^m/mh/
+    - xform/^ng/ngh/
+    - xform/^ni(\d)/nni$1/ #你內
+    - xform/^ny/nhi/
+    - xform/^n([^hn])/nh$1/
+    - xform/'ny/ni/
+    - xform/^l/lh/
+    - xform/^v/fh/
+    - xform/'//
+    - xform/^gh/hh/
+    - xform/^y/yh/
+    - xform/^w/wh/
+    - xform/^b/bh/
+    - xform/^ph/P/
+    - xform/^p/b/
+    - xform/^P/p/
+    - xform/^g/gh/
+    - xform/^kh/K/
+    - xform/^k/g/
+    - xform/^K/k/
+    - xform/^ch/q/
+    - xform/^sh/x/
+    - xform/^zh/xh/
+    - xform/^j/jh/
+    - xform/^c/j/
+    - xform/^zh/xh/
+    - xform/^z/sh/
+    - xform/^tsh/c/
+    - xform/^ts/z/
+    - xform/^d/dh/
+    - xform/^th/T/
+    - xform/^t/d/
+    - xform/^T/t/
+    #規則
+    - xform/^i/yi/
+    - xform/(yh?)i([aoeu])/$1$2/
+    - xform/^u(n?)(\d?)$/wu$1$2/
+    - xform/^u/w/
+    - xform/ii/i/
 
 reverse_lookup:
   dictionary: luna_pinyin
