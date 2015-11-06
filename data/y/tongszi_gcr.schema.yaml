@@ -1,0 +1,91 @@
+# tongszi_gcr.schema.yaml
+# Rime schema
+# encoding: UTF-8
+# version: 0.01_alpha
+# Modified time: 2015-Nov-05 15:21:00(UTC)
+
+
+# 趙元任先生通字方案之GCR
+# 詳見　「通字方案」趙元任著，1983年商務印書館
+# 參考https://en.wikipedia.org/wiki/General_Chinese
+# 因編碼較長，建議使用豎排候選詞
+
+
+# 輸入時有編碼提示(不完善)
+# tongszi_gcr.dict.yaml中有部首索引
+# 鍵入`後可輸入拼音查詢通字
+
+
+# 歡迎各位批評指正，聯繫方式見下方
+
+schema:
+  schema_id: tongszi_gcr
+  name: "通字方案"
+  version: "0.01_alpha"
+  author:
+    - "Lautis Sun <lautis0503@gmail.com>"
+  description: |
+    趙元任先生通字方案
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: ["中文", "西文"]
+  - name: full_shape
+    states: ["半角", "全角"]
+  - name: ascii_punct
+    states: ["，。", "，．"]
+  - name: simplification
+    states: ["漢字", "汉字"]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: qwertyuiopasdfghjklzxcvbnm
+  delimiter: " '"
+
+translator:
+  dictionary: tongszi_gcr
+# 編碼提示
+  spelling_hints: 4
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: "〔通字查詢〕"
+
+key_binder:
+  import_preset: default
+
+punctuator:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

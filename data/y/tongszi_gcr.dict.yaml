@@ -1,0 +1,7058 @@
+#tongszi_gcr.dict.yaml
+#Rime dictionary
+
+name: tongszi_gcr
+version: "0.01"
+sort: by_weight
+use_preset_vocabulary: true
+
+...
+
+
+
+# Part.1 字
+# 基於1983年商務印書館「通字方案」漢字索引所收字
+# 修正較明顯錯誤
+# 酌情增加異體字及常用字
+# 相同讀音之首字爲通字方案GCC之字
+
+
+#部首索引
+
+# Radical 1 一
+# Radical 2 丨
+# Radical 3 丶
+# Radical 4 丿
+# Radical 5 乙
+# Radical 6 亅
+# Radical 7 二
+# Radical 8 亠
+# Radical 9 人
+# Radical 10 儿
+# Radical 11 入
+# Radical 12 八
+# Radical 13 冂
+# Radical 14 冖
+# Radical 15 冫
+# Radical 16 几
+# Radical 17 凵
+# Radical 18 刀
+# Radical 19 力
+# Radical 20 勹
+# Radical 21 匕
+# Radical 22 匚
+# Radical 23 匸
+# Radical 24 十
+# Radical 25 卜
+# Radical 26 卩
+# Radical 27 厂
+# Radical 28 厶
+# Radical 29 又
+# Radical 30 口
+# Radical 31 囗
+# Radical 32 土
+# Radical 33 士
+# 原書無34
+# Radical 35 夊
+# Radical 36 夕
+# Radical 37 大
+# Radical 38 女
+# Radical 39 子
+# Radical 40 宀
+# Radical 41 寸
+# Radical 42 小
+# Radical 43 尢
+# Radical 44 尸
+# Radical 45 屮
+# Radical 46 山
+# Radical 47 川
+# Radical 48 工
+# Radical 49 己
+# Radical 50 巾
+# Radical 51 干
+# Radical 52 幺
+# Radical 53 广
+# Radical 54 廴
+# Radical 55 廾
+# Radical 56 弋
+# Radical 57 弓
+# Radical 58 彐
+# Radical 59 彡
+# Radical 60 彳
+# Radical 61 心
+# Radical 62 戈
+# Radical 63 户/戶
+# Radical 64 手
+# Radical 65 支
+# Radical 66 攴
+# Radical 67 文
+# Radical 68 斗
+# Radical 69 斤
+# Radical 70 方
+# Radical 71 旡
+# Radical 72 日
+# Radical 73 曰
+# Radical 74 月
+# Radical 75 木
+# Radical 76 欠
+# Radical 77 止
+# Radical 78 歹
+# Radical 79 殳
+# Radical 80 毋
+# Radical 81 比
+# Radical 82 毛
+# Radical 83 氏
+# Radical 84 气
+# Radical 85 水
+# Radical 86 火
+# Radical 87 爪
+# Radical 88 父
+# Radical 89 爻
+# Radical 90 爿
+# Radical 91 片
+# Radical 92 牙
+# Radical 93 牛
+# Radical 94 犬
+# Radical 95 玄
+# Radical 96 玉
+# Radical 97 瓜
+# Radical 98 瓦
+# Radical 99 甘
+# Radical 100 生
+# Radical 101 用
+# Radical 102 田
+# Radical 103 疋
+# Radical 104 疒
+# Radical 105 癶
+# Radical 106 白
+# Radical 107 皮
+# Radical 108 皿
+# Radical 109 目
+# Radical 110 矛
+# Radical 111 矢
+# Radical 112 石
+# Radical 113 示
+# Radical 114 禸
+# Radical 115 禾
+# Radical 116 穴
+# Radical 117 立
+# Radical 118 竹
+# Radical 119 米
+# Radical 120 糸
+# Radical 121 缶
+# Radical 122 网
+# Radical 123 羊
+# Radical 124 羽
+# Radical 125 老
+# Radical 126 而
+# Radical 127 耒
+# Radical 128 耳
+# Radical 129 聿
+# Radical 130 肉
+# Radical 131 臣
+# Radical 132 自
+# Radical 133 至
+# Radical 134 臼
+# Radical 135 舌
+# Radical 136 舛
+# Radical 137 舟
+# Radical 138 艮
+# Radical 139 色
+# Radical 140 艸
+# Radical 141 虍
+# Radical 142 虫
+# Radical 143 血
+# Radical 144 行
+# Radical 145 衣
+# Radical 146 西
+# Radical 147 見
+# Radical 148 角
+# Radical 149 言
+# Radical 150 谷
+# Radical 151 豆
+# Radical 152 豕
+# Radical 153 豸
+# Radical 154 貝
+# Radical 155 赤
+# Radical 156 走
+# Radical 157 足
+# Radical 158 身
+# Radical 159 車
+# Radical 160 辛
+# Radical 161 辰
+# Radical 162 辵
+# Radical 163 邑
+# Radical 164 酉
+# Radical 165 釆
+# Radical 166 里
+# Radical 167 金
+# Radical 168 長
+# Radical 169 門
+# Radical 170 阜
+# Radical 171 隶
+# Radical 172 隹
+# Radical 173 雨
+# Radical 174 青
+# Radical 175 非
+# Radical 176 面
+# Radical 177 革
+# Radical 178 韋
+# 原書無179
+# Radical 180 音
+# Radical 181 頁
+# Radical 182 風
+# Radical 183 飛
+# Radical 184 食
+# Radical 185 首
+# Radical 186 香
+# Radical 187 馬
+# Radical 188 骨
+# Radical 189 高
+# Radical 190 髟
+# Radical 191 鬥
+# Radical 192 鬯
+# Radical 193 鬲
+# Radical 194 鬼
+# Radical 195 魚
+# Radical 196 鳥
+# Radical 197 鹵
+# Radical 198 鹿
+# Radical 199 麥
+# Radical 200 麻
+# Radical 201 黃
+# Radical 202 黍
+# Radical 203 黑
+# 原書無204
+# 原書無205
+# Radical 206 鼎
+# Radical 207 鼓
+# Radical 208 鼠
+# Radical 209 鼻
+# Radical 210 齊
+# Radical 211 齒
+# Radical 212 龍
+# Radical 213 龜
+# 原書無214
+
+
+
+# Page 88
+# Radical 1 一
+# 0
+一	it
+# 1
+七	tsit
+漆	tsit
+丁	dieng
+疔	dieng
+釘	dieng
+# 2
+三	sam
+丈	dhyag
+仗	dhyag
+杖	dhyag
+上	zhag
+下	heah
+# 3
+不	but
+丑	tyeo
+蓋	cay
+溉	cay
+概	cay
+鈣	cay
+# 4
+丕	pi
+世	shey
+勢	shey
+丙	bieg
+秉	bieg
+餅	bieg
+且	tsiee
+丘	kiew
+# 5
+乒	pieng
+乓	pang
+丟	dieu
+#丞=乘
+# 7
+並	bhieg
+# Radical 2 丨
+# 1
+个	coh
+個	coh
+# 2
+丫	ea
+# 3
+中	dyung
+中	dyuq			#中去
+# 6
+串	chuann
+# Radical 3 丶
+# 2
+#丸=完
+# 3
+#丹=單
+# 4
+主	juu
+煮	juu
+# Radical 4 丿
+# 1
+乃	nae
+奶	nae
+# 2
+#久=九
+#么=要平
+# 3
+之	ji
+支	ji
+枝	ji
+肢	ji
+# 4
+乍	jrah
+乏	fvap
+# 7
+乖	cuai
+# 9
+乘	djeng
+承	djeng
+丞	djeng
+# Radical 5 乙
+# 0
+乙	iut
+鬱	iut
+# 1
+九	cieo
+久	cieo
+灸	cieo
+韭	cieo
+乜	miee
+# 2
+乞	kit
+訖	kit
+迄	kit
+也	yee
+冶	yee
+野	yee
+# 7
+#乳=汝
+# 10
+乾	gien
+虔	gien
+#乾平=干
+亂	lonn
+# Radical 6 亅
+# 1
+了	le
+了	liao			#了賞
+# 7
+事	zrih
+# Radical 7 二
+# 0
+二	err
+貳	err
+餌	err
+# 1
+#于=於
+# 2
+云	yun
+雲	yun
+勻	yun
+互	huh
+護	hun
+井	zieg
+五	quu
+伍	quu
+# 3
+亙	ceq
+# 5
+些	sie
+# 6
+亞	eah
+# Radical 8 亠
+# 1
+亡	vang
+# 2
+亥	hae
+交	ceau
+郊	ceau
+教	ceau			#教平
+膠	ceau
+亦	yec
+易	yec			#易入
+譯	yec
+液	yec
+# 5
+亨	xaeng
+# 6
+京	cieng
+荊	cieng
+經	cieng
+驚	cieng
+#享=響
+# 7
+亮	liaq
+諒	liaq
+輛	liaq
+量	liaq
+#亭=廷
+# Page 89
+# Radical 9 人
+# 0
+人	ren
+仁	ren
+# 2
+今	cim
+金	cim
+襟	cim
+仍	reng
+介	ceay
+界	ceay
+芥	ceay
+屆	ceay
+戒	ceay
+仄	drec
+側	drec
+昃	drec
+#仁=人
+#仇=求
+# 3
+令	lieq
+另	lieq
+以	yii
+已	yii
+他	ta
+付	fuh
+傅	fuh
+賦	fuh
+咐	fuh
+赴	fuh
+訃	fuh
+富	fuh
+副	fuh
+#仕=士
+#仗=丈
+代	dhay
+貸	dhay
+埭	dhay
+袋	dhay
+仨	sa
+#仙=先
+# 4
+仲	dhyuq
+份	fvenn
+#企=起
+仰	qiag
+任	remm
+伐	fvat
+筏	fvat
+罰	fvat
+仿	fag
+倣	fag
+訪	fag
+休	xiew
+件	gieen
+鍵	gieen
+伏	fvuc
+服	fvuc
+復	fvuc
+#伍=五
+#伊=衣
+#价=架
+#任平=壬
+#伙=火
+# 5
+住	dhyuh
+箸	dhyuh
+作	zoc
+#余=於
+你	nii
+似	szii
+祀	szii
+巳	szii
+伴	bhoon
+佔	jomm
+何	ho
+河	ho
+荷	ho
+禾	ho
+佞	nieq
+甯	nieq
+佛	fvut
+拂	fvut			#拂2
+但	dhann
+憚	dhann
+彈	dhann			#彈去
+蛋	dhann
+低	dei
+#估=古
+#伺=四
+#佈=布
+#佇=柱
+#佃=電
+#伸=身
+#伶=零
+#位=爲去
+#伯=百
+#佑=又
+# 6
+來	lai
+供	coq
+例	ley
+厲	ley
+勵	ley
+麗	ley
+隸	ley
+侃	koon
+侍	zhih
+視	zhih
+嗜	zhih
+示	zhih
+諡	zhih
+#佩=倍
+#使=史
+#佳=加
+#供平=恭
+#依=衣
+#侈=齒
+併	bieq
+柄	bieq
+# 7
+#俘=夫
+#俟=士
+侵	tsim
+俗	sziouc
+續	sziouc
+保	bao
+堡	bao
+寶	bao
+飽	bao
+俊	ziunn
+儁	ziunn
+俄	qo
+蛾	qo
+鵝	qo
+便	bhienn
+汴	bhienn
+卞	bhienn
+便	bhien			#便平
+駢	bhien
+侯	heu
+喉	heu
+猴	heu
+俏	tsiaw
+信	sinn
+訊	sinn
+#侮=武
+促	tsuc
+#俠=匣
+#俞=於
+#係=計
+# 8
+倫	lun
+淪	lun
+論	lun
+崙	lun
+論	lun			#論平
+倪	qei
+#倡1=昌
+#倡2=唱
+倆	liaa
+#俸=縫
+倦	qiuann
+倍	bhuey
+佩	bhuey
+倉	tsang
+蒼	tsang
+倚	ii
+椅	ii
+倘	tag
+躺	tag
+修	sieu
+羞	sieu
+#值=直
+借	zieh
+#倣=仿
+#倒去=到
+#候=后
+#俱=居
+#倒=島
+#俯=府
+#個=个
+#們=門
+𠊧	bhaeq
+# 9
+偷	teu
+健	gienn
+腱	gienn
+假	ceaa
+賈	ceaa			#姓
+偶	qeo
+藕	qeo
+偉	wue
+緯	wue
+葦	wue
+唯	wue
+#偵=貞
+做	zoh
+#側=仄
+#停=廷
+#假去=架
+#偕=皆
+#偏=篇
+#僞=魏
+# 10
+傍	bhaq
+#傘=散賞
+#傅=付
+傑	giet
+竭	giet
+備	bhuy
+傀	kuee
+# 11
+僉	tsiem
+籤	tsiem
+僅	giin
+傳	dhyuan
+椽	dhyuan
+傳	dhyuann
+傲	qaw
+債	dray
+傾	kiueng
+#傷=商
+#催=崔
+#傻=耍
+# 12
+僭	ziemm
+僧	seng
+#像=象
+僕	bhuc
+#僑=喬
+# 13
+儉	gieem
+#僵=疆
+億	ic
+僻	piec
+#儁=俊
+#儀=宜
+#儂=農
+# 14
+儘	ziin
+#儒=如
+# 15
+儡	lue
+#償=常
+#優=幽
+#儲=除
+# 20
+儼	qieem
+# Radical 10 儿
+# 0
+儿	r
+# 2
+元	qiuan
+原	qiuan
+源	qiuan
+允	yuun
+# 3
+充	chung
+# Page 90
+兄	xiueng
+# 4
+光	cuang
+胱	cuang
+兆	dhyao
+趙	dhyao
+肇	dhyao
+兇	xiong
+凶	xiong
+胸	xiong
+先	sien
+仙	sien
+鮮	sien
+# 5
+克	kec
+咳	kec
+刻	kec
+# 6
+免	mieen
+勉	mieen
+娩	mieen
+#兒=而
+# 9
+兜	deu
+# 12
+兢	cing
+矜	cing
+# Radical 11 入
+# 0
+入	rup
+# 2
+內	nuy
+# 4
+全	dziuan
+泉	dziuan
+# 6
+兩	liag
+# Radical 12 八
+# 0
+八	bat
+# 2
+兮	hei
+奚	hei
+攜	hei
+六	liuc
+陸	liuc
+戮	liuc
+#公=工
+# 4
+共	goq
+# 5
+兵	bieng
+# 6
+其	gi
+棋	gi
+期	gi
+旗	gi
+耆	gi
+鰭	gi
+奇	gi
+騎	gi
+歧	gi
+祈	gi
+具	giuh
+懼	giuh			#原書遺漏
+遽	giuh			#原書遺漏
+典	dieen
+# 8
+兼	ciem
+# 15
+#冀=記
+# Radical 13 冂
+# 3
+#冉=染
+#冊=策
+# 4
+再	zay
+# 6
+冒	maw
+帽	maw
+貌	maw
+# Radical 14 冖
+# 2
+冗	rog
+# 7
+#冠=官
+# 8
+冢	dyog
+#冥=名
+#冤=淵
+# Radical 15 冫
+# 3
+冬	dong
+# 5
+冷	laeg
+#冶=也
+# 8
+凍	duq
+#淒=妻
+#涼=良
+#凌=陵
+# 9
+凑	tsew
+# 14
+凝	qing
+# Radical 16 几
+# 0
+#几=基
+# 1
+凡	fvam
+帆	fvam
+# 9
+#凰=黃
+# 10
+凱	kae
+# 11
+凳	deq
+# Radical 17 凵
+# 2
+#凶=兇
+# 3
+凹	eau
+出	chut
+# 6
+# Radical 18 刀
+# 0
+刀	dau
+# 1
+刁	diau
+貂	diau
+雕	diau
+# 2
+分	fen
+芬	fen
+吩	fen
+紛	fen
+#刈=藝
+切	tsiet
+竊	tsiet
+# 3
+#刊=看平
+# 4
+列	liet
+烈	liet
+裂	liet
+#刎=吻
+#划=華
+# 5
+判	ponn
+劫	ciep
+別	bhiet
+利	lih
+痢	lih
+荔	lih
+吏	lih
+初	tru
+芻	tru
+# 6
+制	jey
+製	jey
+刷	sruat
+刴	doh
+剁	doh			#刴異體
+到	daw
+倒	daw			#倒去
+刮	cuat
+#刻=克
+#刺=次
+# 7
+前	dzien
+錢	dzien
+剌	la
+削	sioc
+則	zec
+#剎=察
+#剃=替
+# 8
+剖	peo
+剔	tiec
+踢	tiec
+#荊=京
+#剛=岡
+# 9
+剪	zieen
+#副=付
+#剮=寡
+# 10
+剩	zheq
+創	traq
+割	cot
+葛	cot
+# 11
+剿	ziao
+# 12
+#劃=獲
+# 13
+劍	ciemm
+#劉=流
+劇	giuec
+#劊=桂
+# 14
+#劑=濟
+# Radical 19 力
+# 0
+力	lic
+# 3
+加	cea
+佳	cea
+咖	cea
+嘉	cea
+枷	cea
+笳	cea
+迦	cea
+家	cea
+#功=工
+# 4
+劣	liuet
+# 5
+助	jruh
+努	nuu
+# 6
+#効=效
+# 7
+勃	bhet
+脖	bhet
+餑	bhet
+渤	bhet
+勇	yog
+甬	yog
+涌	yog
+蛹	yog
+#勉=免
+#勁=竟
+# 9
+勘	komm
+務	vuh
+霧	vuh
+動	dhug
+勒	lec
+肋	lec
+# 10
+勝	sheq
+勞	lau
+牢	lau
+#勝平=升
+#勗=旭
+# 11
+勤	gin
+芹	gin
+#勢=世
+#募=暮
+# 14
+#勵=例
+#勳=薰
+# 18
+勸	kiuann
+# Radical 20 勹
+# 1
+勺	zhoc
+芍	zhoc
+# 2
+勾	ceuc
+鉤	ceu
+鈎	ceu
+溝	ceu
+#勻=云
+# 3
+包	bau
+胞	bau
+褒	bau
+# Radical 21 匕
+# 2
+化	xuah
+# 3
+北	bec
+蔔	bec
+# 4
+匙	dji
+# Radical 22 匚
+# 3
+匝	zap			#精母覃攝入聲
+砸	zap			#同砸
+# 4
+匡	kuang
+筐	kuang
+# Page 91
+匠	dziaq
+# 5
+匣	heap
+狎	heap
+俠	heap
+挾	heap
+# 8
+匪	fue
+菲	fue			#菲賞
+斐	fue			#同匪
+# 11
+匯	huee
+# 13
+#匳=廉
+# Radical 23 匸
+# 2
+匹	pit
+# 9
+匿	nic
+#區姓=歐
+區	kiu
+驅	kiu
+樞	kiu
+墟	kiu
+#匾=扁
+# Radical 24 十
+# 0
+十	zhip
+# 1
+千	tsien
+# 2
+卅	sap
+升	sheng
+勝	sheng			#勝平
+午	uu
+# 3
+半	bonn
+絆	bonn
+#卉=諱
+# 6
+卒	zut
+協	hiep
+#卑=悲
+#卓=桌
+# 7
+南	nom
+男	nom
+# 10
+博	boc
+駁	boc
+# 11
+準	juun
+# Radical 25 卜
+# 0
+卜	buc
+# 2
+#卞=便
+# 3
+占	jom
+瞻	jom
+卡	keaa
+# 6
+卦	cuah
+掛	cuah
+褂	cuah
+# Radical 26 卩
+# 3
+卯	mao
+# 4
+印	inn
+危	qui
+巍	qui
+# 5
+卵	loon
+卻	kioc
+#即=卽
+# 6
+卷	ciuaan
+捲	ciuaan
+卷	ciuann			#卷去
+絹	ciuann
+眷	ciuann
+卸	sieh
+瀉	sieh
+# 7
+卽	zic
+即	zic			#卽異體
+稷	zic
+鯽	zic
+# 10
+#卿=輕
+# Radical 27 厂
+# 2
+厄	aec
+扼	aec
+軛	aec
+# 7
+厚	heo
+厘	li
+狸	li
+離	li
+璃	li
+籬	li
+麗	li			#麗平1
+梨	li
+犂	li
+犁	li			#犂異體
+# 8
+#原=元
+# 9
+廁	trih
+# 10
+#厥=決
+# 12
+廠	chag
+厭	iemm
+#厲=例
+#廝=思
+# Radical 28 厶
+# 3
+去	kiuh
+# 9
+參	tsom
+參	trem			#[~差]
+# Radical 29 又
+# 0
+又	yew
+右	yew
+佑	yew
+祐	yew
+柚	yew
+釉	yew
+宥	yew
+誘	yew
+# 1
+#叉=差
+# 2
+反	faan
+返	faan
+及	gip
+#友=有
+# 6
+叔	shuc
+受	zheo
+取	tsiuu
+娶	tsiuu
+# 7
+叛	bhonn
+拌	bhonn
+#敍=序
+# 8
+叟	seo
+# 16
+叢	dzung
+# Radical 30 口
+# 0
+口	keo
+# 2
+可	koo
+叫	ciaw
+史	srii
+使	srii
+駛	srii
+召	dhyaw
+叨	tau
+滔	tau
+掏	tau
+句	ciuh
+據	ciuh
+鋸	ciuh
+古	cuu
+估	cuu
+股	cuu
+鼓	cuu
+賈	cuu			#賈賞
+#另=令
+#只=止
+#右=又
+#司=思
+#台=臺
+# 3
+后	hew
+後	hew
+候	hew
+吃	chic
+吉	cit
+各	coc
+合	hop
+盒	hop
+向	xiaq
+同	dhung
+桐	dhung
+筒	dhung
+衕	dhung
+銅	dhung
+童	dhung
+瞳	dhung
+#吏=利
+吐	tuh
+名	mieng
+銘	mieng
+鳴	mieng
+冥	mieng
+吊	diaw
+# 4
+否	feo
+含	hom
+函	hom
+涵	hom
+吟	qim
+吠	fvey
+吶	ne
+吻	veen
+刎	veen
+吸	xip
+翕	xip
+呂	liuu
+鋁	liuu
+旅	liuu
+縷	liuu
+屢	liuu
+告	caw
+誥	caw
+吞	tun
+吳	qu
+吾	qu
+梧	qu
+蜈	qu
+吼	xeo
+吵	trao
+炒	trao
+君	ciun
+軍	ciun
+均	ciun
+鈞	ciun
+吣	tsimm
+吝	linn
+吹	chui
+炊	chui
+呀	ia
+呈	dhyeng
+程	dhyeng
+#吩=分
+#吾=吳
+#吧=巴
+# 5
+呼	xu
+命	mieq
+咒	jew
+呵	xo
+咍	xai
+和	huo
+和	huoh			#和去
+#咐=付
+#呢=尼
+#周=州
+#味=未
+#咎=臼
+#咖=加
+# 6
+咬	qeao
+#哉=栽
+#咯=洛
+#咨=茲
+哈	xa
+哈	xaa			#哈姓
+哄	xug
+響	xiag
+享	xiag
+品	piin
+咽	iet
+謁	iet
+哇	ua
+蛙	ua
+咵	kuaa
+# Page 92
+成	heam
+咱	zarm
+晒	sheen
+哏	cern
+#咳=克
+# 7
+哿	coo
+哥	co
+歌	co
+哭	kuc
+唐	dhang
+塘	dhang
+糖	dhang
+堂	dhang
+棠	dhang
+螳	dhang
+#哽=梗
+哲	dyet
+哪	naa
+#員=圓
+#唉=埃
+# 8
+啞	eaa
+商	shang
+傷	shang
+殤	shang			#同傷
+啜	chot
+唾	toh
+啟	kee
+唱	chaq
+倡	chaq			#倡2
+問	venn
+紊	venn
+啊	a
+#售=壽
+#啄=桌
+#啡=非
+#唯=偉
+喇	laa
+# 9
+喊	xoom
+喜	xii
+喬	giau
+僑	giau
+橋	giau
+翹	giau
+單	dan
+丹	dan
+喚	xuonn
+煥	xuonn
+喫	kiec
+隙	kiec
+喧	xiuan
+喝	xop
+喝	xot			#喝入
+善	zhaan
+鱔	zhaan
+喘	chuaan
+舛	chuaan
+#喉=侯
+#啼=提
+#喪=桑
+#喻=預
+# 10
+嗆	tsiaq
+嗐	xay
+嗟	zie
+嗓	sag
+嗅	xiew
+嗤	chi
+鴟	chi
+嗎	ma			#嗎輕聲
+嗄	a			#原書爲á
+#嗜=侍
+#嗣=寺
+#嗚=烏
+# 11
+嘔	eo
+嗽	sew
+#嘉=加
+#嘗=常
+# 12
+嘴	zue
+#噓=虛
+噴	pen
+噴	penn			#噴去
+#嘻=希
+#嘯=笑
+#嘲=朝平
+# 13
+#噸=敦
+#器=氣
+# 14
+嚇	xeah			#嚇1
+#嚀=寧
+#嚏=替
+#嚇2=赫
+# 17
+嚴	qiem
+嚷	rag
+# 18
+#囂=枵
+# 19
+囊	nang
+囉	lho
+# 21
+#囑=燭			#原書有誤
+# Radical 31 囗
+# 2
+囚	szieu
+四	sih
+肆	sih
+伺	sih
+思	sih			#思去
+賜	sih
+# 3
+回	huei
+因	in
+姻	in
+殷	in
+慇	in
+# 4
+困	kunn
+睏	kunn
+# 5
+#固=故
+# 8
+圈	kiuan
+圈	giuaan			#圈賞
+國	cuec
+# 10
+圓	yuan
+員	yuan
+袁	yuan
+園	yuan
+援	yuan
+緣	yuan
+#園=圓
+#圍=爲
+# 11
+團	dhon
+糰	dhon
+#圖=徒
+# Radical 32 土
+# 0
+土	tuu
+吐	tuu			#吐賞
+# 3
+在	dzae
+地	dhih
+圭	cuei
+# 4
+坯	puei
+坑	kaeng
+坐	dzoo
+#均=君
+#坊=方
+#址=止
+# 5
+坳	au
+坦	taan
+袒	taan
+坤	kun
+坡	po
+垂	djui
+# 6
+#城=成
+#垢=苟
+# 7
+埃	ai
+唉	ai
+挨	ai
+哀	ai
+埋	mai
+# 8
+執	jip
+汁	jip
+基	ci
+几	ci
+肌	ci
+飢	ci
+機	ci
+畿	ci
+饑	ci
+姬	ci
+羈	ci
+#埠=步
+#堂=唐
+域	yuic
+#培=陪
+堅	cien
+肩	cien
+堆	dui
+#埭=代
+# 9
+報	baw
+爆	baw
+豹	baw
+堯	qiau
+堪	kom
+龕	kom
+堵	duu
+睹	duu
+賭	duu
+肚	duu			#肚賞
+#堡=保
+#堤=提
+# 10
+塞	sec
+#塗=徒
+塔	ta
+塌	ta
+榻	ta
+踏	ta			#踏2
+塊	kuey
+#塘=唐
+#塌=塔
+#塋=營
+#填=田
+#塑=素
+# 11
+#塾=孰
+#墊=店
+#境=景
+#墓=暮
+#場=長
+# 12
+墜	dhyuy
+墨	mec
+默	mec
+#墟=區
+#增=曾
+#墮=舵
+# 13
+壁	biec
+璧	biec
+碧	biec
+#壇=彈
+#墳=焚
+#墾=齦
+# 14
+壑	xoc
+#璽=洗
+# Page 93
+# 15
+壘	lue
+# 16
+壞	huay
+# Radical 33 士
+# 0
+士	zrii
+仕	zrii
+俟	zrii
+柹	zrii
+# 1
+壬	rem
+任	rem			#任平
+# 4
+壯	draq
+# 7
+垂	djui
+# 9
+#壺=胡
+# 11
+壽	zhew
+授	zhew
+售	zhew
+# 原書無34
+# Radical 35 夊
+# 7
+夏	heaa
+廈	heaa			#廈2
+#夔=葵
+# 18
+# Radical 36 夕
+# 0
+夕	sziec
+席	sziec
+# 2
+外	quay
+# 3
+多	do
+# 5
+#夙=宿
+夜	yeh
+# 8
+夠	cew
+彀	cew
+構	cew
+媾	cew
+購	cew
+# 11
+夢	muq
+#夥=火
+# Radical 37 大
+# 0
+大	dhah
+# 1
+夫	fu
+麩	fu
+俘	fu
+敷	fu
+膚	fu
+天	tien
+太	tay
+泰	tay
+態	tay
+# 2
+夯	xang
+失	shit
+室	shit
+央	iang
+秧	iang
+殃	iang
+鴦	iang
+#奶=乃
+# 3
+#夷=移
+# 5
+奉	fvog
+奈	nay
+耐	nay
+#奇=其
+# 6
+奔	ben
+奏	zew
+契	key
+# 7
+套	taw
+#奚=兮
+# 9
+奢	she
+賒	she
+#奠=電
+# 10
+奧	aw
+懊	aw
+澳	aw
+# 11
+奪	dhot
+#獎=蔣
+# 13
+奮	fenn
+糞	fenn
+# Radical 38 女
+# 0
+女	niuu
+# 2
+奴	nu
+# 3
+如	ru
+儒	ru
+#奸=間
+好	xao
+#好去=耗
+#妄=望
+#她=衣
+#妃=非
+# 4
+妙	miaw
+廟	miaw
+妒	duh
+蠹	duh
+妥	too
+橢	too
+#妓=技
+#妨=方
+#妝=莊
+#妖=要平
+# 5
+姐	ziee
+妻	tsei
+淒	tsei
+悽	tsei
+姑	cu
+菇	cu
+箍	cu
+辜	cu
+孤	cu
+始	shii
+矢	shii
+屎	shii
+豕	shii
+弛	shii
+妹	muey
+昧	muey
+委	ue
+萎	ue
+妾	tsiep
+#姓=性
+# 6
+娃	qua
+#姦=間
+威	ui
+#姨=移
+姪	dhyt
+秩	dhyt
+#姜=疆
+#姿=茲
+#姘=拼
+# 7
+娘	niang
+#娩=免
+#姬=基
+#娠賞=振
+#娑=梭
+#娠=身
+# 8
+婦	fveo
+負	fveo
+阜	fveo
+婪	lom
+婆	bho
+#婢=被
+#娼=昌
+#婚=昏
+#娶=取
+#姻=因
+# 9
+媚	muy
+#媒=梅
+# 10
+嫌	hiem
+#嫁=架
+媽	mha
+#媾=夠
+#嫂=掃
+#媳=息
+# 11
+嫩	nunn
+#嫖=瓢
+# 12
+#嬉=希
+#嬌=澆
+# 14
+#嬰=英
+# 15
+#嬸=審
+# 17
+#孀=霜
+# Radical 39 子
+# 0
+子	zii			#子賞
+子	z
+# 1
+孔	kug
+# 2
+孕	yiq
+# 3
+存	dzun
+# 4
+孝	xeaw
+# 5
+孟	maeq
+#孤=姑
+#季=記
+# 6
+孩	hai
+# 7
+孫	sun
+# 8
+熟	zhuc
+塾	zhuc
+熟	zhuc
+淑	zhuc
+# 13
+學	heoc
+# 16
+櫱	qiet
+臬	qiet
+# Radical 40 宀
+# 2
+它	te
+牠	te
+# 3
+宅	dhyaec
+擇	dhyaec
+澤	dhyaec
+安	on
+鞍	on
+#宇=雨
+#守=手
+#字=自
+# 4
+完	won
+丸	won
+宋	soq
+#牢=勞
+#宏=橫
+# 5
+宜	qi
+儀	qi
+疑	qi
+沂	qi
+官	cuon
+棺	cuon
+觀	cuon
+冠	cuon
+宛	iuaan
+宙	dhyew
+定	dhieq
+錠	dhieq
+宕	dhaq
+宗	zong
+# 6
+宣	siuan
+客	kaec
+#室=失
+#宥=又
+# 7
+害	hay
+容	yong
+榕	yong
+溶	yong
+鎔	yong
+庸	yong
+#家=加
+宰	zae
+#宮=弓
+# Page 94
+# 8
+#宵=消
+#宴=燕
+宿	siuc
+夙	siuc
+肅	siuc
+密	mit
+蜜	mit
+#宿去=秀
+#寂=籍
+#寄=記
+寅	yin
+# 9
+寒	hon
+韓	hon
+#寓=遇
+#富=付
+#寍=寧
+#甯=佞
+# 11
+寡	cuaa
+剮	cuaa
+寧	nieng
+嚀	nieng
+寍	nieng
+寨	jray
+寢	tsiim
+察	trat
+剎	trat
+#寥=聊
+實	zhit
+#蜜=密
+#寞=莫
+# 12
+寫	siee
+審	sheem
+沈	sheem
+嬸	sheem
+寬	kuon
+# 16
+寵	tyog
+# 17
+#寶=保
+# Radical 41 寸
+# 0
+寸	tsunn
+# 3
+寺	szih
+嗣	szih
+飼	szih
+# 6
+封	fong
+峯	fong
+蜂	fong
+鋒	fong
+# 7
+射	zheh
+# 8
+專	juan
+磚	juan
+將	zinag
+將	ziaq			#將去
+醬	ziaq
+# 9
+尋	szin
+尊	zun
+遵	zun
+# 11
+對	duy
+對	due			#對賞
+# 13
+導	dhao
+稻	dhao
+# Radical 42 小
+# 0
+小	siao
+# 1
+少	shao
+少	shaw			#少去
+# 2
+#尓=耳
+# 3
+尖	ziem
+# 5
+尚	zhaq
+# Radical 43 尢
+# 1
+#尤=由
+# 9
+就	dziew
+# Radical 44 尸
+# 0
+#尸=詩
+# 1
+尺	chiec
+赤	chiec
+# 2
+尼	ni
+呢	ni
+# 4
+局	giouc
+尾	vue
+#屁=譬
+尿	niaw
+# 5
+屈	kiut
+居	ciu
+拘	ciu
+俱	ciu
+屄	bi
+#屆=介
+# 6
+屋	uc
+屌	diao
+#屎=始
+#屍=詩
+# 7
+展	dyaan
+屐	giec
+屑	siet
+# 8
+#屏=平
+# 9
+#屢=吕
+#屠=徒
+# 12
+#層=曾平
+#履=里
+# 18
+#屬=蜀
+# Radical 45 屮
+# 1
+屯	dhun
+豚	dhun
+飩	dhun
+# Radical 46 山
+# 0
+山	sran
+# 4
+岑	jrem
+岔	trah
+# 5
+岳	qeoc
+嶽	qeoc
+樂	qeoc			#樂入
+岡	cang
+剛	cang
+綱	cang
+鋼	cang
+岸	qonn
+# 6
+#炭=歎
+#峙=痔
+# 7
+島	dao
+搗	dao
+倒	dao
+禱	dao
+#峯=封
+# 8
+崇	jrung
+崩	beng
+繃	beng
+崔	tsui
+催	tsui
+#崖=涯
+#崑=昆
+#崙=倫
+# 9
+嵌	keamm
+# 10
+嵩	siung
+# 14
+#嶽=岳
+#嶺=領
+# 18
+#巍=危
+# 19
+#巔=顛
+# Radical 47 川
+# 0
+川	chuan
+# 3
+州	jeu
+洲	jeu
+周	jeu
+週	jeu
+舟	jeu
+巡	sziun
+旬	sziun
+循	sziun
+# 8
+巢	jrau
+# Radical 48 工
+# 0
+工	cung
+功	cung
+攻	cung
+公	cung
+蚣	cung
+# 2
+左	zoo
+巧	keao
+巨	giuu
+拒	giuu
+距	giuu
+#巫=無
+# 7
+差	tra
+叉	tra
+差	trai			#差平[出~]
+釵	trai
+#差[參~]=雌
+# Radical 49 己
+# 0
+己	cii
+紀	cii
+幾	cii
+#巳=似
+#已=以
+# 1
+巴	ba
+吧	ba
+杷	ba
+芭	ba
+# 6
+巷	heaq
+# Radical 50 巾
+# 0
+#巾=斤
+# 2
+布	buh
+佈	buh
+怖	buh
+市	zhii
+侍	zhii
+氏	zhii
+# 3
+#帆=凡
+# 4
+希	xi
+稀	xi
+嘻	xi
+嬉	xi
+禧	xi
+熙	xi
+羲	xi
+犧	xi
+# 5
+帖	tiep
+貼	tiep
+帚	jeo
+# 6
+帥	sruay
+率	sruay			#率去
+帝	dey
+# 7
+師	sri
+獅	sri
+# 8
+帶	day
+戴	day
+#帳=賬
+#帷=爲
+常	djang
+嘗	djang
+償	djang
+# 9
+#帽=冒
+#幅=福
+# 11
+幔	monn
+漫	monn
+#幕=莫
+# 12
+#幣=敝
+# Radical 51 干
+# 0
+干	con
+竿	con
+肝	con
+乾	con			#乾平
+# 2
+平	bhieng
+評	bhieng
+瓶	bhieng
+屏	bhieng
+# 3
+年	nien
+# 5
+幸	haeg
+杏	haeg
+# 10
+幹	conn
+# Radical 52 幺
+# 1
+幻	huann
+# 2
+幼	iew
+# 6
+幽	ieu
+憂	ieu
+優	ieu
+悠	ieu
+# Page 95
+# 9
+#幾=己
+# Radical 53 广
+# 4
+序	sziuu
+敍	sziuu
+緒	sziuu
+#床=牀
+# 5
+府	fuu
+俯	fuu
+甫	fuu
+斧	fuu
+釜	fuu
+撫	fuu
+庚	caeng
+更	caeng			#更平
+耕	caeng
+店	diemm
+墊	diemm
+底	dee
+抵	dee
+# 6
+度	dhuh
+渡	dhuh
+度	dhoc			#度入
+踱	dhoc
+鐸	dhoc
+# 7
+座	dzoh
+庫	kuh
+袴	kuh
+#席=夕
+#庭=廷
+# 8
+庵	om
+諳	om
+#庸=容
+康	kang
+糠	kang
+庶	shuh
+恕	shuh
+戍	shuh
+# 9
+#廂=相
+# 10
+廉	liem
+簾	liem
+匳	liem
+#廊=郎
+廈	srah			#廈1
+#廈2=夏
+# 11
+#廓=擴
+#塵=陳
+# 12
+廢	fey
+肺	fey
+#廚=除
+#廝=思
+廣	cuag
+#廟=妙
+#廖=聊
+# 16
+#廬[山~]=盧
+#廬[茅~]=驢
+# 22
+#廳=聽
+# Radical 54 廴
+# 4
+廷	dhieng
+庭	dhieng
+蜓	dhieng
+亭	dhieng
+停	dhieng
+延	yen
+筵	yen
+檐	yen
+焉	yen
+沿	yen
+# 6
+#建=見
+# Radical 55 廾
+# 0
+#廿=念
+# 4
+弄	luq
+# 12
+# Radical 56 弋
+# 0
+弋	yic
+翼	yic
+# 3
+式	shic
+拭	shic
+識	shic
+飾	shic
+# 10
+# Radical 57 弓
+# 0
+弓	ciung
+躬	ciung
+宮	ciung
+引	yiin
+# 2
+弗	fut
+拂	fut
+弘	hueng
+# 3
+#弛=始
+# 4
+弟	dhee
+悌	dhee
+遞	dhee			#遞賞
+#弝=爸
+# 5
+#弧=胡
+#弦=賢
+# 6
+#弭=靡
+# 7
+#弱=若
+# 8
+強	giang
+強	giaq			#強去
+強	kiag			#強賞
+張	dyang
+# 9
+弼	bhit
+鼻	bhit
+彈	dhan
+壇	dhan
+檀	dhan
+# 10
+#彀=夠
+# 12
+#彈去=但
+# 14
+彌	mi
+糜	mi
+# 19
+彎	uan
+灣	uan
+# Radical 58 彐
+# 8
+#彗=會
+# 10
+彙	huy
+# Radical 59 彡
+# 4
+形	hieng
+刑	hieng
+# 8
+彩	tsae
+採	tsae
+財	tsae
+跐	tsae
+#彬=賓
+# 9
+彭	bhaeng
+棚	bhaeng
+# 10
+影	ieg
+# 11
+#彰=章
+# Radical 60 彳
+# 4
+役	yuec
+疫	yuec
+# 5
+徂	dzu
+往	wag
+征	jaeng
+正	jaeng			#正平
+彼	bue
+# 6
+待	dhae
+怠	dhae
+殆	dhae
+律	liut
+率	liut			#率入
+很	xeen
+#後=后
+# 7
+徐	sziu
+徒	dhu
+屠	dhu
+塗	dhu
+圖	dhu
+#徑=竟
+# 8
+從	dziong
+#御=遇
+從	dziq			#從去
+得	dec
+德	dec
+#徙=洗
+# 9
+復	fvew			#復去
+#復=伏				#原書筆劃錯誤
+#循=巡
+# 10
+微	vui
+薇	vui
+# 12
+徹	tyet
+撤	tyet
+徵	dyng
+徵	dyii			#徵賞
+#德=得
+# 14
+徽	xui
+揮	xui
+輝	xui
+麾	xui
+# 14
+# Radical 61 心
+# 0
+心	sim
+# 1
+必	bit
+筆	bit
+畢	bit
+# 3
+忙	mang
+芒	mang
+茫	mang
+盲	mang
+忖	tsuun
+忌	gih
+忍	reen
+#志=至
+忒	tec
+#忘=望
+# 4
+念	niemm
+廿	niemm
+忿	fveen
+忽	xut
+快	kuay
+忝	tieem
+舔	tieem
+# 5
+怹	tan
+怎	zeem
+怱	tsung
+葱	tsung
+聰	tsung
+怨	iuann
+怯	keop
+怪	cuay
+怏	iaq
+怒	nuh
+急	cip
+汲	cip
+級	cip
+給	cip
+性	sieq
+姓	sieq
+思	si
+司	si
+絲	si
+私	si
+斯	si
+厮	si
+廝	si			#厮異體
+撕	si
+恆	heng
+怕	pah
+#思去=四
+#怖=布
+#怠=待
+#怡=移
+# 6
+恰	keap
+恍	xuag
+恭	cong
+供	cong			#供平
+恩	en
+#恃=市
+#恢=灰
+恐	kog
+恁	nemm
+息	sic
+媳	sic
+熄	sic
+恨	henn
+#恤=戌
+# Page 96
+# 7
+您	nin
+悟	quh
+誤	quh
+悔	xuee
+賄	xuee
+悉	sit
+蟋	sit
+膝	sit
+#悅=越
+悄	tsiao
+#悠=幽
+#恕=庶
+#悌=弟
+# 8
+惡	oc
+惡	uh			#惡去
+污	uh
+悴	dzuy
+悶	menn
+情	dzieng
+晴	dzieng
+悲	bui
+卑	bui
+碑	bui
+#悼=道
+#悽=妻
+#惟=爲
+#惑=或
+#惜=昔
+#悵=暢
+#惠=會
+# 9
+愛	ay
+愎	bhic
+想	siag
+鯗	siag
+愁	jreu
+惰	dhoh
+惹	ree
+意	ih
+懿	ih
+#愚=魚
+#愈=預
+#惱=腦
+#感=敢
+#惻=測
+# 10
+慈	dzi
+磁	dzi
+疵	dzi
+愧	kuy
+#態=太
+#愾=慨
+#慌=荒
+#慇=因
+# 11
+慪	ew
+慘	tsoom
+慷	kag
+慶	kieq
+磬	kieq
+罄	kieq
+#憂=幽
+#慰=畏
+#慧=會
+#慾=欲
+#慕=暮
+慫	siog
+慚	dzam
+慨	kay
+愾	kay
+慢	mann
+慮	liuh
+濾	liuh
+# 12
+憋	biet
+憤	fveen
+慣	cuann
+憑	bhing
+#憚=但
+#憫=敏
+#憎=曾
+#憔=樵
+#憐=連
+# 13
+憾	homm
+應	ing
+鷹	ing
+應	iq			#應去
+#懇=齦
+#懊=奧
+#懂=董
+#懈=械
+# 15
+#懲=橙
+# 16
+懷	huai
+槐	huai
+淮	huai
+懶	laan
+#懸=玄
+# 17
+懺	tramm
+# 18
+#懼=具
+#懿=意
+# 19
+戀	liuann
+# 24
+戇	gaq
+# Radical 62 戈
+# 0
+#戈=鍋
+# 1
+戊	mew
+茂	mew
+貿	mew
+# 2
+成	djaeng
+城	djaeng
+誠	djaeng
+戎	rung
+絨	rung
+戌	siut
+恤	siut
+#戍=庶
+# 3
+我	qoo
+#戒=介
+# 4
+或	huec
+惑	huec
+#戕=牆
+# 7
+戚	tsiec
+# 8
+#戟=激
+#戥=等
+# 9
+# 10
+截	dziet
+# 11
+#戮=六
+# 12
+戰	jann
+顫	jann
+# 13
+戲	xih
+# 14
+戳	tyuoc
+#戴=帶
+# Radical 63 户/戶
+# 0
+戶	huu
+滬	huu
+# 4
+戽	xuh
+所	soo
+瑣	soo
+鎖	soo
+房	fvang
+肪	fvang
+防	fvang
+# 5
+扁	bieen
+匾	bieen
+扃	ciueng
+# 6
+扇	shann
+# Radical 64 手
+# 0
+手	sheo
+首	sheo
+守	sheo
+才	dzai
+材	dzai
+財	dzai
+裁	dzai
+纔	dzai
+# 1
+扎	drat
+# 2
+打	daa
+扔	rheng
+#扒=爬
+# 3
+扛	gang
+托	toc
+託	toc
+扣	kew
+# 4
+抗	kaq
+炕	kaq
+扮	bann
+拋	pau
+扶	fvu
+符	fvu
+芙	fvu
+抄	trau
+鈔	trau			#鈔平
+把	baa
+找	drao
+技	gii
+妓	gii
+折	jet
+浙	jet
+扯	chee
+批	pei
+#扳=班
+#折入=舌
+#投=頭
+抓	drua
+#承=乘
+#扼=厄
+#抖=斗
+# 5
+拖	to
+佗	to
+拎	lhieng
+拙	jot
+抱	bhao
+拜	bay
+拈	nhiem
+拆	tyaec
+拔	bhat
+担	daan			#[~灰]
+押	eap
+拍	paec
+魄	peac
+披	pui
+拉	lha
+#拂2=佛
+#拌=叛
+#拘=居
+#拒=巨
+#抵=底
+#拂1=弗
+# Page 97
+#抿=敏
+#招=昭
+#抹=末
+# 6
+拯	jeg
+拼	pin
+姘	pin
+挑	tiau
+拴	shuan
+拱	cog
+拿	na
+按	onn
+拽	jruay
+挖	uat
+括	cuot
+#拭=式
+#指=止
+#持=池
+# 7
+捐	ciuan
+涓	ciuan
+捋	lot
+挺	tieg
+艇	tieg
+捉	druoc
+振	jenn
+娠	jenn			#娠去
+賑	jenn
+震	jenn
+挪	no
+#挾=匣
+#挨=埃
+#捕=步
+#挫=錯
+# 8
+掉	dhiao
+捺	nat
+鈉	nat
+捧	pog
+掩	ieem
+接	ziep
+楫	ziep
+掌	jag
+掘	giuet
+掃	sao
+嫂	sao
+捻	niep
+聶	niep
+掭	tiemm
+探	tomm
+捨	shee
+捷	dziep
+推	tui
+排	bhai
+牌	bhai
+#褂=卦
+#捲=卷
+#掏=叨
+#授=壽
+#捫=門
+#措=醋
+#採=彩
+#掀=軒
+# 9
+換	huonn
+握	uoc
+齷	uoc
+提	dhei
+堤	dhei
+題	dhei
+啼	dhei
+蹄	dhei
+揩	keai
+揫	zieu
+揣	truae
+插	trap
+捏	niet
+#描=苗
+#援=圓
+#揮=徽
+#揖=邑
+#揉=柔
+#揚=陽
+#揀=簡
+# 10
+掰	bai
+搶	tsiag
+搜	sreu
+艘	sreu
+颼	sreu
+損	suun
+#搗=島
+#搭=答
+#搬=般
+#搽=茶
+#搔=騷
+搓	tso
+搧	shan
+摁	enn
+搖	yau
+窯	yau
+謠	yau
+遙	yau
+搊	treu
+搇	kimm
+# 11
+摳	keu
+摘	draec
+謫	draec
+摟	leo
+簍	leo
+摞	loh
+摺	jep
+摜	guann
+摩	mo
+磨	mo			#磨平
+魔	mo
+#摸=莫
+#摔=衰
+# 12
+撓	nau
+撰	jruann
+撐	tyaeng
+撇	piet
+撮	tsot
+撒	sat
+播	boh
+簸	boh
+撥	bot
+鉢	bot
+撞	dhyuaq
+撲	puc
+樸	puc
+撈	lhau
+#撫=府
+#撤=徹
+#撕=思
+#撩=聊
+# 13
+操	tsau
+撼	hoom
+擎	gieng
+鯨	gieng
+#擅=禪去
+擔	dam
+擔	damm			#擔去
+擁	iog
+#擋=黨
+#擊=激
+#擒=琴
+#據=句
+#擇=宅
+# 14
+擰	nieg
+擦	tsat
+擬	qii
+蟻	qii
+擤	xaeg
+擠	zee
+#擡=台
+# 15
+擴	kuoc
+廓	kuoc
+擾	rao
+攀	pah
+擺	bae
+襬	bae			#同擺
+擲	dhyec
+# 16
+攏	lug
+# 17
+攙	tram
+#攔=闌
+# 18
+攝	shep
+# 19
+攣	liuan
+攥	dzon
+攤	tan
+灘	tan
+# 20
+攪	ceao
+絞	ceao
+餃	ceao
+# 21
+#攬=覽
+# Radical 65 支
+# 0
+#支=之
+# Radical 66 攴
+# 2
+收	sheu
+# 3
+改	cae
+#攻=工
+# 4
+放	faq
+# 5
+故	cuh
+固	cuh
+雇	cuh
+顧	cuh
+#政=正
+# 6
+效	heaw
+校	heaw
+効	heaw
+# 7
+教	ceaw
+酵	ceaw
+校	ceaw			#校去
+較	ceaw
+#教平=交
+敏	miin
+憫	miin
+泯	miin
+抿	miin
+鰵	miin
+救	ciew
+究	ciew
+敗	bhay
+敖	qau
+# 8
+敝	bhey
+弊	bhey
+幣	bhey
+蔽	bhey
+斃	bhey
+篦	bhey
+敢	coom
+橄	coom
+感	coom
+# Page 98
+敦	dun
+噸	dun
+蹲	dun
+散	sann
+散	saan
+傘	saan
+# 9
+#敬=竟
+# 10
+敲	keau
+# 11
+敵	dhiec
+狄	dhiec
+糴	dhiec			#原書有誤
+笛	dhiec
+數	sruh
+數	sruu			#數賞
+整	jaeg
+# 13
+斂	liemm
+殮	liemm
+# 14
+#斃=敝
+# Radical 67 文
+# 0
+文	ven
+紋	ven
+蚊	ven
+聞	ven
+# 8
+#斑=班
+# Radical 68 斗
+# 0
+斗	deo
+抖	deo
+陡	deo
+# 6
+料	liaw
+# 7
+斛	huc
+#斜=邪
+# 8
+#斐=匪
+# 9
+#斟=針
+# 10
+斡	uot
+# Radical 69 斤
+# 0
+斤	cin
+巾	cin
+筋	cin
+# 4
+#斧=府
+# 7
+斬	draam
+# 8
+#斯=思
+# 9
+新	sin
+薪	sin
+鋅	sin
+辛	sin
+# 14
+斷	dhoon
+緞	dhoon
+斷	donn
+鍛	donn			#斷去
+# Radical 70 方
+# 0
+方	fang
+坊	fang
+妨	fang
+肪	fang			#肪平
+芳	fang
+# 4
+於	yu
+于	yu
+余	yu
+俞	yu
+餘	yu
+# 5
+#施=詩
+# 6
+旁	bhang
+膀	bhang
+螃	bhang
+龐	bhang
+旃	jan
+#旅=吕
+# 7
+旋	sziuan
+#旌=精
+族	dzuc
+# 10
+#旗=其
+# Radical 71 旡
+# 7
+#既=寄
+# Radical 72 日
+# 0
+日	rit
+# 1
+旦	dann
+# 2
+旭	xiouc
+勗	xiouc
+早	zao
+澡	zao
+棗	zao
+蚤	zao
+#旬=巡
+#旨=止
+# 3
+旱	hoon
+# 4
+昔	siec
+惜	siec
+析	siec
+錫	siec
+易	yih
+異	yih
+肄	yih
+#易入=亦
+昂	qang
+昌	chang
+倡	chang			#倡1
+娼	chang
+明	ming
+昆	cun
+崑	cun
+昏	xun
+婚	xun
+旺	waq
+#昃=仄
+#昊=皓
+# 5
+昨	dzoc
+鑿	dzoc
+昭	jau
+招	jau
+春	chun
+映	ieq
+星	sieng
+腥	sieng
+是	zh
+#昧=妹
+# 6
+晏	eann
+時	zhi
+鰣	zhi
+#晉=進
+晒	sray
+#晌=賞
+# 7
+晚	vaan
+#晨=辰
+晦	xuey
+晝	dyew
+# 8
+普	puu
+譜	puu
+浦	puu
+景	cieg
+境	cieg
+警	cieg
+頸	cieg
+#晴=情
+#晷=葵
+#晶=精
+#智=致
+# 9
+暖	noon
+暑	shuu
+鼠	shuu
+黍	shuu
+薯	shuu			#薯2
+暗	omm
+#暈=運
+# 10
+暢	tyaq
+悵	tyaq
+# 11
+𠽋	nit
+暫	dzzamm
+暴	bhaw
+曝	bhaw
+瀑	bhaw
+暮	muh
+募	muh
+墓	muh
+慕	muh
+# 12
+曉	xiao
+#暨=記
+#曆=歷
+# 14
+#曜=耀
+# 15
+曠	kuaq
+#曝=暴
+# 17
+曩	nag
+# Radical 73 曰
+# 0
+#曰=越
+# 2
+曲	kiouc
+# 3
+更	caeq
+#更平=庚
+# 5
+曷	hot
+# 6
+書	shu
+舒	shu
+輸	shu
+# 7
+曹	dzau
+槽	dzau
+# 8
+曾	zeng
+增	zeng
+憎	zeng
+曾	dzeng			#曾平
+層	dzeng
+最	zuy
+替	tey
+剃	tey
+嚏	tey
+# 9
+會	huey
+彗	huey
+慧	huey
+惠	huey
+# Radical 74 月
+# 0
+月	qiuet
+# 2
+有	yeo
+友	yeo
+莠	yeo
+# 4
+朋	bheng
+#服=伏
+# 6
+朕	dhyym
+朔	srouc
+# 7
+望	vaq
+妄	vaq
+忘	vaq
+朗	lag
+# 8
+朝	dhyau
+朝	dhyau			#朝平
+嘲	dhyau
+#期=其
+# Radical 75 木
+# 0
+木	muc
+沐	muc
+# 1
+末	mot
+沫	mot
+抹	mot
+本	been
+未	vuy
+味	vuy
+# 2
+朽	xieo
+朱	ju
+硃	ju
+珠	ju
+諸	ju
+朶	doo
+朵	doo			#朶異體
+躱	doo
+躲	doo			#躱異體
+#材=才
+# 3
+呆	qai
+束	shouc
+#李=里
+杜	dhuu
+肚	dhuu
+#杞=起
+村	tsun
+#杉=衫
+杠	caq
+#杖=丈
+#杏=幸
+# 4
+杯	buei
+松	siong
+#枇=皮
+# Page 99
+枕	jeem
+枕	jemm			#枕去
+板	baan
+版	baan
+東	dung
+#枝=之
+#杷=巴
+#杵=處賞
+#枚=美
+#析=昔
+杳	iao
+林	lim
+淋	lim
+臨	lim
+枉	uag
+果	cuoo
+菓	cuoo
+裹	cuoo
+# 5
+柱	dhyuu
+佇	dhyuu
+貯	dhyuu
+架	ceah
+假	ceah			#假去
+駕	ceah
+嫁	ceah
+價	ceah
+枵	xiau
+鴞	xiau
+囂	xiau
+枯	ku
+#柬=簡
+枴	cuae
+#柩=舊
+查	jra
+柴	jrai
+染	room
+冉	room
+某	meo
+牡	meo
+柔	reu
+揉	reu
+柳	lieo
+#柄=併
+#柏=百
+#柚=又
+#柿=士
+#枷=加
+#查姓=渣
+#柑=甘
+# 6
+桓	huon
+核	hut			#核1
+核	haec			#核2
+覈	haec
+桃	dhau
+逃	dhau
+淘	dhau
+萄	dhau
+陶	dhau
+桅	quei
+桑	sang
+喪	sang
+格	ceac
+革	ceac
+隔	ceac
+桂	cuey
+瑰	cuey
+劊	cuey
+栽	zai
+災	zai
+哉	zai
+桌	dyoc
+卓	dyoc
+琢	dyoc
+啄	dyoc
+着	dyoc			#着入
+栗	lit
+#桐=同
+#根=跟
+#校=效
+#校去=教
+#株=豬
+# 7
+梭	so
+蓑	so
+娑	so
+梯	tei
+#梳=疏
+#梁=良
+#梢=稍
+械	heay
+懈	heay
+條	dhiau
+調	dhiau			調平
+梗	caeg
+哽	caeg
+梵	fvamm
+梅	muei
+枚	muei
+玫	muei
+媒	muei
+煤	muei
+桶	tug
+#梨=厘
+#梧=吳
+# 8
+極	gic
+棒	bhag
+蚌	bhag
+棧	jrann
+森	srem
+蔘	srem
+棍	cunn
+棘	cic
+#棉=綿
+植	djic
+殖	djic
+#椅=倚
+#棋=其
+#棠=唐
+#棲=西
+#棺=官
+#棚=彭
+#棗=早
+#棄=氣
+#椒=焦
+# 9
+椶	zung
+楦	xiuann
+楞	leng
+椿	tyun
+楚	truu
+楷	keae
+業	giep
+#椽=傳
+#楓=風
+#楊=陽
+#椰=耶
+#楫=接
+# 10
+槍	tsiang
+鎗	tsiang
+榜	bag
+榮	yueng
+榛	dren
+槌	dhyui
+#榻=塔
+#構=夠
+#榕=容
+#槐=懷
+#榴=流
+#榨=詐
+# 11
+樣	yaq
+標	biau
+樁	dyuang
+模	mu
+#樞=區
+#樟=章
+#樂=洛
+#樂入=岳
+#槽=曹
+樓	leu
+#概=蓋
+# 12
+樹	zhuh
+署	zhuh
+薯	zhuh			#薯1
+樵	dziau
+憔	dziau
+瞧	dziau
+橙	dhyaeng
+澄	dhyaeng
+懲	dhyaeng
+橘	ciut
+橫	huaeng
+宏	huaeng			#匣母耕合平聲
+橫	huaeq			#橫去
+#橋=喬
+#橡=象
+#樸=撲
+#機=基
+#橢=妥
+#橄=敢
+# 13
+檢	cieem
+#檯=臺
+#檐=延
+#檀=彈
+檩	liim
+# 14
+櫃	guy
+餽	guy
+#檬=蒙
+#檳=賓
+櫛	drit
+# 15
+#櫓=路
+# 17
+#櫻=英
+#欄=闌
+# 18
+權	giuan
+# 21
+#欖=覽
+# Radical 76 欠
+# 0
+欠	kiemm
+芡	kiemm
+# 2
+次	tsih
+刺	tsih
+# 4
+欣	xin
+# 7
+欵	kuoon
+款	kuoon			#欵異體
+欲	youc
+慾	youc
+浴	youc
+# 8
+欺	ki
+歇	xiet
+蠍	xiet
+#款=欵
+# 10
+#歐=哥
+歉	keem
+# 11
+歐	eu
+謳	eu
+區	eu			#區姓
+歎	tann
+炭	tann
+# 18
+歡	xuon
+# Radical 77 止
+# 0
+止	jii
+址	jii
+趾	jii
+旨	jii
+指	jii
+紙	jii
+只	jii
+# 1
+正	jaeq
+政	jaeq
+症	jaeq
+# Page 100
+#正平=征
+# 2
+此	tsii
+# 3
+步	bhuh
+捕	bhuh
+埠	bhuh
+# 4
+歪	uai
+武	vuu
+舞	vuu
+侮	vuu
+#歧=其
+# 9
+歲	suy
+碎	suy
+粹	suy
+# 12
+歷	liec
+靂	liec
+曆	liec
+# 14
+歸	cui
+規	cui
+龜	cui
+# Radical 78 歹
+# 0
+歹	dae
+# 2
+死	sii
+# 5
+#殃=央
+#殆=待
+# 6
+殉	sziunn
+殊	zhu
+# 8
+殘	dzan
+#殖=植
+# 11
+#殤=商
+# 13
+#殮=斂
+# 14
+#殯=鬢
+# Radical 79 殳
+# 5
+段	dhonn
+# 6
+殺	srat
+#殷=因
+# 8
+#殼=確
+# 9
+毀	xue
+#殿=電
+# 11
+#毅=義
+# Radical 80 毋
+# 0
+#毋=無
+# 1
+母	muu
+# 3
+每	muee
+# 5
+毒	dhouc
+# Radical 81 比
+# 0
+比	bii
+鄙	bii
+# 5
+#毘=皮
+# Radical 82 毛
+# 0
+毛	mau
+茅	mau
+錨	mau
+# 7
+毫	hau
+豪	hau
+蠔	hau
+# 8
+毯	taam
+# Radical 83 氏
+# 0
+#氏=市
+# 1
+民	min
+閩	min
+# Radical 84 气
+# 6
+氣	kih
+器	kih
+棄	kih
+# Radical 85 水
+# 0
+水	shue
+# 1
+永	yueg
+# 2
+冰	bing			#原書筆劃錯誤
+求	gieu
+球	gieu
+仇	gieu
+裘	gieu
+#汀=聽
+#汁=執
+# 3
+池	dhyi
+馳	dhyi
+遲	dhyi
+持	dhyi
+汝	ruu
+乳	ruu
+#汞=貢
+江	ceang
+缸	ceang
+豇	ceang
+汗	honn
+翰	honn
+#汙=惡去
+#污=烏
+# 4
+沖	tyung
+沉	dhym
+決	ciuet
+訣	ciuet
+厥	ciuet
+沃	ouc
+沙	sra
+紗	sra
+砂	sra			#同沙
+痧	sra
+鯊	sra
+沒	met
+汪	uang
+#汴=便
+#沂=宜
+#沈=審
+#汲=急
+#沐=木
+# 5
+注	juh
+註	juh
+鑄	juh
+泛	famm
+況	xuaq
+泡	paw
+炮	paw
+法	fap
+沼	jao
+沾	dyam
+治	dhyih
+泥	nei
+泳	yueq
+詠	yueq
+#泄=屑
+#泊=薄
+#沿=延
+#泯=敏
+#沫=末
+#油=由
+#泰=太
+#泉=全
+波	bo
+玻	bo
+泣	kip
+#河=何
+# 6
+洗	sec
+徙	sec
+璽	sec
+洛	loc
+落	loc
+烙	loc
+絡	loc
+駱	loc
+酪	loc
+樂	loc
+咯	loc
+洞	dhuq
+津	zin
+活	huot
+#洋=陽
+洒	sraa
+灑	sraa			#洒異體
+#洲=州
+派	pay
+# 7
+流	lieu
+劉	lieu
+留	lieu
+榴	lieu
+硫	lieu
+琉	lieu
+#涕=替
+浜	baeng
+浸	zimm
+浩	hao
+昊	hao
+皓	hao
+浮	fveu
+涎	szien
+涉	zhep
+海	xae
+消	siau
+宵	siau
+霄	siau
+蕭	siau
+簫	siau
+逍	siau
+銷	siau
+浪	laq
+#涌=勇
+#浴=欲
+#浦=普
+#浙=折
+#涓=捐
+# 8
+#清=青
+#淆=肴
+涮	sruann
+涯	qeai
+崖	qeai
+淹	iem
+醃	iem
+閹	iem
+添	tiem
+淺	tsieen
+淤	iuh
+#液=亦
+#淮=懷
+#淚=類
+#淘=桃
+#涵=含
+混	huun
+深	shem
+淡	dhamm
+淨	dzieq
+#淪=倫
+淫	yim
+淵	iuan
+冤	iuan
+鴛	iuan
+#淋=林
+# 9
+測	trec
+惻	trec
+#湘=相
+港	cag
+#湖=胡
+減	ceaam
+#渺=秒
+# Page 101
+渴	kot
+湯	tang
+渣	ja
+查	ja			#查姓
+渠	giu
+瞿	giu
+衢	giu
+#游=由
+渾	hun
+魂	hun
+餛	hun
+餫	hun
+#渤=勃
+#渡=度
+#渭=爲
+# 10
+溪	kei
+滓	drii
+溺	niec
+滅	miet
+篾	miet
+溜	liew
+溫	un
+滑	huat
+#源=元
+#溝=勾
+#滔=叨
+#溶=容
+#溼=濕
+# 11
+滲	sremm
+#漲=張
+滾	cuun
+#滷=魯
+演	yeen
+漏	lew
+陋	lew
+滯	dhyey
+#溉=蓋
+漸	dzieem
+#漫=幔
+#滬=戶
+#漱=瘦
+#漠=莫
+#漁=魚
+#澄=橙
+漂	piau
+飃	piau
+飄	piau			#飃異體
+漂	piao			#漂賞[~白]
+#漂去[~亮]=票
+滿	moon
+漢	xonn
+滕	dheng
+騰	dheng
+謄	dheng
+籘	dheng
+疼	dheng
+#漆=七
+# 12
+澆	ciau
+嬌	ciau
+驕	ciau
+#潭=覃
+潺	jran
+潦	law
+潛	dziem
+澀	srep
+潘	pon
+潑	pot
+#潔=結
+#潤=閏
+潰	guey
+# 13
+激	ciec
+擊	ciec
+戟	ciec
+濁	dhyouc
+濯	dhyouc
+濃	niong
+#澳=奧
+#澤=宅
+#澡=早
+# 14
+濕	ship
+溼	ship			#濕異體
+#濯=濁
+濫	lamm
+纜	lamm
+濟	zey
+祭	zey
+際	zey
+劑	zey
+# 15
+#瀉=卸
+#瀑=暴
+#濺=箭
+# 16
+#濾=慮
+# 18
+#灌=貫
+# 19
+#灘=攤
+#灑=洒
+# 22
+#灣=彎
+# Radical 86 火
+# 0
+火	xuoo
+夥	xuoo
+伙	xuoo
+# 2
+灰	xuei
+恢	xuei
+詼	xuei
+# 3
+灶	zaw
+#灼=酌
+#災=栽
+#灸=九
+躁	zaw
+# 4
+炎	yem
+鹽	yem
+閻	yem
+簷	yem
+#炒=吵
+#炊=吹
+#炕=抗
+#炮=泡
+#炙=隻
+# 6
+烏	u
+污	u
+嗚	u
+鎢	u
+烘	xung
+#烤=考
+煙	ien
+菸	ien
+胭	ien
+焉	ien			#焉平
+燕	ien			#燕平
+#烈=列
+#洛
+# 7
+烹	paeng
+#焉=延
+#焉平=煙
+# 8
+無	vu
+毋	vu
+巫	vu
+誣	vu
+焚	fven
+墳	fven
+然	ran
+焰	yemm
+豔	yemm
+焦	ziau
+椒	ziau
+蕉	ziau
+# 9
+煎	zien
+箋	zien
+照	jaw
+詔	jaw
+#煉=練
+#煌=黃
+煨	uei
+煩	fvan
+藩	fvan
+礬	fvan
+繁	fvan
+#煮=主
+#煥=喚
+#媒=梅
+# 10
+薰	xiun
+勳	xiun
+薰	xiun
+#熊=雄
+#滋=茲
+#熙=希
+#熄=息
+# 11
+熱	ret
+#熟=孰
+#滸=虎
+#熨=運
+# 12
+燕	ienn
+宴	ienn
+#燕平=煙
+燒	shau
+#燈=登
+#燐=鄰
+#燎=聊
+燙	taq
+趟	taq
+# 13
+營	yeng
+塋	yeng
+盈	yeng
+贏	yeng
+燦	tsann
+燭	jouc
+囑	jouc
+# 14
+#燿=耀			#原書有誤
+# 15
+#爆=報
+# 16
+#爐=盧
+# 17
+爛	lann
+# Radical 87 爪
+# 0
+爪	druaa
+# 4
+爬	bha
+琶	bha
+扒	bha
+爭	draeng
+箏	draeng
+# 8
+爲	wui
+惟	wui
+帷	wui
+維	wui
+圍	wui
+違	wui
+爲	wuy			#爲去
+位	wuy
+胃	wuy
+謂	wuy
+蝟	wuy
+爵	zioc
+# Radical 88 父
+# 0
+父	fvuu
+輔	fvuu
+腐	fvuu
+# 4
+爸	bah
+弝	bah
+霸	bah
+爹	die
+# 9
+#爺=耶
+# Radical 89 爻
+# 7
+爽	srag
+# Radical 90 爿
+# 4
+牀	jrang
+床	jrang			#牀異體
+# 13
+牆	dziang
+戕	dziang
+# Radical 91 片
+# 0
+片	pienn
+騙	pienn
+# 4
+#版=板
+# Page 102
+# 8
+#牌=排
+# 9
+#牒=碟
+# 15
+#牘=獨
+# Radical 92 牙
+# 0
+牙	qea
+芽	qea
+衙	qea
+# Radical 93 牛
+# 0
+牛	qieu
+#牡=某
+# 2
+牝	bhiin
+# 3
+#牠=它			#原書有誤
+# 4
+物	vut
+#牧=目
+# 5
+#牲=生
+# 6
+特	dhec
+# 7
+牽	kien
+#狼=郎
+#犁=厘
+# 8
+#犂=厘
+#犀=西
+# 10
+#犒=靠
+# 16
+#犧=希
+# Radical 94 犬
+# 0
+犬	kiuaan
+# 2
+#犯=范
+# 4
+狀	jraq
+#狄=敵
+狂	guang
+# 5
+#狎=匣
+#狐=胡
+#狗=苟
+# 7
+#狸=厘
+# 8
+猝	tsut
+猛	maeg
+猜	tsai
+# 9
+#猴=侯
+#猶=由
+# 10
+獃	dai
+#獅=師
+#獄=玉
+# 13
+獨	dhuc
+讀	dhuc
+牘	dhuc
+# 14
+獲	huaec
+劃	huaec
+# 15
+獸	shew
+獵	liep
+# 16
+獺	tat
+闥	tat
+獻	xienn
+# Radical 95 玄
+# 0
+玄	hiuan
+懸	hiuan
+# 6
+#率去=帥
+#率入=律
+# Radical 96 玉
+# 0
+玉	qiouc
+獄	qiouc
+王	wang
+# 4
+玩	quon
+玩	uqonn			#玩去
+#玫=梅
+# 5
+珍	dyen
+#玻=波
+# 6
+班	ban
+頒	ban
+扳	ban
+斑	ban
+#珠=朱
+# 7
+現	hienn
+莧	hienn
+#球=求
+#琉=流
+#理=里
+# 8
+琴	gim
+禽	gim
+擒	gim
+#琢=桌
+#琶=爬
+# 9
+瑞	ruy
+銳	ruy
+瑟	sret
+琛	tym
+#瑕=霞
+# 10
+瑳	tsoo
+#瑣=所
+#瑰=桂
+# 11
+#璃=厘
+# 12
+璞	poc
+# 13
+#白=壁
+#環=還
+# 15
+瓊	giueng
+# Radical 97 瓜
+# 0
+瓜	cua
+# 11
+瓢	bhiau
+嫖	bhiau
+# 14
+#瓣=辦
+# 16
+瓤	rang
+# Radical 98 瓦
+# 0
+瓦	quaa
+瓦	quah			#瓦去
+# 6
+#瓶=平
+# 13
+甕	uq
+# Radical 99 甘
+# 0
+甘	com
+柑	com
+# 3
+甚	zhem
+甚	zhemm			#甚去
+# 6
+甜	dhiem
+# Radical 100 生
+# 0
+生	sraeng
+牲	sraeng
+笙	sraeng
+# 6
+產	traan
+鏟	traan
+# 7
+蕤rui
+# Radical 101 用
+# 0
+用	yoq
+# 1
+甩	sruae
+# 2
+#甬=勇
+#甫=府
+# 4
+甭	berng
+# Radical 102 田
+# 0
+田	dhien
+填	dhien
+# 1
+甲	ceap
+#申=身
+由	yeu
+油	yeu
+游	yeu
+猶	yeu
+遊	yeu
+尤	yeu
+郵	yeu
+# 2
+#男=南
+# 4
+畏	uy
+慰	uy
+餵	uy
+#界=介
+# 5
+畜tyuc
+#留=流
+#畜入=蓄
+# 6
+畧	lioc
+#畢=必
+#異=易
+# 7
+番	fan
+翻	fan
+#畫=話
+# 8
+當	dang
+當	daq			#當去
+# 10
+#畿=基
+# 14
+疆	ciang
+薑	ciang
+僵	ciang
+繮	ciang
+姜	ciang
+# 17
+# Radical 103 疋
+# 7
+疏	sru
+梳	sru
+蔬	sru
+# 9
+#懷=宜
+# Radical 104 疒
+# 2
+#疔=丁
+# 3
+疝	srann
+# 4
+#疫=役
+# 5
+病	bhieq
+#症=正
+#疲=皮
+疽	ziu
+#疹=診
+疿	fvuy
+痱	fvuy			#疿異體
+#疵=慈
+#疼=滕
+# 6
+痊	tsiuan
+痔	dhyii
+峙	dhyii
+雉	dhyii
+# Page 103
+痕	hen
+# 7
+痛	tuq
+#痢=利
+#痧=沙
+#痓=至
+#痘=豆
+#痰=談
+#痱=疿
+# 9
+# 10
+瘡	trang
+瘦	srew
+漱	srew
+# 11
+瘸	giue
+# 14
+癡	tyi
+# 15
+#癢=養
+# 16
+#癩=賴
+# 17
+#癬=鮮賞
+# Radical 105 癶
+# 4
+癸	cue
+軌	cue
+晷	cue
+鬼	cue
+詭	cue
+# 7
+登	deng
+燈	deng
+發	fat
+髮	fat
+# Radical 106 白
+# 0
+白	bhaec
+帛	bhaec
+# 1
+百	baec
+伯	baec
+柏	baec
+迫	baec
+# 2
+皂	dzao
+# 3
+的	de
+#帛=白
+的	diec			#的入
+# 4
+皆	ceai
+階	ceai
+偕	ceai
+街	ceai
+#皇=黃
+# 7
+#皓=浩
+# Radical 107 皮
+# 0
+皮	bhi
+疲	bhi
+脾	bhi
+枇	bhi
+毘	bhi
+# 7
+#𤿫=脫
+# 10
+#皺=縐
+# Radical 108 皿
+# 0
+皿	mieg
+# 4
+盆	bhen
+#盅=鐘
+#盈=營
+# 5
+益	iec
+盎	aq
+# 6
+盛	zhaeq
+盔	kuei
+魁	kuei
+#盒=合
+# 7
+#盜=道
+# 8
+盞	draan
+盟	maeng
+萌	maeng
+# 9
+盡	dziin
+監	ceam
+緘	ceam
+# 10
+盤	bhon
+# 11
+盧	lu
+爐	lu
+廬	lu			#[~山]
+# Radical 109 目
+# 0
+目	miuc
+穆	miuc
+牧	miuc
+# 3
+直	dhyc
+值	dhyc
+# 4
+看	kon			#看平
+刊	kon
+看	konn
+眉	mui
+盼	pann
+襻	pann
+省	sraeg
+相	siang
+湘	siang
+廂	siang
+箱	siang
+襄	siang
+相	siaq			#相去
+# 5
+貶	drap
+#眠=綿
+真	jen
+#眩=縣
+# 6
+眼	qeaan
+#眷=卷去
+#眸=謀
+#眺=跳
+衆	juq
+#着入=桌
+着	dhyoc
+着	j
+# 8
+督	douc
+篤	douc
+睡	zhuy
+睖	leq
+#睬=彩
+#晴=精
+# 9
+#睹=堵
+# 10
+瞎	xeat
+# 11
+瞞	mon
+𩞘	mon
+# 12
+#瞪=鄧
+#瞧=樵
+#瞬=舜
+# 13
+#瞻=占
+#瞿=渠
+# Radical 110 矛
+# 4
+#矜=兢
+# Radical 111 矢
+# 0
+#矢=始
+# 3
+知	dyi
+# 5
+#矩=舉
+# 7
+短	doon
+矬	dzo
+# 8
+矮	ae
+# 12
+#矯=繳
+# Radical 112 石
+# 0
+石	zhiec
+碩	zhiec
+# 4
+砌	tsey
+砍	koom
+#斫=酌
+破	poh
+#砂=沙
+# 5
+#砸=匝
+# 6
+#硃=朱
+#研=言
+# 7
+硬	qaeq
+#硫=流
+#硯=諺
+# 8
+碗	uoon
+#碎=歲
+䂻	dhyaeq
+#碑=悲
+# 9
+碰	poq
+#碧=壁
+碟	dhiep
+牒	dhiep
+蝶	dhiep
+疊	dhiep
+# 10
+碾	nieen
+#磅=謗
+#碼=馬
+磕	kop
+#磁=慈
+# 11
+確	keoc
+殼	keoc
+磨	moh
+#磚=專
+#磬=慶
+#磨平=摩
+# 12
+#礬=煩
+# Radical 113 示
+# 0
+#示=侍
+# 3
+社	zhee
+#祀=似
+# 4
+#祈=其
+# 5
+祖	zuu
+組	zuu
+祝	juc
+粥	juc
+祕	mih
+神	zhen
+#祐=又
+#祠=詞
+# 6
+票	piaw
+漂	piaw			#[~亮]
+#祥=詳
+#祭=濟
+# 7
+#裡=里
+# 8
+稟	biin
+禁	cimm
+祿	luc
+鹿	luc
+# 9
+禍	huoo
+福	fuc
+幅	fuc
+蝠	fuc
+複	fuc
+腹	fuc
+覆	fuc
+# 11
+#禦=遇
+# Page 104
+# 12
+禪	djan
+蟬	djan
+禪	zhann
+擅	zhann
+#禧=希
+# 13
+禮	lee
+# Radical 114 禸
+# 4
+#禹=雨
+# 8
+#禽=琴
+# Radical 115 禾
+# 0
+#禾=何
+# 2
+秀	siew
+銹	siew
+繡	siew
+宿	siew
+禿	tuc
+#私=思
+# 3
+#秉=丙
+# 4
+秒	miao
+渺	miao
+藐	miao
+科	ko
+窠	ko
+軻	ko
+苛	ko
+秋	tsieu
+# 5
+租	zu
+秦	dzin
+秤	cheq
+稱	cheq			#稱去
+#秧=央
+#秩=姪
+# 6
+移	yi
+夷	yi
+姨	yi
+怡	yi
+貽	yi
+遺	yi
+# 7
+税	shuy			#說去
+稅	shuy
+說	shuy
+#稈=趕
+稍	srau
+梢	srau
+#程=呈
+#稀=希
+# 8
+#稠=綢
+# 9
+稱	cheng
+#稱去=秤
+種	jog
+種	joq			#種去
+# 10
+稿	cao
+#穀=谷
+#稽=雞
+#稻=導
+#稷=卽
+# 11
+積	ziec
+績	ziec
+跡	ziec
+脊	ziec
+#穆=目
+#穌=蘇
+# 13
+穢	uey
+穩	uun
+# Radical 116 穴
+# 0
+穴	hiuet
+# 2
+#究=救
+# 3
+空	kung
+空	kuq			#空去
+穹	kiung
+# 4
+突	dhut
+# 5
+#窄=責
+# 6
+窗	truang
+窒	dyt
+# 7
+窘	ciuun
+# 8
+窟	kut
+#窠=科
+# 9
+窩	uo
+倭	uo
+蝸	uo
+# 10
+窮	giung
+#窯=搖
+# 12
+#窿=隆
+# 13
+竅	kiaw
+竄	tsonn
+# 17
+#竊=切
+# Radical 117 立
+# 0
+立	lip
+# 5
+站	dhyamm
+賺	dhyamm
+# 6
+竟	cieq
+鏡	cieq
+敬	cieq
+徑	cieq
+勁	ceiq
+章	jang
+彰	jang
+樟	jang
+# 7
+#童=同
+# 9
+端	don
+#竭=傑
+# 15
+競	gieq
+# Radical 118 竹
+# 0
+竹	dyuc
+築	dyuc
+# 3
+#竿=干
+# 4
+笑	siaw
+嘯	siaw
+肖	siaw
+笊	dray
+# 5
+第	dhey
+遞	dhey
+#茄=加
+#符=扶
+#笛=敵
+#笙=生
+#箔=薄
+笨	bheen
+# 6
+答	dap
+搭	dap
+等	deg
+戥	deg
+筍	siuun
+策	traec
+冊	traec
+#筏=伐
+#筐=匡
+#筒=同
+#筵=延
+#筆=必
+#筋=斤
+# 8
+箚	dyap
+管	cuoon
+算	soon
+蒜	soon
+#箋=煎
+#金=姑
+#古=爭
+# 9
+箭	zienn
+濺	zienn
+薦	zienn
+節	ziet
+篇	pien
+偏	pien
+#箱=相
+篆	dhyuaan
+#箸=住
+#篤=督
+#範=范
+# 10
+篩	srai
+#篙=高
+#築=竹
+#篦=敝
+篡	truann
+# 11
+#簍=摟
+#篾=滅
+# 12
+簪	zom
+簟	dhiemm
+簡	ceaan
+柬	ceaan
+揀	ceaan
+#簫=消
+#簧=黃
+# 13
+#簷=炎
+#簿=部
+#簾=廉
+#簸=播
+# 14
+籍	dziec
+寂	dziec
+#籌=綢
+籠	lung
+聾	lung
+#籃=藍
+# 15
+#籘=滕
+# 17
+#籤=僉
+# 19
+#籬=厘
+# Radical 119 米
+# 0
+米	mee
+# 4
+粉	feen
+# 5
+粗	tsu
+#釉=又
+#粘=黏
+# 6
+粟	siouc			#原書印刷錯誤
+#粥=祝
+#粵=越
+# 7
+粱=良
+# 8
+#粹=歲
+精	zieng
+睛	zieng
+晶	zieng
+旌	zieng
+# 9
+糭	zuq
+#糊=胡
+# 10
+#糖=唐
+#糕=高
+# 11
+#糞=奮
+#糟=遭
+#糟=康
+# Page 105
+# 12
+# 14
+糯	noh
+# 16
+#糴=敵			#原書位於火部，有誤
+# Radical 120 糸(原書印刷錯誤)
+# 1
+系	hey
+# 2
+#糾=鳩
+# 3(原書印刷錯誤)
+紇	het
+約	ioc
+紂	dhyeo
+紅	hung
+洪	hung
+鴻	hung
+虹	hung
+#紀=己
+# 4
+紐	nieo
+素	suh
+訴	suh
+塑	suh
+納	nap
+索	soc
+純	zhun
+#紗=沙
+#紛=分
+#紊=問
+#級=急
+#紋=文
+#紙=止
+# 5
+終	jung
+#紳=身
+絀	dyut
+紹	zhao
+#組=祖
+細	sey
+#絆=半
+#累=類
+# 6
+絮	siuh
+#絞=攪
+#絡=洛
+統	tog
+絕	dziuet
+#給=急
+#絲=思
+#絨=戎
+結	ciet
+潔	ciet
+# 7
+綑	kuun
+#經=京
+#絹=卷
+# 8
+綽	choc
+#綏=雖
+綴	dyuy
+綢	dhyeu
+稠	dhyeu
+綻	dhyann
+綿	mien
+棉	mien
+眠	mien
+綠	liouc
+錄	liouc
+緊	ciin
+謹	ciin
+#綱=岡
+#網=罔
+#繃=崩
+#維=爲
+# 9
+緝	zip
+練	lienn
+煉	lienn
+#縷=呂
+#緒=序
+#緞=斷
+#緘=監
+#編=邊
+線	sienn
+腺	senn
+緩	huoon
+#緣=圓
+#緻=致
+# 10
+縛	fvoc
+縐	drew
+皺	drew
+縣	hiuann
+眩	hiuann
+# 11
+縮	sruc
+縱	ziong
+蹤	ziong
+總	zug
+縫	fvoq
+俸	fvoq
+#緯=偉
+#繁=煩
+#縫平=逢
+縊	ey
+#績=積
+# 12
+繞	raw
+#織=職
+#繡=秀
+# 13
+繳	ciao
+矯	ciao
+#繫=計
+繭	cieen
+繩	zheng
+#繮=疆
+# 14
+纂	zoon
+#繼=計
+#辮=辨
+# 15
+纏	dhyan
+#續=俗
+# 17
+纖	siem
+暹	siem
+#纔=才
+#纓=英
+# 21
+#纜=濫
+# Radical 121 缶
+# 4
+缺	kiuet
+闕	kiuet
+# 5
+䍉	dyae
+# 11
+#罄=慶
+# 18
+#罐=貫
+# Radical 122 网
+# 3
+罕	xoon
+罔	vag
+網	vag
+# 8
+罩	dyaw
+#置=致
+罪	dzue
+# 9
+#署=樹
+# 10
+罷	bhaa
+罵	mah
+#罰=伐
+# 14
+羅	lo
+蘿	lo
+邏	lo
+鑼	lo
+# Radical 123 羊
+# 0
+#羊=陽
+# 2
+羌	kiang
+# 3
+美	mue
+鎂	mue
+# 4
+#羔=高
+# 5
+#羞=修
+# 7
+羣	giun
+裙	giun
+義	qih
+議	qih
+毅	qih
+羨	szienn
+# 11
+#羲=希
+# Radical 124 羽
+# 0
+#羽=雨
+# 4
+翁	ung
+翅	chih
+# 5
+習	szip
+襲	szip
+# 6
+#翕=吸
+# 8
+翠	tsuy
+脆	tsuy
+# 10
+#翰=汗
+# 12
+#翹=喬
+#翼=弋
+#翻=番
+# 14
+耀	yaw
+燿	yaw
+曜	yaw
+# Radical 125 老
+# 0
+老	lao
+考	kao
+烤	kao
+# 4
+者	jee
+#耆=其
+# Radical 126 而
+# 0
+而	er
+兒	er
+# 3
+耍	sruaa
+傻	sruaa			#生母麻二合賞聲
+#耐=奈
+# Radical 127 耒
+# 4
+耗	xaw
+好	xaw			#好去
+#耕=庚
+# 10
+耨	new
+# Radical 128 耳
+# 0
+耳	eer
+尓	eer
+# Page 106
+# 3
+耶	ye
+爺	ye
+椰	ye
+# 4
+耽	dom
+聃	dom
+恥	tyii
+# 5
+聊	liau
+遼	liau
+撩	liau
+燎	liau
+寥	liau
+廖	liau
+#聆=零
+#聃=耽
+# 7
+聖	shaeq
+聘	pieq
+# 8
+聚	dziuh
+#聞=文
+# 11
+聲	shaeng
+#聰=怱
+#聯=連
+# 12
+職	jic
+織	jic
+#聶=捻
+# 13
+#膿=農
+# 16
+聽	tieng			#兩字似乎相同
+汀	tieng
+廳	tieq			#廳去
+#聾=籠
+# Radical 129 聿
+# 7
+#肆=四
+#肅=宿
+#肄=易
+# 8
+#肇=兆
+# Radical 130 肉
+# 0
+肉	ruc
+# 2
+肏	tsaw
+#肋=勒
+#肌=基
+# 3
+肘	dyeo
+#肚賞=堵
+#肓=荒
+#肖=笑
+#肝=干
+#肚=杜
+#肛=江
+# 4
+肴	yeau
+淆	yeau
+育	yuc
+肥	fvui
+肯	keg
+肱	cueng
+#肢=之
+#股=古
+#肩=堅
+#脂=房
+#肪平=方
+# 5
+背	buey
+輩	buey
+#胥=須
+胖	paq
+胡	hu
+湖	hu
+糊	hu
+狐	hu
+壺	hu
+乎	hu
+弧	hu
+蝴	hu
+鬍	hu
+衚	hu
+#胃=爲
+胎	tai
+#胞=包
+#肺=廢
+# 6
+脅	xiep
+#胭=煙
+#脆=翠
+#胸=兇
+#脈=麥
+#脊=積
+能	neng
+#胱=光
+# 7
+脫	tot
+𤿫	tot
+腳	cioc
+唇	djun
+#脖=勃
+#豚=屯
+# 8
+腕	uonn
+#脾=皮
+腔	keang
+腎	zheen
+#腐=父
+# 9
+腦	nao
+惱	nao
+腮	sai
+#腸=長
+腿	tue
+膩	nih
+#腰=要平
+#腺=線
+#腫=種
+#腹=福
+#腥=星
+#腱=健
+# 10
+#膀=旁
+#膏=高
+# 11
+#膠=交
+#膚=夫
+#膝=悉
+#抹=莫
+# 12
+#瞳=同
+# 13
+臉	lieem
+膽	daam
+臂	bih
+臊	saw
+# 14
+#臍=齊
+# 15
+臘	lap
+蠟	lap
+# Radical 131 臣
+# 0
+#臣=辰
+# 2
+臥	quoh
+# 8
+臧	zang
+贓	zang
+髒	zang
+# 11
+#臨=林
+# Radical 132 自
+# 0
+自	dzih
+字	dzih
+# 4
+臭	chew
+#臬=櫱
+# Radical 133 至
+# 0
+至	jih
+志	jih
+痣	jih
+# 4
+致	dyih
+緻	dyih
+置	dyih
+智	dyih
+# 8
+臺	dhai
+擡	dhai
+檯	dhai
+台	dhai
+苔	dhai
+颱	dhai
+# Radical 134 臼
+# 0
+臼	gieo
+舅	gieo
+咎	gieo
+# 4
+舀	yao
+# 5
+舂	shong
+# 7
+#舅=臼
+#與=雨
+#與去=預
+# 9
+興	xing
+興	xiq			#興去
+舉	ciuu
+矩	ciuu
+# 12
+舊	giew
+柩	giew
+# Radical 135 舌
+# 0
+舌	zhet
+折	zhet			#折入
+# 2
+舍	sheh
+赦	sheh
+# 6
+#舒=書
+# 8
+#舔=忝
+# Radical 136 舛
+# 0
+#舛=喘
+# 6
+舜	shunn
+瞬	shunn
+# 8
+#舞=武
+# Radical 137 舟
+# 0
+#舟=州
+# 4
+般	bon
+搬	bon
+# 5
+船	djuan
+舵	dhoo
+墮	dhoo
+# 7
+#艇=挺
+# Radical 138 艮
+# 0
+艮	cenn
+# 1
+良	liang
+涼	liang
+量	liang
+糧	liang
+梁	liang
+粱	liang
+# 11
+#艱=間
+# Radical 139 色
+# 0
+色	sraec
+# Radical 140 艸
+# 0
+#艸=草
+# Page 107
+# 2
+艾	qay
+
+# 3
+#芍=勺
+#芒=忙
+#芋=預
+# 4
+花	xua
+#芥=介
+#芬=分
+#芻=初
+#芹=勤
+#芭=巴
+#芙=扶
+#芡=欠
+#芽=牙
+#芳=方
+# 5
+茄	gie
+若	roc
+弱	roc
+苟	ceo
+狗	ceo
+垢	ceo
+苦	kuu
+英	ieng
+嬰	ieng
+櫻	ieng
+纓	ieng
+范	fvaam
+範	fvaam
+犯	fvaam
+苗	miau
+描	miau
+#苔=臺
+#茂=戊
+#茅=毛
+#苛=科
+# 6
+荒	xuang
+慌	xuang
+肓	xuang
+茲	zi
+滋	zi
+資	zi
+姿	zi
+咨	zi
+荀	siun
+馴	siun
+草	tsao
+艸	tsao
+茶	dhya
+搽	dhya
+茸	rong
+#荔=利
+#茫=忙
+#荊=京
+# 7
+莊	drang
+妝	drang
+裝	drang
+莫	moc
+膜	moc
+幕	moc
+寞	moc
+摸	moc
+漠	moc
+#荳=豆
+莞	huaan
+#荷=何
+#莠=有
+#莧=現
+# 8
+華	hua
+划	hua
+菊	ciuc
+鞠	ciuc
+菩	bhu
+蒲	bhu
+萄	bhu
+莽	mag
+蟒	mag
+菜	tsay
+#葡=菩
+#華去姓=話
+#菲=非
+#萌=盟
+#菲賞=匪
+#菇=姑
+#萎=委
+#菓=果
+#萄=桃
+#菌=郡
+#菱=陵
+#菸=煙
+# 9
+葬	zaq
+葉	yep
+葵	gui
+萬	vann
+著	dyuh
+駐	dyuh
+董	dug
+懂	dug
+#落=洛
+#葛=割
+#葱=怱
+#葦=偉
+#韭=九
+# 10
+蒙	mung
+檬	mung
+蒯	kuae
+#蒜=算
+蒸	jeng
+#蒲=菩
+蓄	xiuc
+畜	xiuc			#畜入
+蓋	cay
+溉	cay
+概	cay
+鈣	cay
+蒿	xau
+#蓑=梭
+#蒼=倉
+# 11
+蔣	ziang
+獎	ziang
+蓬	bhung
+蔭	imm
+#蓮=連
+#蔗=這
+#蔘=森
+#蔔=北
+# 12
+蕩	dhag
+蕈	dziim
+#蔬=疏
+#蔽=敝
+#蕭=消
+#蕉=焦
+#蕊=蘂
+# 13
+薄	bhoc
+泊	bhoc
+箔	bhoc
+雹	bhoc
+薄	bhoh			#[~荷]
+薨	xueng
+#薛=雪
+#薦=箭
+#薇=微
+#薪=新
+#薯2=暑
+#薑=疆
+# 14
+藍	lam
+籃	lam
+藉	dzieh
+藏	dzang
+藏	dzaq			#藏去
+薺	dzee
+#藕=偶
+#藐=秒
+#薰=熏
+#薯1=樹
+# 15
+藝	qey
+刈	eqy
+詣	qey
+藥	yoc
+#藩=煩
+# 16
+蘂	rue
+蕊	rue			#蘂異體
+蘇	su
+酥	su
+穌	su
+#蘋=頻
+#藿=霍
+# 17
+#蘭=闌
+# 19
+蘸	dramm
+#蘿=羅
+# Radical 141 虍
+# 2
+虎	xuu
+滸	xuu
+# 3
+虐	qioc
+瘧	qioc
+# 4
+#虔=乾
+# 5
+處	chuh
+處	chuu			#處賞
+杵	chuu
+# 6
+虛	xiu
+噓	xiu
+#虜=魯
+# 7
+號	haw
+#號平=毫
+#虞=魚
+# 9
+虢	cuaec
+# 11
+虧	kui
+# Radical 142 虫
+# 2
+虱	srit
+# 3
+#虹=紅
+# 4
+#蚣=工
+#蚊=文
+#蚤=早
+#蚌=棒
+# 5
+蛇	zhe
+#蚱=詐
+#蛆=趨
+蚶	xom
+酣	xom
+#蛋=但
+# 6
+#蛙=哇
+#蛛=豬
+#蛤=鴿
+# 7
+蜀	zhouc
+屬	zhouc
+贖	zhouc
+#蛾=俄
+#蛹=勇
+#蜈=吳
+#蜂=封
+#蜓=廷
+# 8
+#蜻=青
+# 9
+蝦	xea
+#蝕=食
+#蝗=黃
+# Page 108
+#蝸=窩
+#蝴=胡
+#蝶=碟
+#蝟=爲
+#蝠=福
+#蝙=邊
+# 10
+螢	hiueng
+#螂=郎
+融	yung
+#螃=旁
+#螞=馬
+蟄	dhyp
+# 11
+#螳=唐
+#蟋=悉
+#蠔=毫
+# 12
+#蟬=禪
+#蟒=莽
+#蟥=黃
+蟲	dhyung
+# 13
+蟶	tyeng
+蠆	tray
+蟹	heae
+解	heae			#解賞姓
+蠅	ying
+蟾	djom
+#蟻=擬
+#蠍=歇
+# 15
+蠢	chuun
+#蠟=臘
+# 16
+#蠹=妒
+# 17
+蠶	dzom
+# 18
+蠻	man
+# Radical 143 血
+# 0
+血	xiuet
+# Radical 144 行
+# 0
+行	haeng
+衡	haeng
+行	haeq			#行去
+行	hang			#行平
+# 5
+術	zhut
+述	zhut
+# 6
+#衕=同
+#街=皆
+# 7
+#衙=牙
+# 9
+衝	chong
+#衚=胡
+#衛=衞
+# 10
+#衡=行
+衞	wey
+衛	wey			#衞異體
+# 18
+#衢=渠
+# Radical 145 衣
+# 0
+衣	i
+依	i
+伊	i
+醫	i
+她	i
+# 3
+表	biao
+錶	biao
+衫	sram
+杉	sram
+# 4
+衰	sruai
+摔	sruai
+衾	kim
+欽	kim
+#袁=圓
+# 5
+袍	bhau
+袖	sziew
+被	bhue
+婢	bhue
+#袋=代
+#袒=担
+# 6
+裉	kenn
+#裂=列
+#袴=庫
+#裁=才
+# 7
+補	buu
+#裙=羣
+#裘=求
+#裝=莊
+#裏=里
+# 8
+裸	loo
+#製=制
+#褂=卦
+裳	zhang
+#裹=果
+#裴=陪
+#複=福
+# 9
+褚	tyuu
+#褒=包
+# 10
+褪	tunn
+#褥=辱
+# 11
+#褻=屑
+#襄=相
+# 13
+襖	ao
+#襟=今
+# 14
+#禱=島
+# 15
+襪	vat
+#襬=擺
+# 16
+襯	trenn
+#襲=習
+# 19
+#襻=盼
+# Radical 146 西
+# 0
+西	sei
+棲	sei
+犀	sei
+# 3
+要	iaw
+要	iau			#要平
+腰	iau
+妖	iau
+邀	iau
+么	iau
+# 6
+覃	dhom
+潭	dhom
+譚	dhom
+# 12
+#覆=福
+# 13
+#覈=核2
+# 19
+#羈=基
+# Radical 147 見
+# 0
+見	cienn
+建	cienn
+# 4
+覔	miec
+覓	miec			#覔異體
+#規=歸
+# 5
+#視=侍
+# 9
+親	tsin
+親	tsinn			#親去
+# 13
+覺	ceoc
+角	ceoc
+#覺去=教
+# 14
+覽	laam
+攬	laam
+欖	laam
+# 18
+#觀=官
+# Radical 148 角
+# 0
+#角=覺
+# 6
+觥	cuaeng
+解	ceae
+#解賞姓=蟹
+# 13
+觸	chouc
+# Radical 149 言
+# 0
+言	qien
+研	qien
+# 2
+訂	dieq
+計	cey
+繼	cey
+係	cey
+繫	cey
+#訃=付
+# 3
+討	tao
+訓	xiunn
+記	cih
+寄	cih
+既	cih
+季	cih
+冀	cih
+暨	cih
+#訖=乞
+#訊=信
+# 4
+訛	quo
+許	xiuu
+訝	qeah
+迓	qeah
+設	shet
+#訪=仿
+訥	net
+#訟=頌
+#託=托
+#訣=決
+# 5
+詐	drah
+蚱	drah
+榨	drah
+診	jeen
+疹	jeen
+詞	szi
+祠	szi
+辭	szi
+#註=注
+#詠=泳
+#韶=照
+#訴=素
+#註=著				#此音刪去
+# 6
+該	cai
+誇	kua
+詫	tyah
+詩	shi
+尸	shi
+屍	shi			#尸異體
+施	shi
+試	shih
+弒	shih
+詳	sziang
+祥	sziang
+話	huah
+華	huah
+畫	huah
+#誠=成
+#詼=灰
+# 109
+#誅=豬
+#詭=癸
+#詣=藝
+#詢=迅
+# 7
+說	shot
+#說去=稅
+語	qiuu
+#誦=頌
+誕	dhaam
+認	renn
+刃	renn
+#誥=告
+#誓=逝
+#誤=悟
+#誘=又
+#誣=無
+# 8
+諄	jun
+論	lunn
+課	koh
+談	dham
+痰	dham
+誰	zhui
+請	tsieg
+#諒=亮
+#調平=條
+#論平=倫
+# 9
+諺	qienn
+硯	qienn
+謀	meu
+眸	meu
+諧	heai
+鞋	heai
+諾	noc
+諱	xuy
+卉	xuy
+諷	fug
+#諡=侍
+#諫=間去
+#謁=咽
+#諳=庵
+#諳=朱				#此處有誤
+# 10
+謙	kiem
+講	ceag
+謝	szieh
+謎	mey
+#謠=搖
+#謄=滕
+謗	baq
+# 11
+謬	miew
+#謳=歐
+#謫=摘
+#謹=緊
+# 12
+證	jeq
+#譜=普
+#譚=覃
+#識=式
+# 13
+譬	pih
+屁	pih
+#譯=亦
+#議=義
+#警=景
+# 14
+#護=互
+#譽=預
+# 15
+#讀=獨
+讎	zheu
+# 16
+變	bienn
+遍	bienn
+# 17
+讓	raq
+#讒=饞
+# Radical 150 谷
+# 0
+谷	cuc
+穀	cuc
+# 10
+豁	xuot
+# Radical 151 豆
+# 0
+豆	dhew
+荳	dhew
+逗	dhew
+痘	dhew
+# 3
+#豇=江
+#豈=起
+# 4
+豉	djih
+# 8
+豎	zhuu
+墅	zhuu
+碗	uon
+# 11
+#豐=風
+# 21
+#豔=焰
+# Radical 152 豕
+# 0
+#豕=始
+# 5
+象	sziaq
+像	sziaq
+橡	sziaq
+# 7
+#豪=毫
+#豫=預
+# 9
+豬	dyu
+誅	dyu
+蛛	dyu
+株	dyu
+# Radical 153 豸
+# 3
+#豹=報
+# 5
+#貂=刁
+# 7
+#貌=冒
+# 9
+貓	mhau
+# Radical 154 貝
+# 0
+貝	buy
+# 2
+貞	dyeng
+禎	dyeng
+偵	dyeng
+#負=婦
+# 3
+貢	cuq
+汞	cuq
+#財=才
+# 4
+責	draec
+窄	draec
+貨	xuoh
+貪	tom
+販	fann
+貫	cuonn
+灌	cuonn
+罐	cuonn
+#貧=頻
+# 5
+貶	bieem
+賀	hoh
+貴	cuy
+費	fuy
+買	mae
+#貳=二
+#貽=移
+#貯=柱
+#貿=戊
+#貸=代
+#貼=帖
+# 6
+賃	nimm
+#賂=路
+賊	dzec
+#賈姓=假
+#賈賞=古
+#賄=悔
+#資=茲
+# 7
+賓	bin
+檳	bin
+彬	bin
+#賑=振
+# 8
+賣	may
+邁	may
+賞	shag
+晌	shag
+質	jit
+賤	dzienn
+賢	hien
+弦	hien
+賬	dyaq
+帳	dyaq
+漲	dyaq
+#賦=付
+#賜=四
+#賒=奢
+#賠=陪
+# 9
+賴	lay
+癩	lay
+#賭=堵
+# 10
+賽	say
+#購=夠
+#賺=站
+# 11
+贅	juy
+# 12
+贊	zann
+贈	dzeq
+# 13
+贍	zhomm
+#贏=營
+# 14
+#贓=臧
+# 15
+#贖=蜀
+# 17
+贛	comm
+# Radical 155 赤
+# 0
+#赤=尺
+# 4
+赦=舍
+# 7
+赫	xaec
+嚇	xaec			#嚇2
+# Radical 156 走
+# 0
+走	zeo
+# 2
+#赴=付
+# 3
+起	kii
+企	kii
+豈	kii
+杞	kii
+趕coon
+稈	coon
+# 5
+趁	tyenn
+超	tyau
+# Page 110
+越	yuet
+曰	yuet
+粵	yuet
+悅	yuet
+閱	yuet
+# 7
+#趙=兆
+# 8
+趣	tsiuh
+#趟=燙
+# 10
+趨	tsiu
+蛆	tsiu
+# 12
+趫	kiau
+# Radical 157 足
+# 0
+足	zuc
+# 2
+趴	pa
+# 4
+#趾=止
+# 5
+跑	pao
+#跋=鈸
+跌	diet
+跛	boo
+#距=巨
+#跐=彩
+# 6
+跳	tiaw
+眺	tiaw
+#跡=積
+路	luh
+賂	luh
+露	luh
+跨	kuah
+跟	cen
+根	cen
+跪	kue			#溪母止合上聲
+# 8
+踐	dzieen
+踏	dhap
+#踢=剔
+#踏2=塔
+#踪=宗				#此音刪去
+# 9
+#踱=度入
+#蹄=提
+# 11
+蹦	beq
+# 12
+#蹲=敦
+# 13
+躉	duun
+#躁=灶
+# Radical 158 身
+# 0
+身	shen
+申	shen
+伸	shen
+紳	shen
+娠	shen
+# 3
+#躬=弓
+# 6
+#躱/躲=朶
+# 8
+#躺=倘
+# Radical 159 車
+# 0
+車	che
+車	jiu
+# 1
+軋	eat
+# 2
+#軍=君
+#軌=癸
+# 3
+軒	xien
+掀	xien
+# 4
+軟	ruaan
+#軛=厄
+# 5
+#軻=科
+#軸=逐
+# 6
+載	dzay
+#較=教
+# 7
+輕	kieng
+卿	kieng
+輒	typ
+#輔=父
+# 8
+輟	dyot
+輦	lieen
+#輩=背
+輜	dri
+#輛=亮
+#輪=倫
+#輝=徽
+# 9
+#輸=書
+#輯=集
+# 10
+轄	heat
+# 11
+轉	dyuaan
+轉	dyuann			#轉去
+# 12
+轎	giaw
+# 14
+轟	xuaeng
+# Radical 160 辛
+# 0
+#辛=新
+# 5
+#辜=姑
+# 7
+辣	lat
+# 9
+辦	bhann
+瓣	bhann
+辨	bhieen
+辯	bhieen
+辮	bhieen
+# 12
+#辭=詞
+# 14
+#辯=辯
+# Radical 161 辰
+# 0
+辰	djen
+晨	djen
+臣	djen
+# 3
+辱	rouc
+褥	rouc
+# 6
+農	nong
+儂	nong
+膿	nong
+# Radical 162 辵
+# 3
+迅	siunn
+詢	siunn
+#迄=乞
+迂	iu
+# 4
+迎	qieng
+#迓=訝
+近	ginn
+#返=反
+# 5
+迥	ciueg
+炯	ciueg			#同迥
+#迫=百
+迭	dhiet
+凸	dhiet
+#迦=加
+#述=術
+# 6
+追	dyui
+送	suq
+逆	qiec
+迷	mei
+退	tuy
+逞	tyeg
+#逃=桃
+# 7
+造	dzaw
+逢	fvong
+縫	fvong			#縫平
+逝	zhey
+誓	zhey
+速	suc
+逛	cuaq
+#逍=消
+#逗=豆
+逋	bu
+通	tung
+透	tew
+這	jeh
+蔗	jeh
+逐	dhyuc
+軸	dhyuc
+連	lien
+蓮	lien
+聯	lien
+憐	lien
+# 8
+逸	yit
+迸	baeq
+進	zinn
+晉	zinn
+#週=州
+# 9
+過	cuoh
+#遍=變
+遏	ot
+#遁=鈍
+逼	bic
+#遐=霞
+道	dhaw
+悼	dhaw
+盜	dhaw
+遇	qiuh
+寓	qiuh
+御	qiuh
+禦	qiuh
+達	dhat
+遂	szuy
+隧	szuy
+運	yunn
+韻	yunn
+隕	yunn
+暈	yunn
+熨	yunn
+#遊=由
+# 10
+遣	kieen
+遜	sunn
+遛	lhieu
+遠	yuaan
+#遞=第
+#違=爲
+#遞賞=弟
+#遙=搖
+# 11
+適	shiec
+釋	shiec
+遮	je
+遭	zau
+糟	zau
+#遲=池
+# 12
+選	siuaan
+#遵=尊
+#遺=移
+#暹=纖
+#遼=聊
+#邁=賣
+# 13
+還	huan
+環	huan
+#邀=要平
+# Page 111
+避	bhih
+#遽=具
+# 15
+邊	bien
+編	bien
+蝙	bien
+鞭	bien
+# 19
+#邏=羅
+# Radical 163 邑
+# 0
+邑	ip
+揖	ip
+# 4
+邦	bang
+那	nah
+邪	szie
+斜	szie
+# 5
+邵	zhaw
+#邯=寒
+# 6
+郁	iuc
+#郊=交
+# 7
+郡	giunn
+菌	giunn
+郎	lang
+廊	lang
+狼	lang
+螂	lang
+# 8
+郭	cuoc
+部	bhuu
+簿	bhuu
+#郵=由
+# 9
+鄂	qoc
+鱷	qoc
+都	du
+# 10
+鄒	dreu
+#鄉=香
+# 11
+#鄙=比
+# 12
+鄭	dhyeq
+鄧	dheq
+瞪	dheq
+鄰	lin
+燐	lin
+鱗	lin
+# Radical 164 酉
+# 0
+酉	ieo
+# 2
+酋	dzieu
+# 3
+酌	joc
+灼	joc
+斫	joc
+配	puay
+酒	zieo
+# 5
+#酣蚶
+#酥=蘇
+# 6
+酬	djeu
+#酵=教
+#酪=洛
+# 7
+酷	kouc
+酸	son
+# 8
+醉	zuy
+#醃=淹
+醋	tsuh
+措	tsuh
+# 9
+醒	sieg
+# 10
+醜	cheo
+# 11
+#醬=將去
+#醫=衣
+# 17
+釀	niaq
+# 18
+釁	xinn
+# Radical 165 釆
+# 13
+#釋=適
+# Radical 166 里
+# 0
+里	lii
+理	lii
+裏	lii
+裡	lii			#裏異體
+鯉	lii
+李	lii
+履	lii
+# 2
+重	dhyog
+重	dhyong			#重平
+# 4
+#野=也
+# 5
+#量去=亮
+#量=良
+# Radical 167 金
+# 0
+#金=今
+# 2
+針	jem
+斟	jem
+#釘=丁
+#釜=府
+# 3
+#鉤=勾
+#釵=差平
+# 4
+鈔	traw
+鈍	dhunn
+飩	dhunn
+遁	dhunn
+#鈞=君
+#鈔平=抄
+#鈉=捺
+#鈣=蓋
+#欽=衾
+# 5
+鉛	kean
+鉄	tiet
+鈸	bhot
+跋	bhot
+#鈴=零
+鉗	giem
+黔	giem
+#鉢=撥
+# 6
+銃	chuq
+銀	qin
+#銅=同
+#銘=名
+# 7
+鋤	jru
+雛	jru
+#銹=秀
+鋪	puh
+鋪	pu			#鋪平
+#鋁=呂
+#銳=瑞
+#銷=消
+#鋒=封
+#鋅=新
+#銼=錯
+# 8
+錦	ciim
+錯	tsoh
+挫	tsoh
+銼	tsoh
+錯	tsoc			#錯入
+錐	jui
+隹	jui
+#錢=前
+#錶=表
+#錄=綠
+#鋸=句
+#錠=定
+#網=罔
+#錫=昔
+# 9
+鍋	cuo
+戈	cuo
+#鍛=斷
+#錨=毛
+#鎂=美
+#鍾=鐘
+鍫	tsiau
+#鍵=件
+# 10
+鎊	pag			#鎊賞[~地]
+鎮	dyenn
+#鎔=容
+#鎖=所
+#鎗=槍
+#鎢=烏
+#鎊=謗
+# 11
+#剷=產
+#鏡=竟
+# 12
+鐘	jong
+鍾	jong
+盅	jong
+# 13
+#鐸=度入
+鐲	jruoc
+# 14
+鑑	ceamm
+鑊	huoc
+#鑄=注
+# 16
+䥷	jrat
+# 19
+鑽	zon			#鑽平
+鑽	zonn
+#鑼=羅
+# 20
+#鑿=昨
+# Radical 168 長
+# 0
+長	dhyang
+塲	dhyang
+腸	dhyang
+長	dyag			#長賞
+# Radical 169 門
+# 0
+門	men
+們	men
+# 1
+閂	sruan
+# 2
+#閃=陝
+# 3
+閉	bey
+# 4
+開	kai
+間	cean
+艱	cean
+奸	cean
+姦	cean
+間ceann			#間去
+諫	ceann
+閑	hean
+閒	hean
+閏	runn
+潤	runn
+# 5
+閘	jrap
+# 6
+#閩=民
+# 7
+#閱=越
+# 8
+#閹=淹
+# 9
+闌	lan
+攔	lan
+欄	lan
+蘭	lan
+闊	kuot
+闃	kiuec
+# Page 112
+#閻=炎
+# 10
+闖	truaq
+#闕=缺
+關	cuan
+鰥	cuan
+# 13
+#闥=獺
+# Radical 170 阜
+# 0
+#阜=婦
+# 4
+阮	qiuaan
+#防=房
+# 5
+阻	druu
+附	fvuh
+阿	ah
+阿	o			#阿平
+#陀=馱
+# 6
+降	ceaq
+降	heang			#降平
+限	heaan
+#陋=漏
+# 7
+除	dhyu
+儲	dhyu
+廚	dhyu
+陛	bhee
+陝	shoom
+閃	shoom
+院	yuann
+陣	dhyenn
+#陡=斗
+# 8
+陪	bhuei
+培	bhuei
+賠	bhuei
+裴	bhuei
+陵	ling
+凌	ling
+菱	ling
+陳	dhyen
+塵	dhyen
+#陰=音
+陷	heamm
+#陸=六
+#陶=桃
+# 9
+陽	yang
+羊	yang
+洋	yang
+揚	yang
+楊	yang
+隆	liung
+窿	liung
+#隅=魚
+#階=皆
+#隋=隨
+隊	dhuy
+# 10
+#隔=格
+#隕=運
+# 11
+障	jaq
+#隙=喫
+#際=濟
+# 13
+險	xieem
+隨	szui
+隋	szui
+#隧=遂
+# 14
+隱	iin
+# 16
+隴	liog
+# Radical 171 隶
+# 9
+#隸=例
+# Radical 172 隹
+# 0
+#隹=錐
+# 2
+隻	jiec
+炙	jiec
+# 3
+雀	tsioc
+鵲	tsioc
+# 4
+雁	qeann
+雄	hiung
+熊	hiung
+集	dzip
+輯	dziop
+雅	qeaa
+#僱=故
+# 5
+雍	iong
+#雉=痔
+雌	tsi
+差	tsi
+# 8
+#雕=刁
+# 9
+雖	sui
+綏	sui
+# 10
+雞	cei
+稽	cei
+雜	dzap
+雙	sruang
+#雛=鋤
+# 11
+難	nan
+難	nann			#難去
+#離=厘
+# Radical 173 雨
+# 0
+雨	yuu
+宇	yuu
+禹	yuu
+羽	yuu
+與	yuu
+# 3
+雪	siuet
+薛	siuet
+# 4
+#雲=云
+# 5
+零	lieng
+靈	lieng
+聆	lieng
+伶	lieng
+鈴	lieng
+雷	lui
+#雹=薄
+電	dhienn
+殿	dhienn
+奠	dhienn
+佃	dhienn
+靛	dhienn
+# 6
+#需=須
+# 7
+#震=振
+#霄=消
+# 8
+霎	srap
+霍	xuoc
+藿	xuoc
+# 9
+霞	hea
+瑕	hea
+遐	hea
+霜	srang
+孀	srang
+# 11
+#霧=務
+# 13
+#霸=爸
+#露=路
+# 16
+#靂=歷
+#靈=零
+# Radical 174 青
+# 0
+青	tsieng
+清	tsieng
+蜻	tsieng
+# 8
+靜	dzieg
+#靛=電
+# Radical 175 非
+# 0
+非	fui
+飛	fui
+妃	fui
+菲	fui
+啡	fui
+# 7
+靠	kaw
+犒	kaw
+# 11
+靡	mii
+弭	mii
+# Radical 176 面
+# 0
+面	mienn
+麵	mienn
+# 14
+靨	iep
+# Radical 177 革
+# 0
+#革=格
+# 4
+靴	xiue
+# 6
+#鞍=安
+#鞋=諧
+# 8
+#鞠=菊
+# 9
+#鞭=邊
+# Radical 178 韋
+# 8
+#韓=寒
+# 原書無179
+# Radical 180 音
+# 0
+音	im
+陰	im
+# 5
+韶	zhau
+# 10
+#韻=運
+# Radical 181 頁
+# 0
+頁	hiet
+# 2
+頂	dieg
+鼎	dieg
+頃
+# 3	kiueg
+順	zhunn
+項	heag
+須	siu
+鬚	siu
+需	siu
+胥	siu
+# 4
+預	yuh
+與	yuh			#與去
+譽	yuh
+豫	yuh
+喻	yuh
+愈	yuh
+芋	yuh
+頌	szioq
+誦	szioq
+訟	szioq
+頑	quan
+頓	dunn
+#頒=班
+# 5
+領	lieg
+嶺	lieg
+頗	poo
+# 7
+頻	bhin
+蘋	bhin
+貧	bhin
+潁	yeg
+頹	dhui
+#頸=景
+頭	dheu
+投	dheu
+# 9
+額	qaec
+顏	aean
+顒	qiong
+#碩=石
+#題=提
+# 10
+願	qiuann
+類	luy
+累	luy
+淚	luy
+顛	dien
+巔	dien
+# 12
+#顧=故
+# 13
+#顫=故
+# 14
+顯	xieen
+# Page 113
+# Radical 182 風
+# 0
+風	fung
+楓	fung
+豐	fung
+# 5
+#颱=臺
+# 10
+#颼=搜
+# 11
+#飃=漂
+#飄=漂
+# Radical 183 飛
+# 0
+#飛=非
+# Radical 184 食
+# 0
+食	zhic
+蝕	zhic
+# 2
+#飢=基
+# 4
+飭	tyc
+飯	fvann
+飲	iim
+#飩去=鈍
+#飩=屯
+# 5
+#飽=保
+#飼=寺
+#飾=式
+# 6
+養	yag
+癢	yag
+#餌=二
+#餃=攪
+# 7
+餒	nue
+餓	qoh
+餐	tsan
+#餘=於
+#餑=勃
+# 8
+餚	heau
+#餅=丙
+#餛=渾
+# 9
+#餫=渾
+#餵=畏
+# 10
+#餿=搜
+#餽=櫃
+# 11
+#𩞘=瞞
+# 12
+饒	rau
+#饑=基
+# 17
+饞	jram
+讒	jram
+# Radical 185 首
+# 0
+#首=手
+# Radical 186 香
+# 0
+香	xiang
+鄉	xiang
+# Radical 187 馬
+# 0
+馬	maa
+碼	maa
+螞	maa
+# 2
+馮	fvung
+# 3
+#馳=池
+#馴=荀
+# 4
+馱	dho
+陀	dho
+駝	dho
+#駁=博
+# 5
+#駛=史
+#駕=架
+#駐=著
+#駝=馱
+# 6
+#駱=洛
+# 8
+#駢=便平
+#騎=其
+# 9
+#騙=片
+# 10
+#騰=滕
+騷	sau
+搔	sau
+# 11
+#驅=區
+# 12
+#驕=澆
+# 13
+驗	qiemm
+# 14
+驟	jrew
+# 16
+驢	liu
+廬	liu			#[茅~]
+# Radical 188 骨
+# 0
+骨	cut
+# 4
+骯	ang
+# 13
+體	tee
+涕	tee
+髓	sue
+#髒=臧
+# Radical 189 高
+# 0
+高	cau
+膏	cau
+篙	cau
+羔	cau
+糕	cau
+# Radical 190 髟
+# 5
+#髮=發
+# 8
+鬆	song
+# 9
+#鬍=胡
+# 12
+#鬚=須
+# 14
+鬢	binn
+殯	binn
+# Radical 191 鬥
+# 0
+鬥	dew
+# 5
+鬧	naw
+# 6
+鬨	huq
+#10
+#闃	kiuec			#有誤
+# Radical 192 鬯
+# 19
+#鬱=乙
+# Radical 194 鬼
+# 0
+#鬼=癸
+# 4
+#魂=渾
+#魁=盔
+# 5
+#魄=拍
+# 8
+魏	quy
+僞	quy
+# 11
+#魔=摩
+# Radical 195 魚
+# 0
+魚	qiu
+漁	qiu
+愚	qiu
+隅	qiu
+虞	qiu
+# 4
+魯	luu
+櫓	luu
+滷	luu
+虜	luu
+# 5
+#鮎=黏
+# 6
+鮮	sieen			#鮮賞
+癬	sieen
+#鮮=先
+#鯗=想
+# 7
+#鯊=沙
+#鯉=里
+# 8
+#鯨=擎
+# 9
+#鯽=卽
+#鱷=鄂
+# 10
+#鰣=時
+#鰭=其
+# 11
+鰾	bhiao
+#鰵=敏
+#鰥=關
+# 12
+#鱗=鄰
+#鱔=善
+# Radical 196 鳥
+# 0
+鳥	niao
+# 2
+鳩	cieu
+糾	cieu
+# 3
+鳳	fvuq
+#鳴=名
+# 5
+#鴞=枵
+#鴦=央
+#鴛=淵
+#鴟=嗤
+# 6
+鴿	cop
+蛤	cop
+# 7
+#鵝=俄
+# 8
+#鵲=雀
+鵮	keam
+# 10
+鶴	hoc
+鶯	aeng
+鸚	aeng
+# 12
+鷸	yut
+# 13
+#鷹=應
+# 17
+#鸚=鶯
+# 19
+鸞	lon
+# Radical 197 鹵
+# 13
+#鹽=炎
+# Radical 198 鹿
+# 0
+#鹿=祿
+# 8
+#麗=例
+#麗平1=厘
+#麗2=黎
+# Radical 199 麥
+# 0
+麥	maec
+脈	maec
+# 4
+#麩=夫
+# 6
+麴	kiuc
+# 9
+#麵=面
+# Page 114
+# Radical 200 麻
+# 0
+麻	ma
+麽	me
+# 4
+#麾=徽
+# Radical 201 黃
+# 0
+黃	huang
+簧	huang
+蟥	huang
+皇	huang
+凰	huang
+煌	huang
+蝗	huang
+# Radical 202 黍
+# 0
+#黍=暑
+# 3
+黎	lei
+麗	lei
+# 5
+黏	niem
+粘	niem
+鮎	niem
+# Radical 203 黑
+# 0
+黑	xec
+# 4
+#默=墨
+#黔=鉗
+# 5
+點	dieem
+# 8
+黨	dag
+擋	dag
+# 原書無204
+# 原書無205
+# Radical 206 鼎
+# 0
+#鼎=頂
+# Radical 207 鼓
+# 0
+#鼓=古
+# Radical 208 鼠
+# 0
+#鼠=暑
+# Radical 209 鼻
+# 0
+#鼻=弼
+# 3
+鼾	xon
+# Radical 210 齊
+# 0
+齊	dzei
+臍	dzei
+# 3
+齋	drai
+# Radical 211 齒
+# 0
+齒	chii
+侈	chii
+# 6
+齦	keen
+墾	keen
+懇	keen
+# 7
+齪	trouc
+# 9
+#齷=握
+# Radical 212 龍
+# 0
+龍	liong
+# 2
+#龐=旁
+# 6
+#龕=堪
+# Radical 213 龜
+# 0
+#龜=歸
+
+
+
+# Part.2 詞組
+
+
+
+通字
+通字方案
+趙元任
+元任
+宜仲
+趙宜仲
+施氏食獅史
+
+
+蔣捷
+勝欲
+蔣勝欲
+竹山
+虞美人
+少年聽雨歌樓上
+紅燭昏羅帳
+壯年聽雨客舟中
+江闊雲低
+斷雁叫西風
+而今聽雨僧廬下
+鬢已星星也
+悲歡離合總無情
+一任階前
+點滴到天明
+
+
+王國維
+靜安
+王靜安
+觀堂
+靜安先生
+觀堂先生
+人間詞話
+苕華詞
+人間詞
+採桑子
+高城鼓動蘭釭炧
+睡也還醒
+醉也還醒
+忽聽孤鴻三兩聲
+人生祗似風前絮
+歡也零星
+悲也零星
+都作連江點點萍
+
+
+顧城
+避免
+你不願意種花
+你說
+我不願看見牠
+一點點凋落
+是的
+爲了避免結束
+您避免了一切開始
+
+
+埭塢
+填埋
+仙姬
+刀戟
