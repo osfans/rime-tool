@@ -73,3 +73,6 @@
 [submodule "RimeDayi"]
 	path = RimeDayi
 	url = git@github.com:chiahsien/RimeDayi.git
+[submodule "dieghe"]
+	path = dieghe
+	url = git@github.com:femkerr/dieghe.git
