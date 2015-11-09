@@ -1,13 +1,92 @@
-#tongszi_gcr.dict.yaml
-#Rime dictionary
+# tungdzih_gcr.dict.yaml
+# Rime dictionary
 
-name: tongszi_gcr
-version: "0.01"
+name: tungdzih_gcr
+version: "0.01_beta"
 sort: by_weight
 use_preset_vocabulary: true
 
-...
 
+#
+#規則
+#
+#聲母表
+#
+#幫b　　　滂p　　　並bh
+#端d　　　透t　　　定dh
+#見c　　　溪k　　　羣g
+#知dy 　　徹ty 　　澄dhy
+#精z　　　清ts 　　從dz
+#莊dr　 　初tr 　　崇jr
+#章j　　　昌ch 　　船dj
+#非敷f　　奉fv
+#心s　　　邪sz
+#生sr 　　士zr
+#書sh 　　時zh
+#曉x　　　匣h(雄熊h)
+#明m　　　微v
+#泥娘n　　日r
+#疑q　　　來l
+#影ø
+#以y~w　　云y~w+h(雄熊)
+#
+#
+#韻母表
+#[]爲可選
+#()爲組別
+#
+#果假　　歌 o　　　　　　　　麻(加) a,ea(c)　　　戈(茄),麻(耶) ie
+#果假　　戈 uo(c),o　　　　　麻(瓜) ua 　　　　　戈(靴) iue
+#效　　　豪 au 　　　　　　　肴 au,eau(c)　　　　宵,蕭 iau
+#流　　　候 eu 　　　　　　　　　　　　　　　　　尤,幽 ieu
+#遇　　　模 u　　　　　　　　　　　　　　　　　　魚,虞 iu
+#蟹　　　咍 ai 　　　　　　　　　　　　　　　　　皆(諧),佳(街) ai,eai(c)
+#蟹　　　灰 uei　　　　　　　　　　　　　　　　　皆(懷),佳(蛙) uai
+#咸　　　覃 om/ap,op(c)　　　　　　　　　　　　　談 am,om(c)/ap,op(c)
+#咸　　　鹽,嚴,添,凡 iem(b,d,c),am(b),om(j)/iep,ap(b)
+#山　　　寒 an,on(c)/at,ot(c)　　　　　　　　　　刪(顏),山(艱) an,eat(c)/at,eat(c)
+#山　　　桓 on,uon(c)/ot,uot(c)　　　　　　　　　刪(闖),山(鰥) uan/uat
+#蟹止　　祭(例),廢(刈),齊(雞) ei 　　　　　　　　止攝開 i
+#蟹止　　祭(歲),廢(穢),齊(圭) uei　　　　　　　　止攝合 ui
+#咸　　　咸,銜 am,eam(c)/ap,eap(c)
+#深　　　侵 im,em(j)/ip,ep(j)
+#山　　　仙(延),元(言),先(前) ien,an(j)/iet,et(j)
+#山　　　仙(緣),元(原),先(玄) an(b),[i]uan(d,j,c)/at(b),[i]uet(d,c),ot(j)
+#臻　　　痕 en/et　　　　　　　　　　　　　　　　真,臻,欣 in,en(j)/it,et(j)
+#臻　　　魂 un,en(b)/ut,et(b)　　　　　　　　　　諄,文 en(b),iun/ut(b),iut
+#宕江　　唐(罔) ang/oc 　　　　　　　　　　　　　江 [e]ang(b,c),uang/[e]oc(b,c),uoc
+#宕　　　唐(光) uang/uoc
+#梗　　　庚(羹),耕(爭) aeng/aec　　　　　　　　　清(征),庚(京),青(輕) ieng,aeng(j)/iec
+#梗　　　庚(橫),耕(宏) uaeng/uaec　　　　　　　　清(傾),庚(榮),青(螢) iueng/iuec
+#通　　　東(紅) ung/uc 　　　　　　　　　　　　　東(融) [i]ung/[i]uc
+#通　　　冬 ong/ouc　　　　　　　　　　　　　　　鐘 [i]ong/[i]ouc
+#宕　　　陽(良) [i]ang/[i]oc
+#宕　　　陽(方) [u]ang/[u]oc
+#曾　　　登(燈) eng/ec 　　　　　　　　　　　　　蒸(丞) ing,eng(j)/ic,ec(j)
+#曾　　　登(肱) ueng/uec 　　　　　　　　　　　　蒸(城) -/iuic
+#
+#
+#聲調表
+#
+#平聲: 用韻母的基本形式
+#上聲: 重複 ø, -m, -n 前的最後一個元音
+#　　　重複 iu 裏的 u 
+#　　　把韻尾 -i, -u, -ng 分別改寫爲 -e, -o, -g
+#去聲: 韻尾爲 ø 時,加寫 -h
+#　　　把韻尾 -i, -u 分別改寫爲 -y, -w
+#　　　重複韻尾 -n, -m
+#　　　把韻尾 -ng 改寫爲 q
+#入聲: 由韻尾 -p, -t, -c 表示
+#
+#舉例:
+#平聲:	巴 ba	居 ciu	非 fui	高 cau	藍 lam	人 ren	章 jang
+#上聲:	把 baa	舉 ciuu	匪 fue	稿 cao	覽 laam	忍 reen	掌 jag
+#去聲:	霸 bah	句 ciuh	費 fuy	告 caw	濫 lamm	認 renn	障 jaq
+#入聲:					臘 lap	熱 ret	酌 joc
+#
+
+
+...
 
 
 # Part.1 字
@@ -17,7 +96,7 @@ use_preset_vocabulary: true
 # 相同讀音之首字爲通字方案GCC之字
 
 
-#部首索引
+# 部首索引
 
 # Radical 1 一
 # Radical 2 丨
@@ -81,7 +160,7 @@ use_preset_vocabulary: true
 # Radical 60 彳
 # Radical 61 心
 # Radical 62 戈
-# Radical 63 户/戶
+# Radical 63 戶
 # Radical 64 手
 # Radical 65 支
 # Radical 66 攴
@@ -114,7 +193,7 @@ use_preset_vocabulary: true
 # Radical 93 牛
 # Radical 94 犬
 # Radical 95 玄
-# Radical 96 玉
+# Radical 96 玉/王
 # Radical 97 瓜
 # Radical 98 瓦
 # Radical 99 甘
@@ -268,7 +347,7 @@ use_preset_vocabulary: true
 秉	bieg
 餅	bieg
 且	tsiee
-丘	kiew
+丘	kieu
 # 5
 乒	pieng
 乓	pang
@@ -323,6 +402,7 @@ use_preset_vocabulary: true
 # 1
 九	cieo
 久	cieo
+玖	cieo			#同久
 灸	cieo
 韭	cieo
 乜	miee
@@ -343,7 +423,7 @@ use_preset_vocabulary: true
 # Radical 6 亅
 # 1
 了	le
-了	liao			#了賞
+了	liao			#了上
 # 7
 事	zrih
 # Radical 7 二
@@ -352,13 +432,14 @@ use_preset_vocabulary: true
 貳	err
 餌	err
 # 1
+亍	tyouc			#徹母鍾部入聲
 #于=於
 # 2
 云	yun
 雲	yun
 勻	yun
 互	huh
-護	hun
+護	huh
 井	zieg
 五	quu
 伍	quu
@@ -427,7 +508,7 @@ use_preset_vocabulary: true
 咐	fuh
 赴	fuh
 訃	fuh
-富	fuh
+富	fuh			#羅馬字索引漏字
 副	fuh
 #仕=士
 #仗=丈
@@ -449,7 +530,7 @@ use_preset_vocabulary: true
 仿	fag
 倣	fag
 訪	fag
-休	xiew
+休	xieu
 件	gieen
 鍵	gieen
 伏	fvuc
@@ -550,7 +631,7 @@ use_preset_vocabulary: true
 # 8
 倫	lun
 淪	lun
-論	lun
+輪	lun
 崙	lun
 論	lun			#論平
 倪	qei
@@ -558,7 +639,7 @@ use_preset_vocabulary: true
 #倡2=唱
 倆	liaa
 #俸=縫
-倦	qiuann
+倦	giuann
 倍	bhuey
 佩	bhuey
 倉	tsang
@@ -602,7 +683,7 @@ use_preset_vocabulary: true
 #僞=魏
 # 10
 傍	bhaq
-#傘=散賞
+#傘=散上
 #傅=付
 傑	giet
 竭	giet
@@ -639,7 +720,7 @@ use_preset_vocabulary: true
 儘	ziin
 #儒=如
 # 15
-儡	lue
+儡	luee			#漢字索引有誤
 #償=常
 #優=幽
 #儲=除
@@ -757,6 +838,7 @@ use_preset_vocabulary: true
 #淒=妻
 #涼=良
 #凌=陵
+#凋=刁
 # 9
 凑	tsew
 # 14
@@ -787,6 +869,7 @@ use_preset_vocabulary: true
 刁	diau
 貂	diau
 雕	diau
+凋	diau			#同貂
 # 2
 分	fen
 芬	fen
@@ -917,7 +1000,7 @@ use_preset_vocabulary: true
 勺	zhoc
 芍	zhoc
 # 2
-勾	ceuc
+勾	ceu
 鉤	ceu
 鈎	ceu
 溝	ceu
@@ -950,7 +1033,7 @@ use_preset_vocabulary: true
 挾	heap
 # 8
 匪	fue
-菲	fue			#菲賞
+菲	fue			#菲上
 斐	fue			#同匪
 # 11
 匯	huee
@@ -977,6 +1060,7 @@ use_preset_vocabulary: true
 升	sheng
 勝	sheng			#勝平
 午	uu
+塢	uu
 # 3
 半	bonn
 絆	bonn
@@ -1000,8 +1084,8 @@ use_preset_vocabulary: true
 # 2
 #卞=便
 # 3
-占	jom
-瞻	jom
+占	jom			#羅馬字索引有誤
+瞻	jom			#羅馬字索引有誤
 卡	keaa
 # 6
 卦	cuah
@@ -1116,9 +1200,8 @@ use_preset_vocabulary: true
 估	cuu
 股	cuu
 鼓	cuu
-賈	cuu			#賈賞
+賈	cuu			#賈上
 #另=令
-#只=止
 #右=又
 #司=思
 #台=臺
@@ -1149,6 +1232,8 @@ use_preset_vocabulary: true
 # 4
 否	feo
 含	hom
+晗	hom			#同含
+焓	hom			#同含
 函	hom
 涵	hom
 吟	qim
@@ -1211,7 +1296,7 @@ use_preset_vocabulary: true
 哄	xug
 響	xiag
 享	xiag
-品	piin
+品	piim			#漢字索引錯誤
 咽	iet
 謁	iet
 哇	ua
@@ -1280,6 +1365,7 @@ use_preset_vocabulary: true
 #喉=侯
 #啼=提
 #喪=桑
+喪	saq			#喪去
 #喻=預
 # 10
 嗆	tsiaq
@@ -1306,7 +1392,7 @@ use_preset_vocabulary: true
 噴	penn			#噴去
 #嘻=希
 #嘯=笑
-#嘲=朝平
+#嘲=朝2
 # 13
 #噸=敦
 #器=氣
@@ -1346,7 +1432,7 @@ use_preset_vocabulary: true
 #固=故
 # 8
 圈	kiuan
-圈	giuaan			#圈賞
+圈	giuaan			#圈上
 國	cuec
 # 10
 圓	yuan
@@ -1364,7 +1450,7 @@ use_preset_vocabulary: true
 # Radical 32 土
 # 0
 土	tuu
-吐	tuu			#吐賞
+吐	tuu			#吐上
 # 3
 在	dzae
 地	dhih
@@ -1404,6 +1490,7 @@ use_preset_vocabulary: true
 饑	ci
 姬	ci
 羈	ci
+#坪=平
 #埠=步
 #堂=唐
 域	yuic
@@ -1422,17 +1509,18 @@ use_preset_vocabulary: true
 堵	duu
 睹	duu
 賭	duu
-肚	duu			#肚賞
+肚	duu			#肚上
 #堡=保
 #堤=提
 # 10
 塞	sec
 #塗=徒
-塔	ta
-塌	ta
-榻	ta
-踏	ta			#踏2
+塔	tap
+塌	tap
+榻	tap
+踏	tap			#踏2
 塊	kuey
+#塢=午
 #塘=唐
 #塌=塔
 #塋=營
@@ -1622,7 +1710,7 @@ use_preset_vocabulary: true
 娘	niang
 #娩=免
 #姬=基
-#娠賞=振
+#娠上=振
 #娑=梭
 #娠=身
 # 8
@@ -1631,6 +1719,7 @@ use_preset_vocabulary: true
 阜	fveo
 婪	lom
 婆	bho
+#婊=表
 #婢=被
 #娼=昌
 #婚=昏
@@ -1660,7 +1749,7 @@ use_preset_vocabulary: true
 #孀=霜
 # Radical 39 子
 # 0
-子	zii			#子賞
+子	zii			#子上
 子	z
 # 1
 孔	kug
@@ -1798,16 +1887,16 @@ use_preset_vocabulary: true
 # 8
 專	juan
 磚	juan
-將	zinag
+將	ziang
 將	ziaq			#將去
 醬	ziaq
 # 9
-尋	szin
+尋	szim			#漢字索引錯誤
 尊	zun
 遵	zun
 # 11
 對	duy
-對	due			#對賞
+對	due			#對上
 # 13
 導	dhao
 稻	dhao
@@ -1817,8 +1906,6 @@ use_preset_vocabulary: true
 # 1
 少	shao
 少	shaw			#少去
-# 2
-#尓=耳
 # 3
 尖	ziem
 # 5
@@ -1828,6 +1915,7 @@ use_preset_vocabulary: true
 #尤=由
 # 9
 就	dziew
+鷲	dziew			#同就
 # Radical 44 尸
 # 0
 #尸=詩
@@ -1938,6 +2026,7 @@ use_preset_vocabulary: true
 攻	cung
 公	cung
 蚣	cung
+釭	cung
 # 2
 左	zoo
 巧	keao
@@ -2025,6 +2114,8 @@ use_preset_vocabulary: true
 評	bhieng
 瓶	bhieng
 屏	bhieng
+萍	bhieng			#同瓶
+坪	bhieng			#同瓶
 # 3
 年	nien
 # 5
@@ -2156,7 +2247,7 @@ use_preset_vocabulary: true
 # 4
 弟	dhee
 悌	dhee
-遞	dhee			#遞賞
+遞	dhee			#遞上
 #弝=爸
 # 5
 #弧=胡
@@ -2168,7 +2259,7 @@ use_preset_vocabulary: true
 # 8
 強	giang
 強	giaq			#強去
-強	kiag			#強賞
+強	kiag			#強上
 張	dyang
 # 9
 弼	bhit
@@ -2197,6 +2288,7 @@ use_preset_vocabulary: true
 刑	hieng
 # 8
 彩	tsae
+采	tsae
 採	tsae
 財	tsae
 跐	tsae
@@ -2236,7 +2328,7 @@ use_preset_vocabulary: true
 # 8
 從	dziong
 #御=遇
-從	dziq			#從去
+從	dzioq			#從去
 得	dec
 德	dec
 #徙=洗
@@ -2251,7 +2343,7 @@ use_preset_vocabulary: true
 徹	tyet
 撤	tyet
 徵	dyng
-徵	dyii			#徵賞
+徵	dyii			#徵上
 #德=得
 # 14
 徽	xui
@@ -2292,7 +2384,7 @@ use_preset_vocabulary: true
 葱	tsung
 聰	tsung
 怨	iuann
-怯	keop
+怯	kiep
 怪	cuay
 怏	iaq
 怒	nuh
@@ -2318,6 +2410,7 @@ use_preset_vocabulary: true
 #怡=移
 # 6
 恰	keap
+恪	koc
 恍	xuag
 恭	cong
 供	cong			#供平
@@ -2342,6 +2435,7 @@ use_preset_vocabulary: true
 蟋	sit
 膝	sit
 #悅=越
+#悍=汗
 悄	tsiao
 #悠=幽
 #恕=庶
@@ -2417,6 +2511,7 @@ use_preset_vocabulary: true
 #憎=曾
 #憔=樵
 #憐=連
+#憨=蚶
 # 13
 憾	homm
 應	ing
@@ -2484,7 +2579,7 @@ use_preset_vocabulary: true
 # 14
 戳	tyuoc
 #戴=帶
-# Radical 63 户/戶
+# Radical 63 戶
 # 0
 戶	huu
 滬	huu
@@ -2557,11 +2652,12 @@ use_preset_vocabulary: true
 拜	bay
 拈	nhiem
 拆	tyaec
+彳	tyaec			#徹母清開三入聲亍
 拔	bhat
 担	daan			#[~灰]
 押	eap
 拍	paec
-魄	peac
+魄	paec
 披	pui
 拉	lha
 #拂2=佛
@@ -2583,6 +2679,7 @@ use_preset_vocabulary: true
 拱	cog
 拿	na
 按	onn
+案	onn			#同按
 拽	jruay
 挖	uat
 括	cuot
@@ -2590,6 +2687,7 @@ use_preset_vocabulary: true
 #指=止
 #持=池
 # 7
+#捍=汗
 捐	ciuan
 涓	ciuan
 捋	lot
@@ -2645,6 +2743,7 @@ use_preset_vocabulary: true
 蹄	dhei
 揩	keai
 揫	zieu
+揪	zieu			#同揫
 揣	truae
 插	trap
 捏	niet
@@ -2678,8 +2777,8 @@ use_preset_vocabulary: true
 搇	kimm
 # 11
 摳	keu
-摘	draec
-謫	draec
+摘	dyaec
+謫	dyaec
 摟	leo
 簍	leo
 摞	loh
@@ -2704,7 +2803,7 @@ use_preset_vocabulary: true
 撞	dhyuaq
 撲	puc
 樸	puc
-撈	lhau
+撈	lhau			#羅馬字索引有誤
 #撫=府
 #撤=徹
 #撕=思
@@ -2712,6 +2811,8 @@ use_preset_vocabulary: true
 # 13
 操	tsau
 撼	hoom
+頜	hoom			#匣母覃部上聲
+菡	hoom			#同頜
 擎	gieng
 鯨	gieng
 #擅=禪去
@@ -2735,7 +2836,7 @@ use_preset_vocabulary: true
 擴	kuoc
 廓	kuoc
 擾	rao
-攀	pah
+攀	pan			#漢字索引印刷錯誤
 擺	bae
 襬	bae			#同擺
 擲	dhyec
@@ -2780,6 +2881,7 @@ use_preset_vocabulary: true
 効	heaw
 # 7
 教	ceaw
+覺	ceaw
 酵	ceaw
 校	ceaw			#校去
 較	ceaw
@@ -2820,7 +2922,7 @@ use_preset_vocabulary: true
 糴	dhiec			#原書有誤
 笛	dhiec
 數	sruh
-數	sruu			#數賞
+數	sruu			#數上
 整	jaeg
 # 13
 斂	liemm
@@ -2963,6 +3065,7 @@ use_preset_vocabulary: true
 #晨=辰
 晦	xuey
 晝	dyew
+#晗=含
 # 8
 普	puu
 譜	puu
@@ -2988,7 +3091,7 @@ use_preset_vocabulary: true
 悵	tyaq
 # 11
 𠽋	nit
-暫	dzzamm
+暫	dzamm
 暴	bhaw
 曝	bhaw
 瀑	bhaw
@@ -3051,16 +3154,16 @@ use_preset_vocabulary: true
 #服=伏
 # 6
 朕	dhyym
-朔	srouc
+朔	sruoc
 # 7
 望	vaq
 妄	vaq
 忘	vaq
 朗	lag
 # 8
-朝	dhyau
-朝	dhyau			#朝平
-嘲	dhyau
+朝	dyau
+朝	dhyau			#朝2
+嘲	dhyau			#羅馬字索引有誤
 #期=其
 # Radical 75 木
 # 0
@@ -3108,7 +3211,7 @@ use_preset_vocabulary: true
 東	dung
 #枝=之
 #杷=巴
-#杵=處賞
+#杵=處上
 #枚=美
 #析=昔
 杳	iao
@@ -3151,6 +3254,7 @@ use_preset_vocabulary: true
 #枷=加
 #查姓=渣
 #柑=甘
+#案=按
 # 6
 桓	huon
 核	hut			#核1
@@ -3168,7 +3272,7 @@ use_preset_vocabulary: true
 革	ceac
 隔	ceac
 桂	cuey
-瑰	cuey
+瑰	cuey			#羅馬字索引錯誤
 劊	cuey
 栽	zai
 災	zai
@@ -3195,7 +3299,10 @@ use_preset_vocabulary: true
 械	heay
 懈	heay
 條	dhiau
-調	dhiau			調平
+調	dhiau			#調平
+苕	dhiau			#同條
+迢	dhiau			#同條
+調	dhiaw
 梗	caeg
 哽	caeg
 梵	fvamm
@@ -3235,7 +3342,7 @@ use_preset_vocabulary: true
 椿	tyun
 楚	truu
 楷	keae
-業	giep
+業	qiep
 #椽=傳
 #楓=風
 #楊=陽
@@ -3329,7 +3436,7 @@ use_preset_vocabulary: true
 #款=欵
 # 10
 #歐=哥
-歉	keem
+歉	kieem
 # 11
 歐	eu
 謳	eu
@@ -3346,7 +3453,7 @@ use_preset_vocabulary: true
 旨	jii
 指	jii
 紙	jii
-只	jii
+衹	jii
 # 1
 正	jaeq
 政	jaeq
@@ -3434,6 +3541,7 @@ use_preset_vocabulary: true
 毫	hau
 豪	hau
 蠔	hau
+號	hau
 # 8
 毯	taam
 # Radical 83 氏
@@ -3473,6 +3581,9 @@ use_preset_vocabulary: true
 豇	ceang
 汗	honn
 翰	honn
+瀚	honn			#同翰
+悍	honn			#同翰
+捍	honn			#同翰
 #汙=惡去
 #污=烏
 # 4
@@ -3522,9 +3633,9 @@ use_preset_vocabulary: true
 泣	kip
 #河=何
 # 6
-洗	sec
-徙	sec
-璽	sec
+洗	see
+徙	see
+璽	see
 洛	loc
 落	loc
 烙	loc
@@ -3548,7 +3659,7 @@ use_preset_vocabulary: true
 榴	lieu
 硫	lieu
 琉	lieu
-#涕=替
+#涕=體
 浜	baeng
 浸	zimm
 浩	hao
@@ -3609,8 +3720,8 @@ use_preset_vocabulary: true
 # Page 101
 渴	kot
 湯	tang
-渣	ja
-查	ja			#查姓
+渣	dra			#原書有誤
+查	dra			#查姓 原書有誤
 渠	giu
 瞿	giu
 衢	giu
@@ -3647,6 +3758,7 @@ use_preset_vocabulary: true
 滯	dhyey
 #溉=蓋
 漸	dzieem
+#滴=的
 #漫=幔
 #滬=戶
 #漱=瘦
@@ -3656,7 +3768,7 @@ use_preset_vocabulary: true
 漂	piau
 飃	piau
 飄	piau			#飃異體
-漂	piao			#漂賞[~白]
+漂	piao			#漂上[~白]
 #漂去[~亮]=票
 滿	moon
 漢	xonn
@@ -3684,8 +3796,8 @@ use_preset_vocabulary: true
 激	ciec
 擊	ciec
 戟	ciec
-濁	dhyouc
-濯	dhyouc
+濁	dhyuoc
+濯	dhyuoc
 濃	niong
 #澳=奧
 #澤=宅
@@ -3705,6 +3817,7 @@ use_preset_vocabulary: true
 #瀑=暴
 #濺=箭
 # 16
+#瀚=汗
 #濾=慮
 # 18
 #灌=貫
@@ -3727,6 +3840,8 @@ use_preset_vocabulary: true
 #灼=酌
 #災=栽
 #灸=九
+灺	sziee			#邪母麻開三上聲
+炧	sziee			#同灺
 躁	zaw
 # 4
 炎	yem
@@ -3738,6 +3853,8 @@ use_preset_vocabulary: true
 #炕=抗
 #炮=泡
 #炙=隻
+# 5
+#炧=灺
 # 6
 烏	u
 污	u
@@ -3754,6 +3871,8 @@ use_preset_vocabulary: true
 #洛
 # 7
 烹	paeng
+#焓=含
+#焊=罕
 #焉=延
 #焉平=煙
 # 8
@@ -3826,6 +3945,7 @@ use_preset_vocabulary: true
 # Radical 87 爪
 # 0
 爪	druaa
+爪	draa			#爪2
 # 4
 爬	bha
 琶	bha
@@ -3860,6 +3980,8 @@ use_preset_vocabulary: true
 # Radical 89 爻
 # 7
 爽	srag
+# 10
+#爾=耳
 # Radical 90 爿
 # 4
 牀	jrang
@@ -3958,14 +4080,16 @@ use_preset_vocabulary: true
 # 6
 #率去=帥
 #率入=律
-# Radical 96 玉
+# Radical 96 玉/王
 # 0
 玉	qiouc
 獄	qiouc
 王	wang
+# 3
+#玖=久
 # 4
 玩	quon
-玩	uqonn			#玩去
+玩	quonn			#玩去
 #玫=梅
 # 5
 珍	dyen
@@ -4043,7 +4167,7 @@ use_preset_vocabulary: true
 產	traan
 鏟	traan
 # 7
-蕤rui
+蕤	rui
 # Radical 101 用
 # 0
 用	yoq
@@ -4076,7 +4200,7 @@ use_preset_vocabulary: true
 餵	uy
 #界=介
 # 5
-畜tyuc
+畜	tyuc
 #留=流
 #畜入=蓄
 # 6
@@ -4152,7 +4276,7 @@ use_preset_vocabulary: true
 # 16
 #癩=賴
 # 17
-#癬=鮮賞
+#癬=鮮上
 # Radical 105 癶
 # 4
 癸	cue
@@ -4180,6 +4304,7 @@ use_preset_vocabulary: true
 的	de
 #帛=白
 的	diec			#的入
+滴	diec			#同的入
 # 4
 皆	ceai
 階	ceai
@@ -4375,7 +4500,7 @@ use_preset_vocabulary: true
 # 7
 #裡=里
 # 8
-稟	biin
+稟	biim			#漢字索引有誤
 禁	cimm
 祿	luc
 鹿	luc
@@ -4439,9 +4564,8 @@ use_preset_vocabulary: true
 貽	yi
 遺	yi
 # 7
-税	shuy			#說去
 稅	shuy
-說	shuy
+說	shuy			#說去
 #稈=趕
 稍	srau
 梢	srau
@@ -4516,7 +4640,7 @@ use_preset_vocabulary: true
 鏡	cieq
 敬	cieq
 徑	cieq
-勁	ceiq
+勁	cieq
 章	jang
 彰	jang
 樟	jang
@@ -4537,7 +4661,7 @@ use_preset_vocabulary: true
 笑	siaw
 嘯	siaw
 肖	siaw
-笊	dray
+笊	draw
 # 5
 第	dhey
 遞	dhey
@@ -4564,8 +4688,8 @@ use_preset_vocabulary: true
 # 8
 箚	dyap
 管	cuoon
-算	soon
-蒜	soon
+算	sonn
+蒜	sonn
 #箋=煎
 #金=姑
 #古=爭
@@ -4626,7 +4750,7 @@ use_preset_vocabulary: true
 #釉=又
 #粘=黏
 # 6
-粟	siouc			#原書印刷錯誤
+粟	siouc			#漢字索引印刷錯誤
 #粥=祝
 #粵=越
 # 7
@@ -4793,6 +4917,7 @@ use_preset_vocabulary: true
 # Radical 122 网
 # 3
 罕	xoon
+焊	xoon			#同罕
 罔	vag
 網	vag
 # 8
@@ -4869,7 +4994,7 @@ use_preset_vocabulary: true
 兒	er
 # 3
 耍	sruaa
-傻	sruaa			#生母麻二合賞聲
+傻	sruaa			#生母麻二合上聲
 #耐=奈
 # Radical 127 耒
 # 4
@@ -4881,7 +5006,8 @@ use_preset_vocabulary: true
 # Radical 128 耳
 # 0
 耳	eer
-尓	eer
+爾	eer
+邇	eer
 # Page 106
 # 3
 耶	ye
@@ -4937,7 +5063,7 @@ use_preset_vocabulary: true
 #肌=基
 # 3
 肘	dyeo
-#肚賞=堵
+#肚上=堵
 #肓=荒
 #肖=笑
 #肝=干
@@ -5171,6 +5297,7 @@ use_preset_vocabulary: true
 苗	miau
 描	miau
 #苔=臺
+#苕=條
 #茂=戊
 #茅=毛
 #苛=科
@@ -5205,6 +5332,7 @@ use_preset_vocabulary: true
 漠	moc
 #荳=豆
 莞	huaan
+#萍=平
 #荷=何
 #莠=有
 #莧=現
@@ -5223,9 +5351,10 @@ use_preset_vocabulary: true
 #華去姓=話
 #菲=非
 #萌=盟
-#菲賞=匪
+#菲上=匪
 #菇=姑
 #萎=委
+#菡=撼
 #菓=果
 #萄=桃
 #菌=郡
@@ -5262,8 +5391,8 @@ use_preset_vocabulary: true
 #蓑=梭
 #蒼=倉
 # 11
-蔣	ziang
-獎	ziang
+蔣	ziag
+獎	ziag
 蓬	bhung
 蔭	imm
 #蓮=連
@@ -5332,7 +5461,7 @@ use_preset_vocabulary: true
 #虔=乾
 # 5
 處	chuh
-處	chuu			#處賞
+處	chuu			#處上
 杵	chuu
 # 6
 虛	xiu
@@ -5362,6 +5491,7 @@ use_preset_vocabulary: true
 #蛆=趨
 蚶	xom
 酣	xom
+憨	xom			#同蚶
 #蛋=但
 # 6
 #蛙=哇
@@ -5409,7 +5539,7 @@ use_preset_vocabulary: true
 蟶	tyeng
 蠆	tray
 蟹	heae
-解	heae			#解賞姓
+解	heae			#解上姓
 蠅	ying
 蟾	djom
 #蟻=擬
@@ -5459,6 +5589,7 @@ use_preset_vocabulary: true
 她	i
 # 3
 表	biao
+婊	biao
 錶	biao
 衫	sram
 杉	sram
@@ -5467,6 +5598,7 @@ use_preset_vocabulary: true
 摔	sruai
 衾	kim
 欽	kim
+#衹=止
 #袁=圓
 # 5
 袍	bhau
@@ -5519,7 +5651,8 @@ use_preset_vocabulary: true
 # Radical 146 西
 # 0
 西	sei
-棲	sei
+棲	sei			#羅馬字索引有誤
+栖	sei			#同棲
 犀	sei
 # 3
 要	iaw
@@ -5545,6 +5678,7 @@ use_preset_vocabulary: true
 # 4
 覔	miec
 覓	miec			#覔異體
+冪	miec
 #規=歸
 # 5
 #視=侍
@@ -5567,7 +5701,7 @@ use_preset_vocabulary: true
 # 6
 觥	cuaeng
 解	ceae
-#解賞姓=蟹
+#解上姓=蟹
 # 13
 觸	chouc
 # Radical 149 言
@@ -5687,6 +5821,8 @@ use_preset_vocabulary: true
 #謠=搖
 #謄=滕
 謗	baq
+磅	baq
+鎊	baq
 # 11
 謬	miew
 #謳=歐
@@ -5744,9 +5880,9 @@ use_preset_vocabulary: true
 # 0
 #豕=始
 # 5
-象	sziaq
-像	sziaq
-橡	sziaq
+象	sziaq			#羅馬字索引錯誤
+像	sziaq			#羅馬字索引錯誤
+橡	sziaq			#羅馬字索引錯誤
 # 7
 #豪=毫
 #豫=預
@@ -5803,7 +5939,7 @@ use_preset_vocabulary: true
 #賂=路
 賊	dzec
 #賈姓=假
-#賈賞=古
+#賈上=古
 #賄=悔
 #資=茲
 # 7
@@ -5841,7 +5977,7 @@ use_preset_vocabulary: true
 贊	zann
 贈	dzeq
 # 13
-贍	zhomm
+贍	djomm			#漢字索引有誤
 #贏=營
 # 14
 #贓=臧
@@ -5862,12 +5998,13 @@ use_preset_vocabulary: true
 走	zeo
 # 2
 #赴=付
+#赳=糾
 # 3
 起	kii
 企	kii
 豈	kii
 杞	kii
-趕coon
+趕	coon
 稈	coon
 # 5
 趁	tyenn
@@ -5945,7 +6082,7 @@ use_preset_vocabulary: true
 # Radical 159 車
 # 0
 車	che
-車	jiu
+車	ciu			#漢字索引有誤
 # 1
 軋	eat
 # 2
@@ -6018,6 +6155,8 @@ use_preset_vocabulary: true
 儂	nong
 膿	nong
 # Radical 162 辵
+# 0
+辵	tyoc
 # 3
 迅	siunn
 詢	siunn
@@ -6036,6 +6175,7 @@ use_preset_vocabulary: true
 凸	dhiet
 #迦=加
 #述=術
+#迢=條
 # 6
 追	dyui
 送	suq
@@ -6101,7 +6241,7 @@ use_preset_vocabulary: true
 遠	yuaan
 #遞=第
 #違=爲
-#遞賞=弟
+#遞上=弟
 #遙=搖
 # 11
 適	shiec
@@ -6120,6 +6260,8 @@ use_preset_vocabulary: true
 # 13
 還	huan
 環	huan
+# 14
+#邇=耳
 #邀=要平
 # Page 111
 避	bhih
@@ -6183,8 +6325,9 @@ use_preset_vocabulary: true
 酌	joc
 灼	joc
 斫	joc
-配	puay
+配	puey
 酒	zieo
+酐	xang			#曉母唐開上聲
 # 5
 #酣蚶
 #酥=蘇
@@ -6212,6 +6355,8 @@ use_preset_vocabulary: true
 # 18
 釁	xinn
 # Radical 165 釆
+#0
+#采=彩
 # 13
 #釋=適
 # Radical 166 里
@@ -6240,6 +6385,7 @@ use_preset_vocabulary: true
 #釘=丁
 #釜=府
 # 3
+#釭=工
 #鉤=勾
 #釵=差平
 # 4
@@ -6303,7 +6449,7 @@ use_preset_vocabulary: true
 鍫	tsiau
 #鍵=件
 # 10
-鎊	pag			#鎊賞[~地]
+鎊	pag			#鎊上[~地]
 鎮	dyenn
 #鎔=容
 #鎖=所
@@ -6337,11 +6483,12 @@ use_preset_vocabulary: true
 長	dhyang
 塲	dhyang
 腸	dhyang
-長	dyag			#長賞
+長	dyag			#長上
 # Radical 169 門
 # 0
 門	men
 們	men
+捫	men			#漢字索引漏字
 # 1
 閂	sruan
 # 2
@@ -6354,7 +6501,7 @@ use_preset_vocabulary: true
 艱	cean
 奸	cean
 姦	cean
-間ceann			#間去
+間	ceann			#間去
 諫	ceann
 閑	hean
 閒	hean
@@ -6378,7 +6525,7 @@ use_preset_vocabulary: true
 # Page 112
 #閻=炎
 # 10
-闖	truaq
+闖	truag
 #闕=缺
 關	cuan
 鰥	cuan
@@ -6470,7 +6617,7 @@ use_preset_vocabulary: true
 雄	hiung
 熊	hiung
 集	dzip
-輯	dziop
+輯	dzip
 雅	qeaa
 #僱=故
 # 5
@@ -6598,8 +6745,8 @@ use_preset_vocabulary: true
 # 2
 頂	dieg
 鼎	dieg
-頃
-# 3	kiueg
+頃	kiueg
+# 3
 順	zhunn
 項	heag
 須	siu
@@ -6633,6 +6780,8 @@ use_preset_vocabulary: true
 #頸=景
 頭	dheu
 投	dheu
+# 8
+#頜=撼
 # 9
 額	qaec
 顏	aean
@@ -6769,7 +6918,7 @@ use_preset_vocabulary: true
 骯	ang
 # 13
 體	tee
-涕	tee
+涕	tee			#原書有誤，保留一音
 髓	sue
 #髒=臧
 # Radical 189 高
@@ -6831,7 +6980,7 @@ use_preset_vocabulary: true
 # 5
 #鮎=黏
 # 6
-鮮	sieen			#鮮賞
+鮮	sieen			#鮮上
 癬	sieen
 #鮮=先
 #鯗=想
@@ -6859,6 +7008,7 @@ use_preset_vocabulary: true
 # 2
 鳩	cieu
 糾	cieu
+赳	cieu
 # 3
 鳳	fvuq
 #鳴=名
@@ -6881,6 +7031,7 @@ use_preset_vocabulary: true
 鸚	aeng
 # 12
 鷸	yut
+#鷲=就
 # 13
 #鷹=應
 # 17
@@ -6975,7 +7126,7 @@ use_preset_vocabulary: true
 墾	keen
 懇	keen
 # 7
-齪	trouc
+齪	truoc
 # 9
 #齷=握
 # Radical 212 龍
@@ -6990,69 +7141,143 @@ use_preset_vocabulary: true
 #龜=歸
 
 
+# Part.2 符號
 
-# Part.2 詞組
+ㄅ	~b
+ㄆ	~p
+ㄇ	~m
+ㄈ	~f
+ㄉ	~d
+ㄊ	~t
+ㄋ	~n
+ㄌ	~l
+ㄍ	~c
+ㄎ	~k
+ㄏ	~x
+ㄏ	~h
+ㄐ	~ji
+ㄐ	~j
+ㄑ	~chi
+ㄑ	~q
+ㄒ	~shi
+ㄒ	~hs
+ㄓ	~j
+ㄓ	~zh
+ㄔ	~ch
+ㄕ	~sh
+ㄖ	~r
+ㄗ	~z
+ㄘ	~ts
+ㄙ	~s
+ㄧ	~i
+ㄨ	~u
+ㄩ	~iu
+ㄚ	~a
+ㄛ	~o
+ㄜ	~e
+ㄝ	~e
+ㄞ	~ai
+ㄟ	~ei
+ㄠ	~au
+ㄡ	~ou
+ㄢ	~an
+ㄣ	~en
+ㄤ	~ang
+ㄥ	~eng
+ㄦ	~er
+ˇ	~zhag
+ˋ	~kiuh
+ˊ	~yang
+˙	~kieng
+ā	~a
+á	~a
+ǎ	~a
+à	~a
+ō	~o
+ó	~o
+ǒ	~o
+ò	~o
+ē	~e
+é	~e
+ě	~e
+è	~e
+ê	~i
+ī	~i
+í	~i
+ǐ	~i
+ì	~i
+ū	~u
+ú	~u
+ǔ	~u
+ù	~u
+ǖ	~iu
+ǘ	~iu
+ǚ	~iu
+ǜ	~iu
+ü	~iu
 
 
 
-通字
-通字方案
-趙元任
-元任
-宜仲
-趙宜仲
-施氏食獅史
+# Part.3 詞組
+
+通字	tung dzih
+通字方案	tung dzih fang onn
+趙元任	dhyao qiuan remm
+元任	qiuan remm
+宜仲	qi dhyuq
+趙宜仲	dhyao qi dhyuq
+施氏食獅史	shi zhii zhic sri srii
 
 
-蔣捷
-勝欲
-蔣勝欲
-竹山
-虞美人
-少年聽雨歌樓上
-紅燭昏羅帳
-壯年聽雨客舟中
-江闊雲低
-斷雁叫西風
-而今聽雨僧廬下
-鬢已星星也
-悲歡離合總無情
-一任階前
-點滴到天明
+蔣捷	ziag dziep
+勝欲	sheq youc
+蔣勝欲	ziag sheq youc
+竹山	dyuc sran
+虞美人	qiu mue ren
+少年聽雨歌樓上	shaw nien tieng yuu co leu zhag
+紅燭昏羅帳	hung jouc xun lo dyaq
+壯年聽雨客舟中	draq nien tieng yuu kaec jeu dyung
+江闊雲低	ceang kuot yun dei
+斷雁叫西風	donn qeann ciaw sei fung
+而今聽雨僧廬下	er cim tieng yuu seng lu heah
+鬢已星星也	binn yii sieng sieng yee
+悲歡離合總無情	bui xuon li hop zug vu dzieng
+一任階前	it remm ceai dzien
+點滴到天明	dieem diec daw tien ming
 
 
-王國維
-靜安
-王靜安
-觀堂
-靜安先生
-觀堂先生
-人間詞話
-苕華詞
-人間詞
-採桑子
-高城鼓動蘭釭炧
-睡也還醒
-醉也還醒
-忽聽孤鴻三兩聲
-人生祗似風前絮
-歡也零星
-悲也零星
-都作連江點點萍
+王國維	wang cuec wui
+靜安	dzieg on
+王靜安	wang dzieg on
+觀堂	cuon dhang
+靜安先生	dzieg on sien sraeng
+觀堂先生	cuon dhang sien sraeng
+人間詞話	ren cean szi huah
+苕華詞	dhiau hua szi
+人間詞	ren cean szi
+採桑子	tsae sang zii
+高城鼓動蘭釭炧	cau djaeng cuu dhug lan cung sziee
+睡也還醒 zhuy yee huan sieg
+醉也還醒 zuy yee huan sieg
+忽聽孤鴻三兩聲	xut tieng cu hung sam liag shaeng
+人生衹似風前絮	ren sraeng jii szii fung dzien siuh
+歡也零星	xuon yee lieng sieng
+悲也零星	bui yee lieng sieng
+都作連江點點萍	du zoc lien ceang dieem dieem bhieng
 
 
-顧城
-避免
-你不願意種花
-你說
-我不願看見牠
-一點點凋落
-是的
-爲了避免結束
-您避免了一切開始
+顧城	cuh djaeng
+避免	bhih mieen
+你不願意種花	nii but qiuann ih joq xua
+你說	nii shot
+我不願看見牠	qoo but qiuann konn cienn te
+一點點凋落	it dieem dieem diau loc
+是的	zh de
+爲了避免結束	wuy le bhih mieen ciet shouc
+您避免了一切開始	nin bhih mieen le it tsiet kai shii
 
 
-埭塢
-填埋
-仙姬
-刀戟
+埭塢	dhay uu
+填埋	dhien mai
+仙姬	sien ci
+刀戟	dau ciec

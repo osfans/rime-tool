@@ -1,8 +1,12 @@
-# tongszi_gcr.schema.yaml
+# tungdzih_gcr.schema.yaml
 # Rime schema
 # encoding: UTF-8
-# version: 0.01_alpha
-# Modified time: 2015-Nov-05 15:21:00(UTC)
+# version: 0.01_beta
+# Modified time: 2015-Nov-06 15:42:00(UTC)
+
+# by Lautis Sun
+# @COPYLEFT. ALL WRONGS RESERVED.
+# 非版權　保留一切義務
 
 
 # 趙元任先生通字方案之GCR
@@ -12,16 +16,22 @@
 
 
 # 輸入時有編碼提示(不完善)
-# tongszi_gcr.dict.yaml中有部首索引
+# tungdzih_gcr.dict.yaml中有部首索引
 # 鍵入`後可輸入拼音查詢通字
+
+
+# 原書通字爲趙元任先生結合官話與各方言讀音所定
+# 後續增加字爲製作者根據書中通字原則，參照廣韻(漢典)並結合康熙字典(漢典)所定
+# 如有不妥之處，請告知
 
 
 # 歡迎各位批評指正，聯繫方式見下方
 
+
 schema:
-  schema_id: tongszi_gcr
+  schema_id: tungdzih_gcr
   name: "通字方案"
-  version: "0.01_alpha"
+  version: "0.01_beta"
   author:
     - "Lautis Sun <lautis0503@gmail.com>"
   description: |
@@ -58,6 +68,7 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
+    - table_translator
     - script_translator
     - reverse_lookup_translator
   filters:
@@ -65,12 +76,11 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: qwertyuiopasdfghjklzxcvbnm
+  alphabet: ~qwertyuiopasdfghjklzxcvbnm
   delimiter: " '"
 
 translator:
-  dictionary: tongszi_gcr
-# 編碼提示
+  dictionary: tungdzih_gcr
   spelling_hints: 4
 
 reverse_lookup:
