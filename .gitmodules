@@ -79,3 +79,6 @@
 [submodule "zhengma-vfreex"]
 	path = zhengma-vfreex
 	url = git@github.com:vfreex/rime-zhengma.git
+[submodule "dieghv"]
+	path = dieghv
+	url = git@github.com:Kahaani/dieghv.git
