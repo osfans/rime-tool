@@ -1,0 +1,130 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: kaxin
+  name: 嘉興法呉
+  version: "2015.12.18"
+  author:
+    - 雪心居士
+  description: |
+    嘉興輸入方案法呉版
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba"
+  delimiter: " "
+  algebra:
+    - derive/aon/an/
+    - derive/an/aon/
+    - derive/^f([ou])$/h$1/
+    - derive/^h([ou])$/f$1/
+    - derive/^vu/wu/
+    - derive/^wu/vu/
+    - derive/^u$/ou/
+    - derive/([^aoei])u$/$1ou/
+    - xform/o$/O/
+    - xform/au/o/
+    - xform/O/au/
+    - xform/eu/EU/
+    - xform/oe/eu/
+    - xform/EU/oe/
+    - xform/ui/u/
+    - xform/h$/q/
+    - xform/^r/el/
+    - xform/^gh/r/
+    - xform/^j/dj/
+    - xform/^nyi?$/gni/
+    - xform/ii/i/
+    - xform/^tsh/TS/
+    - xform/^ts/tz/
+    - xform/^TS/ts/
+    - xform/^zh/j/
+    - xform/^sh/x/
+    #規則
+    - abbrev/^([bpmfdtnlgkhjqxzcsyw]+).*$/$1/       # 無韻簡拼
+
+translator:
+  dictionary: kashin
+  prism: kaxin
+  spelling_hints: 5
+  comment_format:
+    - xform/o$/O/
+    - xform/au/o/
+    - xform/O/au/
+    - xform/eu/EU/
+    - xform/oe/eu/
+    - xform/EU/oe/
+    - xform/ui/u/
+    - xform/h$/q/
+    - xform/^r/el/
+    - xform/^gh/r/
+    - xform/^j/dj/
+    - xform/^nyi?$/gni/
+    - xform/ii/i/
+    - xform/^tsh/TS/
+    - xform/^ts/tz/
+    - xform/^TS/ts/
+    - xform/^zh/j/
+    - xform/^sh/x/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    # hack: to enable "/fh" style symbols, '/' must be mapped to a [list].
+    # so those who have customized '/' for direct commit won't be affected by
+    # this change.
+    punct: "^/([0-9]+[a-z]*|[a-z]+)$"
+    reverse_lookup: "`[a-z]*'?$"
