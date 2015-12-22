@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 schema:
-  schema_id: dhon2xian1
+  schema_id: dhonxian
   name: 桐鄉拚音
   version: "2015.8.21"
   author:
@@ -48,8 +48,7 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: "zyxwvutsrqponmlkjihgfedcba12345678"
-  finals: " 12345678"
+  alphabet: "zyxwvutsrqponmlkjihgfedcba"
   delimiter: " '"
   algebra:
     - xform/\(.+\)//  #刪除備註
@@ -57,11 +56,11 @@ speller:
     - xform/r/er/
     - xform/eu/ou/
     - xform/aon/ang/
-    - xform/h(\d)$/k$1/
+    - xform/h$/k/
     #聲母
     - xform/^m/mh/
     - xform/^ng/ngh/
-    - xform/^ni(\d)/nni$1/ #你內
+    - xform/^ni$/nni/ #你內
     - xform/^ny/nhi/
     - xform/^n([^hn])/nh$1/
     - xform/'ny/ni/
@@ -98,34 +97,33 @@ speller:
     - derive/^si/xi/
     - derive/^shi/xhi/
     #打党弗分
-    - derive/an(\d)/ang$1/
+    - derive/an$/ang/
     #齊棋弗分
     #- derive/^shi/jhi/
     #一育弗分
     - derive/ioh/ih/
     #飛灰弗分
     - derive/^hu/f/
-    - xform/^f(\d)/fu$1/
+    - xform/^f$/fu/
     #半杯弗分
-    #- derive/^(b|p|bh)e(\d)/$1i$2/
+    #- derive/^(b|p|bh)e$/$1i/
     #肩艱弗分
-    #- derive/ie(\d)/iae$1/
+    #- derive/ie$/iae/
     #歐衣弗分
     #- derive/ou/i/
     #撮口音
-    - derive/e(\d)/oe$1/
+    - derive/e$/oe/
     #規則
     - xform/^i/yi/
     - xform/(yh?)i([aoeu])/$1$2/
-    - xform/^u(n?)(\d?)$/wu$1$2/
+    - xform/^u(n?)$/wu$1/
     - xform/^u/w/
     - xform/ii/i/
     - abbrev/^([bpmfdtnlgkhjqxzcsyw]+).*$/$1/       # 無韻簡拼
-    - derive/\d$//       # 無調輸入
 
 translator:
-  dictionary: don2shian1
-  prism: dhon2xian1
+  dictionary: donshianese
+  prism: dhonxian
   spelling_hints: 5
   comment_format:
     - xform/^(.*)\((.*)\)$/$2✔/
@@ -134,11 +132,11 @@ translator:
     - xform/r/er/
     - xform/eu/ou/
     - xform/aon/ang/
-    - xform/h(\d)$/k$1/
+    - xform/h$/k/
     #聲母
     - xform/^m/mh/
     - xform/^ng/ngh/
-    - xform/^ni(\d)/nni$1/ #你內
+    - xform/^ni$/nni/ #你內
     - xform/^ny/nhi/
     - xform/^n([^hn])/nh$1/
     - xform/'ny/ni/
@@ -172,7 +170,7 @@ translator:
     #規則
     - xform/^i/yi/
     - xform/(yh?)i([aoeu])/$1$2/
-    - xform/^u(n?)(\d?)$/wu$1$2/
+    - xform/^u(n?)$/wu$1/
     - xform/^u/w/
     - xform/ii/i/
 

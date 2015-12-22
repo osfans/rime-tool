@@ -2,13 +2,13 @@
 # encoding: utf-8
 
 schema:
-  schema_id: don2xian1
-  name: 桐鄉法吳
+  schema_id: donshianese
+  name: 桐鄉吳拚
   version: "2015.8.21"
   author:
     - 雪心居士
   description: |
-    桐鄉言話注音輸入方案法吳版
+    桐鄉言話注音輸入方案吳協版
   dependencies:
     - luna_pinyin
 
@@ -48,79 +48,43 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: "zyxwvutsrqponmlkjihgfedcba12345678'"
-  finals: " 12345678"
-  delimiter: " '"
+  alphabet: "zyxwvutsrqponmlkjihgfedcba'"
+  delimiter: " "
   algebra:
     - xform/\(.+\)//  #刪除備註
-    - xform/o(\d)/O$1/
-    - xform/au/o/
-    - xform/O/au/
-    - xform/r/el/
-    - xform/eu/oe/
-    - xform/h(\d)$/q$1/
-    - xform/'nyi?/kni/
-    - xform/^nyi?/gni/
-    - xform/'ng/nk/
-    - xform/^gh/r/
-    - xform/'(.)/$1h/
-    - xform/^j/dj/
-    - xform/^tsh/TS/
-    - xform/^ts/tz/
-    - xform/^TS/ts/
-    - xform/^sh/x/
-    - xform/^zh/j/
     #尖團弗分
-    - derive/^tzi/ci/
-    - derive/^tsi/chi/
-    - derive/^zi/ji/
-    - derive/^si/xi/
+    - derive/^tsi/ci/
+    - derive/^tshi/chi/
+    - derive/^zi/zhi/
+    - derive/^si/shi/
     #打党弗分
     - derive/aon/an/
     #齊棋弗分
-    #- derive/^zi/dji/
+    #- derive/^zi/ji/
     #一育弗分
     - derive/ioh/ih/
     #飛灰弗分
     - derive/^hu/f/
-    - xform/^f(\d)/fu$1/
+    - xform/^f$/fu/
     #半杯弗分
-    #- derive/^(b|p|ph)e(\d)/$1i$2/
+    #- derive/^(b|p|ph)e$/$1i/
     #肩艱弗分
-    #- derive/ie(\d)/iae$1/
+    #- derive/ie$/iae/
     #歐衣弗分
-    #- derive/oe/i/
+    #- derive/eu/i/
     #撮口音
-    - derive/e(\d)/eu$1/
+    - derive/e$/oe/
     #規則
     #- xform/yi([aoeu])/y$1/
     - abbrev/^(['bpmfdtnlgkhjqxzcsyw]+).*$/$1/       # 無韻簡拼
-    - derive/\d$//       # 無調輸入
 
 translator:
-  dictionary: don2shian1
-  prism: don2xian1
+  dictionary: donshianese
+  prism: donshianese
   spelling_hints: 5
   comment_format:
     - xform/^(.*)\((.*)\)$/$2✔/
     #- xform ^(.*)$ /$1/
-    - xform/o(\d)/O$1/
-    - xform/au/o/
-    - xform/O/au/
-    - xform/r/el/
-    - xform/eu/oe/
-    - xform/h(\d)$/q$1/
-    - xform/'nyi?/kni/
-    - xform/^nyi?/gni/
-    - xform/'ng/nk/
-    - xform/^gh/r/
-    - xform/'(.)/$1h/
-    - xform/^j/dj/
-    - xform/^tsh/TS/
-    - xform/^ts/tz/
-    - xform/^TS/ts/
-    - xform/^sh/x/
-    - xform/^zh/j/
 
 reverse_lookup:
   dictionary: luna_pinyin
