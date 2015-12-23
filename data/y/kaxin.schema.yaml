@@ -3,12 +3,12 @@
 
 schema:
   schema_id: kaxin
-  name: 嘉興法呉
+  name: 嘉興法吳
   version: "2015.12.18"
   author:
     - 雪心居士
   description: |
-    嘉興輸入方案法呉版
+    嘉興輸入方案法吳版
   dependencies:
     - luna_pinyin
 
