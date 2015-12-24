@@ -2,13 +2,13 @@
 # encoding: utf-8
 
 schema:
-  schema_id: telegraph_code_zh_cn
-  name: 中国大陆标准电码
+  schema_id: telegraph_code_zh_cn_stsl
+  name: 中国大陆标准电码（单字盲打）
   version: "0.1"
   author:
     - 熊猫阿Bo
   description: |
-    源自 中华人民共和国邮电部1983年9月第3版 ISBN：9787115042194 此方案支持笔画反查
+    源自 中华人民共和国邮电部1983年9月第3版 ISBN：9787115042194 此方案为单字上屏盲打、笔画反查版本
   dependencies:
     - stroke
 
@@ -39,16 +39,21 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - script_translator
+    - table_translator
     - reverse_lookup_translator
 
 speller:
   alphabet: 1234567890
   delimiter: " '"
   max_code_length: 4
+  auto_select: true
+  auto_select_unique_candidate: true
 
 translator:
   dictionary: telegraph_code_zh_cn
+  enable_sentence: false
+  enable_user_dict: false
+  sentence_over_completion: true
 
 reverse_lookup:
   dictionary: stroke
@@ -71,10 +76,10 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "`[hspnz]*'?$"
-
+  
 style:
   horizontal: true
 
 menu:
-  alternative_select_keys: abcdefgijk
-  page_size: 10
+  alternative_select_keys: abcdefhijk
+  page_size: 1
