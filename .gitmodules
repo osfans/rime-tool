@@ -82,3 +82,9 @@
 [submodule "dieghv"]
 	path = dieghv
 	url = git@github.com:Kahaani/dieghv.git
+[submodule "RIME-wubi"]
+	path = RIME-wubi
+	url = git@github.com:twz915/RIME-wubi.git
+[submodule "rime-liu"]
+	path = rime-liu
+	url = git@github.com:amoshyc/rime-liu.git
