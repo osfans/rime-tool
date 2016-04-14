@@ -88,3 +88,9 @@
 [submodule "rime-liu"]
 	path = rime-liu
 	url = git@github.com:amoshyc/rime-liu.git
+[submodule "rime-ipa"]
+	path = rime-ipa
+	url = git@github.com:lotem/rime-ipa.git
+[submodule "rime-linguistic-wubi"]
+	path = rime-linguistic-wubi
+	url = git@github.com:lotem/rime-linguistic-wubi.git
