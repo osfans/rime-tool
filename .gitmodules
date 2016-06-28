@@ -94,3 +94,9 @@
 [submodule "rime-linguistic-wubi"]
 	path = rime-linguistic-wubi
 	url = git@github.com:lotem/rime-linguistic-wubi.git
+[submodule "rime-hokkien"]
+	path = rime-hokkien
+	url = git@github.com:a-thok/rime-hokkien.git
+[submodule "rime-zong"]
+	path = rime-zong
+	url = git@github.com:zongxinbo/rime-zong.git
