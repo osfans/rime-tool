@@ -100,3 +100,12 @@
 [submodule "rime-zong"]
 	path = rime-zong
 	url = git@github.com:zongxinbo/rime-zong.git
+[submodule "lau_guoq_in"]
+	path = lau_guoq_in
+	url = git@github.com:iacobvstsok/lau_guoq_in.git
+[submodule "rime-xyz"]
+	path = rime-xyz
+	url = git@github.com:jakwings/rime-xyz.git
+[submodule "ciklinbekin"]
+	path = ciklinbekin
+	url = git@github.com:only3km/ciklinbekin.git
