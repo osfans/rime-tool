@@ -109,3 +109,9 @@
 [submodule "ciklinbekin"]
 	path = ciklinbekin
 	url = git@github.com:only3km/ciklinbekin.git
+[submodule "rime-romatzyh"]
+	path = rime-romatzyh
+	url = git@github.com:Chingyat/rime-romatzyh.git
+[submodule "yihdjoouhuah"]
+	path = yihdjoouhuah
+	url = git@github.com:tsauibusato/yihdjoouhuah.git
