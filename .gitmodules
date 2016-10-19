@@ -115,3 +115,6 @@
 [submodule "yihdjoouhuah"]
 	path = yihdjoouhuah
 	url = git@github.com:tsauibusato/yihdjoouhuah.git
+[submodule "rime-xhup"]
+	path = rime-xhup
+	url = git@github.com:brglng/rime-xhup.git
