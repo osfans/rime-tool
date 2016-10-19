@@ -121,3 +121,6 @@
 [submodule "rime-wubi98char"]
 	path = rime-wubi98char
 	url = git@github.com:runapp/rime-wubi98char.git
+[submodule "rime-flypy"]
+	path = rime-flypy
+	url = git@github.com:wei-zeng/rime-flypy.git
