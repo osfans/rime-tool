@@ -118,3 +118,6 @@
 [submodule "rime-xhup"]
 	path = rime-xhup
 	url = git@github.com:brglng/rime-xhup.git
+[submodule "rime-wubi98char"]
+	path = rime-wubi98char
+	url = git@github.com:runapp/rime-wubi98char.git
