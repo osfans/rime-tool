@@ -18,12 +18,28 @@ def open_file(filename):
         except UnicodeError:
             continue
 
-def in_charset(line, charset="gb2312"):
+def is_visible(char):
+    "判斷是否爲可顯示字符"
+    code_point = ord(char)
+    if (
+            #(0x3400 <= code_point <= 0x4DBF) or # CJK Unified Ideographs Extension A
+            (0x20000 <= code_point <= 0x2A6DF) or # CJK Unified Ideographs Extension B
+            (0x2A700 <= code_point <= 0x2B73F) or # CJK Unified Ideographs Extension C
+            (0x2B740 <= code_point <= 0x2B81F) or # CJK Unified Ideographs Extension D
+            (0x2B820 <= code_point <= 0x2CEAF) or # CJK Unified Ideographs Extension E
+            (0x2F800 <= code_point <= 0x2FA1F) # CJK Compatibility Ideographs Supplement
+    ):
+        return False
+    return True
+
+def in_charset(line, charset="visible"):
     "檢查是否屬於charset字符集"
+    if charset == "visible":
+        return all(map(is_visible, line))
     try:
         line.encode(charset)
         return True
-    except:
+    except UnicodeError:
         return False
 
 def main():
