@@ -364,12 +364,13 @@ if __name__ == "__main__":
     if len(sys.argv) == 1:
         print("%s code [python|json|elisp] [start=0] [count=%d]" % (sys.argv[0], sys.maxsize))
         exit(0)
-    rimeInit(datadir="/usr/share/rime-data/", userdir=os.path.expanduser("~/.config/ibus/rime/"), fullcheck=False, appname="ibus-rime", appver="1.2")
-    session_id = rime.create_session()
+    code = sys.argv[1]
+    output_format = sys.argv[2] if len(sys.argv) >= 3 else ""
     start = int(sys.argv[3]) if len(sys.argv) >= 4 and sys.argv[3].isnumeric() else 0
     count = int(sys.argv[4]) if len(sys.argv) >= 5 and sys.argv[4].isnumeric() else sys.maxsize
-    texts = processText(session_id, sys.argv[1], start, count)
-    output_format = sys.argv[2] if len(sys.argv) >= 3 else ""
+    rimeInit(datadir="/usr/share/rime-data/", userdir=os.path.expanduser("~/.config/ibus/rime/"), fullcheck=False, appname="ibus-rime", appver="1.2")
+    session_id = rime.create_session()
+    texts = processText(session_id, code, start, count)
     printTexts(texts, output_format)
     rime.destroy_session(session_id)
     rime.finalize()
