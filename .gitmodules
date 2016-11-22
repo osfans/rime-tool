@@ -127,3 +127,6 @@
 [submodule "xintalng_pinyin"]
 	path = xintalng_pinyin
 	url = git@github.com:tsauibusato/xintalng_pinyin.git
+[submodule "tools/rime-cli"]
+	path = tools/rime-cli
+	url = git@github.com:yyt16384/rime-cli.git
