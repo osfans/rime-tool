@@ -133,3 +133,6 @@
 [submodule "rime-flypy-xhup"]
 	path = rime-flypy-xhup
 	url = git@github.com:liming2013/rime-flypy-xhup.git
+[submodule "s0323411"]
+	path = s0323411
+	url = git@github.com:s0323411/rime.git
