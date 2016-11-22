@@ -130,3 +130,6 @@
 [submodule "tools/rime-cli"]
 	path = tools/rime-cli
 	url = git@github.com:yyt16384/rime-cli.git
+[submodule "rime-flypy-xhup"]
+	path = rime-flypy-xhup
+	url = git@github.com:liming2013/rime-flypy-xhup.git
