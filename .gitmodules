@@ -124,3 +124,6 @@
 [submodule "rime-flypy"]
 	path = rime-flypy
 	url = git@github.com:wei-zeng/rime-flypy.git
+[submodule "xintalng_pinyin"]
+	path = xintalng_pinyin
+	url = git@github.com:tsauibusato/xintalng_pinyin.git
