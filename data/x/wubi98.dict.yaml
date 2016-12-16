@@ -1063,7 +1063,6 @@ encoder:
 孔	bnn	62853176
 巜	bnn	123124
 耴	bnn	52427
-	bnn	0
 乃	bnt	60271529
 孞	bnu	49845
 恥	bny	8976188
@@ -1173,7 +1172,6 @@ encoder:
 㸽	cmy	5123
 巴	cnh	122131764
 厶	cny	3663952
-	cny	0
 馬	coi	98698352
 允	cqb	16780705
 鸡	cqg	83407058
@@ -1283,7 +1281,6 @@ encoder:
 厉	dgq	15589176
 丆	dgt	82215
 厂	dgt	176743529
-	dgt	0
 砰	dgu	7556282
 威	dgv	113195294
 碡	dgx	105251
@@ -1408,7 +1405,6 @@ encoder:
 基	dwf	140997647
 奉	dwg	23234823
 仄	dwi	1499341
-	dwi	0
 春	dwj	148941176
 矶	dwn	2095105
 欺	dwq	12411764
@@ -1620,7 +1616,6 @@ encoder:
 卋	faf	496470
 霸	faf	91350588
 㦮	fai	4051
-	fai	0
 卉	faj	4587388
 哉	fak	9313788
 载	fal	89563294
@@ -1713,7 +1708,6 @@ encoder:
 刊	fjh	70399529
 刌	fjh	30284
 亓	fjj	1409976
-	fjj	0
 井	fjk	44781647
 墁	fjl	141990
 塌	fjn	7447058
@@ -2327,7 +2321,6 @@ encoder:
 洣	ioy	332635
 黉	ipa	181708
 学	ipb	403134117
-	ipb	0
 浓	ipe	86683764
 尝	ipf	39717647
 泻	ipg	15489882
@@ -2751,7 +2744,6 @@ encoder:
 跨	khd	63349647
 啃	khe	10227294
 跬	khf	161849
-	khf	0
 践	khg	4756188
 趾	khh	3783105
 踏	khi	53916705
@@ -3317,7 +3309,6 @@ encoder:
 怦	ngu	5083858
 愫	ngx	599736
 眉	nhd	117167058
-	nhd	0
 胥	nhe	2532000
 遐	nhf	2452564
 丑	nhg	57789176
@@ -4022,7 +4013,6 @@ encoder:
 狈	qtm	362423
 儿	qtn	240291764
 勹	qtn	2879529
-	qtn	0
 狄	qto	9184705
 狞	qtp	5322164
 狗	qtq	179722352
@@ -4336,7 +4326,6 @@ encoder:
 播	rto	55306823
 乒	rtr	6652705
 斤	rtt	27504470
-	rtt	0
 搬	rtu	42100705
 㐅	rty	5540
 乂	rty	2839811
@@ -4734,7 +4723,6 @@ encoder:
 缺	tfb	92740705
 丢	tfc	46171764
 壬	tfd	4934917
-	tfd	0
 歃	tfe	148941
 䇞	tff	3465
 玍	tff	292917
@@ -4886,7 +4874,6 @@ encoder:
 笑	ttd	563990588
 筅	ttf	218447
 御	ttg	73676235
-	ttg	0
 筵	tth	3604376
 篦	ttl	789388
 秭	ttn	187665
@@ -5043,10 +5030,8 @@ encoder:
 闩	ugd	495477
 闰	ugd	1519200
 靖	uge	25121411
-	ugf	0
 豢	ugg	1449694
 症	ugh	94428705
-	ugi	0
 养	ugj	93435764
 半	ugk	201567058
 盖	ugl	83009882
@@ -5765,7 +5750,6 @@ encoder:
 绸	xmf	3485223
 䌷	xmg	30781
 紬	xmg	1340470
-	xmg	0
 㢫	xmh	3415
 缨	xmm	1807152
 纲	xmr	7089600
@@ -6037,7 +6021,6 @@ encoder:
 诟	yrg	453774
 䜣	yrh	76059
 訢	yrh	394197
-	yrh	0
 义	yri	87676705
 亵	yrv	966131
 诉	yry	18369411
@@ -7208,7 +7191,6 @@ encoder:
 七万	aggq	1836941
 花青素	aggx	288945
 廿	aghg	11021647
-	aghg	0
 卄	aghh	70200
 艹	aghh	392211
 七点	aghk	4805835
@@ -8786,7 +8768,6 @@ encoder:
 䒯	apvy	3564
 葖	apwd	60569
 䓖	apwe	16383
-	apwe	0
 欧安会	apwf	9701
 荣登	apwg	1588705
 䕓	apwi	6950
@@ -19743,7 +19724,6 @@ encoder:
 聋	dxyb	7685364
 䶮	dxyd	30880
 砻	dxyd	615623
-	dxyd	0
 袭	dxye	50937882
 垄	dxyf	2045458
 大张旗鼓	dxyf	2075247
@@ -20420,7 +20400,6 @@ encoder:
 䏝	efny	16482
 䏯	efny	3415
 脚心	efny	535195
-	efny	0
 肝火	efoo	553068
 肝炎	efoo	14695529
 脚底	efoq	3673882
@@ -21854,7 +21833,6 @@ encoder:
 䲢	eugg	21149
 腾	eugg	69704470
 膶	eugg	37930
-	eugg	0
 㬺	eugh	4478
 幐	eugh	455760
 胖	eugh	68711529
@@ -26144,7 +26122,6 @@ encoder:
 违禁品	fskk	220432
 专横跋扈	fsky	189651
 䎬	fslc	17575
-	fslc	0
 某男	fsle	1727717
 堜	fslg	711938
 某甲	fslh	379303
@@ -26153,7 +26130,6 @@ encoder:
 无机界	fslw	33859
 䎱	fslx	22241
 无可置疑	fslx	447816
-	fslx	0
 博导	fsnf	1241176
 耜	fsng	308804
 䎤	fsnk	3951
@@ -28246,7 +28222,6 @@ encoder:
 靘	geqc	57590
 䴖	geqg	19660
 青鱼	geqg	404127
-	geqg	0
 静	geqh	97705411
 表象	geqk	3227058
 豞	geqk	38923
@@ -28617,7 +28592,6 @@ encoder:
 王	gggg	821162352
 琵琶	gggg	13305411
 瑟瑟	gggg	2780235
-	gggg	0
 一下	gggh	427957647
 一天到晚	gggj	4696611
 五更	gggj	1211388
@@ -30114,7 +30088,6 @@ encoder:
 䪟	gmhg	3177
 䴓	gmhg	17674
 靑	gmhg	2899388
-	gmhg	0
 两步	gmhh	6980376
 两点	gmhk	15887058
 巿	gmhk	2671011
@@ -30835,7 +30808,6 @@ encoder:
 万里	gqjf	21646117
 䴕	gqjg	18468
 珣	gqjg	1171670
-	gqjg	0
 㡂	gqjh	5719
 列	gqjh	945280000
 虺	gqji	350508
@@ -30866,7 +30838,6 @@ encoder:
 殒	gqkm	2065317
 殞	gqkm	725840
 殨	gqkm	70399
-	gqkm	0
 㻊	gqkq	3912
 死因	gqld	4051200
 㱬	gqle	5908
@@ -32423,7 +32394,6 @@ encoder:
 非礼	hdpy	2998682
 斐然	hdqd	1469552
 䴗	hdqg	14794
-	hdqg	0
 鶪	hdqo	33760
 非独	hdqt	258164
 凹面镜	hdqu	44185
@@ -33422,7 +33392,6 @@ encoder:
 瞨	houg	35348
 眯着	houh	1429835
 䁖	hovg	20553
-	hovg	0
 瞊	hovk	23929
 虚灵	hovo	149934
 虡	howi	50540
@@ -33513,7 +33482,6 @@ encoder:
 䙷	hqfu	3475
 睁开	hqga	10922352
 䲣	hqgt	19461
-	hqgt	0
 餐桌	hqhj	10823058
 餐点	hqhk	496470
 覞	hqhq	36440
@@ -33536,7 +33504,6 @@ encoder:
 非金属	hqnt	5282447
 餐饮业	hqoh	4210070
 䱷	hqot	21646
-	hqot	0
 䁩	hqoy	5838
 瞗	hqoy	29192
 鳪	hqoy	30582
@@ -34710,7 +34677,6 @@ encoder:
 湖广	idoy	599736
 演奏家	idpg	2740517
 㳠	idpy	18369
-	idpy	0
 深灰色	idqc	1112094
 尖角	idqe	1717788
 㳳	idqn	5282
@@ -35819,7 +35785,6 @@ encoder:
 小户	ihyn	513350
 小变	ihyo	973082
 泸州	ihyt	4458305
-	ihyt	0
 小商	ihyu	615623
 小说	ihyu	157877647
 小议	ihyy	872795
@@ -44080,7 +44045,6 @@ encoder:
 蹉跎岁月	kkme	300861
 㖞	kkmw	28993
 口内	kkmw	3058258
-	kkmw	0
 咄咄怪事	kkng	233341
 嘂	kknk	81123
 口快	kknn	257171
@@ -45066,8 +45030,6 @@ encoder:
 嗴	kunc	24227
 中间层	kunf	1231247
 唴	kunn	653355
-	kunt	0
-	kunt	0
 川端康成	kuod	620588
 咬字	kupb	398169
 咬定	kupg	1688000
@@ -48445,8 +48407,6 @@ encoder:
 䝼	mgeg	17177
 䞍	mgeg	15390
 崝	mgeg	1151811
-	mgeg	0
-	mgeg	0
 同胞	mgeq	16085647
 同去	mgfc	2234117
 同城	mgfd	30086117
@@ -51273,7 +51233,6 @@ encoder:
 收税	nhtu	961167
 收	nhty	455760000
 收入	nhty	107237647
-	nhty	0
 丑闻	nhub	7228611
 眉头	nhud	2710729
 收养	nhug	4011482
@@ -51574,7 +51533,6 @@ encoder:
 襞	nkue	673214
 壁	nkuf	63051764
 䴙	nkug	47264
-	nkug	0
 幦	nkuh	68910
 躄	nkuh	130075
 辟	nkuh	8509505
@@ -51807,8 +51765,6 @@ encoder:
 乙	nnll	81719058
 乚	nnll	67122
 乛	nnll	173764
-	nnll	0
-	nnll	0
 发愤图强	nnlx	219440
 尸骨	nnme	1539058
 已由	nnmh	5332094
@@ -52055,7 +52011,6 @@ encoder:
 怅然若失	nqat	432922
 怟	nqay	30483
 㥮	nqbt	13603
-	nqbt	0
 懈怠	nqck	3783105
 收银台	nqck	7754870
 恑	nqdb	31476
@@ -52106,7 +52061,6 @@ encoder:
 慢镜头	nqud	360437
 遐迩闻名	nquq	96613
 㤘	nqvg	17475
-	nqvg	0
 心急如焚	nqvs	1886588
 展销会	nqwf	2164611
 局外人	nqww	2025600
@@ -54467,7 +54421,6 @@ encoder:
 䊏	oooy	3644
 火炉	oooy	2472423
 罃	oopb	39816
-	oopb	0
 䃕	oopd	4289
 勞	oope	13106823
 膋	oope	35547
@@ -57460,7 +57413,6 @@ encoder:
 家徒四壁	ptln	1221317
 客轮	ptlw	790381
 之我见	ptmq	5481035
-	ptnb	0
 客居	ptnd	876767
 宁缺毋滥	ptni	311783
 宇航局	ptnn	954216
@@ -57760,8 +57712,6 @@ encoder:
 䙡	pukm	23234
 守门员	pukm	2124894
 审判员	pukm	580870
-	pukm	0
-	pukm	0
 初吻	pukq	4359011
 襙	puks	65434
 䙓	pulc	4210
@@ -59102,7 +59052,6 @@ encoder:
 䦃	qafj	15092
 氒	qafj	20256
 鐯	qafj	38228
-	qafj	0
 鑉	qafl	22043
 错过	qafp	69009411
 错开	qaga	914498
@@ -59117,7 +59066,6 @@ encoder:
 䥺	qaht	14298
 昏睡	qaht	3137694
 釾	qaht	50540
-	qaht	0
 昏眩	qahy	387247
 镜花水月	qaie	822155
 鑮	qaif	36242
@@ -59926,7 +59874,6 @@ encoder:
 鲜艳	qgdh	8727952
 䲠	qgdj	27603
 鲕	qgdj	88570
-	qgdj	0
 印成	qgdn	716903
 鳡	qgdn	199581
 名副其实	qgdp	5153364
@@ -60103,7 +60050,6 @@ encoder:
 鸟窝	qgpw	387247
 鸵	qgpx	397176
 䲟	qgqb	16979
-	qgqb	0
 钝角	qgqe	223411
 鱼鳞	qgqg	6275388
 鱿鱼	qgqg	2293694
@@ -60176,7 +60122,6 @@ encoder:
 䲞	qgug	3723
 䲡	qgug	20851
 鲜美	qgug	6851294
-	qgug	0
 急救站	qguh	588814
 鲜	qguh	41504941
 印章	qguj	8261270
@@ -60309,7 +60254,6 @@ encoder:
 独占鳌头	qhgu	1697929
 䦆	qhhc	25816
 钁	qhhc	224404
-	qhhc	0
 䀤	qhhf	7119
 外频	qhhh	1161741
 䤮	qhht	5520
@@ -61258,7 +61202,6 @@ encoder:
 铋	qntt	728818
 䥽	qnty	18369
 饿	qnty	31575529
-	qnty	0
 饼	qnua	18568000
 包头	qnud	10425882
 馒头	qnud	13504000
@@ -63187,7 +63130,6 @@ encoder:
 外交部	quuk	11915294
 鐥	quuk	330649
 铁道部	quuk	5044141
-	quuk	0
 鎌	quvw	2055388
 包装盒	quwg	3624235
 鎰	quwl	2214258
@@ -63659,8 +63601,6 @@ encoder:
 䦂	qynn	15489
 久已	qynn	839035
 釯	qynn	24029
-	qynn	0
-	qynn	0
 鈩	qynt	455760
 匄	qynv	48157
 䤤	qynw	9452
@@ -64153,7 +64093,6 @@ encoder:
 撡	rccn	76357
 搡	rccs	1151811
 㧐	rccy	17078
-	rccy	0
 反顾	rcdb	213482
 捅破	rcdb	842014
 掺	rcde	7764800
@@ -65447,7 +65386,6 @@ encoder:
 䴘	rhwg	24525
 扑倒	rhwg	1519200
 排便	rhwg	2581647
-	rhwg	0
 䫢	rhwm	3177
 䖊	rhwn	3802
 䖐	rhwn	3892
@@ -65481,7 +65419,6 @@ encoder:
 看谁	rhyw	16681411
 㨜	rhyy	4150
 㧟	rian	18667
-	rian	0
 热泪盈眶	ribh	2025600
 排泄物	ricq	1688000
 撑大	ridd	385261
@@ -66035,7 +65972,6 @@ encoder:
 所见所闻	rmru	1241176
 㧏	rmry	25717
 抽搐	rmry	3922117
-	rmry	0
 揣想	rmsh	178729
 抽查	rmsj	7407341
 抽样	rmsu	5222870
@@ -67609,7 +67545,6 @@ encoder:
 撫	rtgo	3018541
 气死	rtgq	7198823
 㩶	rtgr	4577
-	rtgt	0
 搬来	rtgu	2412847
 近年来	rtgu	43192941
 抗生素	rtgx	5957647
@@ -68657,7 +68592,6 @@ encoder:
 拎	rwyc	16284235
 擒	rwyc	8618729
 皊	rwyc	118160
-	rwyc	0
 投诚	rwyd	350508
 推诚	rwyd	72881
 搇	rwye	75066
@@ -71188,7 +71122,6 @@ encoder:
 刺杀	smrs	6563341
 棘手	smrt	7983247
 㭎	smry	26710
-	smry	0
 栅极	smsb	378310
 枣树	smsc	588814
 棗	smsm	3256847
@@ -73289,7 +73222,6 @@ encoder:
 智勇双全	tccw	412070
 䅟	tcde	18766
 私有	tcde	9691105
-	tcde	0
 知难而进	tcdf	409091
 私奔	tcdf	2740517
 知难而上	tcdh	139011
@@ -77852,7 +77784,6 @@ encoder:
 生长素	ttgx	357458
 攵	ttgy	2899388
 秩	ttgy	1777364
-	ttgy	0
 秨	tthf	215468
 笮	tthf	285967
 簰	tthf	196602
@@ -82118,8 +82049,6 @@ encoder:
 䦶	uqvh	14794
 净	uqvh	59675764
 竫	uqvh	62356
-	uqvh	0
-	uqvh	0
 次女	uqvv	2124894
 净值	uqwf	5778917
 垐	uqwf	61165
@@ -82245,7 +82174,6 @@ encoder:
 交角	urqe	167807
 䴔	urqg	21844
 交钱	urqg	5302305
-	urqg	0
 郊外	urqh	8847105
 新气象	urqk	2512141
 鵁	urqo	69704
@@ -83370,8 +83298,6 @@ encoder:
 䦷	uwwf	16085
 总价值	uwwf	1539058
 痤	uwwf	5312235
-	uwwf	0
-	uwwf	0
 痊愈	uwwg	5222870
 疭	uwwi	223411
 曾几何时	uwwj	1846870
@@ -83796,7 +83722,6 @@ encoder:
 辩称	uytq	1082305
 资讯科技	uytr	1628423
 六条	uyts	14397647
-	uytt	0
 辨	uytu	15192000
 门第	uytx	2333411
 门前	uyue	15092705
@@ -84565,7 +84490,6 @@ encoder:
 如此而已	vhdn	1558917
 怒目而视	vhdp	130075
 㜘	vheg	4686
-	vhgd	0
 肃静	vhge	899604
 䀆	vhgl	6265
 盡	vhgl	37831058
@@ -88701,7 +88625,6 @@ encoder:
 仰	wqbh	19163764
 你也	wqbn	58285647
 㑳	wqbt	19759
-	wqbt	0
 低限	wqbv	247242
 低阶	wqbw	405120
 低能	wqce	5778917
@@ -88833,7 +88756,6 @@ encoder:
 您好	wqvb	82612705
 依然如故	wqvd	605694
 㑇	wqvg	26114
-	wqvg	0
 仰仗	wqwd	906555
 低估	wqwd	14199058
 你俩	wqwg	1827011
@@ -94169,7 +94091,6 @@ encoder:
 调节器	yakk	2114964
 䜩	yako	17177
 讌	yako	227383
-	yako	0
 试听	yakr	65037647
 讙	yaky	72782
 文工团	yalf	696051
@@ -98154,7 +98075,6 @@ encoder:
 譏	yxxw	821162
 彎	yxxx	7933600
 㽋	yxxy	4001
-	yxxy	0
 孶	yxyb	28596
 谐谑	yxyh	181708
 谐调	yxym	324691
