@@ -136,3 +136,6 @@
 [submodule "s0323411"]
 	path = s0323411
 	url = git@github.com:s0323411/rime.git
+[submodule "rime-98wubi-for-Unicode"]
+	path = rime-98wubi-for-Unicode
+	url = git@github.com:ellicefix/98wubi-for-Unicode.git
