@@ -139,3 +139,6 @@
 [submodule "rime-98wubi-for-Unicode"]
 	path = rime-98wubi-for-Unicode
 	url = git@github.com:ellicefix/98wubi-for-Unicode.git
+[submodule "rime-erstern"]
+	path = rime-erstern
+	url = git@github.com:erstern/formerRIMEschemas.git
