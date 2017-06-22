@@ -4,10 +4,10 @@
 schema:
   schema_id: taerv
   name: "泰如拼音"
-  version: "2015.8"
+  version: "2017.6"
   author:
     - hisahara
-  description: "http://thaerv.8048.my5m.com/"
+  description: "http://taerv.nguyoeh.com/"
   dependencies:
     - luna_pinyin
 
@@ -62,48 +62,8 @@ speller:
     #- fuzz/ɪʔ/iəʔ/ #力列不分 (ieh⇔ih)
     #- fuzz/iŋ/ɪ̃/ #零連不分 (ien⇔in)
     #- fuzz/ɪ̃/iŋ/ #零連不分 (ien⇔in)
-    - xform/^ŋ/ng/
-    - xform/iŋ/ien/
-    - xform/ŋ/n/
-    - xform/̃/n/
-    - xform/ʔ/h/
-    - xform/pʰ/P/
-    - xform/p/b/
-    - xform/P/p/
-    - xform/tʰ/T/
-    - xform/t/d/
-    - xform/T/t/
-    - xform/kʰ/K/
-    - xform/k/g/
-    - xform/K/k/
-    - xform/x/h/
-    - xform/ʦʰ/c/
-    - xform/ʦ/z/
-    - xform/ʈʂʰ/ch/
-    - xform/ʈʂ/zh/
-    - xform/ʂ/sh/
-    - xform/ɻ/r/
-    - xform/ʅ/r/
-    - xform/ʨʰ/q/
-    - xform/ʨ/j/
-    - xform/ɕ/x/
-    - xform/ʊ/u/
-    - xform/ɯ/u/
-    - xform/ʋ/v/
-    - xform/ɔ/o/
-    - xform/ɑ/a/
-    - xform/ɛ/ae/
-    - xform/ɤ/e/
-    - xform/ə/e/
-    - xform/ɚ/er/
-    - xform/ɪ/i/
-    - xform/ɿ/z/
-    - fuzz/h7/h5/
+    - fuzz/5/4/
     - fuzz/h8/h6/
-    - fuzz/eu/ou/
-    - fuzz/ae(\d?)$/ai$1/
-    - fuzz/o(\d?)$/ao/
-    - fuzz/uei/ui/
     - fuzz/iu([hn])/y$1/
     - fuzz/^([jqx])i([aeou])/$1$2/
     - abbrev/^([^aoeui]+).+$/$1/       # 無韻簡拼
@@ -111,7 +71,7 @@ speller:
     - abbrev/\d$//       # 無調輸入
 
 translator:
-  dictionary: tairu
+  dictionary: taerv
   prism: taerv
   spelling_hints: 5
 
