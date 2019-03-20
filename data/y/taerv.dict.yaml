@@ -1,18 +1,18 @@
 # Rime dictionary
 # encoding: utf-8
 #
-#
 
 ---
 name: taerv
-version: "2017.6.23"
+version: "2019.03.20"
 sort: by_weight
 use_preset_vocabulary: true
 min_phrase_weight: 1000
 ...
+
 街	gae1
 的	dieh7
-的	dei0
+的	dii0
 一	ieh7
 是	shr6
 在	cae6
@@ -55,7 +55,7 @@ min_phrase_weight: 1000
 就	qiu6
 分	fen1
 分	fen6
-於	y1
+於	y2
 於	v1
 對	duei5
 對	dy5
@@ -87,7 +87,6 @@ min_phrase_weight: 1000
 行	xien2
 行	han2
 行	xien6
-行	han6
 而	er2
 方	fan1
 面	min6
@@ -98,7 +97,6 @@ min_phrase_weight: 1000
 學	hah8
 法	faeh7
 所	su3
-所	sv3
 民	mien2
 得	deh7
 經	jien1
@@ -169,7 +167,6 @@ min_phrase_weight: 1000
 活	guh7
 設	sih7
 及	qieh8
-及	qi6
 管	gun3
 特	teh8
 特	ti6
@@ -221,7 +218,6 @@ min_phrase_weight: 1000
 區	ngeu1
 強	qian2
 強	qian6
-強	qian3
 放	fan5
 放	fan3
 決	jiuh7
@@ -230,7 +226,6 @@ min_phrase_weight: 1000
 被	pi6
 被	pei6
 做	zu5
-做	zv5
 必	bieh7
 戰	zin5
 先	xin1
@@ -270,7 +265,7 @@ min_phrase_weight: 1000
 海	hae3
 口	keu3
 東	don1
-導	to3
+導	to6
 器	qi5
 壓	ngaeh7
 世	shr5
@@ -535,7 +530,7 @@ min_phrase_weight: 1000
 適	sheh7
 參	caen1
 參	shen1
-參	cen1
+參	chen1
 參	saen1
 參	cun1
 屬	shoh8
@@ -662,12 +657,11 @@ min_phrase_weight: 1000
 僅	jien3
 差	cha1
 差	chae1
-差	cz1
+差	chr1
 費	fei5
 費	bi5
 降	jian5
 降	gan5
-降	qian2
 降	xian2
 緊	jien3
 左	zu3
@@ -737,7 +731,6 @@ min_phrase_weight: 1000
 板	baen3
 飛	fei1
 佔	zin5
-佔	zin1
 曾	cen2
 曾	zen1
 樂	lah8
@@ -795,8 +788,6 @@ min_phrase_weight: 1000
 環	kuaen2
 雙	shuan1
 請	qien3
-請	qien1
-請	qien6
 超	cho1
 微	vei2
 讓	ran6
@@ -1008,7 +999,7 @@ min_phrase_weight: 1000
 讀	teu6
 班	baen1
 句	jy5
-句	qy2
+句	qy6
 句	geu1
 香	xian1
 迫	poh7
@@ -1032,7 +1023,7 @@ min_phrase_weight: 1000
 誰	shuei2
 順	shuen6
 煙	in1
-縮	soh7
+縮	shoh7
 臉	lin3
 喜	xi3
 腳	jiah7
@@ -1067,7 +1058,7 @@ min_phrase_weight: 1000
 尼	ni2
 衣	i1
 衣	i5
-寬	kun3
+寬	kun1
 揚	ian2
 棉	min2
 棉	mi2
@@ -1105,7 +1096,6 @@ min_phrase_weight: 1000
 座	cu6
 詩	shr1
 居	jy1
-居	ji1
 抓	zhua1
 裂	lih8
 胞	bo1
@@ -1128,7 +1118,6 @@ min_phrase_weight: 1000
 鄉	xian1
 沖	chon1
 臨	lien2
-臨	lien6
 陸	loh8
 顧	gv5
 掉	tio6
@@ -1140,7 +1129,7 @@ min_phrase_weight: 1000
 歲	suei5
 歲	xy5
 措	cv5
-束	soh7
+束	shoh7
 耐	nae6
 劇	qieh8
 劇	qiah7
@@ -1155,7 +1144,6 @@ min_phrase_weight: 1000
 額	ngeh8
 齊	qi2
 齊	qi6
-齊	zz1
 款	kun3
 紹	sho6
 紹	sho2
@@ -1206,14 +1194,12 @@ min_phrase_weight: 1000
 菌	jyen1
 菌	qyen6
 純	shuen2
-純	zhuen3
 蓋	gae5
 蓋	guh7
 橫	on2
 橫	hon2
 橫	on6
 橫	hon6
-橫	guan1
 繫	xi6
 繫	ji5
 私	sz1
@@ -1223,12 +1209,11 @@ min_phrase_weight: 1000
 域	yeh8
 糖	tan2
 槍	qian1
-槍	chen1
 潤	ruen6
 幅	foh7
 哈	ha1
 竟	jien5
-澤	ceh8
+澤	cheh8
 腦	no3
 壤	ran3
 碳	taen5
@@ -1293,8 +1278,6 @@ min_phrase_weight: 1000
 耗	ho5
 夏	xia6
 夏	ha6
-夏	ga3
-擇	ceh8
 擇	cheh8
 忙	man2
 獻	xin5
@@ -1408,12 +1391,9 @@ min_phrase_weight: 1000
 午	v3
 塵	chen2
 聞	ven2
-聞	ven6
 揭	jih7
-揭	qi5
 炮	po5
 炮	po2
-炮	bo1
 殘	caen2
 橋	qio2
 婦	fv6
@@ -1667,7 +1647,7 @@ min_phrase_weight: 1000
 緣	iun6
 腰	io1
 枝	zhr1
-森	sen1
+森	shen1
 窮	qion2
 竹	zhoh7
 溝	geu1
@@ -2046,7 +2026,7 @@ min_phrase_weight: 1000
 硝	xio1
 韓	hun2
 僑	qio2
-扭	niu3
+扭	neu3
 逼	bieh7
 挺	tien3
 涼	lian2
@@ -2214,7 +2194,6 @@ min_phrase_weight: 1000
 獄	ioh8
 翼	ieh8
 絡	lah8
-杷	pah7
 湧	ion3
 罐	gun5
 抑	ieh7
@@ -2222,7 +2201,6 @@ min_phrase_weight: 1000
 膨	pon2
 寺	cz6
 砌	qi5
-砌	qi3
 蔬	shv1
 驟	cheu6
 穆	moh8
@@ -2553,7 +2531,6 @@ min_phrase_weight: 1000
 茅	mo2
 艷	in6
 輿	y2
-締	di5
 締	ti6
 賬	zhan5
 尿	nio6
@@ -2695,7 +2672,7 @@ min_phrase_weight: 1000
 刨	po6
 喚	hun5
 壺	hv2
-柵	ceh7
+柵	cheh7
 柵	shaen5
 猜	cae1
 蹲	chen2
@@ -2706,7 +2683,7 @@ min_phrase_weight: 1000
 澳	ngo5
 澳	ioh7
 玲	lien2
-紐	niu3
+紐	neu3
 綿	min2
 郡	qyen6
 鋸	jy5
@@ -3134,7 +3111,7 @@ min_phrase_weight: 1000
 賤	qin6
 踢	tieh7
 棕	zon1
-泳	yen3
+泳	ion3
 泌	bi5
 泌	bieh7
 泌	pieh8
@@ -3396,7 +3373,7 @@ min_phrase_weight: 1000
 雹	pah8
 灼	zhah7
 瑰	guei1
-鄒	zeu1
+鄒	zheu1
 鰱	lin2
 嬌	jio1
 彰	zhan1
@@ -3405,8 +3382,6 @@ min_phrase_weight: 1000
 躬	gon1
 匙	chr2
 咯	lah8
-咯	keh7
-咯	gah7
 庶	shv5
 惹	ra3
 淪	len2
@@ -3557,7 +3532,7 @@ min_phrase_weight: 1000
 沼	zho3
 眨	zhaeh7
 磺	huan2
-鈕	niu3
+鈕	neu3
 鑼	lu2
 傭	ion2
 奢	sha1
@@ -3727,7 +3702,7 @@ min_phrase_weight: 1000
 羧	su1
 羧	zuei1
 訝	ia6
-詠	yen3
+詠	ion3
 訶	hu1
 鞘	qio5
 鞘	sho1
@@ -3894,7 +3869,7 @@ min_phrase_weight: 1000
 碩	sheh8
 託	tah7
 鮒	fv6
-岑	cen2
+岑	chen2
 峙	chr6
 庤	chr6
 廖	lio6
@@ -3987,7 +3962,7 @@ min_phrase_weight: 1000
 覓	mieh8
 逶	vei1
 靴	xya1
-頹	tuei2
+頽	tuei2
 飴	i2
 駭	hae6
 嘰	ji1
@@ -4090,7 +4065,6 @@ min_phrase_weight: 1000
 夭	ngo3
 摟	leu3
 摟	leu2
-摟	leu1
 斟	zhen1
 曙	shv6
 札	zhaeh7
@@ -4099,7 +4073,7 @@ min_phrase_weight: 1000
 殯	bien5
 祀	sz6
 穜	ton2
-粕	poh7
+粕	pah7
 苞	bo1
 菠	bu1
 蝴	hv2
@@ -4152,7 +4126,7 @@ min_phrase_weight: 1000
 祠	cz2
 祚	cu6
 荸	peh8
-詛	zv3
+詛	zv5
 賂	lv6
 佼	jio3
 佼	go3
@@ -4195,7 +4169,7 @@ min_phrase_weight: 1000
 俟	shr6
 俟	qi2
 匣	haeh8
-嗦	su1
+嗦	ssu1
 嘀	dieh7
 嘈	co2
 屎	shr3
@@ -4225,7 +4199,6 @@ min_phrase_weight: 1000
 杲	go3
 汕	shaen5
 潼	ton2
-瀕	pien2
 瀕	bien1
 瘟	ven1
 禧	xi3
@@ -4327,7 +4300,7 @@ min_phrase_weight: 1000
 蕃	faen2
 蕃	faen1
 覲	qien6
-輜	zz1
+輜	zhr1
 酋	qiu2
 飭	cheh7
 驥	ji5
@@ -4381,7 +4354,7 @@ min_phrase_weight: 1000
 俏	qio5
 夔	kuei2
 妒	dv5
-妞	niu1
+妞	neu1
 巔	din1
 懋	meu6
 攢	zaen3
@@ -4392,7 +4365,6 @@ min_phrase_weight: 1000
 汶	ven6
 矽	xieh7
 窪	va1
-窪	va5
 篝	geu1
 繚	lio2
 荃	qiun2
@@ -4789,7 +4761,7 @@ min_phrase_weight: 1000
 椎	chuei2
 椎	zhuei1
 橘	jyeh7
-淄	zz1
+淄	zhr1
 澦	y6
 痙	qien6
 磧	qieh7
@@ -5119,7 +5091,7 @@ min_phrase_weight: 1000
 噩	ngah8
 娼	chan1
 庾	y3
-忸	niu3
+忸	neu3
 悚	son3
 悻	xien6
 憮	v3
@@ -5147,7 +5119,7 @@ min_phrase_weight: 1000
 註	zhv5
 諉	vei3
 豺	chae2
-蹜	soh7
+蹜	shoh7
 轤	lv2
 郴	chen1
 鐠	pv3
@@ -5363,7 +5335,7 @@ min_phrase_weight: 1000
 泓	hon2
 涮	shuaen5
 淖	no6
-滓	zz3
+滓	zhr3
 滁	chv2
 瓚	caen6
 痺	bi5
@@ -5464,7 +5436,7 @@ min_phrase_weight: 1000
 鞿	ji1
 騫	qin1
 鯊	sha1
-鯔	zz1
+鯔	zhr1
 鸕	lv2
 鸞	lun2
 亓	qi2
@@ -5907,7 +5879,7 @@ min_phrase_weight: 1000
 檁	lien3
 歟	y2
 氄	ron3
-涔	cen2
+涔	chen2
 浣	hun6
 溦	vei2
 潯	qien2
@@ -6148,7 +6120,7 @@ min_phrase_weight: 1000
 篘	cheu1
 粔	qy6
 紺	gun5
-緇	zz1
+緇	zhr1
 綝	chen1
 綝	lien2
 縵	mun6
@@ -6199,7 +6171,7 @@ min_phrase_weight: 1000
 鰼	qieh8
 鱘	qien2
 鼙	pi2
-齜	zz1
+齜	zhr1
 仳	pi3
 伾	pi1
 俶	choh7
@@ -6413,7 +6385,7 @@ min_phrase_weight: 1000
 暠	go3
 杼	chv6
 杻	cheu3
-杻	niu3
+杻	neu3
 柺	guae3
 桼	qieh7
 椑	bei1
@@ -6511,7 +6483,7 @@ min_phrase_weight: 1000
 覂	fon3
 覦	y2
 訐	jih7
-謖	soh7
+謖	shoh7
 讖	chen5
 趲	zaen3
 跖	zheh7
@@ -6531,7 +6503,6 @@ min_phrase_weight: 1000
 錞	shuen2
 鎰	ieh8
 鎦	leu2
-鎦	leu6
 鏌	mah8
 鐓	den1
 鐙	den5
@@ -6646,7 +6617,7 @@ min_phrase_weight: 1000
 笱	geu3
 篁	huan2
 糅	reu2
-糅	niu6
+糅	neu6
 糗	qiu3
 縑	jin1
 縻	mi2
@@ -6829,7 +6800,7 @@ min_phrase_weight: 1000
 璡	jien1
 璫	dan1
 畀	bi5
-甾	zz1
+甾	zhr1
 甾	zae1
 疹	zhen3
 痦	v6
@@ -7105,7 +7076,6 @@ min_phrase_weight: 1000
 翳	i5
 耵	dien3
 聵	kuei6
-𪣩	ken5
 胂	shen1
 胼	pin2
 膦	lien2
@@ -7359,7 +7329,7 @@ min_phrase_weight: 1000
 爻	xio2
 牁	gu1
 牂	zan1
-狃	niu3
+狃	neu3
 狨	ron2
 狺	ien2
 獮	xin3
@@ -7475,7 +7445,7 @@ min_phrase_weight: 1000
 邘	y2
 邡	fan2
 郋	xi2
-鄹	zeu1
+鄹	zheu1
 酢	cv5
 醅	pei1
 醑	xy3
@@ -7901,7 +7871,7 @@ min_phrase_weight: 1000
 蒟	jy3
 蒯	kuae5
 蔦	nio3
-蓛	ceh7
+蓛	cheh7
 蕖	qy2
 蕢	kuei6
 薜	boh7
@@ -8216,7 +8186,7 @@ min_phrase_weight: 1000
 心	xien1
 反	faen3
 反	faen5
-你	nei3
+你	nii3
 明	mien2
 明	men2
 看	kun5
@@ -8285,13 +8255,12 @@ min_phrase_weight: 1000
 埿	ni2
 嘉	jia1
 噇	chuan2
-噇	zhon3
+喠	zhon3
 到	do5
 燭	zhoh7
 扽	den5
 蘻	ji5
 偡	chaen6
-捎	xio1
 竳	den1
 攎	lv2
 佮	guh7
@@ -8306,7 +8275,7 @@ min_phrase_weight: 1000
 搿	guh7
 漺	shuan3
 桶	ton3
-忺	xin2
+忺	xin1
 劗	zaen1
 舚	tin5
 搨	taeh7
@@ -8314,7 +8283,7 @@ min_phrase_weight: 1000
 肏	reh8
 饊	saen3
 癔	i5
-犅	gan3
+犅	gan1
 鯶	huen6
 齁	heu1
 衭	fv1
@@ -8323,9 +8292,8 @@ min_phrase_weight: 1000
 蟮	sin6
 瘮	shen5
 蘿	lu2
-齾	nga6
+齾	ngaeh8
 們	men2
-妳	ni3
 辻	sheh8
 𨁽	deh7
 𨂝	paen2
@@ -8338,7 +8306,6 @@ min_phrase_weight: 1000
 扚	dieh7
 𢪎	xya1
 㨔	haen3
-㨔	han3
 齆	on5
 䁃	bio1
 埲	pon6
@@ -8351,7 +8318,6 @@ min_phrase_weight: 1000
 弔	dio5
 趼	jin3
 𢴳	tan1
-赸	shuaen1
 遈	sheh8
 璧	bieh7
 凈	chen1
@@ -8381,6 +8347,7 @@ min_phrase_weight: 1000
 樽	zuen1
 㞎	ba3
 㞞	son2
+𪣩	ken5
 𢜶	so5
 偽	vei6
 僞	vei6
@@ -8412,15 +8379,12 @@ min_phrase_weight: 1000
 匭	guei3
 吪	ngu2
 啓	qi3
-妳	nei3
+妳	nii3
 姆	mu3
 嫁	jia5
-帆	faen6
 序	xy6
-嗯	en0
 抹	muh8
 拄	zhv3
-森	shen1
 曜	io6
 枇	pieh7
 枰	pien2
@@ -8455,3 +8419,568 @@ min_phrase_weight: 1000
 麩	fv1
 黐	chr1
 齣	chueh7
+嗯	en0
+杷	pah7
+𠮹	cae2
+㖠	nae6
+㘃	ra3
+呃	eh7
+呦	iu1
+嗱	na2
+𠺝	geh0
+兒	nii0
+廁	cz5
+柏	bah7
+躴	lan2
+躿	kan1
+㫰	lan6
+行	hen6
+俗	coh8
+縛	fah7
+縛	bah7
+麪	min6
+贗	ngaen6
+陌	mah8
+搝	qiu3
+㨮	deu1
+䵑	ren6
+𩠾	han1
+擓	kuae1
+𣝗	hueh8
+𣝗	veh8
+㧕	leu3
+厾	doh7
+坂	baen3
+搲	va3
+窪	va5
+洼	va5
+䞁	in5
+杏	hen6
+灒	zaen5
+𩑦	veh7
+糏	xih7
+糏	xyeh7
+糏	xiuh7
+屑	xiuh7
+殖	sheh8
+腐	fv6
+釜	fv6
+揢	ka5
+掿	nah8
+𤒘	duh7
+笫	zz3
+産	chaen3
+敍	qy6
+駡	ma6
+礴	pah8
+噁	ngah7
+籒	cheu6
+瘙	so5
+剽	pio2
+趑	zz1
+盱	xy1
+擧	jy3
+豔	in6
+曑	shen1
+渫	xih7
+岧	tio2
+嵖	cha2
+櫞	iun2
+漶	hun6
+瀄	zheh7
+瀠	ien2
+絪	ien1
+繨	daeh7
+茼	ton2
+菪	tan6
+葇	reu2
+蜒	in2
+蝍	jieh7
+蠨	xio1
+跂	qi2
+頹	tuei2
+紕	pi1
+紕	pi2
+匃	gei5
+匄	gei5
+叒	rah8
+叕	zhuh7
+燚	ih8
+魈	xio1
+鬾	qi6
+魍	van3
+㵘	mun6
+沝	zhuei3
+龘	taeh8
+稂	lan2
+耄	mo6
+孓	jiuh7
+㙓	kuei2
+靁	luei2
+瓞	tih8
+魃	paeh8
+鑿	zah7
+齊整	qi2 zhen
+茄兒	qia2 er
+嚼蛆	qiah8 qy1
+嚼瘟蛆	qiah8 ven1 qy1
+喫飯	qieh7 faen6
+喫煙	qieh7 in1
+喫水	qieh7 shuei3
+喫茶	qieh7 cha2
+漆匠	qieh8 qian
+清爽	qien1 shuan
+尋錢	qien2 qin2
+勤力	qien2 lieh
+尋婆娘	qien2 pu2 nian
+尋死	qien2 sz3
+搇	qien5
+前兒	qin2 er
+舅舅	qiu6 qiu
+舅母	qiu6 mu
+鬈毛	qiun2 mo
+瘸子	qya2 zz
+□	ji1
+雞蛋	ji1 taen6
+雞子	ji1 zz
+濟手	ji5 sheu3
+腳下	jiah7 ha
+腳孤拐	jiah7 gv1 guae3
+腳踏車	jiah7 taeh cha1
+腳趾頭	jiah7 zheh7 teu
+犟嘴	jian5 zuei3
+犟嘴	cian5 jy3
+今呶	jien1 no
+頸項	jien3 han
+尖頭刀兒	jin1 teu do1 er
+交易	jio1 i
+叫個	jio5 gu
+舉㞢	jy3 dei
+儘數	jyen3 shv
+耳頭	er3 teu
+二等車	er6 den3 cha1
+發訄	faeh7 qiu2
+發魘	faeh7 in3
+發□	faeh7 shuae3
+番茄兒	faen1 qia2 er
+犯犟	faen6 qian6
+房子	fan2 zz
+分清	fen1 qien1
+下車	ha6 cha1
+□	hae2
+□病	hae2 pien6
+鞋子	hae2 zz
+蟹黃包兒	hae3 huan bo1 er
+𨃂	haen1
+㨔	han3
+□	hah7
+𨉲	hah7
+𢫉	han1
+𠇴	han1
+嚇人	heh7 ren
+□	hen1
+後嘵	heu6 ro
+好過	ho3 gu5
+號頭	ho6 teu2
+烀	hu1
+歡喜	hu1 xi
+歡喜	hun1 xi
+𠝐	hua1
+花蟹	hua1 hae3
+𠝐蘆穄	hua1 lv2 ji1
+花生	hua1 shen
+抝	huaen5
+攉耳刮子	huah7 er3 guaeh zz
+黃瓜	huan2 gua1
+黃瓜	van2 gua1
+黃龍	huan2 lon
+黃豆	huan2 teu6
+黃豆	van2 teu6
+惚㞞	hueh7 son2
+灰堆	huei1 duei1
+會做	huei6 zu5
+活計	huh8 qi
+𧑚䘆	hun2 xin3
+糊糊兒	hv6 hv6 er
+姨媽媽	i2 ma1 ma
+姨娘	i2 nian
+姨丈	i2 chan
+姨爹爹	i2 dia1 dia
+臆㽹	i5 faen5
+爺爺	ia2 ia
+爺娘	ia2 nian
+羊子	ian2 zz
+□	ian5
+□□	ih7 lih
+醃人	in1 ren
+沿小	in2 xio3
+□	io1
+𢩼	io1
+□飯鍋	io1 faen6 gu1
+𢩼牌	io1 pae2
+舀子	io3 zz
+要明	io5 men
+容易	ion2 i
+袈兒	ga1 er
+袈掛兒	ga1 gua5 er
+鋼甑鍋兒	gan1 zen gu1 er
+講□	gan3 pah7
+焵	gan5
+焵燒餅	gan5 sho1 bien
+箇許	geh7 hae
+箇歇	geh7 xih7
+箇境	geh7 jien
+溝南	geu1 nun2
+溝北	geu1 boh7
+狗子	geu3 zz
+鉛角子	kaen1 gah7 zz
+□	ken2
+掯	ken5
+口鍋	keu3 gu1
+口㞢	keu3 dei
+□	kua2
+侉子	kua3 zz
+筷兒	kuae5 er
+搞勞	go3 lo2
+酵條	go5 tio2
+鍋門口	gu1 men keu3
+姑娘蟹	gu1 nian hae3
+過人	gu5 ren2
+□	guan5
+□鬍子	guan5 hv2 zz
+□氣	guen5
+孤拐	gv1 guae3
+姑媽	gv1 ma
+姑丈	gv1 chan6
+姑爹爹	gv1 dia1 dia
+拉涎	la2 saen2
+哪□	la3 jin3/jin1
+哪許	la3 hae
+𠎬	lae0
+來俬	lae2 sz
+癩寶	lae6 bo3
+癩寶桃	lae6 bo3 to2
+□	laeh8
+□子	laeh8 zz
+爛飯	laen6 faen6
+落雨	lah8 y3
+□	leh8
+摟俬	leu3 sz1
+裡鍋	li3 gu1
+涼鞋兒	lian2 hae2 er
+亮月兒	lian6 iuh8 er
+亮星	lian6 xien1
+鈴兒	lien2 er
+老老	lo3 lo
+老末	lo3 mah
+老鴉	lo3 nga1
+那境	lu5 jien
+那許	lu5 hae
+累堆	luei2 duei1
+麻兒	ma2 er
+麻人	ma2 ren
+碼數	ma3 shv
+蠻蠻螺兒	maen2 maen2 lu1 er
+蠻子	maen2 zz
+沒交易	meh8 jio1 i
+門口	men2 keu3
+明□	men2 no
+明後□	mien6 heu6 ro
+篾匠	mih8 qian
+面門其乎	min6 men qi hv
+貓兒	mo2 er
+茅缸	mo2 gan1
+毛達卡	mo2 taeh ka3
+木匠	moh8 qian
+木頭	moh8 teu
+□	mon5
+奶奶	nae3 nae
+齉	nan5
+□	neh8
+你	nei3
+你倈	nei3 lae
+丫頭	nga1 teu
+伢兒	nga2 er
+伢兒頭	nga2 er teu2
+牙子	nga2 zz
+啞子	nga3 zz
+□	nga5
+□	nga6
+□子	nga6 zz
+捱餓	ngae2 ngu6
+捱打	ngae2 da3
+鴨蛋	ngaeh7 taen6 
+鴨子	ngaeh7 zz
+眼睛	ngaen3 jien
+眼淚	ngaen3 lieh
+杌子	ngeh8 zz
+杌子	veh8 zz
+□	ngen2
+鵝兒	ngu2 er
+鵝兒蛋	ngu2 er taen6
+蛾子	ngu2 zz
+我倈	ngu3 lae
+□	ngua3
+□	nia3
+孃孃	nian1 nian
+娘娘	nian2 nian
+𠆧兒	nian2 er
+娘兒	nian2 er
+□	no6
+弄□刀兒	non6 guah7 do1 er
+南場	nun1 chan2
+南境	nun2 jien
+南北場	nun2 boh7 chan2
+橫豎	on2 shv6
+𡠍	bae5
+不好過	beh7 ho3 gu5
+不肯	beh7 ken3
+不曉得	beh7 xio3 deh7
+不㞢	beh7 dei
+不懂	beh7 don3
+不□錢	beh7 can2 qin2
+杯兒	bei1 er
+爬蟹	pa2 hae3
+□□凳兒	pa2 pa2 den5 er
+怕㞢	pa5 dei
+薄刀	pah8 do1
+薄粥	pah8 zhoh7
+肨流俬	pan5 leu2 sz
+荸薺	peh7 ji
+脾家	pi2 jia1
+皮夾子	pi2 gaeh7 zz
+鼻子	pieh8 zz
+撇鍋兒	pih7 gu1 er
+蟛兒	pon2 er
+埲塘灰	pon6 tan2 huei1
+婆娘	pu2 nian
+壁虎子	bieh7 hu zz
+冰凈人	bien1 chen6 ren
+扁豆	bin3 teu6
+包兒	bo1 er
+跑快快兒	bo2 kuae5 kuae5 er
+百腳	boh7 jiah7
+北境	boh7 jien
+北場	boh7 chan2
+半旁	bun5 pan2
+半頭	bun5 teu
+惹哭	ra3 koh7
+惹笑	ra3 xio5
+惹□	ra3 zhon3
+入且	reh8 qia
+入媽	reh8 ma
+肉包兒	roh8 bo1 er
+西境	xi1 jien
+西場	xi1 chan2
+細伢兒	xi5 nga2 er
+寫字	xia3 cz6
+下勁	xia6 jien5
+下麪	xia6 min6
+向前兒	xian5 qin2 er
+相見	xian5 jin5
+相公	xian5 gon
+相呆	xian5 dae1
+歇力	xih7 lieh8
+折本	xih8 ben3
+小侯	xio3 heu
+曉得	xio3 teh7
+兄弟	xion1 ti
+折本	sih8 ben3
+□	so5
+□鴨蛋	so5 ngaeh7 taen6
+勺兒	shah8 er
+勺子	shah8 zz
+上蘆穄	shan5 lv2 ji1
+上路	shan6 lv6
+不上路	shan6 lv6
+神像	shen2 qian6
+甚㞢	shen2 dei/nei
+手指頭	sheu3 zheh7 teu
+燒鍋	sho1 gu1
+燒水	sho1 shuei3
+□	sho5
+漱嘴	shu5 jy3
+□	shuae3
+□子	shuae3 zz
+□	shuaen1
+□溜溜兒	shuaen1 leu1 leu er
+雙胞兒	shuan1 bo1 er
+俬在	sz1 cae
+死形	sz3 xien2
+使促狹	sz3 coh7 kuaeh7
+打颬呵	da3 ha1 hu
+大媽媽	da5 ma1 ma
+大大	da5 da5
+□	dah7
+沰雨	dah7 y3
+□	deh7
+𨁽腳	deh7 jiah7
+㞢	dei
+他倈	ta1 lae
+□	tae1
+□板兒	tae1 baen3 er
+太陽	tae5 iang
+踏鋪	taeh8 pu1
+湯罐兒	tan1 gun5 er
+湯焐子	tan1 u5 zz
+塘灰	tan2 huei1
+燙人	tan5 ren
+塘兒	tan2 er
+頭家	teu2 ga1
+透水	teu5 shuei3
+弟兄	ti6 xion
+挺屍	tien3 shr1
+桃子	to2 zz
+柿子	chr6 zz
+柿子	 shr6 zz
+茬兒不多㞢	cha2 er beh7 du1 dei
+茶葉	cha2 ih8
+茶葉茶	cha2 ih8 cha2
+昨兒	chah8 er
+長少	chan2 sho5
+長短	chan2 dun3
+朆	chen2
+𨀛	chen2
+凈人	chen6 ren
+窗□	chuan1 fon
+土佬兒牌兒	tu3 lo3 er pae2 er
+兔子	tu5 zz
+肚裡	tu6 dei
+梯子	tuei1 zz
+爹爹	dia1 dia
+雕匠	dio1 qian
+刀兒	do1 er
+東境	don1 jien
+東西場	don1 xi1 chan2
+東場	don1 chan2
+奀	zha3
+斫肉	zhah7 roh8
+斫糖	zhah7 tan2
+指□	zheh7 kaen
+指□篷兒	zheh7 kaen pon2 er
+□	zhen1
+招財 	zho1 cae
+中覺	zhon1 go5
+□	zhon3
+豬子	zhu1 zz
+桌子	zhuah7 zz
+□	zhuan1
+□死	zhuan1 sz
+追潮	zhuei1 cho2
+□	zaen1
+咋得	zah7 deh7
+怎吖	zen3 nga
+菜包兒	cae5 bo1 er
+□	caen6
+□錢	can2 qin2
+蠶兒	cun2 er
+搌布	zin3 bu5
+□□	zo1 hua
+早起	zo3 qi3
+棗兒	zo3 er
+早跟頭	zo3 gen1 teu
+做塊兒	zu5 kuae5 er
+做夢	zu5 mon6
+做呢	zu5 nei2
+做礙	zu5 ngae6
+嘴巴子	zuei3 ba1 zz
+□	zz1
+姊妹	zz3 mei
+躲貓兒尋	du3 mo2 er qien2
+肚子	du3 zz
+烏檻	v1 kaen3
+焐暖	v5 nun3
+咓	va3
+瓦匠	va3 qian
+□兒	ve1 er
+外頭	ve6 teu
+豌豆兒	un1 teu6 er
+暗星	un5 xien1
+惡數	v5 shv5
+瘟髒	ven1 zan1
+𦚢	ya1
+鹼粉子	jiaen3 fen3 zz
+香鹼	xian1 jiaen3
+黏刮蟲兒	nin2 guaeh7 chon2 er
+麻蝦兒雨	ma2 har1 y3
+輸水	shv1 shuei3
+箇刻兒	geh7 keh er
+箇陣兒	geh7 chen er
+箇早晚	geh7 zo3 vaen
+箇一刻	geh7 ieh7 keh
+辰光	chen2 guan
+多早晚	du1 zo3 vaen
+摸和	mah8 hv2
+燙粥	tan5 zhoh7
+飲湯	ien3 tan1
+來頭醜	lae2 teu cheu3
+雌冒雄	cz1 mo ion2
+雄雞	ion2 ji1
+腳髈髈兒	jiah7 pan3 pan3 er
+腳長	jiah7 chan2
+屁巴子	pi5 ba1 zz
+瞎說	haeh7 shuh7
+當壬子	dan1 ren zz
+響雷	xian3 luei2
+霍閃	vah7 xin3
+疑猜	i2 cae
+在意	cae6 i5
+松勁	son1 jien5
+田雞兒	tin2 ji1 er
+蝦蟆烏兒	xia2 ma v1 er
+蛼蛤	cha1 huh
+蛵蛉	xien1 lien
+一口兒飯	ieh7 keu3 er faen6
+才些兒	cae2 xia1 er
+二番槍	er6 faen1 qian
+下二回	xia6 er6 huei
+急腔	jieh7 qian1
+霜降	shuan1 gan
+俯就兒	fv3 qiu6 er
+推扳	tuei1 baen1
+筆滑	bieh7 huaeh8
+少年伢兒	sho5 nin nga2 er
+裏路	li3 lv6
+老侯	lo3 heu
+老娘	lo3 nian
+老娘	lo3 nian2
+侯	heu
+划招	va2 zho1
+就數	qiu6 shv5
+□莽	leu3 man3
+□莽一相	leu3 man3 ieh7 xian5
+渣子	zha1 zz
+□	zha3
+□	ha2
+□	sho6
+一宿	ieh7 soh7
+□	den1
+□虛	ha2 xy1
+耍子	shua3 zz
+耍心重	shua3 xien1 chon6
+搭僵	daeh7 jian1
+鬼畫符	guei3 hua6 fv2
+書坊	shv1 fan1
+上書坊	shan6 shv1 fan
+神經呆子	shen2 jien1 dae1 zz
+先生	xin1 shen
+起房子	qi3 fan2 zz
+小菜	xio3 cae5
+扁食	bin3 sheh
+丟心	deu1 xien1
+靈泛	lien2 faen
+浮泛	fv2 faen
+定神	tien6 shen2
+不定神	beh7 tien6 shen2
+搗鬼	do3 guei3
+武大郎	v3 da5 lan2
+武叉	v3 cha
+鍋門口	gu1 men2 keu
+耳□兒	er3 sha5 er
+不正當	beh7 zhen5 dan1
+下巴頦兒	ha6 ba kah7 er
+頜腮	guh7 sae1
+牢相	lo2 xian5
+沒牢坐	meh7 lo2 cu6 
+且數	qia3 shv5
+灑白	sa3 poh8

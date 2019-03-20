@@ -4,7 +4,7 @@
 schema:
   schema_id: taerv
   name: "泰如拼音"
-  version: "2017.6"
+  version: "2017.7"
   author:
     - hisahara
   description: "http://taerv.nguyoeh.com/"
@@ -63,21 +63,18 @@ speller:
     #- fuzz/iŋ/ɪ̃/ #零連不分 (ien⇔in)
     #- fuzz/ɪ̃/iŋ/ #零連不分 (ien⇔in)
     - fuzz/5/4/
-    - fuzz/h8/h6/
     - fuzz/iu([hn])/y$1/
-    - fuzz/^([jqx])i([aeou])/$1$2/
+    - fuzz/^([jqx])i(u)/$1$2/
     - abbrev/^([^aoeui]+).+$/$1/       # 無韻簡拼
-    - abbrev/^([aoeui]).+$/$1/       # 無韻簡拼
-    - abbrev/\d$//       # 無調輸入
+    - fuzz/\d$//       # 無調輸入
 
 translator:
   dictionary: taerv
-  prism: taerv
   spelling_hints: 5
 
 reverse_lookup:
   dictionary: luna_pinyin
-  prefix: "`"
+  prefix: "w"
   suffix: "'"
   tips: 〔拼音〕
   preedit_format:
@@ -95,4 +92,4 @@ recognizer:
   import_preset: default
   patterns:
     punct: "^/([0-9]0?|[a-z]+)$"
-    reverse_lookup: "`[a-z]*'?$"
+    reverse_lookup: "w[a-z]*'?$"
